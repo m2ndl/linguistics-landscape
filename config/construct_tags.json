@@ -1,0 +1,18 @@
+{
+  "_comment": "PHASE 2 overlay, not yet wired into the metrics. A versioned, ADD-ONLY set of field-specific constructs and methods that OpenAlex topics are too coarse to capture (e.g. 'Multilingual Education and Policy' lumps SLA, bilingual education, and policy together). Rules when activated: never rename or delete a tag, only add; stamp this version into every snapshot. That keeps year-over-year comparable, which a freely-drifting keyword list would not. Patterns are regular expressions matched against titles (and abstracts where licensing allows).",
+  "version": "2026-06-02",
+  "tags": {
+    "translanguaging": ["translanguaging", "translingual"],
+    "willingness_to_communicate": ["willingness to communicate", "\\bWTC\\b"],
+    "complexity_cdst": ["complex dynamic system", "\\bCDST\\b", "complexity theory"],
+    "usage_based": ["usage-based", "usage based"],
+    "sociocultural_theory": ["sociocultural theory", "Vygotsk"],
+    "task_based": ["task-based language", "\\bTBLT\\b"],
+    "corpus_methods": ["corpus linguistic", "corpus-based", "concordanc"],
+    "eye_tracking": ["eye-tracking", "eye tracking"],
+    "mixed_effects_gamm": ["mixed-effects", "mixed effects model", "\\bGAMM\\b", "generalized additive"],
+    "llm_and_genai": ["large language model", "ChatGPT", "\\bLLM\\b", "generative AI"],
+    "automated_writing_evaluation": ["automated writing evaluation", "\\bAWE\\b"],
+    "multimodality": ["multimodal", "multimodality"]
+  }
+}

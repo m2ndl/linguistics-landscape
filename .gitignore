@@ -1,0 +1,26 @@
+# --- secrets / local environment (never commit these) ---
+.env
+.env.*
+*.key
+secrets.*
+
+# --- python ---
+__pycache__/
+*.pyc
+.venv/
+venv/
+.mypy_cache/
+.pytest_cache/
+
+# --- editor / OS junk ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# --- local test / preview artifacts (not part of the site) ---
+.playwright-mcp/
+landscape-preview.png
+
+# NOTE: data/ and docs/data/ are intentionally NOT ignored.
+# Those committed files ARE the project's permanent longitudinal record.

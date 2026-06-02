@@ -1,0 +1,8 @@
+# No third-party dependencies.
+#
+# This project runs on the Python 3 standard library only
+# (urllib, json, csv, datetime, pathlib).
+#
+# Nothing to install. This is deliberate: every dependency is one more thing
+# that can break during a multi-year, unattended project. Keeping the pipeline
+# dependency-free is the single cheapest insurance policy for longevity.

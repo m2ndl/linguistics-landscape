@@ -1,0 +1,66 @@
+name: Weekly update
+
+# Runs every Monday, and can also be run by hand from the Actions tab ("Run workflow").
+on:
+  schedule:
+    - cron: "0 6 * * 1"      # Mondays, 06:00 UTC
+  workflow_dispatch: {}
+
+# The job commits data back to the repo and (on failure) opens an issue.
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: weekly-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      # Action versions are pinned on purpose: unpinned "latest" is how a pipeline
+      # silently breaks for an owner who cannot read a stack trace.
+      - name: Check out the repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run the weekly harvest
+        env:
+          OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
+        run: python src/harvest.py
+
+      # A commit every run does double duty: it builds the longitudinal history AND
+      # keeps GitHub from auto-disabling this schedule after 60 days of no activity.
+      - name: Record the run (heartbeat)
+        run: date -u +"%Y-%m-%dT%H:%M:%SZ" > data/last_run.txt
+
+      - name: Commit the updated data
+        run: |
+          git config user.name "landscape-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data docs/data
+          git commit -m "Weekly update $(date -u +%Y-%m-%d)" || echo "Nothing new to commit"
+          git push
+
+      # Fail loud: if anything above failed, open an issue so the owner hears about it
+      # in their inbox. The last good site stays live because nothing partial was committed.
+      - name: Open an issue if the run failed
+        if: failure()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh issue create \
+            --title "Weekly update failed on $(date -u +%Y-%m-%d)" \
+            --body "The scheduled update failed. Logs: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+
+          Most likely causes:
+          - the OPENALEX_API_KEY secret is missing or expired (get a new one at https://openalex.org/settings/api), or
+          - OpenAlex changed its API.
+
+          The previously published site is still live; no bad data was written." \
+            || echo "Could not open an issue"

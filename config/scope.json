@@ -1,0 +1,27 @@
+{
+  "site_name": "Applied Linguistics Landscape",
+  "tagline": "A weekly observatory of trends in the indexed linguistics and language-education literature.",
+
+  "openalex": {
+    "subfield_union": [
+      { "id": 1203, "label": "Language and Linguistics", "field": "Arts and Humanities", "verified_works_count": 2648477 },
+      { "id": 3310, "label": "Linguistics and Language", "field": "Social Sciences", "verified_works_count": 526824 }
+    ],
+    "subfield_filter_key": "primary_topic.subfield.id",
+    "topic_group_key": "primary_topic.id",
+    "verified_on": "2026-06-02",
+    "_comment": "Both linguistics subfields are unioned on purpose. 1203 (Arts and Humanities) is ~5x larger than 3310 (Social Sciences); scoping to 3310 alone would silently drop ~83% of the literature. Counts verified against the live OpenAlex /subfields endpoint on the date above; re-verify at build time."
+  },
+
+  "trends": {
+    "window_months": 12,
+    "comparison": "year_over_year",
+    "min_works_per_window": 40,
+    "persistence_snapshots": 3,
+    "provisional_trailing_weeks": 8,
+    "baseline_building_months": 12,
+    "_comment": "Guards against fake trends: a topic must clear min_works_per_window and persist across persistence_snapshots consecutive runs before it is labelled rising/falling. The trailing weeks and the first months after launch are shown as provisional."
+  },
+
+  "coverage_note": "This site measures the OpenAlex-indexed, mostly-English, journal-article slice of the field. It under-represents books and edited volumes, conference proceedings, grey literature, and non-English scholarship, all of which carry real theoretical weight in applied linguistics. Read these as trends in the indexed journal literature, not a complete picture of the field."
+}

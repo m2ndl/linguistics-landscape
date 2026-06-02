@@ -1,0 +1,28 @@
+snapshot_date,dimension_type,dimension_id,dimension_label,count_recent,count_prior,share_recent,share_prior,yoy_share_change,rank_recent,taxonomy_version,data_version
+2024-06-01,field_total,ALL,All linguistics (union),69088,70372,1.0,1.0,0.0,0,3fb46f2158,default
+2024-06-01,topic,T10759,Translation Studies and Practices,6467,6131,0.09360526,0.08712272,0.00648254,1,3fb46f2158,default
+2024-06-01,topic,T10021,EFL/ESL Teaching and Learning,6367,5585,0.09215783,0.07936395,0.01279388,2,3fb46f2158,default
+2024-06-01,topic,T13122,Linguistics and Cultural Studies,4783,4319,0.06923055,0.06137384,0.0078567,3,3fb46f2158,default
+2024-06-01,topic,T10265,Multilingual Education and Policy,4337,4161,0.06277501,0.05912863,0.00364638,4,3fb46f2158,default
+2024-06-01,topic,T12768,Linguistics and language evolution,4202,4385,0.06082098,0.06231171,-0.00149073,5,3fb46f2158,default
+2024-06-01,topic,T12373,Linguistic research and analysis,3980,4864,0.05760769,0.0691184,-0.01151071,6,3fb46f2158,default
+2024-06-01,topic,T13538,Linguistics and Language Analysis,3510,4121,0.05080477,0.05856022,-0.00775545,7,3fb46f2158,default
+2024-06-01,topic,T14006,"Linguistics, Language Diversity, and Identity",3433,3541,0.04969025,0.05031831,-0.00062806,8,3fb46f2158,default
+2024-06-01,topic,T14081,Linguistic Education and Pedagogy,2668,3302,0.03861742,0.04692207,-0.00830466,9,3fb46f2158,default
+2024-06-01,topic,T12658,Language and Culture,2654,2703,0.03841478,0.03841016,4.61e-06,10,3fb46f2158,default
+2024-06-01,topic,T12341,Spanish Linguistics and Language Studies,2593,2639,0.03753184,0.03750071,3.113e-05,11,3fb46f2158,default
+2024-06-01,topic,T10034,"Syntax, Semantics, Linguistic Variation",2542,2690,0.03679365,0.03822543,-0.00143178,12,3fb46f2158,default
+2024-06-01,topic,T10383,"Language, Discourse, Communication Strategies",2499,2620,0.03617126,0.03723072,-0.00105946,13,3fb46f2158,default
+2024-06-01,topic,T12353,Lexicography and Language Studies,2202,2221,0.03187239,0.03156085,0.00031155,14,3fb46f2158,default
+2024-06-01,topic,T13912,"Language, Linguistics, Cultural Analysis",2164,2152,0.03132237,0.03058034,0.00074203,15,3fb46f2158,default
+2024-06-01,topic,T11640,Linguistic Variation and Morphology,2151,2056,0.03113421,0.02921617,0.00191804,16,3fb46f2158,default
+2024-06-01,topic,T13152,French Language Learning Methods,1997,1866,0.02890516,0.02651623,0.00238894,17,3fb46f2158,default
+2024-06-01,topic,T13156,Historical Linguistics and Language Studies,1959,2144,0.02835514,0.03046666,-0.00211152,18,3fb46f2158,default
+2024-06-01,topic,T14021,Medieval European Literature and History,1848,1841,0.02674849,0.02616097,0.00058752,19,3fb46f2158,default
+2024-06-01,topic,T12881,linguistics and terminology studies,1719,2613,0.02488131,0.03713125,-0.01224993,20,3fb46f2158,default
+2024-06-01,topic,T13260,Linguistics and Language Studies,1596,1377,0.02310097,0.01956744,0.00353353,21,3fb46f2158,default
+2024-06-01,topic,T13310,Subtitles and Audiovisual Media,1460,1235,0.02113247,0.01754959,0.00358288,22,3fb46f2158,default
+2024-06-01,topic,T13727,Linguistic and Sociocultural Studies,1001,905,0.01448877,0.01286023,0.00162854,23,3fb46f2158,default
+2024-06-01,topic,T13814,Cultural and political discourse analysis,686,665,0.00992937,0.00944978,0.00047958,24,3fb46f2158,default
+2024-06-01,topic,T14170,Classical Studies and Philology,224,185,0.00324224,0.00262889,0.00061336,25,3fb46f2158,default
+2024-06-01,topic,T13606,Umberto Eco and Semiotics,46,51,0.00066582,0.00072472,-5.89e-05,26,3fb46f2158,default

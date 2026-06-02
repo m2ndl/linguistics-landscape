@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>About · Applied Linguistics Landscape</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect width='16' height='16' rx='3' fill='%232f5d50'/%3E%3C/svg%3E" />
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <h1>About this observatory</h1>
+      <p class="tagline"><a href="index.html">← Back to the landscape</a></p>
+    </div>
+  </header>
+
+  <main class="wrap prose">
+    <section class="card">
+      <h2>What it is</h2>
+      <p>This site tracks trends in the published research literature on linguistics, applied
+         linguistics, and language education, and records how those trends change over time. It
+         refreshes automatically every week. Its main purpose is the long game: by storing a dated
+         snapshot every week, it builds a permanent record so that, months and years from now, you
+         can see how the field actually shifted.</p>
+    </section>
+
+    <section class="card">
+      <h2>Where the data comes from</h2>
+      <p>All counts come from <a href="https://openalex.org" rel="noopener">OpenAlex</a>, an open
+         index of scholarly works whose metadata is released under a CC0 (public-domain) licence.
+         The corpus is the union of the two OpenAlex subfields that hold linguistics:
+         <em>Language and Linguistics</em> (in Arts &amp; Humanities) and
+         <em>Linguistics and Language</em> (in Social Sciences). Both are included on purpose: the
+         Arts &amp; Humanities branch is several times larger, and using only one would silently drop
+         most of the literature, including much of sociolinguistics, pragmatics, and language policy.</p>
+    </section>
+
+    <section class="card">
+      <h2>How trends are measured</h2>
+      <ul>
+        <li><strong>Share, not raw counts.</strong> Each topic is measured as its share of all
+            linguistics output in a rolling 12-month window. The index itself grows every year, so a
+            rising raw count is often just more indexing; share is what stays comparable across years.</li>
+        <li><strong>Year-over-year.</strong> The headline movement compares the most recent 12 months
+            against the 12 months before that.</li>
+        <li><strong>Guards against false trends.</strong> A topic must clear a minimum volume and must
+            keep moving the same direction across several consecutive snapshots before it is shown as a
+            confirmed trend. Anything younger is marked <em>early</em>.</li>
+        <li><strong>Provisional recent data.</strong> The most recent weeks are always incomplete,
+            because papers keep being indexed for weeks or months after publication. Early in the
+            site's life the whole picture is labelled as still building a baseline.</li>
+        <li><strong>Stable identifiers.</strong> Trends are tracked on OpenAlex's stable topic IDs, and
+            the taxonomy is snapshotted each run, so reclassification by OpenAlex is detectable rather
+            than silently corrupting a trend line.</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>What it covers, and what it misses</h2>
+      <p>This is an observatory of the <strong>indexed, mostly-English, journal-article</strong> slice
+         of the field. Be honest with yourself about the blind spots:</p>
+      <ul>
+        <li>Books and edited volumes are under-represented, and they carry real theoretical weight in
+            this field.</li>
+        <li>Non-English scholarship (for example Francophone, Hispanophone, and Sinophone work) is
+            under-indexed.</li>
+        <li>Conference proceedings and grey literature are patchy; the computational-language slice
+            lives largely on preprint servers and is only partially captured here.</li>
+        <li>A meaningful share of records lack abstracts, and language labels are imperfect.</li>
+      </ul>
+      <p>So read these as <strong>trends in the indexed journal literature</strong>, not a complete
+         picture of the field. That framing is honest and defensible; an over-claim of completeness
+         would not be.</p>
+    </section>
+
+    <section class="card">
+      <h2>Papers and licensing</h2>
+      <p>The paper lists show titles, authors, venues, and links only. The site does not store or
+         redisplay abstract text; where a free full-text version exists, the link points to it.</p>
+    </section>
+
+    <section class="card">
+      <h2>How it runs</h2>
+      <p>A small scheduled job queries OpenAlex once a week, writes a dated snapshot into a public
+         repository, and rebuilds these pages. The repository's own history is the longitudinal
+         archive. There is no server and no database to maintain.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap"><p>Data from <a href="https://openalex.org" rel="noopener">OpenAlex</a> (CC0 metadata).</p></div>
+  </footer>
+</body>
+</html>
