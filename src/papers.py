@@ -20,7 +20,7 @@ FEED_DIR = ROOT / "data" / "feed"
 
 SELECT = ",".join([
     "id", "doi", "title", "display_name", "publication_date", "publication_year",
-    "cited_by_count", "primary_topic", "primary_location", "open_access", "authorships", "type",
+    "cited_by_count", "counts_by_year", "primary_topic", "primary_location", "open_access", "authorships", "type",
 ])
 
 
@@ -48,6 +48,22 @@ def _card(w: dict) -> dict:
         "topic": topic.get("display_name") if isinstance(topic, dict) else None,
         "type": w.get("type"),
     }
+
+
+def _mis_dated(w: dict) -> bool:
+    """
+    True if a work shows citations from well before its stated publication year. That is the
+    signature of a classic re-indexed under a recent date (which then carries its whole historical
+    citation count and otherwise dominates a 'most cited recently' list). A one-year grace allows
+    the normal preprint-then-published case. A genuinely recent paper has no such early citations.
+    """
+    py = w.get("publication_year")
+    if not py:
+        return False
+    for c in (w.get("counts_by_year") or []):
+        if c.get("cited_by_count", 0) > 0 and c.get("year", py) < py - 1:
+            return True
+    return False
 
 
 # Keep the feed to genuine scholarly outputs and drop OpenAlex's container/paratext records.
@@ -94,8 +110,14 @@ def fetch_feed(scope: dict, today: dt.date | None = None) -> dict:
         f"{base},{TYPES},from_publication_date:{since_cited},to_publication_date:{today_s}",
         sort="cited_by_count:desc", per_page=40, select=SELECT)
 
+    # Drop re-indexed classics that are cited from before their stated publication date, so they
+    # can't masquerade as recent high-impact work.
+    newest = [w for w in newest if not _mis_dated(w)]
+    prominent = [w for w in prominent if not _mis_dated(w)]
+
     return {
         "as_of": today_s,
+        "cited_since": since_cited,
         "newest": _dedupe([_card(w) for w in newest], 15),
         "most_cited_recent": _dedupe([_card(w) for w in prominent], 15),
     }

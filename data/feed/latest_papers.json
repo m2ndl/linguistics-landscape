@@ -1,5 +1,6 @@
 {
   "as_of": "2026-06-03",
+  "cited_since": "2024-06-03",
   "newest": [
     {
       "id": "https://openalex.org/W7163029199",
@@ -140,6 +141,21 @@
       "type": "article"
     },
     {
+      "id": "https://openalex.org/W7162994345",
+      "title": "‘Manden practicar el mas eficaz reconocimiento del pueblo’",
+      "authors": [
+        "Elia Puertas Ribés"
+      ],
+      "venue": "Oralia análisis del discurso oral",
+      "year": 2026,
+      "date": "2026-06-01",
+      "cited_by_count": 0,
+      "doi": "https://doi.org/10.25115/oralia.v29i1.10418",
+      "oa_url": "https://doi.org/10.25115/oralia.v29i1.10418",
+      "topic": "Linguistic Variation and Morphology",
+      "type": "article"
+    },
+    {
       "id": "https://openalex.org/W7163020647",
       "title": "Reconstructing the spread of word-final /n/ deletion in Central Franconian dialects. Internal and geographical dynamics",
       "authors": [
@@ -168,21 +184,6 @@
       "doi": "https://doi.org/10.5281/zenodo.20484719",
       "oa_url": "https://doi.org/10.5281/zenodo.20484719",
       "topic": "Lexicography and Language Studies",
-      "type": "article"
-    },
-    {
-      "id": "https://openalex.org/W7162994345",
-      "title": "‘Manden practicar el mas eficaz reconocimiento del pueblo’",
-      "authors": [
-        "Elia Puertas Ribés"
-      ],
-      "venue": "Oralia análisis del discurso oral",
-      "year": 2026,
-      "date": "2026-06-01",
-      "cited_by_count": 0,
-      "doi": "https://doi.org/10.25115/oralia.v29i1.10418",
-      "oa_url": "https://doi.org/10.25115/oralia.v29i1.10418",
-      "topic": "Linguistic Variation and Morphology",
       "type": "article"
     },
     {
@@ -219,148 +220,22 @@
       "type": "article"
     },
     {
-      "id": "https://openalex.org/W7163001863",
-      "title": "Informed by social justice? Fairness and inclusion in the Primary Teacher Education (PrimTEd) English language test item development",
+      "id": "https://openalex.org/W7163009682",
+      "title": "Lisisme: un canvi en procés en l’ús del pronom datiu de tercera persona del plural en el català oral actual?",
       "authors": [
-        "Thelma K.B Mort",
-        "Duduzile Zwane",
-        "Hayley Van der Haar"
+        "Georgina Alvarez-Morera"
       ],
-      "venue": "Reading & Writing",
+      "venue": "Revista de Llengua i Dret",
       "year": 2026,
       "date": "2026-06-01",
       "cited_by_count": 0,
-      "doi": "https://doi.org/10.4102/rw.v17i1.610",
-      "oa_url": "https://doi.org/10.4102/rw.v17i1.610",
-      "topic": "Multilingual Education and Policy",
+      "doi": "https://doi.org/10.58992/rld.i85.2026.4577",
+      "oa_url": "https://doi.org/10.58992/rld.i85.2026.4577",
+      "topic": "Spanish Linguistics and Language Studies",
       "type": "article"
     }
   ],
   "most_cited_recent": [
-    {
-      "id": "https://openalex.org/W1684349371",
-      "title": "Negation in English and other languages",
-      "authors": [
-        "Otto Jespersen",
-        "Reynolds, Brett",
-        "Evans, Peter"
-      ],
-      "venue": "",
-      "year": 2025,
-      "date": "2025-01-01",
-      "cited_by_count": 1629,
-      "doi": "https://doi.org/10.17169/refubium-47759",
-      "oa_url": "https://refubium.fu-berlin.de/bitstream/fub188/48038/1/501-Jespersen-2025.pdf",
-      "topic": "Language, Discourse, Communication Strategies",
-      "type": "book"
-    },
-    {
-      "id": "https://openalex.org/W126217328",
-      "title": "Massive Reduction In Conversational American English",
-      "authors": [
-        "Keith Johnson"
-      ],
-      "venue": "",
-      "year": 2026,
-      "date": "2026-01-06",
-      "cited_by_count": 340,
-      "doi": "https://doi.org/10.4324/9781003763826-9",
-      "oa_url": null,
-      "topic": "Linguistic Variation and Morphology",
-      "type": "article"
-    },
-    {
-      "id": "https://openalex.org/W586919860",
-      "title": "Practical Language Testing",
-      "authors": [
-        "Glenn Fulcher"
-      ],
-      "venue": "",
-      "year": 2024,
-      "date": "2024-10-17",
-      "cited_by_count": 316,
-      "doi": "https://doi.org/10.4324/9781003373629",
-      "oa_url": null,
-      "topic": "EFL/ESL Teaching and Learning",
-      "type": "book"
-    },
-    {
-      "id": "https://openalex.org/W4403293835",
-      "title": "ACTFL Proficiency Guidelines 2024",
-      "authors": [
-        "İslam Elhadki"
-      ],
-      "venue": "Dil Eğitimi ve Araştırmaları Dergisi",
-      "year": 2024,
-      "date": "2024-10-10",
-      "cited_by_count": 266,
-      "doi": "https://doi.org/10.31464/jlere.1494854",
-      "oa_url": "https://dergipark.org.tr/en/download/article-file/3977178",
-      "topic": "EFL/ESL Teaching and Learning",
-      "type": "article"
-    },
-    {
-      "id": "https://openalex.org/W4402654982",
-      "title": "Suprasegmental phonology",
-      "authors": [
-        "Daniel Kaufman",
-        "Nikolaus P. Himmelmann"
-      ],
-      "venue": "",
-      "year": 2024,
-      "date": "2024-08-29",
-      "cited_by_count": 252,
-      "doi": "https://doi.org/10.1093/oso/9780198807353.003.0042",
-      "oa_url": null,
-      "topic": "Linguistic Variation and Morphology",
-      "type": "book-chapter"
-    },
-    {
-      "id": "https://openalex.org/W2896800179",
-      "title": "An Identity Approach to Second Language Acquisition",
-      "authors": [
-        "Bonny Norton",
-        "Carolyn McKinney"
-      ],
-      "venue": "",
-      "year": 2026,
-      "date": "2026-04-27",
-      "cited_by_count": 141,
-      "doi": "https://doi.org/10.4324/9781003426516-4",
-      "oa_url": null,
-      "topic": "Multilingual Education and Policy",
-      "type": "article"
-    },
-    {
-      "id": "https://openalex.org/W2766030782",
-      "title": "Marked nominative systems in Eastern Sudanic and their historical origin",
-      "authors": [
-        "Gerrit J. Dimmendaal"
-      ],
-      "venue": "Universitäts- und Stadtbibliothek Köln",
-      "year": 2025,
-      "date": "2025-04-02",
-      "cited_by_count": 127,
-      "doi": "https://doi.org/10.18716/ojs/aaeo/2014_3414",
-      "oa_url": "https://doi.org/10.18716/ojs/aaeo/2014_3414",
-      "topic": "Syntax, Semantics, Linguistic Variation",
-      "type": "article"
-    },
-    {
-      "id": "https://openalex.org/W4401789339",
-      "title": "English Pronunciation",
-      "authors": [
-        "Ralph Moffat"
-      ],
-      "venue": "Boydell and Brewer eBooks",
-      "year": 2024,
-      "date": "2024-08-22",
-      "cited_by_count": 126,
-      "doi": "https://doi.org/10.1515/9781805433644-006",
-      "oa_url": null,
-      "topic": "Linguistic Variation and Morphology",
-      "type": "book-chapter"
-    },
     {
       "id": "https://openalex.org/W4399665388",
       "title": "Exploring Chinese EFL learners’ engagement with large language models: A self-determination theory perspective",
@@ -378,68 +253,6 @@
       "type": "article"
     },
     {
-      "id": "https://openalex.org/W588812181",
-      "title": "Diglossia in Ancient Hebrew",
-      "authors": [
-        "Gary A. Rendsburg"
-      ],
-      "venue": "Religions",
-      "year": 2025,
-      "date": "2025-04-30",
-      "cited_by_count": 113,
-      "doi": "https://doi.org/10.3390/rel16050576",
-      "oa_url": "https://www.mdpi.com/2077-1444/16/5/576/pdf?version=1745999396",
-      "topic": "Language, Linguistics, Cultural Analysis",
-      "type": "article"
-    },
-    {
-      "id": "https://openalex.org/W4403098562",
-      "title": "Transitivity, Valency, and Voice",
-      "authors": [
-        "Denis Creissels"
-      ],
-      "venue": "",
-      "year": 2024,
-      "date": "2024-09-27",
-      "cited_by_count": 107,
-      "doi": "https://doi.org/10.1093/9780198899594.001.0001",
-      "oa_url": null,
-      "topic": "Syntax, Semantics, Linguistic Variation",
-      "type": "book"
-    },
-    {
-      "id": "https://openalex.org/W4404921309",
-      "title": "Philosophical Dictionary",
-      "authors": [
-        "Voltaire"
-      ],
-      "venue": "",
-      "year": 2024,
-      "date": "2024-12-02",
-      "cited_by_count": 102,
-      "doi": "https://doi.org/10.4324/9781003589020-30",
-      "oa_url": null,
-      "topic": "Lexicography and Language Studies",
-      "type": "book-chapter"
-    },
-    {
-      "id": "https://openalex.org/W4401230687",
-      "title": "Mediae latinitatis lexicon minus",
-      "authors": [
-        "Niermeyer",
-        "Kieft",
-        "Lake-Schoonebeek"
-      ],
-      "venue": "",
-      "year": 2024,
-      "date": "2024-08-01",
-      "cited_by_count": 95,
-      "doi": "https://doi.org/10.1163/9789004719224",
-      "oa_url": null,
-      "topic": "Historical Linguistics and Language Studies",
-      "type": "book"
-    },
-    {
       "id": "https://openalex.org/W4404605933",
       "title": "Predicative possession in Bantu languages",
       "authors": [
@@ -455,19 +268,205 @@
       "type": "book-chapter"
     },
     {
-      "id": "https://openalex.org/W3001059209",
-      "title": "The linguistic features of Bangala before Lingala: The pidginization of Bobangi in the 1880s and 1890s",
+      "id": "https://openalex.org/W4399548020",
+      "title": "Epistemic Reconstitution of Multilingualism",
       "authors": [
-        "Michael Meeuwis"
+        "Felix Banda",
+        "Kelvin Mambwe"
       ],
-      "venue": "Ghent University Academic Bibliography (Ghent University)",
-      "year": 2025,
-      "date": "2025-04-02",
+      "venue": "",
+      "year": 2024,
+      "date": "2024-06-11",
       "cited_by_count": 89,
-      "doi": "https://doi.org/10.18716/ojs/aaeo/2019_3464",
-      "oa_url": "https://biblio.ugent.be/publication/8644523/file/8645617.pdf",
-      "topic": "Linguistics, Language Diversity, and Identity",
+      "doi": "https://doi.org/10.4324/9781003313618-4",
+      "oa_url": null,
+      "topic": "Language, Discourse, Communication Strategies",
+      "type": "book-chapter"
+    },
+    {
+      "id": "https://openalex.org/W3047205883",
+      "title": "Existential constructions in Bantu languages",
+      "authors": [
+        "Rasmus Bernander",
+        "Maud Devos",
+        "Hannah Gibson"
+      ],
+      "venue": "",
+      "year": 2024,
+      "date": "2024-11-05",
+      "cited_by_count": 88,
+      "doi": "https://doi.org/10.1093/oso/9780198821359.003.0006",
+      "oa_url": null,
+      "topic": "Syntax, Semantics, Linguistic Variation",
+      "type": "book-chapter"
+    },
+    {
+      "id": "https://openalex.org/W4404606878",
+      "title": "A parametric approach to negation in Bantu languages",
+      "authors": [
+        "Rozenn Guérois",
+        "Hannah Gibson",
+        "Lutz Marten"
+      ],
+      "venue": "",
+      "year": 2024,
+      "date": "2024-11-05",
+      "cited_by_count": 88,
+      "doi": "https://doi.org/10.1093/oso/9780198821359.003.0005",
+      "oa_url": null,
+      "topic": "Syntax, Semantics, Linguistic Variation",
+      "type": "book-chapter"
+    },
+    {
+      "id": "https://openalex.org/W4404605992",
+      "title": "A micro-parametric approach to focus marking <i>ní</i> in Kilimanjaro Bantu languages",
+      "authors": [
+        "Daisuke Shinagawa"
+      ],
+      "venue": "",
+      "year": 2024,
+      "date": "2024-11-05",
+      "cited_by_count": 87,
+      "doi": "https://doi.org/10.1093/oso/9780198821359.003.0015",
+      "oa_url": null,
+      "topic": "Syntax, Semantics, Linguistic Variation",
+      "type": "book-chapter"
+    },
+    {
+      "id": "https://openalex.org/W4404606886",
+      "title": "Multiple-reciprocity marking in the Kikongo Language Cluster",
+      "authors": [
+        "Sebastian Dom",
+        "Heidi Goes",
+        "Koen Bostoen"
+      ],
+      "venue": "",
+      "year": 2024,
+      "date": "2024-11-05",
+      "cited_by_count": 87,
+      "doi": "https://doi.org/10.1093/oso/9780198821359.003.0012",
+      "oa_url": null,
+      "topic": "Syntax, Semantics, Linguistic Variation",
+      "type": "book-chapter"
+    },
+    {
+      "id": "https://openalex.org/W4405645921",
+      "title": "The Psychology of Framing: How Everyday Language Shapes the Way We Think, Feel, and Act",
+      "authors": [
+        "Stephen J. Flusberg",
+        "Kevin J. Holmes",
+        "Paul H. Thibodeau",
+        "Robin L. Nabi",
+        "et al."
+      ],
+      "venue": "Gothic.net",
+      "year": 2024,
+      "date": "2024-12-01",
+      "cited_by_count": 65,
+      "doi": "https://doi.org/10.1177/15291006241246966",
+      "oa_url": null,
+      "topic": "Language, Discourse, Communication Strategies",
+      "type": "review"
+    },
+    {
+      "id": "https://openalex.org/W4409557957",
+      "title": "Joola Keeraak",
+      "authors": [
+        "Stéphane Robert",
+        "Guillaume Segerer"
+      ],
+      "venue": "",
+      "year": 2024,
+      "date": "2024-11-07",
+      "cited_by_count": 59,
+      "doi": "https://doi.org/10.1093/oso/9780198736516.003.0011",
+      "oa_url": "https://hal.science/hal-01513257/document",
+      "topic": "Linguistics and Language Analysis",
+      "type": "book-chapter"
+    },
+    {
+      "id": "https://openalex.org/W4402655144",
+      "title": "Reduplication",
+      "authors": [
+        "Veronika Mattes",
+        "Thomas Schwaiger"
+      ],
+      "venue": "",
+      "year": 2024,
+      "date": "2024-08-29",
+      "cited_by_count": 59,
+      "doi": "https://doi.org/10.1093/oso/9780198807353.003.0045",
+      "oa_url": null,
+      "topic": "Linguistic Variation and Morphology",
+      "type": "book-chapter"
+    },
+    {
+      "id": "https://openalex.org/W4413273653",
+      "title": "The lab streaming layer for synchronized multimodal recording",
+      "authors": [
+        "C. Kothe",
+        "Seyed Yahya Shirazi",
+        "Tristan Stenner",
+        "David Medine",
+        "et al."
+      ],
+      "venue": "Imaging Neuroscience",
+      "year": 2025,
+      "date": "2025-01-01",
+      "cited_by_count": 58,
+      "doi": "https://doi.org/10.1162/imag.a.136",
+      "oa_url": "https://direct.mit.edu/imag/article-pdf/doi/10.1162/IMAG.a.136/2546429/imag.a.136.pdf",
+      "topic": "Subtitles and Audiovisual Media",
       "type": "article"
+    },
+    {
+      "id": "https://openalex.org/W4400363285",
+      "title": "Translanguaging",
+      "authors": [
+        "Jeanine Treffers‐Daller"
+      ],
+      "venue": "Linguistic Approaches to Bilingualism",
+      "year": 2024,
+      "date": "2024-07-05",
+      "cited_by_count": 55,
+      "doi": "https://doi.org/10.1075/lab.24015.tre",
+      "oa_url": "https://www.jbe-platform.com/deliver/fulltext/10.1075/lab.24015.tre/lab.24015.tre.pdf?itemId=%2Fcontent%2Fjournals%2F10.1075%2Flab.24015.tre&mimeType=pdf&containerItemId=content/jbep",
+      "topic": "Multilingual Education and Policy",
+      "type": "article"
+    },
+    {
+      "id": "https://openalex.org/W4402773331",
+      "title": "LLMs are Good Sign Language Translators",
+      "authors": [
+        "Jia Gong",
+        "Lin Geng Foo",
+        "Yixuan He",
+        "Hossein Rahmani",
+        "et al."
+      ],
+      "venue": "",
+      "year": 2024,
+      "date": "2024-06-16",
+      "cited_by_count": 51,
+      "doi": "https://doi.org/10.1109/cvpr52733.2024.01738",
+      "oa_url": null,
+      "topic": "Translation Studies and Practices",
+      "type": "article"
+    },
+    {
+      "id": "https://openalex.org/W4405042718",
+      "title": "The Cambridge Handbook of Methods in Conversation Analysis",
+      "authors": [
+        "Jeffrey D. Robinson"
+      ],
+      "venue": "Cambridge University Press eBooks",
+      "year": 2024,
+      "date": "2024-12-05",
+      "cited_by_count": 50,
+      "doi": "https://doi.org/10.1017/9781108936583",
+      "oa_url": null,
+      "topic": "Language, Discourse, Communication Strategies",
+      "type": "book"
     }
   ]
 }
