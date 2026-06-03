@@ -19,8 +19,8 @@ from pathlib import Path
 
 API_BASE = "https://api.openalex.org"
 USER_AGENT = "applied-linguistics-landscape/0.1 (research-trends observatory)"
-POLITE_DELAY_SECONDS = 0.2          # gentle gap between calls
-MAX_RETRIES = 4
+POLITE_DELAY_SECONDS = 1.0          # gentle gap between calls; reliability over speed
+MAX_RETRIES = 6
 # Characters OpenAlex expects to stay literal inside a filter value
 # (colon separates key:value, | is OR, comma separates filters, / appears in some ids).
 _SAFE = ":|/,"
@@ -57,7 +57,8 @@ def _build_url(path: str, params: dict) -> str:
     key = _api_key()
     if key:
         q["api_key"] = key
-    return f"{API_BASE}/{path.lstrip('/')}?" + urllib.parse.urlencode(q, safe=_SAFE)
+    # quote_via=quote so spaces become %20 (needed for multi-word search filters)
+    return f"{API_BASE}/{path.lstrip('/')}?" + urllib.parse.urlencode(q, safe=_SAFE, quote_via=urllib.parse.quote)
 
 
 def get(path: str, params: dict | None = None) -> dict:
@@ -73,7 +74,11 @@ def get(path: str, params: dict | None = None) -> dict:
             return json.loads(payload)
         except urllib.error.HTTPError as e:
             last_err = e
-            if e.code in (429, 500, 502, 503, 504):
+            if e.code == 429:   # rate limited: honour Retry-After, else back off progressively
+                ra = e.headers.get("Retry-After") if e.headers else None
+                time.sleep(int(ra) if (ra and str(ra).isdigit()) else min(60, 5 * (attempt + 1)))
+                continue
+            if e.code in (500, 502, 503, 504):
                 time.sleep(1.5 * (attempt + 1))
                 continue
             body = ""
@@ -131,3 +136,20 @@ def top_works(filter_str: str, sort: str = "cited_by_count:desc",
     if select:
         params["select"] = select
     return get("works", params).get("results", []) or []
+
+
+def iterate_works(filter_str: str, select: str | None = None, per_page: int = 200):
+    """Stream every work matching a filter, using cursor pagination."""
+    require_key()
+    cursor = "*"
+    while cursor:
+        params = {"filter": filter_str, "per-page": per_page, "cursor": cursor}
+        if select:
+            params["select"] = select
+        obj = get("works", params)
+        results = obj.get("results", []) or []
+        for w in results:
+            yield w
+        if not results:
+            break
+        cursor = (obj.get("meta") or {}).get("next_cursor")

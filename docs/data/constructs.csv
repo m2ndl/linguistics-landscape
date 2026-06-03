@@ -1,0 +1,2718 @@
+year,construct_id,construct,source,papers,corpus_papers,share
+2014,ox_language_studies,Language Studies,openalex,7753,89137,0.08697847
+2014,ox_learners,Learners,openalex,3792,89137,0.04254126
+2014,ox_language_learning,Language Learning,openalex,3640,89137,0.04083602
+2014,ox_meaning,Meaning,openalex,3311,89137,0.03714507
+2014,ox_language_teaching,Language Teaching,openalex,3196,89137,0.03585492
+2014,ox_corpus,Corpus,openalex,2745,89137,0.03079529
+2014,ox_grammar,Grammar,openalex,2468,89137,0.02768772
+2014,ox_grammaticalization,Grammaticalization,openalex,2189,89137,0.0245577
+2014,ox_dialects,Dialects,openalex,1876,89137,0.02104625
+2014,ox_language_education,Language Education,openalex,1838,89137,0.02061995
+2014,ox_language_change,Language Change,openalex,1835,89137,0.02058629
+2014,ox_dictionaries,Dictionaries,openalex,1785,89137,0.02002535
+2014,ox_pragmatics,Pragmatics,openalex,1725,89137,0.01935223
+2014,ox_morphology,Morphology,openalex,1366,89137,0.01532473
+2014,ox_discourse_study,Discourse Study,openalex,1321,89137,0.01481988
+2014,ox_bilingual,Bilingual,openalex,1313,89137,0.01473014
+2014,ox_bilingualism,Bilingualism,openalex,1313,89137,0.01473014
+2014,ox_perception,Perception,openalex,1294,89137,0.01451698
+2014,ox_usage,Usage,openalex,1231,89137,0.0138102
+2014,ox_syntax,Syntax,openalex,1229,89137,0.01378777
+2014,ox_language_acquisition,Language Acquisition,openalex,1173,89137,0.01315952
+2014,ox_sociolinguistics,Sociolinguistics,openalex,1151,89137,0.01291271
+2014,ox_discourse_analysis,Discourse Analysis,openalex,1146,89137,0.01285661
+2014,ox_pedagogy,Pedagogy,openalex,1140,89137,0.0127893
+2014,ox_second_language_learning,Second Language Learning,openalex,1099,89137,0.01232934
+2014,ox_multilingualism,Multilingualism,openalex,1064,89137,0.01193668
+2014,ox_semantics,Semantics,openalex,1054,89137,0.0118245
+2014,ox_cultural_translation,Cultural Translation,openalex,941,89137,0.01055678
+2014,ox_language_attitudes,Language Attitudes,openalex,940,89137,0.01054556
+2014,focus_on_form,Focus on form,curated,932,89137,0.01045582
+2014,ox_power,Power,openalex,875,89137,0.00981635
+2014,ox_structuralism,Structuralism,openalex,875,89137,0.00981635
+2014,language_policy,Language policy,curated,873,89137,0.00979391
+2014,ox_teaching_methods,Teaching Methods,openalex,848,89137,0.00951345
+2014,ox_terminology,Terminology,openalex,824,89137,0.0092442
+2014,world_englishes,World Englishes,curated,809,89137,0.00907592
+2014,ox_ideology,Ideology,openalex,808,89137,0.0090647
+2014,ox_language_variation,Language Variation,openalex,788,89137,0.00884032
+2014,ox_language_contact,Language Contact,openalex,785,89137,0.00880667
+2014,ox_indexicality,Indexicality,openalex,713,89137,0.00799892
+2014,ox_learning_strategies,Learning Strategies,openalex,670,89137,0.00751652
+2014,ox_second_language_acquisition,Second Language Acquisition,openalex,638,89137,0.00715752
+2014,ox_literature_analysis,Literature Analysis,openalex,618,89137,0.00693315
+2014,ox_literary_translation,Literary Translation,openalex,617,89137,0.00692193
+2014,ox_social_interaction,Social Interaction,openalex,592,89137,0.00664146
+2014,ox_language_learning_strategies,Language Learning Strategies,openalex,537,89137,0.00602443
+2014,ox_language_ideologies,Language Ideologies,openalex,531,89137,0.00595712
+2014,language_ideology,Language ideology,curated,531,89137,0.00595712
+2014,ox_linguistic_identity,Linguistic Identity,openalex,531,89137,0.00595712
+2014,ox_conversation_analysis,Conversation Analysis,openalex,529,89137,0.00593469
+2014,ox_social_communication,Social Communication,openalex,527,89137,0.00591225
+2014,ox_lexicography,Lexicography,openalex,504,89137,0.00565422
+2014,ox_ethnography,Ethnography,openalex,477,89137,0.00535131
+2014,ox_indo_european,Indo-European,openalex,457,89137,0.00512694
+2014,ox_typology,typology,openalex,453,89137,0.00508207
+2014,ox_language_diversity,Language Diversity,openalex,426,89137,0.00477916
+2014,ox_foreign_language_education,Foreign Language Education,openalex,425,89137,0.00476794
+2014,ox_etymology,Etymology,openalex,384,89137,0.00430798
+2014,ox_social_meaning,Social Meaning,openalex,382,89137,0.00428554
+2014,ox_minority_languages,Minority Languages,openalex,377,89137,0.00422945
+2014,ox_semiotics,Semiotics,openalex,361,89137,0.00404995
+2014,codeswitching,Code-switching,curated,345,89137,0.00387045
+2014,second_language_writing,Second language writing,curated,344,89137,0.00385923
+2014,ox_semantic_changes,Semantic Changes,openalex,338,89137,0.00379192
+2014,heritage_language,Heritage language,curated,334,89137,0.00374704
+2014,ox_verb_morphology,Verb Morphology,openalex,327,89137,0.00366851
+2014,ox_accent,Accent,openalex,315,89137,0.00353389
+2014,ox_text_linguistics,Text Linguistics,openalex,307,89137,0.00344414
+2014,ox_linguistic_competence,Linguistic Competence,openalex,306,89137,0.00343292
+2014,ox_construction_grammar,Construction Grammar,openalex,303,89137,0.00339926
+2014,usage_based,Usage-based approaches,curated,303,89137,0.00339926
+2014,ox_linguistic_diversity,Linguistic Diversity,openalex,302,89137,0.00338804
+2014,ox_political_discourse,Political Discourse,openalex,301,89137,0.00337682
+2014,ox_vocabulary_learning,Vocabulary Learning,openalex,296,89137,0.00332073
+2014,ox_intercultural_communication,Intercultural Communication,openalex,288,89137,0.00323098
+2014,ox_language_evolution,Language Evolution,openalex,287,89137,0.00321976
+2014,multimodality,Multimodality,curated,285,89137,0.00319732
+2014,ox_historical_linguistics,Historical Linguistics,openalex,270,89137,0.00302905
+2014,ox_language_anxiety,Language Anxiety,openalex,269,89137,0.00301783
+2014,ox_literary_theory,Literary Theory,openalex,264,89137,0.00296173
+2014,ox_subtitling,Subtitling,openalex,264,89137,0.00296173
+2014,ox_phraseology,Phraseology,openalex,262,89137,0.0029393
+2014,ox_interdisciplinary,Interdisciplinary,openalex,259,89137,0.00290564
+2014,corpus_linguistics,Corpus linguistics,curated,257,89137,0.0028832
+2014,ox_bilingual_education,Bilingual Education,openalex,239,89137,0.00268127
+2014,ox_identity_construction,Identity Construction,openalex,239,89137,0.00268127
+2014,ox_language_typology,Language Typology,openalex,237,89137,0.00265883
+2014,ox_cognitive_linguistics,Cognitive Linguistics,openalex,236,89137,0.00264761
+2014,ox_textual_analysis,Textual Analysis,openalex,228,89137,0.00255786
+2014,ox_german_as_a_foreign_language,German as a Foreign Language,openalex,224,89137,0.00251299
+2014,ox_narrative_analysis,Narrative Analysis,openalex,224,89137,0.00251299
+2014,ox_philology,Philology,openalex,224,89137,0.00251299
+2014,ox_lingua_franca_english,Lingua Franca English,openalex,218,89137,0.00244567
+2014,ox_turkic,Turkic,openalex,218,89137,0.00244567
+2014,study_abroad,Study abroad,curated,211,89137,0.00236714
+2014,critical_discourse_analysis,Critical discourse analysis,curated,208,89137,0.00233349
+2014,positioning_theory,Positioning theory,curated,203,89137,0.00227739
+2014,ox_humanities,Humanities,openalex,197,89137,0.00221008
+2014,ox_sociolinguistic_variation,Sociolinguistic Variation,openalex,194,89137,0.00217643
+2014,learner_identity,Learner identity,curated,192,89137,0.00215399
+2014,mixed_methods,Mixed methods,curated,183,89137,0.00205302
+2014,ox_neologisms,Neologisms,openalex,183,89137,0.00205302
+2014,ox_semantic_relations,Semantic Relations,openalex,183,89137,0.00205302
+2014,task_based,Task-based language teaching,curated,183,89137,0.00205302
+2014,ox_lexical_influence,Lexical Influence,openalex,181,89137,0.00203058
+2014,ox_lexical_semantics,Lexical Semantics,openalex,178,89137,0.00199693
+2014,pragmatic_competence,Pragmatic competence,curated,167,89137,0.00187352
+2014,ox_media_discourse,Media Discourse,openalex,163,89137,0.00182865
+2014,ox_politeness_strategies,Politeness Strategies,openalex,158,89137,0.00177255
+2014,ox_turn_taking,Turn-Taking,openalex,153,89137,0.00171646
+2014,ox_cross_cultural_communication,Cross-Cultural Communication,openalex,152,89137,0.00170524
+2014,ox_standardization_of_language,Standardization of Language,openalex,152,89137,0.00170524
+2014,corrective_feedback,Corrective feedback,curated,151,89137,0.00169402
+2014,ox_youth_language,Youth Language,openalex,148,89137,0.00166037
+2014,ox_saussure,Saussure,openalex,147,89137,0.00164915
+2014,ox_literary_tradition,Literary Tradition,openalex,146,89137,0.00163793
+2014,ox_ontologies,Ontologies,openalex,143,89137,0.00160427
+2014,ox_language_rights,Language Rights,openalex,142,89137,0.00159305
+2014,ox_cognitive_grammar,Cognitive Grammar,openalex,140,89137,0.00157062
+2014,ox_l2_motivation,L2 Motivation,openalex,140,89137,0.00157062
+2014,teacher_identity,Language teacher identity,curated,140,89137,0.00157062
+2014,linguistic_landscape,Linguistic landscape,curated,138,89137,0.00154818
+2014,ox_proto_indo_european,Proto-Indo-European,openalex,130,89137,0.00145843
+2014,intercultural_competence,Intercultural competence,curated,128,89137,0.00143599
+2014,ox_specialized_language,Specialized Language,openalex,126,89137,0.00141355
+2014,ox_interactional_linguistics,Interactional Linguistics,openalex,123,89137,0.0013799
+2014,ox_speech_perception,Speech Perception,openalex,123,89137,0.0013799
+2014,ox_linguistic_borrowing,Linguistic Borrowing,openalex,120,89137,0.00134624
+2014,ox_occitan,Occitan,openalex,120,89137,0.00134624
+2014,ox_politeness_theory,Politeness Theory,openalex,118,89137,0.0013238
+2014,ox_dialectology,Dialectology,openalex,116,89137,0.00130137
+2014,ox_historical_phonology,Historical Phonology,openalex,108,89137,0.00121162
+2014,ox_universal_grammar,Universal Grammar,openalex,108,89137,0.00121162
+2014,intelligibility,Intelligibility,curated,107,89137,0.0012004
+2014,language_revitalization,Language revitalization,curated,107,89137,0.0012004
+2014,ox_audiovisual_translation,Audiovisual Translation,openalex,106,89137,0.00118918
+2014,ox_media_influence,Media Influence,openalex,104,89137,0.00116674
+2014,ox_troubadours,Troubadours,openalex,103,89137,0.00115552
+2014,ox_ethnolinguistics,Ethnolinguistics,openalex,101,89137,0.00113309
+2014,ox_task_based_instruction,Task-based Instruction,openalex,101,89137,0.00113309
+2014,vocabulary_acquisition,Vocabulary acquisition,curated,98,89137,0.00109943
+2014,ox_captioning,Captioning,openalex,94,89137,0.00105456
+2014,emi,English-medium instruction,curated,88,89137,0.00098724
+2014,willingness_to_communicate,Willingness to communicate,curated,86,89137,0.00096481
+2014,sociocultural_theory,Sociocultural theory,curated,85,89137,0.00095359
+2014,ox_medieval_literature,Medieval Literature,openalex,81,89137,0.00090871
+2014,large_language_models,Large language models,curated,76,89137,0.00085262
+2014,ox_semitic_languages,Semitic Languages,openalex,76,89137,0.00085262
+2014,ox_translator_competence,Translator Competence,openalex,75,89137,0.0008414
+2014,ox_multidimensionality,Multidimensionality,openalex,74,89137,0.00083018
+2014,machine_translation,Machine translation,curated,70,89137,0.00078531
+2014,ox_nationalism,Nationalism,openalex,70,89137,0.00078531
+2014,ox_historiography,Historiography,openalex,69,89137,0.00077409
+2014,ox_anglicisms,Anglicisms,openalex,67,89137,0.00075165
+2014,ox_audio_description,Audio Description,openalex,67,89137,0.00075165
+2014,ox_stereotype_analysis,Stereotype Analysis,openalex,66,89137,0.00074043
+2014,ox_diglossia,Diglossia,openalex,64,89137,0.000718
+2014,ox_knowledge_representation,Knowledge Representation,openalex,61,89137,0.00068434
+2014,written_corrective_feedback,Written corrective feedback,curated,61,89137,0.00068434
+2014,meta_analysis,Meta-analysis,curated,57,89137,0.00063946
+2014,ox_medieval_europe,Medieval Europe,openalex,55,89137,0.00061703
+2014,learner_engagement,Learner engagement,curated,54,89137,0.00060581
+2014,ox_racism,Racism,openalex,52,89137,0.00058337
+2014,ox_role_play_techniques,Role Play Techniques,openalex,51,89137,0.00057215
+2014,ox_sociology_of_translation,Sociology of Translation,openalex,51,89137,0.00057215
+2014,translanguaging,Translanguaging,curated,51,89137,0.00057215
+2014,ox_humboldt,Humboldt,openalex,50,89137,0.00056093
+2014,replication_study,Replication study,curated,50,89137,0.00056093
+2014,ox_teacher_cognition,Teacher Cognition,openalex,50,89137,0.00056093
+2014,ox_multimedia_learning,Multimedia Learning,openalex,46,89137,0.00051606
+2014,language_aptitude,Language aptitude,curated,45,89137,0.00050484
+2014,ox_multimodal_communication,Multimodal Communication,openalex,45,89137,0.00050484
+2014,eye_tracking,Eye-tracking,curated,43,89137,0.0004824
+2014,ox_social_justice,Social Justice,openalex,43,89137,0.0004824
+2014,formulaic_language,Formulaic language,curated,41,89137,0.00045997
+2014,ox_heritage_language_maintenance,Heritage Language Maintenance,openalex,40,89137,0.00044875
+2014,ox_health_communication,Health Communication,openalex,38,89137,0.00042631
+2014,narrative_inquiry,Narrative inquiry,curated,38,89137,0.00042631
+2014,ox_interlanguage_development,Interlanguage Development,openalex,37,89137,0.00041509
+2014,ox_social_movements,Social Movements,openalex,35,89137,0.00039265
+2014,ox_textual_criticism,Textual Criticism,openalex,34,89137,0.00038144
+2014,post_editing,Post-editing,curated,29,89137,0.00032534
+2014,ox_jesuits,Jesuits,openalex,28,89137,0.00031412
+2014,complex_dynamic_systems,Complex dynamic systems,curated,26,89137,0.00029169
+2014,ox_middle_eastern_languages,Middle Eastern Languages,openalex,26,89137,0.00029169
+2014,ideal_l2_self,Ideal L2 self,curated,25,89137,0.00028047
+2014,ox_migration_and_integration,Migration and Integration,openalex,25,89137,0.00028047
+2014,clil,CLIL,curated,24,89137,0.00026925
+2014,comprehensible_input,Comprehensible input,curated,21,89137,0.00023559
+2014,data_driven_learning,Data-driven learning,curated,20,89137,0.00022437
+2014,superdiversity,Superdiversity,curated,18,89137,0.00020194
+2014,ox_scalar_implicature,Scalar Implicature,openalex,16,89137,0.0001795
+2014,ox_hispanic_linguistics,Hispanic Linguistics,openalex,15,89137,0.00016828
+2014,ox_linguistic_historiography,Linguistic Historiography,openalex,15,89137,0.00016828
+2014,ox_pragmatic_borrowing,Pragmatic Borrowing,openalex,15,89137,0.00016828
+2014,ox_missionary_linguistics,Missionary Linguistics,openalex,13,89137,0.00014584
+2014,ox_urban_linguistics,Urban Linguistics,openalex,12,89137,0.00013462
+2014,washback,Washback,curated,12,89137,0.00013462
+2014,dynamic_assessment,Dynamic assessment,curated,11,89137,0.00012341
+2014,ox_oral_epics,oral epics,openalex,11,89137,0.00012341
+2014,mall,Mobile-assisted language learning,curated,10,89137,0.00011219
+2014,ox_neo_aramaic_dialects,Neo-Aramaic Dialects,openalex,10,89137,0.00011219
+2014,ox_innovation_management,Innovation Management,openalex,6,89137,6.731e-05
+2014,automated_writing_evaluation,Automated writing evaluation,curated,4,89137,4.487e-05
+2014,raciolinguistics,Raciolinguistics,curated,2,89137,2.244e-05
+2014,duolingo,Duolingo,curated,1,89137,1.122e-05
+2014,chatgpt,ChatGPT,curated,0,89137,0.0
+2014,generative_ai,Generative AI,curated,0,89137,0.0
+2014,ox_manuscriptology,manuscriptology,openalex,0,89137,0.0
+2015,ox_language_studies,Language Studies,openalex,8281,96276,0.08601313
+2015,ox_learners,Learners,openalex,4076,96276,0.04233662
+2015,ox_language_learning,Language Learning,openalex,3960,96276,0.04113175
+2015,ox_meaning,Meaning,openalex,3632,96276,0.03772487
+2015,ox_language_teaching,Language Teaching,openalex,3399,96276,0.03530475
+2015,ox_corpus,Corpus,openalex,3163,96276,0.03285346
+2015,ox_grammar,Grammar,openalex,2518,96276,0.02615397
+2015,ox_grammaticalization,Grammaticalization,openalex,2215,96276,0.02300677
+2015,ox_language_education,Language Education,openalex,2036,96276,0.02114753
+2015,ox_language_change,Language Change,openalex,2003,96276,0.02080477
+2015,ox_dictionaries,Dictionaries,openalex,1980,96276,0.02056587
+2015,ox_pragmatics,Pragmatics,openalex,1979,96276,0.02055549
+2015,ox_dialects,Dialects,openalex,1937,96276,0.02011924
+2015,ox_perception,Perception,openalex,1483,96276,0.01540363
+2015,ox_morphology,Morphology,openalex,1456,96276,0.01512319
+2015,ox_bilingual,Bilingual,openalex,1402,96276,0.0145623
+2015,ox_bilingualism,Bilingualism,openalex,1402,96276,0.0145623
+2015,ox_discourse_study,Discourse Study,openalex,1401,96276,0.01455191
+2015,ox_usage,Usage,openalex,1361,96276,0.01413644
+2015,ox_discourse_analysis,Discourse Analysis,openalex,1304,96276,0.01354439
+2015,ox_pedagogy,Pedagogy,openalex,1268,96276,0.01317047
+2015,ox_syntax,Syntax,openalex,1263,96276,0.01311853
+2015,ox_language_acquisition,Language Acquisition,openalex,1240,96276,0.01287964
+2015,ox_sociolinguistics,Sociolinguistics,openalex,1227,96276,0.01274461
+2015,ox_multilingualism,Multilingualism,openalex,1226,96276,0.01273422
+2015,ox_semantics,Semantics,openalex,1192,96276,0.01238107
+2015,ox_second_language_learning,Second Language Learning,openalex,1141,96276,0.01185134
+2015,focus_on_form,Focus on form,curated,1054,96276,0.01094769
+2015,ox_language_attitudes,Language Attitudes,openalex,1015,96276,0.01054261
+2015,ox_terminology,Terminology,openalex,1009,96276,0.01048029
+2015,ox_structuralism,Structuralism,openalex,998,96276,0.01036603
+2015,language_policy,Language policy,curated,995,96276,0.01033487
+2015,ox_teaching_methods,Teaching Methods,openalex,971,96276,0.01008559
+2015,ox_cultural_translation,Cultural Translation,openalex,958,96276,0.00995056
+2015,ox_ideology,Ideology,openalex,952,96276,0.00988824
+2015,ox_power,Power,openalex,928,96276,0.00963895
+2015,world_englishes,World Englishes,curated,844,96276,0.00876646
+2015,ox_language_variation,Language Variation,openalex,838,96276,0.00870414
+2015,ox_language_contact,Language Contact,openalex,834,96276,0.0086626
+2015,ox_indexicality,Indexicality,openalex,804,96276,0.00835099
+2015,ox_learning_strategies,Learning Strategies,openalex,762,96276,0.00791475
+2015,ox_social_interaction,Social Interaction,openalex,718,96276,0.00745773
+2015,ox_literature_analysis,Literature Analysis,openalex,712,96276,0.0073954
+2015,ox_social_communication,Social Communication,openalex,685,96276,0.00711496
+2015,ox_conversation_analysis,Conversation Analysis,openalex,669,96276,0.00694877
+2015,ox_second_language_acquisition,Second Language Acquisition,openalex,659,96276,0.0068449
+2015,ox_literary_translation,Literary Translation,openalex,621,96276,0.00645021
+2015,ox_language_ideologies,Language Ideologies,openalex,615,96276,0.00638789
+2015,language_ideology,Language ideology,curated,615,96276,0.00638789
+2015,ox_language_learning_strategies,Language Learning Strategies,openalex,615,96276,0.00638789
+2015,ox_linguistic_identity,Linguistic Identity,openalex,568,96276,0.0058997
+2015,ox_lexicography,Lexicography,openalex,534,96276,0.00554655
+2015,ox_ethnography,Ethnography,openalex,487,96276,0.00505837
+2015,ox_language_diversity,Language Diversity,openalex,479,96276,0.00497528
+2015,ox_typology,typology,openalex,463,96276,0.00480909
+2015,ox_social_meaning,Social Meaning,openalex,459,96276,0.00476754
+2015,ox_foreign_language_education,Foreign Language Education,openalex,453,96276,0.00470522
+2015,ox_etymology,Etymology,openalex,421,96276,0.00437285
+2015,ox_minority_languages,Minority Languages,openalex,418,96276,0.00434168
+2015,ox_semiotics,Semiotics,openalex,418,96276,0.00434168
+2015,heritage_language,Heritage language,curated,414,96276,0.00430014
+2015,codeswitching,Code-switching,curated,401,96276,0.00416511
+2015,ox_accent,Accent,openalex,358,96276,0.00371848
+2015,ox_phraseology,Phraseology,openalex,357,96276,0.00370809
+2015,ox_vocabulary_learning,Vocabulary Learning,openalex,354,96276,0.00367693
+2015,ox_linguistic_competence,Linguistic Competence,openalex,349,96276,0.003625
+2015,ox_semantic_changes,Semantic Changes,openalex,347,96276,0.00360422
+2015,ox_political_discourse,Political Discourse,openalex,346,96276,0.00359383
+2015,ox_text_linguistics,Text Linguistics,openalex,336,96276,0.00348997
+2015,usage_based,Usage-based approaches,curated,336,96276,0.00348997
+2015,ox_indo_european,Indo-European,openalex,334,96276,0.00346919
+2015,ox_verb_morphology,Verb Morphology,openalex,333,96276,0.00345881
+2015,ox_linguistic_diversity,Linguistic Diversity,openalex,329,96276,0.00341726
+2015,ox_construction_grammar,Construction Grammar,openalex,324,96276,0.00336533
+2015,multimodality,Multimodality,curated,320,96276,0.00332378
+2015,second_language_writing,Second language writing,curated,318,96276,0.003303
+2015,ox_language_evolution,Language Evolution,openalex,310,96276,0.00321991
+2015,corpus_linguistics,Corpus linguistics,curated,309,96276,0.00320952
+2015,ox_intercultural_communication,Intercultural Communication,openalex,294,96276,0.00305372
+2015,ox_identity_construction,Identity Construction,openalex,293,96276,0.00304333
+2015,ox_narrative_analysis,Narrative Analysis,openalex,292,96276,0.00303295
+2015,ox_historical_linguistics,Historical Linguistics,openalex,284,96276,0.00294985
+2015,ox_language_anxiety,Language Anxiety,openalex,279,96276,0.00289792
+2015,ox_interdisciplinary,Interdisciplinary,openalex,278,96276,0.00288753
+2015,ox_humanities,Humanities,openalex,274,96276,0.00284598
+2015,ox_language_typology,Language Typology,openalex,274,96276,0.00284598
+2015,ox_literary_theory,Literary Theory,openalex,266,96276,0.00276289
+2015,ox_bilingual_education,Bilingual Education,openalex,263,96276,0.00273173
+2015,ox_subtitling,Subtitling,openalex,262,96276,0.00272134
+2015,ox_textual_analysis,Textual Analysis,openalex,258,96276,0.0026798
+2015,positioning_theory,Positioning theory,curated,251,96276,0.00260709
+2015,mixed_methods,Mixed methods,curated,244,96276,0.00253438
+2015,ox_german_as_a_foreign_language,German as a Foreign Language,openalex,237,96276,0.00246167
+2015,ox_turkic,Turkic,openalex,234,96276,0.00243051
+2015,ox_politeness_strategies,Politeness Strategies,openalex,231,96276,0.00239935
+2015,ox_lexical_influence,Lexical Influence,openalex,230,96276,0.00238896
+2015,ox_cognitive_linguistics,Cognitive Linguistics,openalex,226,96276,0.00234742
+2015,ox_lexical_semantics,Lexical Semantics,openalex,224,96276,0.00232664
+2015,ox_philology,Philology,openalex,220,96276,0.0022851
+2015,ox_standardization_of_language,Standardization of Language,openalex,220,96276,0.0022851
+2015,ox_sociolinguistic_variation,Sociolinguistic Variation,openalex,219,96276,0.00227471
+2015,task_based,Task-based language teaching,curated,214,96276,0.00222278
+2015,study_abroad,Study abroad,curated,209,96276,0.00217084
+2015,critical_discourse_analysis,Critical discourse analysis,curated,208,96276,0.00216045
+2015,ox_lingua_franca_english,Lingua Franca English,openalex,203,96276,0.00210852
+2015,ox_media_discourse,Media Discourse,openalex,201,96276,0.00208775
+2015,ox_semantic_relations,Semantic Relations,openalex,195,96276,0.00202543
+2015,teacher_identity,Language teacher identity,curated,194,96276,0.00201504
+2015,ox_neologisms,Neologisms,openalex,193,96276,0.00200465
+2015,intercultural_competence,Intercultural competence,curated,186,96276,0.00193195
+2015,learner_identity,Learner identity,curated,183,96276,0.00190079
+2015,linguistic_landscape,Linguistic landscape,curated,178,96276,0.00184885
+2015,corrective_feedback,Corrective feedback,curated,169,96276,0.00175537
+2015,ox_turn_taking,Turn-Taking,openalex,169,96276,0.00175537
+2015,language_revitalization,Language revitalization,curated,168,96276,0.00174498
+2015,ox_specialized_language,Specialized Language,openalex,162,96276,0.00168266
+2015,ox_l2_motivation,L2 Motivation,openalex,157,96276,0.00163073
+2015,ox_cross_cultural_communication,Cross-Cultural Communication,openalex,154,96276,0.00159957
+2015,ox_youth_language,Youth Language,openalex,153,96276,0.00158918
+2015,pragmatic_competence,Pragmatic competence,curated,152,96276,0.00157879
+2015,ox_politeness_theory,Politeness Theory,openalex,150,96276,0.00155802
+2015,ox_interactional_linguistics,Interactional Linguistics,openalex,149,96276,0.00154763
+2015,ox_occitan,Occitan,openalex,149,96276,0.00154763
+2015,ox_literary_tradition,Literary Tradition,openalex,148,96276,0.00153725
+2015,ox_saussure,Saussure,openalex,142,96276,0.00147493
+2015,ox_speech_perception,Speech Perception,openalex,139,96276,0.00144377
+2015,ox_cognitive_grammar,Cognitive Grammar,openalex,136,96276,0.0014126
+2015,ox_ontologies,Ontologies,openalex,133,96276,0.00138145
+2015,ox_audiovisual_translation,Audiovisual Translation,openalex,129,96276,0.0013399
+2015,ox_anglicisms,Anglicisms,openalex,116,96276,0.00120487
+2015,ox_task_based_instruction,Task-based Instruction,openalex,115,96276,0.00119448
+2015,ox_historical_phonology,Historical Phonology,openalex,113,96276,0.00117371
+2015,ox_dialectology,Dialectology,openalex,112,96276,0.00116332
+2015,sociocultural_theory,Sociocultural theory,curated,112,96276,0.00116332
+2015,ox_linguistic_borrowing,Linguistic Borrowing,openalex,111,96276,0.00115293
+2015,ox_language_rights,Language Rights,openalex,109,96276,0.00113216
+2015,ox_captioning,Captioning,openalex,108,96276,0.00112177
+2015,intelligibility,Intelligibility,curated,108,96276,0.00112177
+2015,ox_ethnolinguistics,Ethnolinguistics,openalex,107,96276,0.00111139
+2015,emi,English-medium instruction,curated,104,96276,0.00108023
+2015,ox_media_influence,Media Influence,openalex,104,96276,0.00108023
+2015,ox_troubadours,Troubadours,openalex,97,96276,0.00100752
+2015,ox_universal_grammar,Universal Grammar,openalex,96,96276,0.00099713
+2015,vocabulary_acquisition,Vocabulary acquisition,curated,96,96276,0.00099713
+2015,ox_proto_indo_european,Proto-Indo-European,openalex,91,96276,0.0009452
+2015,ox_knowledge_representation,Knowledge Representation,openalex,88,96276,0.00091404
+2015,ox_multidimensionality,Multidimensionality,openalex,86,96276,0.00089326
+2015,ox_translator_competence,Translator Competence,openalex,86,96276,0.00089326
+2015,ox_audio_description,Audio Description,openalex,83,96276,0.0008621
+2015,meta_analysis,Meta-analysis,curated,83,96276,0.0008621
+2015,ox_medieval_literature,Medieval Literature,openalex,81,96276,0.00084133
+2015,translanguaging,Translanguaging,curated,77,96276,0.00079978
+2015,learner_engagement,Learner engagement,curated,76,96276,0.0007894
+2015,ox_nationalism,Nationalism,openalex,76,96276,0.0007894
+2015,ox_teacher_cognition,Teacher Cognition,openalex,73,96276,0.00075824
+2015,large_language_models,Large language models,curated,70,96276,0.00072708
+2015,written_corrective_feedback,Written corrective feedback,curated,70,96276,0.00072708
+2015,ox_stereotype_analysis,Stereotype Analysis,openalex,69,96276,0.00071669
+2015,willingness_to_communicate,Willingness to communicate,curated,69,96276,0.00071669
+2015,ox_role_play_techniques,Role Play Techniques,openalex,64,96276,0.00066475
+2015,ox_historiography,Historiography,openalex,63,96276,0.00065437
+2015,ox_diglossia,Diglossia,openalex,62,96276,0.00064398
+2015,ox_racism,Racism,openalex,60,96276,0.00062321
+2015,machine_translation,Machine translation,curated,59,96276,0.00061282
+2015,replication_study,Replication study,curated,59,96276,0.00061282
+2015,ox_sociology_of_translation,Sociology of Translation,openalex,56,96276,0.00058166
+2015,ox_multimedia_learning,Multimedia Learning,openalex,55,96276,0.00057127
+2015,formulaic_language,Formulaic language,curated,54,96276,0.00056089
+2015,ox_multimodal_communication,Multimodal Communication,openalex,54,96276,0.00056089
+2015,ox_semitic_languages,Semitic Languages,openalex,51,96276,0.00052973
+2015,ox_medieval_europe,Medieval Europe,openalex,45,96276,0.00046741
+2015,eye_tracking,Eye-tracking,curated,44,96276,0.00045702
+2015,ox_interlanguage_development,Interlanguage Development,openalex,44,96276,0.00045702
+2015,ox_health_communication,Health Communication,openalex,43,96276,0.00044663
+2015,ox_heritage_language_maintenance,Heritage Language Maintenance,openalex,43,96276,0.00044663
+2015,ox_social_justice,Social Justice,openalex,43,96276,0.00044663
+2015,language_aptitude,Language aptitude,curated,42,96276,0.00043625
+2015,narrative_inquiry,Narrative inquiry,curated,39,96276,0.00040509
+2015,ox_humboldt,Humboldt,openalex,34,96276,0.00035315
+2015,ox_social_movements,Social Movements,openalex,34,96276,0.00035315
+2015,ox_textual_criticism,Textual Criticism,openalex,34,96276,0.00035315
+2015,ideal_l2_self,Ideal L2 self,curated,33,96276,0.00034276
+2015,comprehensible_input,Comprehensible input,curated,31,96276,0.00032199
+2015,superdiversity,Superdiversity,curated,31,96276,0.00032199
+2015,post_editing,Post-editing,curated,28,96276,0.00029083
+2015,clil,CLIL,curated,26,96276,0.00027006
+2015,ox_migration_and_integration,Migration and Integration,openalex,26,96276,0.00027006
+2015,ox_hispanic_linguistics,Hispanic Linguistics,openalex,25,96276,0.00025967
+2015,complex_dynamic_systems,Complex dynamic systems,curated,24,96276,0.00024928
+2015,data_driven_learning,Data-driven learning,curated,22,96276,0.00022851
+2015,ox_jesuits,Jesuits,openalex,22,96276,0.00022851
+2015,ox_linguistic_historiography,Linguistic Historiography,openalex,21,96276,0.00021812
+2015,ox_oral_epics,oral epics,openalex,21,96276,0.00021812
+2015,ox_urban_linguistics,Urban Linguistics,openalex,18,96276,0.00018696
+2015,dynamic_assessment,Dynamic assessment,curated,17,96276,0.00017658
+2015,ox_neo_aramaic_dialects,Neo-Aramaic Dialects,openalex,17,96276,0.00017658
+2015,ox_scalar_implicature,Scalar Implicature,openalex,17,96276,0.00017658
+2015,ox_middle_eastern_languages,Middle Eastern Languages,openalex,15,96276,0.0001558
+2015,ox_missionary_linguistics,Missionary Linguistics,openalex,13,96276,0.00013503
+2015,washback,Washback,curated,12,96276,0.00012464
+2015,ox_pragmatic_borrowing,Pragmatic Borrowing,openalex,11,96276,0.00011425
+2015,mall,Mobile-assisted language learning,curated,10,96276,0.00010387
+2015,ox_innovation_management,Innovation Management,openalex,5,96276,5.193e-05
+2015,automated_writing_evaluation,Automated writing evaluation,curated,3,96276,3.116e-05
+2015,raciolinguistics,Raciolinguistics,curated,3,96276,3.116e-05
+2015,duolingo,Duolingo,curated,1,96276,1.039e-05
+2015,chatgpt,ChatGPT,curated,0,96276,0.0
+2015,generative_ai,Generative AI,curated,0,96276,0.0
+2015,ox_manuscriptology,manuscriptology,openalex,0,96276,0.0
+2016,ox_language_studies,Language Studies,openalex,8417,95782,0.08787664
+2016,ox_learners,Learners,openalex,3954,95782,0.04128124
+2016,ox_language_learning,Language Learning,openalex,3935,95782,0.04108288
+2016,ox_meaning,Meaning,openalex,3389,95782,0.03538243
+2016,ox_language_teaching,Language Teaching,openalex,3381,95782,0.03529891
+2016,ox_corpus,Corpus,openalex,3328,95782,0.03474557
+2016,ox_grammar,Grammar,openalex,2484,95782,0.02593389
+2016,ox_language_education,Language Education,openalex,2176,95782,0.02271826
+2016,ox_grammaticalization,Grammaticalization,openalex,2075,95782,0.02166378
+2016,ox_language_change,Language Change,openalex,1968,95782,0.02054666
+2016,ox_dialects,Dialects,openalex,1894,95782,0.01977407
+2016,ox_pragmatics,Pragmatics,openalex,1743,95782,0.01819757
+2016,ox_dictionaries,Dictionaries,openalex,1709,95782,0.0178426
+2016,ox_bilingual,Bilingual,openalex,1678,95782,0.01751895
+2016,ox_bilingualism,Bilingualism,openalex,1678,95782,0.01751895
+2016,ox_morphology,Morphology,openalex,1387,95782,0.0144808
+2016,ox_perception,Perception,openalex,1374,95782,0.01434508
+2016,ox_discourse_study,Discourse Study,openalex,1351,95782,0.01410495
+2016,ox_sociolinguistics,Sociolinguistics,openalex,1331,95782,0.01389614
+2016,ox_multilingualism,Multilingualism,openalex,1315,95782,0.01372909
+2016,ox_pedagogy,Pedagogy,openalex,1309,95782,0.01366645
+2016,ox_syntax,Syntax,openalex,1237,95782,0.01291474
+2016,ox_language_acquisition,Language Acquisition,openalex,1227,95782,0.01281034
+2016,ox_discourse_analysis,Discourse Analysis,openalex,1225,95782,0.01278946
+2016,ox_usage,Usage,openalex,1222,95782,0.01275814
+2016,ox_second_language_learning,Second Language Learning,openalex,1094,95782,0.01142177
+2016,language_policy,Language policy,curated,1048,95782,0.01094151
+2016,focus_on_form,Focus on form,curated,1027,95782,0.01072226
+2016,ox_language_attitudes,Language Attitudes,openalex,1017,95782,0.01061786
+2016,ox_semantics,Semantics,openalex,985,95782,0.01028377
+2016,ox_ideology,Ideology,openalex,945,95782,0.00986615
+2016,ox_structuralism,Structuralism,openalex,942,95782,0.00983483
+2016,ox_teaching_methods,Teaching Methods,openalex,932,95782,0.00973043
+2016,ox_power,Power,openalex,923,95782,0.00963647
+2016,ox_terminology,Terminology,openalex,906,95782,0.00945898
+2016,ox_language_variation,Language Variation,openalex,838,95782,0.00874903
+2016,ox_cultural_translation,Cultural Translation,openalex,836,95782,0.00872815
+2016,world_englishes,World Englishes,curated,802,95782,0.00837318
+2016,ox_language_contact,Language Contact,openalex,765,95782,0.00798689
+2016,ox_learning_strategies,Learning Strategies,openalex,737,95782,0.00769456
+2016,ox_indexicality,Indexicality,openalex,674,95782,0.00703681
+2016,ox_social_interaction,Social Interaction,openalex,670,95782,0.00699505
+2016,ox_language_ideologies,Language Ideologies,openalex,658,95782,0.00686977
+2016,language_ideology,Language ideology,curated,658,95782,0.00686977
+2016,ox_second_language_acquisition,Second Language Acquisition,openalex,656,95782,0.00684889
+2016,ox_literary_translation,Literary Translation,openalex,652,95782,0.00680712
+2016,ox_literature_analysis,Literature Analysis,openalex,649,95782,0.0067758
+2016,ox_linguistic_identity,Linguistic Identity,openalex,606,95782,0.00632687
+2016,ox_conversation_analysis,Conversation Analysis,openalex,599,95782,0.00625379
+2016,ox_language_learning_strategies,Language Learning Strategies,openalex,590,95782,0.00615982
+2016,ox_social_communication,Social Communication,openalex,566,95782,0.00590925
+2016,ox_ethnography,Ethnography,openalex,537,95782,0.00560648
+2016,ox_language_diversity,Language Diversity,openalex,521,95782,0.00543944
+2016,ox_lexicography,Lexicography,openalex,509,95782,0.00531415
+2016,ox_typology,typology,openalex,489,95782,0.00510534
+2016,ox_foreign_language_education,Foreign Language Education,openalex,476,95782,0.00496962
+2016,ox_social_meaning,Social Meaning,openalex,444,95782,0.00463553
+2016,ox_minority_languages,Minority Languages,openalex,434,95782,0.00453112
+2016,ox_semiotics,Semiotics,openalex,430,95782,0.00448936
+2016,heritage_language,Heritage language,curated,411,95782,0.00429099
+2016,ox_accent,Accent,openalex,401,95782,0.00418659
+2016,codeswitching,Code-switching,curated,400,95782,0.00417615
+2016,ox_etymology,Etymology,openalex,392,95782,0.00409263
+2016,ox_vocabulary_learning,Vocabulary Learning,openalex,359,95782,0.00374809
+2016,ox_bilingual_education,Bilingual Education,openalex,356,95782,0.00371677
+2016,ox_verb_morphology,Verb Morphology,openalex,348,95782,0.00363325
+2016,ox_political_discourse,Political Discourse,openalex,339,95782,0.00353929
+2016,ox_linguistic_diversity,Linguistic Diversity,openalex,335,95782,0.00349753
+2016,second_language_writing,Second language writing,curated,322,95782,0.0033618
+2016,ox_subtitling,Subtitling,openalex,321,95782,0.00335136
+2016,ox_humanities,Humanities,openalex,319,95782,0.00333048
+2016,ox_linguistic_competence,Linguistic Competence,openalex,314,95782,0.00327828
+2016,ox_text_linguistics,Text Linguistics,openalex,311,95782,0.00324696
+2016,usage_based,Usage-based approaches,curated,305,95782,0.00318431
+2016,ox_construction_grammar,Construction Grammar,openalex,303,95782,0.00316343
+2016,ox_language_anxiety,Language Anxiety,openalex,302,95782,0.00315299
+2016,ox_semantic_changes,Semantic Changes,openalex,302,95782,0.00315299
+2016,ox_language_evolution,Language Evolution,openalex,290,95782,0.00302771
+2016,multimodality,Multimodality,curated,288,95782,0.00300683
+2016,corpus_linguistics,Corpus linguistics,curated,279,95782,0.00291287
+2016,ox_intercultural_communication,Intercultural Communication,openalex,278,95782,0.00290242
+2016,ox_phraseology,Phraseology,openalex,278,95782,0.00290242
+2016,ox_narrative_analysis,Narrative Analysis,openalex,271,95782,0.00282934
+2016,ox_historical_linguistics,Historical Linguistics,openalex,267,95782,0.00278758
+2016,ox_literary_theory,Literary Theory,openalex,263,95782,0.00274582
+2016,ox_interdisciplinary,Interdisciplinary,openalex,253,95782,0.00264141
+2016,ox_textual_analysis,Textual Analysis,openalex,253,95782,0.00264141
+2016,ox_language_typology,Language Typology,openalex,252,95782,0.00263097
+2016,ox_identity_construction,Identity Construction,openalex,251,95782,0.00262053
+2016,mixed_methods,Mixed methods,curated,248,95782,0.00258921
+2016,ox_german_as_a_foreign_language,German as a Foreign Language,openalex,242,95782,0.00252657
+2016,ox_indo_european,Indo-European,openalex,241,95782,0.00251613
+2016,ox_lingua_franca_english,Lingua Franca English,openalex,240,95782,0.00250569
+2016,linguistic_landscape,Linguistic landscape,curated,239,95782,0.00249525
+2016,positioning_theory,Positioning theory,curated,232,95782,0.00242217
+2016,ox_saussure,Saussure,openalex,232,95782,0.00242217
+2016,ox_sociolinguistic_variation,Sociolinguistic Variation,openalex,228,95782,0.00238041
+2016,critical_discourse_analysis,Critical discourse analysis,curated,222,95782,0.00231776
+2016,ox_lexical_influence,Lexical Influence,openalex,221,95782,0.00230732
+2016,ox_media_discourse,Media Discourse,openalex,214,95782,0.00223424
+2016,ox_cognitive_linguistics,Cognitive Linguistics,openalex,211,95782,0.00220292
+2016,teacher_identity,Language teacher identity,curated,209,95782,0.00218204
+2016,learner_identity,Learner identity,curated,209,95782,0.00218204
+2016,ox_turkic,Turkic,openalex,206,95782,0.00215072
+2016,task_based,Task-based language teaching,curated,201,95782,0.00209852
+2016,study_abroad,Study abroad,curated,193,95782,0.00201499
+2016,ox_philology,Philology,openalex,189,95782,0.00197323
+2016,ox_lexical_semantics,Lexical Semantics,openalex,188,95782,0.00196279
+2016,intercultural_competence,Intercultural competence,curated,186,95782,0.00194191
+2016,ox_standardization_of_language,Standardization of Language,openalex,182,95782,0.00190015
+2016,corrective_feedback,Corrective feedback,curated,176,95782,0.00183751
+2016,ox_youth_language,Youth Language,openalex,175,95782,0.00182707
+2016,ox_semantic_relations,Semantic Relations,openalex,174,95782,0.00181663
+2016,ox_politeness_strategies,Politeness Strategies,openalex,172,95782,0.00179575
+2016,ox_interactional_linguistics,Interactional Linguistics,openalex,170,95782,0.00177486
+2016,ox_turn_taking,Turn-Taking,openalex,167,95782,0.00174354
+2016,ox_audiovisual_translation,Audiovisual Translation,openalex,165,95782,0.00172266
+2016,ox_neologisms,Neologisms,openalex,164,95782,0.00171222
+2016,ox_l2_motivation,L2 Motivation,openalex,162,95782,0.00169134
+2016,ox_specialized_language,Specialized Language,openalex,161,95782,0.0016809
+2016,pragmatic_competence,Pragmatic competence,curated,159,95782,0.00166002
+2016,ox_literary_tradition,Literary Tradition,openalex,157,95782,0.00163914
+2016,ox_language_rights,Language Rights,openalex,149,95782,0.00155562
+2016,ox_media_influence,Media Influence,openalex,149,95782,0.00155562
+2016,ox_dialectology,Dialectology,openalex,147,95782,0.00153473
+2016,ox_speech_perception,Speech Perception,openalex,147,95782,0.00153473
+2016,language_revitalization,Language revitalization,curated,141,95782,0.00147209
+2016,intelligibility,Intelligibility,curated,135,95782,0.00140945
+2016,ox_occitan,Occitan,openalex,134,95782,0.00139901
+2016,ox_ontologies,Ontologies,openalex,134,95782,0.00139901
+2016,ox_cognitive_grammar,Cognitive Grammar,openalex,132,95782,0.00137813
+2016,vocabulary_acquisition,Vocabulary acquisition,curated,128,95782,0.00133637
+2016,ox_historical_phonology,Historical Phonology,openalex,126,95782,0.00131549
+2016,ox_linguistic_borrowing,Linguistic Borrowing,openalex,124,95782,0.00129461
+2016,ox_cross_cultural_communication,Cross-Cultural Communication,openalex,117,95782,0.00122152
+2016,ox_politeness_theory,Politeness Theory,openalex,116,95782,0.00121108
+2016,translanguaging,Translanguaging,curated,112,95782,0.00116932
+2016,ox_captioning,Captioning,openalex,108,95782,0.00112756
+2016,sociocultural_theory,Sociocultural theory,curated,106,95782,0.00110668
+2016,ox_universal_grammar,Universal Grammar,openalex,104,95782,0.0010858
+2016,ox_ethnolinguistics,Ethnolinguistics,openalex,101,95782,0.00105448
+2016,large_language_models,Large language models,curated,101,95782,0.00105448
+2016,emi,English-medium instruction,curated,99,95782,0.0010336
+2016,ox_task_based_instruction,Task-based Instruction,openalex,93,95782,0.00097096
+2016,ox_translator_competence,Translator Competence,openalex,92,95782,0.00096052
+2016,ox_anglicisms,Anglicisms,openalex,91,95782,0.00095007
+2016,willingness_to_communicate,Willingness to communicate,curated,90,95782,0.00093963
+2016,ox_troubadours,Troubadours,openalex,88,95782,0.00091875
+2016,learner_engagement,Learner engagement,curated,81,95782,0.00084567
+2016,ox_multidimensionality,Multidimensionality,openalex,81,95782,0.00084567
+2016,ox_nationalism,Nationalism,openalex,81,95782,0.00084567
+2016,ox_historiography,Historiography,openalex,79,95782,0.00082479
+2016,ox_audio_description,Audio Description,openalex,78,95782,0.00081435
+2016,ox_stereotype_analysis,Stereotype Analysis,openalex,71,95782,0.00074127
+2016,ox_diglossia,Diglossia,openalex,69,95782,0.00072039
+2016,machine_translation,Machine translation,curated,68,95782,0.00070995
+2016,ox_medieval_literature,Medieval Literature,openalex,68,95782,0.00070995
+2016,ox_role_play_techniques,Role Play Techniques,openalex,68,95782,0.00070995
+2016,ox_sociology_of_translation,Sociology of Translation,openalex,63,95782,0.00065774
+2016,ox_social_justice,Social Justice,openalex,62,95782,0.0006473
+2016,ox_proto_indo_european,Proto-Indo-European,openalex,59,95782,0.00061598
+2016,ox_racism,Racism,openalex,58,95782,0.00060554
+2016,ox_knowledge_representation,Knowledge Representation,openalex,57,95782,0.0005951
+2016,ox_teacher_cognition,Teacher Cognition,openalex,56,95782,0.00058466
+2016,written_corrective_feedback,Written corrective feedback,curated,55,95782,0.00057422
+2016,ox_heritage_language_maintenance,Heritage Language Maintenance,openalex,53,95782,0.00055334
+2016,ox_medieval_europe,Medieval Europe,openalex,52,95782,0.0005429
+2016,replication_study,Replication study,curated,51,95782,0.00053246
+2016,ox_social_movements,Social Movements,openalex,51,95782,0.00053246
+2016,meta_analysis,Meta-analysis,curated,49,95782,0.00051158
+2016,ox_multimodal_communication,Multimodal Communication,openalex,49,95782,0.00051158
+2016,narrative_inquiry,Narrative inquiry,curated,48,95782,0.00050114
+2016,ox_semitic_languages,Semitic Languages,openalex,48,95782,0.00050114
+2016,ox_humboldt,Humboldt,openalex,46,95782,0.00048026
+2016,eye_tracking,Eye-tracking,curated,44,95782,0.00045938
+2016,formulaic_language,Formulaic language,curated,41,95782,0.00042805
+2016,ideal_l2_self,Ideal L2 self,curated,39,95782,0.00040718
+2016,language_aptitude,Language aptitude,curated,39,95782,0.00040718
+2016,ox_multimedia_learning,Multimedia Learning,openalex,39,95782,0.00040718
+2016,ox_interlanguage_development,Interlanguage Development,openalex,36,95782,0.00037585
+2016,complex_dynamic_systems,Complex dynamic systems,curated,34,95782,0.00035497
+2016,ox_migration_and_integration,Migration and Integration,openalex,34,95782,0.00035497
+2016,ox_health_communication,Health Communication,openalex,33,95782,0.00034453
+2016,ox_textual_criticism,Textual Criticism,openalex,31,95782,0.00032365
+2016,ox_jesuits,Jesuits,openalex,27,95782,0.00028189
+2016,superdiversity,Superdiversity,curated,24,95782,0.00025057
+2016,ox_linguistic_historiography,Linguistic Historiography,openalex,23,95782,0.00024013
+2016,clil,CLIL,curated,22,95782,0.00022969
+2016,comprehensible_input,Comprehensible input,curated,22,95782,0.00022969
+2016,ox_hispanic_linguistics,Hispanic Linguistics,openalex,21,95782,0.00021925
+2016,data_driven_learning,Data-driven learning,curated,20,95782,0.00020881
+2016,post_editing,Post-editing,curated,20,95782,0.00020881
+2016,ox_middle_eastern_languages,Middle Eastern Languages,openalex,19,95782,0.00019837
+2016,ox_missionary_linguistics,Missionary Linguistics,openalex,18,95782,0.00018793
+2016,ox_scalar_implicature,Scalar Implicature,openalex,18,95782,0.00018793
+2016,ox_oral_epics,oral epics,openalex,17,95782,0.00017749
+2016,ox_neo_aramaic_dialects,Neo-Aramaic Dialects,openalex,16,95782,0.00016705
+2016,ox_pragmatic_borrowing,Pragmatic Borrowing,openalex,16,95782,0.00016705
+2016,washback,Washback,curated,15,95782,0.00015661
+2016,mall,Mobile-assisted language learning,curated,12,95782,0.00012528
+2016,dynamic_assessment,Dynamic assessment,curated,11,95782,0.00011484
+2016,ox_urban_linguistics,Urban Linguistics,openalex,11,95782,0.00011484
+2016,ox_innovation_management,Innovation Management,openalex,8,95782,8.352e-05
+2016,raciolinguistics,Raciolinguistics,curated,6,95782,6.264e-05
+2016,duolingo,Duolingo,curated,4,95782,4.176e-05
+2016,automated_writing_evaluation,Automated writing evaluation,curated,3,95782,3.132e-05
+2016,chatgpt,ChatGPT,curated,0,95782,0.0
+2016,generative_ai,Generative AI,curated,0,95782,0.0
+2016,ox_manuscriptology,manuscriptology,openalex,0,95782,0.0
+2017,ox_language_studies,Language Studies,openalex,9091,90961,0.09994393
+2017,ox_language_learning,Language Learning,openalex,4205,90961,0.0462286
+2017,ox_learners,Learners,openalex,4067,90961,0.04471147
+2017,ox_meaning,Meaning,openalex,3687,90961,0.04053386
+2017,ox_language_teaching,Language Teaching,openalex,3551,90961,0.03903871
+2017,ox_corpus,Corpus,openalex,3360,90961,0.03693891
+2017,ox_grammar,Grammar,openalex,2507,90961,0.02756126
+2017,ox_language_education,Language Education,openalex,2336,90961,0.02568134
+2017,ox_language_change,Language Change,openalex,2089,90961,0.02296589
+2017,ox_grammaticalization,Grammaticalization,openalex,2085,90961,0.02292191
+2017,ox_dialects,Dialects,openalex,1895,90961,0.0208331
+2017,ox_pragmatics,Pragmatics,openalex,1853,90961,0.02037137
+2017,ox_dictionaries,Dictionaries,openalex,1754,90961,0.01928299
+2017,ox_perception,Perception,openalex,1609,90961,0.0176889
+2017,ox_pedagogy,Pedagogy,openalex,1571,90961,0.01727114
+2017,ox_bilingual,Bilingual,openalex,1504,90961,0.01653456
+2017,ox_bilingualism,Bilingualism,openalex,1504,90961,0.01653456
+2017,ox_discourse_study,Discourse Study,openalex,1493,90961,0.01641363
+2017,ox_sociolinguistics,Sociolinguistics,openalex,1435,90961,0.01577599
+2017,ox_morphology,Morphology,openalex,1434,90961,0.015765
+2017,ox_multilingualism,Multilingualism,openalex,1416,90961,0.01556711
+2017,ox_usage,Usage,openalex,1337,90961,0.01469861
+2017,ox_discourse_analysis,Discourse Analysis,openalex,1292,90961,0.01420389
+2017,ox_language_acquisition,Language Acquisition,openalex,1226,90961,0.0134783
+2017,ox_syntax,Syntax,openalex,1202,90961,0.01321445
+2017,ox_second_language_learning,Second Language Learning,openalex,1180,90961,0.01297259
+2017,ox_language_attitudes,Language Attitudes,openalex,1174,90961,0.01290663
+2017,language_policy,Language policy,curated,1126,90961,0.01237893
+2017,focus_on_form,Focus on form,curated,1116,90961,0.01226899
+2017,ox_ideology,Ideology,openalex,1064,90961,0.01169732
+2017,ox_semantics,Semantics,openalex,1015,90961,0.01115863
+2017,ox_structuralism,Structuralism,openalex,1005,90961,0.01104869
+2017,ox_language_contact,Language Contact,openalex,1002,90961,0.01101571
+2017,ox_cultural_translation,Cultural Translation,openalex,990,90961,0.01088378
+2017,ox_language_variation,Language Variation,openalex,981,90961,0.01078484
+2017,ox_power,Power,openalex,965,90961,0.01060894
+2017,ox_terminology,Terminology,openalex,963,90961,0.01058696
+2017,ox_teaching_methods,Teaching Methods,openalex,956,90961,0.01051
+2017,world_englishes,World Englishes,curated,875,90961,0.00961951
+2017,ox_social_interaction,Social Interaction,openalex,789,90961,0.00867405
+2017,ox_learning_strategies,Learning Strategies,openalex,782,90961,0.00859709
+2017,ox_literature_analysis,Literature Analysis,openalex,777,90961,0.00854212
+2017,ox_language_ideologies,Language Ideologies,openalex,723,90961,0.00794846
+2017,language_ideology,Language ideology,curated,723,90961,0.00794846
+2017,ox_conversation_analysis,Conversation Analysis,openalex,715,90961,0.00786051
+2017,ox_indexicality,Indexicality,openalex,703,90961,0.00772859
+2017,ox_linguistic_identity,Linguistic Identity,openalex,695,90961,0.00764064
+2017,ox_social_communication,Social Communication,openalex,683,90961,0.00750871
+2017,ox_language_learning_strategies,Language Learning Strategies,openalex,646,90961,0.00710195
+2017,ox_literary_translation,Literary Translation,openalex,641,90961,0.00704698
+2017,ox_second_language_acquisition,Second Language Acquisition,openalex,627,90961,0.00689306
+2017,ox_language_diversity,Language Diversity,openalex,598,90961,0.00657425
+2017,ox_lexicography,Lexicography,openalex,578,90961,0.00635437
+2017,ox_ethnography,Ethnography,openalex,571,90961,0.00627742
+2017,ox_foreign_language_education,Foreign Language Education,openalex,529,90961,0.00581568
+2017,ox_typology,typology,openalex,525,90961,0.0057717
+2017,ox_social_meaning,Social Meaning,openalex,502,90961,0.00551885
+2017,heritage_language,Heritage language,curated,488,90961,0.00536494
+2017,ox_minority_languages,Minority Languages,openalex,470,90961,0.00516705
+2017,ox_semiotics,Semiotics,openalex,449,90961,0.00493618
+2017,ox_etymology,Etymology,openalex,430,90961,0.0047273
+2017,codeswitching,Code-switching,curated,414,90961,0.0045514
+2017,ox_vocabulary_learning,Vocabulary Learning,openalex,414,90961,0.0045514
+2017,ox_linguistic_diversity,Linguistic Diversity,openalex,407,90961,0.00447444
+2017,ox_linguistic_competence,Linguistic Competence,openalex,389,90961,0.00427656
+2017,multimodality,Multimodality,curated,385,90961,0.00423258
+2017,ox_accent,Accent,openalex,379,90961,0.00416662
+2017,ox_text_linguistics,Text Linguistics,openalex,364,90961,0.00400172
+2017,ox_political_discourse,Political Discourse,openalex,346,90961,0.00380383
+2017,ox_verb_morphology,Verb Morphology,openalex,344,90961,0.00378184
+2017,second_language_writing,Second language writing,curated,338,90961,0.00371588
+2017,usage_based,Usage-based approaches,curated,337,90961,0.00370489
+2017,ox_language_evolution,Language Evolution,openalex,332,90961,0.00364992
+2017,ox_semantic_changes,Semantic Changes,openalex,322,90961,0.00353998
+2017,ox_bilingual_education,Bilingual Education,openalex,321,90961,0.00352899
+2017,ox_narrative_analysis,Narrative Analysis,openalex,321,90961,0.00352899
+2017,ox_interdisciplinary,Interdisciplinary,openalex,319,90961,0.003507
+2017,ox_historical_linguistics,Historical Linguistics,openalex,311,90961,0.00341905
+2017,ox_humanities,Humanities,openalex,310,90961,0.00340805
+2017,ox_identity_construction,Identity Construction,openalex,308,90961,0.00338607
+2017,mixed_methods,Mixed methods,curated,306,90961,0.00336408
+2017,ox_language_anxiety,Language Anxiety,openalex,304,90961,0.00334209
+2017,ox_language_typology,Language Typology,openalex,300,90961,0.00329812
+2017,ox_subtitling,Subtitling,openalex,294,90961,0.00323215
+2017,corpus_linguistics,Corpus linguistics,curated,292,90961,0.00321017
+2017,ox_intercultural_communication,Intercultural Communication,openalex,286,90961,0.00314421
+2017,ox_indo_european,Indo-European,openalex,285,90961,0.00313321
+2017,ox_construction_grammar,Construction Grammar,openalex,282,90961,0.00310023
+2017,ox_literary_theory,Literary Theory,openalex,279,90961,0.00306725
+2017,ox_textual_analysis,Textual Analysis,openalex,272,90961,0.00299029
+2017,ox_phraseology,Phraseology,openalex,267,90961,0.00293532
+2017,ox_sociolinguistic_variation,Sociolinguistic Variation,openalex,259,90961,0.00284737
+2017,ox_cognitive_linguistics,Cognitive Linguistics,openalex,258,90961,0.00283638
+2017,ox_lingua_franca_english,Lingua Franca English,openalex,256,90961,0.00281439
+2017,ox_media_discourse,Media Discourse,openalex,250,90961,0.00274843
+2017,teacher_identity,Language teacher identity,curated,247,90961,0.00271545
+2017,learner_identity,Learner identity,curated,245,90961,0.00269346
+2017,ox_german_as_a_foreign_language,German as a Foreign Language,openalex,244,90961,0.00268247
+2017,positioning_theory,Positioning theory,curated,241,90961,0.00264949
+2017,critical_discourse_analysis,Critical discourse analysis,curated,240,90961,0.00263849
+2017,study_abroad,Study abroad,curated,223,90961,0.0024516
+2017,ox_politeness_strategies,Politeness Strategies,openalex,219,90961,0.00240763
+2017,linguistic_landscape,Linguistic landscape,curated,218,90961,0.00239663
+2017,ox_lexical_influence,Lexical Influence,openalex,217,90961,0.00238564
+2017,ox_philology,Philology,openalex,215,90961,0.00236365
+2017,ox_standardization_of_language,Standardization of Language,openalex,208,90961,0.00228669
+2017,task_based,Task-based language teaching,curated,204,90961,0.00224272
+2017,ox_saussure,Saussure,openalex,201,90961,0.00220974
+2017,ox_youth_language,Youth Language,openalex,201,90961,0.00220974
+2017,ox_specialized_language,Specialized Language,openalex,195,90961,0.00214378
+2017,ox_interactional_linguistics,Interactional Linguistics,openalex,194,90961,0.00213278
+2017,ox_turkic,Turkic,openalex,193,90961,0.00212179
+2017,ox_dialectology,Dialectology,openalex,186,90961,0.00204483
+2017,language_revitalization,Language revitalization,curated,186,90961,0.00204483
+2017,ox_turn_taking,Turn-Taking,openalex,184,90961,0.00202285
+2017,ox_cognitive_grammar,Cognitive Grammar,openalex,177,90961,0.00194589
+2017,corrective_feedback,Corrective feedback,curated,177,90961,0.00194589
+2017,pragmatic_competence,Pragmatic competence,curated,177,90961,0.00194589
+2017,ox_lexical_semantics,Lexical Semantics,openalex,173,90961,0.00190191
+2017,intercultural_competence,Intercultural competence,curated,172,90961,0.00189092
+2017,ox_occitan,Occitan,openalex,169,90961,0.00185794
+2017,ox_l2_motivation,L2 Motivation,openalex,166,90961,0.00182496
+2017,ox_ontologies,Ontologies,openalex,164,90961,0.00180297
+2017,ox_media_influence,Media Influence,openalex,159,90961,0.001748
+2017,ox_neologisms,Neologisms,openalex,157,90961,0.00172601
+2017,ox_speech_perception,Speech Perception,openalex,154,90961,0.00169303
+2017,ox_semantic_relations,Semantic Relations,openalex,149,90961,0.00163806
+2017,ox_literary_tradition,Literary Tradition,openalex,146,90961,0.00160508
+2017,ox_language_rights,Language Rights,openalex,144,90961,0.0015831
+2017,ox_politeness_theory,Politeness Theory,openalex,142,90961,0.00156111
+2017,translanguaging,Translanguaging,curated,140,90961,0.00153912
+2017,ox_audiovisual_translation,Audiovisual Translation,openalex,134,90961,0.00147316
+2017,ox_linguistic_borrowing,Linguistic Borrowing,openalex,131,90961,0.00144018
+2017,ox_ethnolinguistics,Ethnolinguistics,openalex,125,90961,0.00137422
+2017,ox_anglicisms,Anglicisms,openalex,123,90961,0.00135223
+2017,ox_captioning,Captioning,openalex,123,90961,0.00135223
+2017,sociocultural_theory,Sociocultural theory,curated,122,90961,0.00134123
+2017,vocabulary_acquisition,Vocabulary acquisition,curated,122,90961,0.00134123
+2017,intelligibility,Intelligibility,curated,121,90961,0.00133024
+2017,ox_task_based_instruction,Task-based Instruction,openalex,115,90961,0.00126428
+2017,ox_cross_cultural_communication,Cross-Cultural Communication,openalex,111,90961,0.0012203
+2017,ox_nationalism,Nationalism,openalex,110,90961,0.00120931
+2017,emi,English-medium instruction,curated,108,90961,0.00118732
+2017,ox_troubadours,Troubadours,openalex,108,90961,0.00118732
+2017,ox_historical_phonology,Historical Phonology,openalex,106,90961,0.00116533
+2017,learner_engagement,Learner engagement,curated,106,90961,0.00116533
+2017,ox_universal_grammar,Universal Grammar,openalex,102,90961,0.00112136
+2017,ox_translator_competence,Translator Competence,openalex,101,90961,0.00111037
+2017,large_language_models,Large language models,curated,90,90961,0.00098944
+2017,ox_stereotype_analysis,Stereotype Analysis,openalex,90,90961,0.00098944
+2017,ox_audio_description,Audio Description,openalex,88,90961,0.00096745
+2017,ox_multidimensionality,Multidimensionality,openalex,86,90961,0.00094546
+2017,willingness_to_communicate,Willingness to communicate,curated,80,90961,0.0008795
+2017,ox_proto_indo_european,Proto-Indo-European,openalex,77,90961,0.00084652
+2017,written_corrective_feedback,Written corrective feedback,curated,77,90961,0.00084652
+2017,ox_medieval_literature,Medieval Literature,openalex,76,90961,0.00083552
+2017,meta_analysis,Meta-analysis,curated,76,90961,0.00083552
+2017,machine_translation,Machine translation,curated,75,90961,0.00082453
+2017,ox_social_justice,Social Justice,openalex,73,90961,0.00080254
+2017,ox_historiography,Historiography,openalex,72,90961,0.00079155
+2017,ox_sociology_of_translation,Sociology of Translation,openalex,71,90961,0.00078055
+2017,ox_role_play_techniques,Role Play Techniques,openalex,69,90961,0.00075857
+2017,ox_knowledge_representation,Knowledge Representation,openalex,68,90961,0.00074757
+2017,ox_multimodal_communication,Multimodal Communication,openalex,68,90961,0.00074757
+2017,replication_study,Replication study,curated,68,90961,0.00074757
+2017,ox_teacher_cognition,Teacher Cognition,openalex,66,90961,0.00072559
+2017,ox_diglossia,Diglossia,openalex,63,90961,0.00069261
+2017,ox_racism,Racism,openalex,60,90961,0.00065962
+2017,ox_semitic_languages,Semitic Languages,openalex,59,90961,0.00064863
+2017,ox_social_movements,Social Movements,openalex,59,90961,0.00064863
+2017,narrative_inquiry,Narrative inquiry,curated,58,90961,0.00063764
+2017,eye_tracking,Eye-tracking,curated,57,90961,0.00062664
+2017,formulaic_language,Formulaic language,curated,56,90961,0.00061565
+2017,ox_heritage_language_maintenance,Heritage Language Maintenance,openalex,55,90961,0.00060465
+2017,ox_multimedia_learning,Multimedia Learning,openalex,55,90961,0.00060465
+2017,language_aptitude,Language aptitude,curated,45,90961,0.00049472
+2017,ox_medieval_europe,Medieval Europe,openalex,40,90961,0.00043975
+2017,ox_health_communication,Health Communication,openalex,37,90961,0.00040677
+2017,ox_interlanguage_development,Interlanguage Development,openalex,37,90961,0.00040677
+2017,complex_dynamic_systems,Complex dynamic systems,curated,36,90961,0.00039577
+2017,post_editing,Post-editing,curated,34,90961,0.00037379
+2017,ox_humboldt,Humboldt,openalex,32,90961,0.0003518
+2017,ideal_l2_self,Ideal L2 self,curated,32,90961,0.0003518
+2017,ox_migration_and_integration,Migration and Integration,openalex,31,90961,0.00034081
+2017,comprehensible_input,Comprehensible input,curated,30,90961,0.00032981
+2017,ox_middle_eastern_languages,Middle Eastern Languages,openalex,28,90961,0.00030782
+2017,ox_textual_criticism,Textual Criticism,openalex,27,90961,0.00029683
+2017,ox_scalar_implicature,Scalar Implicature,openalex,25,90961,0.00027484
+2017,ox_urban_linguistics,Urban Linguistics,openalex,25,90961,0.00027484
+2017,ox_hispanic_linguistics,Hispanic Linguistics,openalex,24,90961,0.00026385
+2017,ox_jesuits,Jesuits,openalex,23,90961,0.00025286
+2017,superdiversity,Superdiversity,curated,22,90961,0.00024186
+2017,clil,CLIL,curated,21,90961,0.00023087
+2017,data_driven_learning,Data-driven learning,curated,20,90961,0.00021987
+2017,ox_pragmatic_borrowing,Pragmatic Borrowing,openalex,20,90961,0.00021987
+2017,ox_linguistic_historiography,Linguistic Historiography,openalex,19,90961,0.00020888
+2017,mall,Mobile-assisted language learning,curated,17,90961,0.00018689
+2017,ox_oral_epics,oral epics,openalex,15,90961,0.00016491
+2017,dynamic_assessment,Dynamic assessment,curated,12,90961,0.00013192
+2017,ox_missionary_linguistics,Missionary Linguistics,openalex,10,90961,0.00010994
+2017,raciolinguistics,Raciolinguistics,curated,10,90961,0.00010994
+2017,washback,Washback,curated,9,90961,9.894e-05
+2017,duolingo,Duolingo,curated,6,90961,6.596e-05
+2017,ox_innovation_management,Innovation Management,openalex,4,90961,4.397e-05
+2017,ox_neo_aramaic_dialects,Neo-Aramaic Dialects,openalex,4,90961,4.397e-05
+2017,automated_writing_evaluation,Automated writing evaluation,curated,2,90961,2.199e-05
+2017,chatgpt,ChatGPT,curated,0,90961,0.0
+2017,generative_ai,Generative AI,curated,0,90961,0.0
+2017,ox_manuscriptology,manuscriptology,openalex,0,90961,0.0
+2018,ox_language_studies,Language Studies,openalex,9430,88475,0.10658378
+2018,ox_language_learning,Language Learning,openalex,4208,88475,0.04756146
+2018,ox_learners,Learners,openalex,4129,88475,0.04666855
+2018,ox_meaning,Meaning,openalex,3947,88475,0.04461147
+2018,ox_language_teaching,Language Teaching,openalex,3687,88475,0.04167279
+2018,ox_corpus,Corpus,openalex,3454,88475,0.03903928
+2018,ox_grammar,Grammar,openalex,2628,88475,0.02970331
+2018,ox_grammaticalization,Grammaticalization,openalex,2340,88475,0.02644815
+2018,ox_language_education,Language Education,openalex,2299,88475,0.02598474
+2018,ox_language_change,Language Change,openalex,2155,88475,0.02435716
+2018,ox_pragmatics,Pragmatics,openalex,1943,88475,0.02196101
+2018,ox_dialects,Dialects,openalex,1915,88475,0.02164453
+2018,ox_dictionaries,Dictionaries,openalex,1791,88475,0.02024301
+2018,ox_pedagogy,Pedagogy,openalex,1585,88475,0.01791466
+2018,ox_discourse_study,Discourse Study,openalex,1536,88475,0.01736084
+2018,ox_morphology,Morphology,openalex,1466,88475,0.01656965
+2018,ox_bilingual,Bilingual,openalex,1464,88475,0.01654705
+2018,ox_bilingualism,Bilingualism,openalex,1464,88475,0.01654705
+2018,ox_perception,Perception,openalex,1463,88475,0.01653575
+2018,ox_multilingualism,Multilingualism,openalex,1445,88475,0.0163323
+2018,ox_discourse_analysis,Discourse Analysis,openalex,1333,88475,0.0150664
+2018,ox_sociolinguistics,Sociolinguistics,openalex,1329,88475,0.01502119
+2018,ox_usage,Usage,openalex,1284,88475,0.01451257
+2018,ox_second_language_learning,Second Language Learning,openalex,1171,88475,0.01323538
+2018,ox_syntax,Syntax,openalex,1165,88475,0.01316756
+2018,ox_language_acquisition,Language Acquisition,openalex,1159,88475,0.01309975
+2018,ox_language_attitudes,Language Attitudes,openalex,1108,88475,0.01252331
+2018,ox_structuralism,Structuralism,openalex,1077,88475,0.01217293
+2018,focus_on_form,Focus on form,curated,1068,88475,0.01207121
+2018,language_policy,Language policy,curated,1043,88475,0.01178864
+2018,ox_ideology,Ideology,openalex,1035,88475,0.01169822
+2018,ox_terminology,Terminology,openalex,1034,88475,0.01168692
+2018,ox_semantics,Semantics,openalex,1027,88475,0.0116078
+2018,ox_teaching_methods,Teaching Methods,openalex,987,88475,0.01115569
+2018,ox_cultural_translation,Cultural Translation,openalex,959,88475,0.01083922
+2018,ox_power,Power,openalex,907,88475,0.01025148
+2018,ox_language_variation,Language Variation,openalex,905,88475,0.01022888
+2018,ox_language_contact,Language Contact,openalex,901,88475,0.01018367
+2018,ox_literature_analysis,Literature Analysis,openalex,810,88475,0.00915513
+2018,world_englishes,World Englishes,curated,795,88475,0.00898559
+2018,ox_learning_strategies,Learning Strategies,openalex,772,88475,0.00872563
+2018,ox_conversation_analysis,Conversation Analysis,openalex,732,88475,0.00827352
+2018,ox_indexicality,Indexicality,openalex,727,88475,0.00821701
+2018,ox_literary_translation,Literary Translation,openalex,727,88475,0.00821701
+2018,ox_language_ideologies,Language Ideologies,openalex,726,88475,0.00820571
+2018,language_ideology,Language ideology,curated,726,88475,0.00820571
+2018,ox_social_interaction,Social Interaction,openalex,725,88475,0.00819441
+2018,ox_linguistic_identity,Linguistic Identity,openalex,652,88475,0.00736931
+2018,ox_social_communication,Social Communication,openalex,636,88475,0.00718847
+2018,ox_lexicography,Lexicography,openalex,631,88475,0.00713196
+2018,ox_language_learning_strategies,Language Learning Strategies,openalex,630,88475,0.00712066
+2018,ox_ethnography,Ethnography,openalex,621,88475,0.00701893
+2018,ox_second_language_acquisition,Second Language Acquisition,openalex,606,88475,0.00684939
+2018,ox_language_diversity,Language Diversity,openalex,595,88475,0.00672506
+2018,ox_social_meaning,Social Meaning,openalex,549,88475,0.00620514
+2018,ox_foreign_language_education,Foreign Language Education,openalex,543,88475,0.00613733
+2018,ox_typology,typology,openalex,515,88475,0.00582085
+2018,ox_semiotics,Semiotics,openalex,504,88475,0.00569652
+2018,ox_minority_languages,Minority Languages,openalex,482,88475,0.00544787
+2018,multimodality,Multimodality,curated,471,88475,0.00532354
+2018,ox_vocabulary_learning,Vocabulary Learning,openalex,448,88475,0.00506358
+2018,ox_linguistic_diversity,Linguistic Diversity,openalex,437,88475,0.00493925
+2018,heritage_language,Heritage language,curated,436,88475,0.00492795
+2018,ox_etymology,Etymology,openalex,411,88475,0.00464538
+2018,ox_text_linguistics,Text Linguistics,openalex,402,88475,0.00454366
+2018,ox_political_discourse,Political Discourse,openalex,395,88475,0.00446454
+2018,usage_based,Usage-based approaches,curated,372,88475,0.00420458
+2018,second_language_writing,Second language writing,curated,364,88475,0.00411416
+2018,ox_verb_morphology,Verb Morphology,openalex,356,88475,0.00402374
+2018,codeswitching,Code-switching,curated,351,88475,0.00396722
+2018,ox_accent,Accent,openalex,349,88475,0.00394462
+2018,ox_semantic_changes,Semantic Changes,openalex,349,88475,0.00394462
+2018,ox_narrative_analysis,Narrative Analysis,openalex,341,88475,0.0038542
+2018,ox_subtitling,Subtitling,openalex,333,88475,0.00376378
+2018,ox_historical_linguistics,Historical Linguistics,openalex,332,88475,0.00375247
+2018,ox_construction_grammar,Construction Grammar,openalex,331,88475,0.00374117
+2018,mixed_methods,Mixed methods,curated,326,88475,0.00368466
+2018,ox_linguistic_competence,Linguistic Competence,openalex,323,88475,0.00365075
+2018,ox_phraseology,Phraseology,openalex,321,88475,0.00362814
+2018,ox_humanities,Humanities,openalex,316,88475,0.00357163
+2018,ox_interdisciplinary,Interdisciplinary,openalex,316,88475,0.00357163
+2018,ox_language_evolution,Language Evolution,openalex,316,88475,0.00357163
+2018,ox_language_anxiety,Language Anxiety,openalex,314,88475,0.00354902
+2018,corpus_linguistics,Corpus linguistics,curated,306,88475,0.0034586
+2018,ox_identity_construction,Identity Construction,openalex,305,88475,0.0034473
+2018,ox_bilingual_education,Bilingual Education,openalex,298,88475,0.00336818
+2018,ox_language_typology,Language Typology,openalex,289,88475,0.00326646
+2018,ox_literary_theory,Literary Theory,openalex,285,88475,0.00322125
+2018,ox_intercultural_communication,Intercultural Communication,openalex,283,88475,0.00319864
+2018,ox_philology,Philology,openalex,276,88475,0.00311953
+2018,ox_indo_european,Indo-European,openalex,271,88475,0.00306301
+2018,linguistic_landscape,Linguistic landscape,curated,269,88475,0.00304041
+2018,ox_saussure,Saussure,openalex,262,88475,0.00296129
+2018,critical_discourse_analysis,Critical discourse analysis,curated,261,88475,0.00294999
+2018,study_abroad,Study abroad,curated,261,88475,0.00294999
+2018,ox_cognitive_linguistics,Cognitive Linguistics,openalex,259,88475,0.00292738
+2018,ox_german_as_a_foreign_language,German as a Foreign Language,openalex,258,88475,0.00291608
+2018,ox_media_discourse,Media Discourse,openalex,251,88475,0.00283696
+2018,positioning_theory,Positioning theory,curated,251,88475,0.00283696
+2018,ox_textual_analysis,Textual Analysis,openalex,249,88475,0.00281435
+2018,ox_lingua_franca_english,Lingua Franca English,openalex,247,88475,0.00279175
+2018,ox_sociolinguistic_variation,Sociolinguistic Variation,openalex,244,88475,0.00275784
+2018,task_based,Task-based language teaching,curated,242,88475,0.00273524
+2018,ox_turkic,Turkic,openalex,236,88475,0.00266742
+2018,ox_lexical_semantics,Lexical Semantics,openalex,230,88475,0.0025996
+2018,teacher_identity,Language teacher identity,curated,221,88475,0.00249788
+2018,ox_lexical_influence,Lexical Influence,openalex,217,88475,0.00245267
+2018,ox_interactional_linguistics,Interactional Linguistics,openalex,210,88475,0.00237355
+2018,ox_youth_language,Youth Language,openalex,206,88475,0.00232834
+2018,ox_audiovisual_translation,Audiovisual Translation,openalex,205,88475,0.00231704
+2018,intercultural_competence,Intercultural competence,curated,204,88475,0.00230574
+2018,ox_standardization_of_language,Standardization of Language,openalex,202,88475,0.00228313
+2018,translanguaging,Translanguaging,curated,199,88475,0.00224922
+2018,corrective_feedback,Corrective feedback,curated,189,88475,0.0021362
+2018,learner_identity,Learner identity,curated,187,88475,0.00211359
+2018,ox_politeness_strategies,Politeness Strategies,openalex,187,88475,0.00211359
+2018,ox_turn_taking,Turn-Taking,openalex,185,88475,0.00209099
+2018,pragmatic_competence,Pragmatic competence,curated,184,88475,0.00207968
+2018,ox_literary_tradition,Literary Tradition,openalex,176,88475,0.00198926
+2018,ox_neologisms,Neologisms,openalex,175,88475,0.00197796
+2018,ox_semantic_relations,Semantic Relations,openalex,171,88475,0.00193275
+2018,ox_l2_motivation,L2 Motivation,openalex,170,88475,0.00192145
+2018,ox_media_influence,Media Influence,openalex,166,88475,0.00187624
+2018,language_revitalization,Language revitalization,curated,164,88475,0.00185363
+2018,ox_ontologies,Ontologies,openalex,164,88475,0.00185363
+2018,ox_specialized_language,Specialized Language,openalex,164,88475,0.00185363
+2018,ox_linguistic_borrowing,Linguistic Borrowing,openalex,157,88475,0.00177451
+2018,ox_cognitive_grammar,Cognitive Grammar,openalex,156,88475,0.00176321
+2018,ox_speech_perception,Speech Perception,openalex,152,88475,0.001718
+2018,ox_language_rights,Language Rights,openalex,140,88475,0.00158237
+2018,ox_politeness_theory,Politeness Theory,openalex,135,88475,0.00152586
+2018,ox_captioning,Captioning,openalex,132,88475,0.00149195
+2018,ox_ethnolinguistics,Ethnolinguistics,openalex,129,88475,0.00145804
+2018,intelligibility,Intelligibility,curated,126,88475,0.00142413
+2018,vocabulary_acquisition,Vocabulary acquisition,curated,126,88475,0.00142413
+2018,ox_dialectology,Dialectology,openalex,120,88475,0.00135632
+2018,ox_anglicisms,Anglicisms,openalex,118,88475,0.00133371
+2018,ox_occitan,Occitan,openalex,118,88475,0.00133371
+2018,sociocultural_theory,Sociocultural theory,curated,117,88475,0.00132241
+2018,emi,English-medium instruction,curated,115,88475,0.0012998
+2018,ox_multidimensionality,Multidimensionality,openalex,115,88475,0.0012998
+2018,ox_cross_cultural_communication,Cross-Cultural Communication,openalex,113,88475,0.0012772
+2018,ox_task_based_instruction,Task-based Instruction,openalex,113,88475,0.0012772
+2018,ox_nationalism,Nationalism,openalex,106,88475,0.00119808
+2018,ox_troubadours,Troubadours,openalex,106,88475,0.00119808
+2018,machine_translation,Machine translation,curated,105,88475,0.00118678
+2018,ox_historical_phonology,Historical Phonology,openalex,102,88475,0.00115287
+2018,ox_audio_description,Audio Description,openalex,101,88475,0.00114156
+2018,ox_stereotype_analysis,Stereotype Analysis,openalex,100,88475,0.00113026
+2018,ox_universal_grammar,Universal Grammar,openalex,96,88475,0.00108505
+2018,ox_historiography,Historiography,openalex,92,88475,0.00103984
+2018,learner_engagement,Learner engagement,curated,92,88475,0.00103984
+2018,ox_translator_competence,Translator Competence,openalex,87,88475,0.00098333
+2018,ox_social_justice,Social Justice,openalex,82,88475,0.00092681
+2018,ox_medieval_literature,Medieval Literature,openalex,79,88475,0.00089291
+2018,ox_semitic_languages,Semitic Languages,openalex,79,88475,0.00089291
+2018,eye_tracking,Eye-tracking,curated,75,88475,0.0008477
+2018,large_language_models,Large language models,curated,74,88475,0.00083639
+2018,ox_multimodal_communication,Multimodal Communication,openalex,74,88475,0.00083639
+2018,willingness_to_communicate,Willingness to communicate,curated,70,88475,0.00079118
+2018,ox_proto_indo_european,Proto-Indo-European,openalex,68,88475,0.00076858
+2018,replication_study,Replication study,curated,65,88475,0.00073467
+2018,ox_role_play_techniques,Role Play Techniques,openalex,65,88475,0.00073467
+2018,written_corrective_feedback,Written corrective feedback,curated,65,88475,0.00073467
+2018,ox_knowledge_representation,Knowledge Representation,openalex,64,88475,0.00072337
+2018,ox_humboldt,Humboldt,openalex,62,88475,0.00070076
+2018,ox_racism,Racism,openalex,62,88475,0.00070076
+2018,ox_diglossia,Diglossia,openalex,61,88475,0.00068946
+2018,language_aptitude,Language aptitude,curated,59,88475,0.00066686
+2018,meta_analysis,Meta-analysis,curated,59,88475,0.00066686
+2018,narrative_inquiry,Narrative inquiry,curated,58,88475,0.00065555
+2018,ox_sociology_of_translation,Sociology of Translation,openalex,58,88475,0.00065555
+2018,ox_teacher_cognition,Teacher Cognition,openalex,57,88475,0.00064425
+2018,ox_social_movements,Social Movements,openalex,54,88475,0.00061034
+2018,ox_health_communication,Health Communication,openalex,50,88475,0.00056513
+2018,ideal_l2_self,Ideal L2 self,curated,46,88475,0.00051992
+2018,ox_migration_and_integration,Migration and Integration,openalex,45,88475,0.00050862
+2018,ox_medieval_europe,Medieval Europe,openalex,44,88475,0.00049732
+2018,ox_multimedia_learning,Multimedia Learning,openalex,44,88475,0.00049732
+2018,clil,CLIL,curated,42,88475,0.00047471
+2018,formulaic_language,Formulaic language,curated,41,88475,0.00046341
+2018,ox_heritage_language_maintenance,Heritage Language Maintenance,openalex,39,88475,0.0004408
+2018,ox_interlanguage_development,Interlanguage Development,openalex,35,88475,0.00039559
+2018,superdiversity,Superdiversity,curated,35,88475,0.00039559
+2018,ox_oral_epics,oral epics,openalex,33,88475,0.00037299
+2018,ox_hispanic_linguistics,Hispanic Linguistics,openalex,32,88475,0.00036168
+2018,ox_jesuits,Jesuits,openalex,31,88475,0.00035038
+2018,ox_pragmatic_borrowing,Pragmatic Borrowing,openalex,29,88475,0.00032778
+2018,post_editing,Post-editing,curated,28,88475,0.00031647
+2018,ox_linguistic_historiography,Linguistic Historiography,openalex,26,88475,0.00029387
+2018,ox_middle_eastern_languages,Middle Eastern Languages,openalex,25,88475,0.00028257
+2018,ox_textual_criticism,Textual Criticism,openalex,25,88475,0.00028257
+2018,ox_neo_aramaic_dialects,Neo-Aramaic Dialects,openalex,24,88475,0.00027126
+2018,comprehensible_input,Comprehensible input,curated,22,88475,0.00024866
+2018,data_driven_learning,Data-driven learning,curated,21,88475,0.00023735
+2018,dynamic_assessment,Dynamic assessment,curated,20,88475,0.00022605
+2018,complex_dynamic_systems,Complex dynamic systems,curated,19,88475,0.00021475
+2018,ox_scalar_implicature,Scalar Implicature,openalex,18,88475,0.00020345
+2018,mall,Mobile-assisted language learning,curated,17,88475,0.00019215
+2018,washback,Washback,curated,17,88475,0.00019215
+2018,raciolinguistics,Raciolinguistics,curated,14,88475,0.00015824
+2018,ox_missionary_linguistics,Missionary Linguistics,openalex,13,88475,0.00014693
+2018,ox_urban_linguistics,Urban Linguistics,openalex,12,88475,0.00013563
+2018,duolingo,Duolingo,curated,9,88475,0.00010172
+2018,automated_writing_evaluation,Automated writing evaluation,curated,8,88475,9.042e-05
+2018,ox_innovation_management,Innovation Management,openalex,7,88475,7.912e-05
+2018,chatgpt,ChatGPT,curated,0,88475,0.0
+2018,generative_ai,Generative AI,curated,0,88475,0.0
+2018,ox_manuscriptology,manuscriptology,openalex,0,88475,0.0
+2019,ox_language_studies,Language Studies,openalex,10340,89765,0.11518966
+2019,ox_language_learning,Language Learning,openalex,4435,89765,0.04940678
+2019,ox_meaning,Meaning,openalex,4201,89765,0.04679998
+2019,ox_learners,Learners,openalex,4081,89765,0.04546315
+2019,ox_language_teaching,Language Teaching,openalex,3698,89765,0.04119646
+2019,ox_corpus,Corpus,openalex,3566,89765,0.03972595
+2019,ox_language_education,Language Education,openalex,2592,89765,0.0288754
+2019,ox_grammar,Grammar,openalex,2455,89765,0.02734919
+2019,ox_language_change,Language Change,openalex,2337,89765,0.02603465
+2019,ox_grammaticalization,Grammaticalization,openalex,2199,89765,0.0244973
+2019,ox_pragmatics,Pragmatics,openalex,2092,89765,0.0233053
+2019,ox_dialects,Dialects,openalex,2061,89765,0.02295995
+2019,ox_discourse_study,Discourse Study,openalex,1715,89765,0.01910544
+2019,ox_dictionaries,Dictionaries,openalex,1708,89765,0.01902746
+2019,ox_perception,Perception,openalex,1674,89765,0.01864869
+2019,ox_pedagogy,Pedagogy,openalex,1639,89765,0.01825879
+2019,ox_multilingualism,Multilingualism,openalex,1607,89765,0.0179023
+2019,ox_bilingual,Bilingual,openalex,1593,89765,0.01774634
+2019,ox_bilingualism,Bilingualism,openalex,1593,89765,0.01774634
+2019,ox_sociolinguistics,Sociolinguistics,openalex,1566,89765,0.01744555
+2019,ox_morphology,Morphology,openalex,1547,89765,0.01723389
+2019,ox_discourse_analysis,Discourse Analysis,openalex,1542,89765,0.01717819
+2019,ox_usage,Usage,openalex,1371,89765,0.01527321
+2019,ox_second_language_learning,Second Language Learning,openalex,1278,89765,0.01423717
+2019,ox_semantics,Semantics,openalex,1266,89765,0.01410349
+2019,focus_on_form,Focus on form,curated,1236,89765,0.01376929
+2019,ox_syntax,Syntax,openalex,1198,89765,0.01334596
+2019,ox_language_acquisition,Language Acquisition,openalex,1190,89765,0.01325684
+2019,ox_language_attitudes,Language Attitudes,openalex,1188,89765,0.01323456
+2019,ox_structuralism,Structuralism,openalex,1162,89765,0.01294491
+2019,language_policy,Language policy,curated,1161,89765,0.01293377
+2019,ox_ideology,Ideology,openalex,1122,89765,0.0124993
+2019,ox_cultural_translation,Cultural Translation,openalex,1055,89765,0.01175291
+2019,ox_language_variation,Language Variation,openalex,1047,89765,0.01166379
+2019,ox_terminology,Terminology,openalex,1040,89765,0.01158581
+2019,ox_language_contact,Language Contact,openalex,998,89765,0.01111792
+2019,ox_teaching_methods,Teaching Methods,openalex,996,89765,0.01109564
+2019,ox_power,Power,openalex,988,89765,0.01100652
+2019,world_englishes,World Englishes,curated,952,89765,0.01060547
+2019,ox_literature_analysis,Literature Analysis,openalex,846,89765,0.00942461
+2019,ox_indexicality,Indexicality,openalex,830,89765,0.00924637
+2019,ox_conversation_analysis,Conversation Analysis,openalex,769,89765,0.00856681
+2019,ox_learning_strategies,Learning Strategies,openalex,764,89765,0.00851111
+2019,ox_language_ideologies,Language Ideologies,openalex,759,89765,0.00845541
+2019,language_ideology,Language ideology,curated,759,89765,0.00845541
+2019,ox_social_interaction,Social Interaction,openalex,751,89765,0.00836629
+2019,ox_literary_translation,Literary Translation,openalex,748,89765,0.00833287
+2019,ox_social_communication,Social Communication,openalex,718,89765,0.00799866
+2019,ox_linguistic_identity,Linguistic Identity,openalex,711,89765,0.00792068
+2019,ox_ethnography,Ethnography,openalex,686,89765,0.00764218
+2019,ox_second_language_acquisition,Second Language Acquisition,openalex,665,89765,0.00740823
+2019,ox_language_learning_strategies,Language Learning Strategies,openalex,647,89765,0.00720771
+2019,ox_lexicography,Lexicography,openalex,613,89765,0.00682894
+2019,ox_language_diversity,Language Diversity,openalex,604,89765,0.00672868
+2019,ox_social_meaning,Social Meaning,openalex,577,89765,0.0064279
+2019,ox_foreign_language_education,Foreign Language Education,openalex,576,89765,0.00641675
+2019,ox_typology,typology,openalex,540,89765,0.00601571
+2019,ox_semiotics,Semiotics,openalex,537,89765,0.00598229
+2019,multimodality,Multimodality,curated,524,89765,0.00583746
+2019,ox_minority_languages,Minority Languages,openalex,489,89765,0.00544756
+2019,heritage_language,Heritage language,curated,481,89765,0.00535844
+2019,ox_text_linguistics,Text Linguistics,openalex,470,89765,0.00523589
+2019,ox_etymology,Etymology,openalex,468,89765,0.00521361
+2019,codeswitching,Code-switching,curated,440,89765,0.00490169
+2019,ox_political_discourse,Political Discourse,openalex,416,89765,0.00463432
+2019,ox_subtitling,Subtitling,openalex,413,89765,0.0046009
+2019,ox_linguistic_diversity,Linguistic Diversity,openalex,412,89765,0.00458976
+2019,ox_vocabulary_learning,Vocabulary Learning,openalex,412,89765,0.00458976
+2019,ox_accent,Accent,openalex,405,89765,0.00451178
+2019,ox_narrative_analysis,Narrative Analysis,openalex,405,89765,0.00451178
+2019,ox_linguistic_competence,Linguistic Competence,openalex,400,89765,0.00445608
+2019,ox_semantic_changes,Semantic Changes,openalex,396,89765,0.00441152
+2019,ox_phraseology,Phraseology,openalex,388,89765,0.0043224
+2019,usage_based,Usage-based approaches,curated,382,89765,0.00425556
+2019,mixed_methods,Mixed methods,curated,380,89765,0.00423328
+2019,second_language_writing,Second language writing,curated,362,89765,0.00403275
+2019,ox_historical_linguistics,Historical Linguistics,openalex,360,89765,0.00401047
+2019,ox_bilingual_education,Bilingual Education,openalex,356,89765,0.00396591
+2019,corpus_linguistics,Corpus linguistics,curated,356,89765,0.00396591
+2019,ox_verb_morphology,Verb Morphology,openalex,349,89765,0.00388793
+2019,ox_language_evolution,Language Evolution,openalex,340,89765,0.00378767
+2019,ox_humanities,Humanities,openalex,334,89765,0.00372083
+2019,ox_interdisciplinary,Interdisciplinary,openalex,328,89765,0.00365398
+2019,ox_language_typology,Language Typology,openalex,326,89765,0.0036317
+2019,ox_lexical_influence,Lexical Influence,openalex,322,89765,0.00358714
+2019,ox_intercultural_communication,Intercultural Communication,openalex,313,89765,0.00348688
+2019,ox_construction_grammar,Construction Grammar,openalex,308,89765,0.00343118
+2019,ox_indo_european,Indo-European,openalex,306,89765,0.0034089
+2019,critical_discourse_analysis,Critical discourse analysis,curated,304,89765,0.00338662
+2019,ox_language_anxiety,Language Anxiety,openalex,302,89765,0.00336434
+2019,ox_media_discourse,Media Discourse,openalex,302,89765,0.00336434
+2019,linguistic_landscape,Linguistic landscape,curated,297,89765,0.00330864
+2019,ox_textual_analysis,Textual Analysis,openalex,297,89765,0.00330864
+2019,ox_identity_construction,Identity Construction,openalex,287,89765,0.00319724
+2019,ox_philology,Philology,openalex,287,89765,0.00319724
+2019,ox_turkic,Turkic,openalex,284,89765,0.00316382
+2019,ox_lexical_semantics,Lexical Semantics,openalex,282,89765,0.00314154
+2019,ox_sociolinguistic_variation,Sociolinguistic Variation,openalex,282,89765,0.00314154
+2019,ox_german_as_a_foreign_language,German as a Foreign Language,openalex,276,89765,0.0030747
+2019,positioning_theory,Positioning theory,curated,274,89765,0.00305242
+2019,translanguaging,Translanguaging,curated,258,89765,0.00287417
+2019,ox_cognitive_linguistics,Cognitive Linguistics,openalex,254,89765,0.00282961
+2019,teacher_identity,Language teacher identity,curated,249,89765,0.00277391
+2019,ox_literary_theory,Literary Theory,openalex,236,89765,0.00262909
+2019,ox_lingua_franca_english,Lingua Franca English,openalex,235,89765,0.00261795
+2019,learner_identity,Learner identity,curated,228,89765,0.00253996
+2019,corrective_feedback,Corrective feedback,curated,222,89765,0.00247312
+2019,ox_audiovisual_translation,Audiovisual Translation,openalex,218,89765,0.00242856
+2019,ox_politeness_strategies,Politeness Strategies,openalex,215,89765,0.00239514
+2019,ox_semantic_relations,Semantic Relations,openalex,214,89765,0.002384
+2019,ox_standardization_of_language,Standardization of Language,openalex,213,89765,0.00237286
+2019,study_abroad,Study abroad,curated,212,89765,0.00236172
+2019,ox_interactional_linguistics,Interactional Linguistics,openalex,210,89765,0.00233944
+2019,intercultural_competence,Intercultural competence,curated,202,89765,0.00225032
+2019,ox_specialized_language,Specialized Language,openalex,197,89765,0.00219462
+2019,ox_ontologies,Ontologies,openalex,190,89765,0.00211664
+2019,ox_media_influence,Media Influence,openalex,187,89765,0.00208322
+2019,ox_neologisms,Neologisms,openalex,186,89765,0.00207208
+2019,task_based,Task-based language teaching,curated,186,89765,0.00207208
+2019,ox_youth_language,Youth Language,openalex,186,89765,0.00207208
+2019,ox_speech_perception,Speech Perception,openalex,184,89765,0.0020498
+2019,ox_turn_taking,Turn-Taking,openalex,182,89765,0.00202752
+2019,ox_literary_tradition,Literary Tradition,openalex,180,89765,0.00200524
+2019,ox_l2_motivation,L2 Motivation,openalex,179,89765,0.0019941
+2019,ox_linguistic_borrowing,Linguistic Borrowing,openalex,179,89765,0.0019941
+2019,ox_dialectology,Dialectology,openalex,170,89765,0.00189383
+2019,ox_captioning,Captioning,openalex,169,89765,0.00188269
+2019,pragmatic_competence,Pragmatic competence,curated,154,89765,0.00171559
+2019,ox_cognitive_grammar,Cognitive Grammar,openalex,153,89765,0.00170445
+2019,ox_historical_phonology,Historical Phonology,openalex,152,89765,0.00169331
+2019,language_revitalization,Language revitalization,curated,148,89765,0.00164875
+2019,ox_language_rights,Language Rights,openalex,148,89765,0.00164875
+2019,ox_politeness_theory,Politeness Theory,openalex,145,89765,0.00161533
+2019,ox_ethnolinguistics,Ethnolinguistics,openalex,143,89765,0.00159305
+2019,sociocultural_theory,Sociocultural theory,curated,137,89765,0.00152621
+2019,machine_translation,Machine translation,curated,131,89765,0.00145937
+2019,learner_engagement,Learner engagement,curated,129,89765,0.00143709
+2019,ox_saussure,Saussure,openalex,129,89765,0.00143709
+2019,ox_occitan,Occitan,openalex,126,89765,0.00140366
+2019,ox_cross_cultural_communication,Cross-Cultural Communication,openalex,125,89765,0.00139252
+2019,emi,English-medium instruction,curated,121,89765,0.00134796
+2019,ox_translator_competence,Translator Competence,openalex,115,89765,0.00128112
+2019,intelligibility,Intelligibility,curated,114,89765,0.00126998
+2019,ox_nationalism,Nationalism,openalex,113,89765,0.00125884
+2019,ox_anglicisms,Anglicisms,openalex,112,89765,0.0012477
+2019,vocabulary_acquisition,Vocabulary acquisition,curated,111,89765,0.00123656
+2019,ox_audio_description,Audio Description,openalex,109,89765,0.00121428
+2019,willingness_to_communicate,Willingness to communicate,curated,108,89765,0.00120314
+2019,ox_proto_indo_european,Proto-Indo-European,openalex,107,89765,0.001192
+2019,ox_multidimensionality,Multidimensionality,openalex,106,89765,0.00118086
+2019,large_language_models,Large language models,curated,97,89765,0.0010806
+2019,ox_task_based_instruction,Task-based Instruction,openalex,97,89765,0.0010806
+2019,ox_stereotype_analysis,Stereotype Analysis,openalex,94,89765,0.00104718
+2019,ox_social_justice,Social Justice,openalex,91,89765,0.00101376
+2019,ox_multimodal_communication,Multimodal Communication,openalex,88,89765,0.00098034
+2019,ox_medieval_literature,Medieval Literature,openalex,84,89765,0.00093578
+2019,ox_role_play_techniques,Role Play Techniques,openalex,82,89765,0.0009135
+2019,ox_racism,Racism,openalex,81,89765,0.00090236
+2019,ox_teacher_cognition,Teacher Cognition,openalex,81,89765,0.00090236
+2019,ox_historiography,Historiography,openalex,80,89765,0.00089122
+2019,written_corrective_feedback,Written corrective feedback,curated,79,89765,0.00088008
+2019,eye_tracking,Eye-tracking,curated,77,89765,0.00085779
+2019,meta_analysis,Meta-analysis,curated,76,89765,0.00084665
+2019,ox_diglossia,Diglossia,openalex,74,89765,0.00082438
+2019,ox_semitic_languages,Semitic Languages,openalex,71,89765,0.00079095
+2019,ox_troubadours,Troubadours,openalex,68,89765,0.00075753
+2019,ox_knowledge_representation,Knowledge Representation,openalex,66,89765,0.00073525
+2019,replication_study,Replication study,curated,66,89765,0.00073525
+2019,ox_universal_grammar,Universal Grammar,openalex,65,89765,0.00072411
+2019,formulaic_language,Formulaic language,curated,60,89765,0.00066841
+2019,ox_multimedia_learning,Multimedia Learning,openalex,58,89765,0.00064613
+2019,narrative_inquiry,Narrative inquiry,curated,57,89765,0.00063499
+2019,ox_sociology_of_translation,Sociology of Translation,openalex,54,89765,0.00060157
+2019,ox_social_movements,Social Movements,openalex,52,89765,0.00057929
+2019,clil,CLIL,curated,50,89765,0.00055701
+2019,language_aptitude,Language aptitude,curated,49,89765,0.00054587
+2019,ox_medieval_europe,Medieval Europe,openalex,49,89765,0.00054587
+2019,post_editing,Post-editing,curated,49,89765,0.00054587
+2019,ideal_l2_self,Ideal L2 self,curated,48,89765,0.00053473
+2019,ox_health_communication,Health Communication,openalex,47,89765,0.00052359
+2019,ox_migration_and_integration,Migration and Integration,openalex,43,89765,0.00047903
+2019,raciolinguistics,Raciolinguistics,curated,43,89765,0.00047903
+2019,ox_heritage_language_maintenance,Heritage Language Maintenance,openalex,42,89765,0.00046789
+2019,ox_humboldt,Humboldt,openalex,42,89765,0.00046789
+2019,complex_dynamic_systems,Complex dynamic systems,curated,38,89765,0.00042333
+2019,ox_interlanguage_development,Interlanguage Development,openalex,35,89765,0.00038991
+2019,data_driven_learning,Data-driven learning,curated,32,89765,0.00035649
+2019,ox_middle_eastern_languages,Middle Eastern Languages,openalex,31,89765,0.00034535
+2019,ox_textual_criticism,Textual Criticism,openalex,31,89765,0.00034535
+2019,ox_scalar_implicature,Scalar Implicature,openalex,29,89765,0.00032307
+2019,ox_urban_linguistics,Urban Linguistics,openalex,29,89765,0.00032307
+2019,comprehensible_input,Comprehensible input,curated,25,89765,0.00027851
+2019,superdiversity,Superdiversity,curated,24,89765,0.00026736
+2019,ox_oral_epics,oral epics,openalex,23,89765,0.00025623
+2019,ox_jesuits,Jesuits,openalex,22,89765,0.00024508
+2019,ox_linguistic_historiography,Linguistic Historiography,openalex,21,89765,0.00023394
+2019,dynamic_assessment,Dynamic assessment,curated,18,89765,0.00020052
+2019,mall,Mobile-assisted language learning,curated,17,89765,0.00018938
+2019,ox_pragmatic_borrowing,Pragmatic Borrowing,openalex,16,89765,0.00017824
+2019,ox_missionary_linguistics,Missionary Linguistics,openalex,15,89765,0.0001671
+2019,ox_hispanic_linguistics,Hispanic Linguistics,openalex,12,89765,0.00013368
+2019,duolingo,Duolingo,curated,8,89765,8.912e-05
+2019,ox_innovation_management,Innovation Management,openalex,8,89765,8.912e-05
+2019,automated_writing_evaluation,Automated writing evaluation,curated,5,89765,5.57e-05
+2019,ox_neo_aramaic_dialects,Neo-Aramaic Dialects,openalex,5,89765,5.57e-05
+2019,washback,Washback,curated,3,89765,3.342e-05
+2019,generative_ai,Generative AI,curated,1,89765,1.114e-05
+2019,chatgpt,ChatGPT,curated,0,89765,0.0
+2019,ox_manuscriptology,manuscriptology,openalex,0,89765,0.0
+2020,ox_language_studies,Language Studies,openalex,10922,89894,0.12149865
+2020,ox_meaning,Meaning,openalex,4354,89894,0.04843482
+2020,ox_language_learning,Language Learning,openalex,4302,89894,0.04785636
+2020,ox_learners,Learners,openalex,4131,89894,0.04595412
+2020,ox_corpus,Corpus,openalex,3879,89894,0.04315082
+2020,ox_language_teaching,Language Teaching,openalex,3691,89894,0.04105947
+2020,ox_language_education,Language Education,openalex,2586,89894,0.02876721
+2020,ox_grammar,Grammar,openalex,2551,89894,0.02837787
+2020,ox_grammaticalization,Grammaticalization,openalex,2489,89894,0.02768817
+2020,ox_language_change,Language Change,openalex,2452,89894,0.02727657
+2020,ox_dialects,Dialects,openalex,2229,89894,0.02479587
+2020,ox_pragmatics,Pragmatics,openalex,2098,89894,0.0233386
+2020,ox_dictionaries,Dictionaries,openalex,1946,89894,0.02164772
+2020,ox_discourse_study,Discourse Study,openalex,1794,89894,0.01995684
+2020,ox_multilingualism,Multilingualism,openalex,1774,89894,0.01973435
+2020,ox_morphology,Morphology,openalex,1741,89894,0.01936725
+2020,ox_pedagogy,Pedagogy,openalex,1731,89894,0.01925601
+2020,ox_perception,Perception,openalex,1729,89894,0.01923376
+2020,ox_bilingual,Bilingual,openalex,1653,89894,0.01838832
+2020,ox_bilingualism,Bilingualism,openalex,1653,89894,0.01838832
+2020,ox_sociolinguistics,Sociolinguistics,openalex,1583,89894,0.01760963
+2020,ox_discourse_analysis,Discourse Analysis,openalex,1510,89894,0.01679756
+2020,ox_structuralism,Structuralism,openalex,1341,89894,0.01491757
+2020,ox_usage,Usage,openalex,1337,89894,0.01487307
+2020,ox_language_attitudes,Language Attitudes,openalex,1277,89894,0.01420562
+2020,ox_ideology,Ideology,openalex,1270,89894,0.01412775
+2020,ox_syntax,Syntax,openalex,1267,89894,0.01409438
+2020,focus_on_form,Focus on form,curated,1259,89894,0.01400538
+2020,ox_second_language_learning,Second Language Learning,openalex,1232,89894,0.01370503
+2020,ox_language_acquisition,Language Acquisition,openalex,1195,89894,0.01329343
+2020,ox_terminology,Terminology,openalex,1178,89894,0.01310432
+2020,ox_language_contact,Language Contact,openalex,1174,89894,0.01305983
+2020,ox_semantics,Semantics,openalex,1169,89894,0.0130042
+2020,language_policy,Language policy,curated,1129,89894,0.01255924
+2020,ox_cultural_translation,Cultural Translation,openalex,1111,89894,0.012359
+2020,ox_teaching_methods,Teaching Methods,openalex,1070,89894,0.01190291
+2020,ox_language_variation,Language Variation,openalex,1047,89894,0.01164705
+2020,ox_power,Power,openalex,1015,89894,0.01129108
+2020,ox_literature_analysis,Literature Analysis,openalex,1005,89894,0.01117983
+2020,world_englishes,World Englishes,curated,986,89894,0.01096847
+2020,ox_language_ideologies,Language Ideologies,openalex,906,89894,0.01007854
+2020,language_ideology,Language ideology,curated,906,89894,0.01007854
+2020,ox_social_interaction,Social Interaction,openalex,905,89894,0.01006741
+2020,ox_literary_translation,Literary Translation,openalex,835,89894,0.00928872
+2020,ox_indexicality,Indexicality,openalex,826,89894,0.0091886
+2020,ox_social_communication,Social Communication,openalex,813,89894,0.00904398
+2020,ox_linguistic_identity,Linguistic Identity,openalex,809,89894,0.00899949
+2020,ox_conversation_analysis,Conversation Analysis,openalex,760,89894,0.0084544
+2020,ox_learning_strategies,Learning Strategies,openalex,755,89894,0.00839878
+2020,ox_language_diversity,Language Diversity,openalex,704,89894,0.00783145
+2020,ox_ethnography,Ethnography,openalex,657,89894,0.00730861
+2020,ox_social_meaning,Social Meaning,openalex,640,89894,0.0071195
+2020,ox_lexicography,Lexicography,openalex,634,89894,0.00705275
+2020,ox_language_learning_strategies,Language Learning Strategies,openalex,627,89894,0.00697488
+2020,ox_semiotics,Semiotics,openalex,616,89894,0.00685251
+2020,ox_second_language_acquisition,Second Language Acquisition,openalex,611,89894,0.00679689
+2020,ox_foreign_language_education,Foreign Language Education,openalex,603,89894,0.0067079
+2020,ox_typology,typology,openalex,581,89894,0.00646317
+2020,heritage_language,Heritage language,curated,556,89894,0.00618506
+2020,multimodality,Multimodality,curated,533,89894,0.00592921
+2020,ox_minority_languages,Minority Languages,openalex,521,89894,0.00579571
+2020,ox_etymology,Etymology,openalex,503,89894,0.00559548
+2020,ox_text_linguistics,Text Linguistics,openalex,485,89894,0.00539524
+2020,ox_linguistic_diversity,Linguistic Diversity,openalex,472,89894,0.00525063
+2020,codeswitching,Code-switching,curated,447,89894,0.00497252
+2020,ox_phraseology,Phraseology,openalex,445,89894,0.00495027
+2020,mixed_methods,Mixed methods,curated,435,89894,0.00483903
+2020,ox_semantic_changes,Semantic Changes,openalex,414,89894,0.00460542
+2020,ox_verb_morphology,Verb Morphology,openalex,413,89894,0.0045943
+2020,ox_vocabulary_learning,Vocabulary Learning,openalex,413,89894,0.0045943
+2020,ox_political_discourse,Political Discourse,openalex,412,89894,0.00458318
+2020,ox_historical_linguistics,Historical Linguistics,openalex,408,89894,0.00453868
+2020,ox_linguistic_competence,Linguistic Competence,openalex,407,89894,0.00452755
+2020,ox_accent,Accent,openalex,404,89894,0.00449418
+2020,ox_turkic,Turkic,openalex,402,89894,0.00447193
+2020,ox_narrative_analysis,Narrative Analysis,openalex,393,89894,0.00437182
+2020,ox_interdisciplinary,Interdisciplinary,openalex,388,89894,0.0043162
+2020,ox_subtitling,Subtitling,openalex,387,89894,0.00430507
+2020,ox_language_anxiety,Language Anxiety,openalex,378,89894,0.00420495
+2020,corpus_linguistics,Corpus linguistics,curated,361,89894,0.00401584
+2020,translanguaging,Translanguaging,curated,359,89894,0.00399359
+2020,ox_language_evolution,Language Evolution,openalex,357,89894,0.00397134
+2020,usage_based,Usage-based approaches,curated,357,89894,0.00397134
+2020,second_language_writing,Second language writing,curated,353,89894,0.00392685
+2020,ox_construction_grammar,Construction Grammar,openalex,350,89894,0.00389347
+2020,ox_language_typology,Language Typology,openalex,344,89894,0.00382673
+2020,ox_humanities,Humanities,openalex,340,89894,0.00378223
+2020,ox_intercultural_communication,Intercultural Communication,openalex,337,89894,0.00374886
+2020,ox_bilingual_education,Bilingual Education,openalex,327,89894,0.00363762
+2020,linguistic_landscape,Linguistic landscape,curated,325,89894,0.00361537
+2020,ox_literary_theory,Literary Theory,openalex,314,89894,0.003493
+2020,ox_media_discourse,Media Discourse,openalex,309,89894,0.00343738
+2020,ox_german_as_a_foreign_language,German as a Foreign Language,openalex,308,89894,0.00342626
+2020,ox_textual_analysis,Textual Analysis,openalex,302,89894,0.00335951
+2020,critical_discourse_analysis,Critical discourse analysis,curated,294,89894,0.00327052
+2020,ox_identity_construction,Identity Construction,openalex,290,89894,0.00322602
+2020,ox_lingua_franca_english,Lingua Franca English,openalex,288,89894,0.00320377
+2020,ox_sociolinguistic_variation,Sociolinguistic Variation,openalex,288,89894,0.00320377
+2020,ox_lexical_influence,Lexical Influence,openalex,278,89894,0.00309253
+2020,ox_indo_european,Indo-European,openalex,277,89894,0.00308141
+2020,teacher_identity,Language teacher identity,curated,266,89894,0.00295904
+2020,ox_neologisms,Neologisms,openalex,255,89894,0.00283667
+2020,study_abroad,Study abroad,curated,246,89894,0.00273656
+2020,positioning_theory,Positioning theory,curated,244,89894,0.00271431
+2020,task_based,Task-based language teaching,curated,244,89894,0.00271431
+2020,ox_cognitive_linguistics,Cognitive Linguistics,openalex,242,89894,0.00269206
+2020,ox_lexical_semantics,Lexical Semantics,openalex,237,89894,0.00263644
+2020,ox_philology,Philology,openalex,235,89894,0.00261419
+2020,ox_audiovisual_translation,Audiovisual Translation,openalex,232,89894,0.00258082
+2020,ox_semantic_relations,Semantic Relations,openalex,229,89894,0.00254745
+2020,ox_standardization_of_language,Standardization of Language,openalex,228,89894,0.00253632
+2020,learner_identity,Learner identity,curated,226,89894,0.00251407
+2020,ox_linguistic_borrowing,Linguistic Borrowing,openalex,209,89894,0.00232496
+2020,ox_interactional_linguistics,Interactional Linguistics,openalex,207,89894,0.00230271
+2020,ox_l2_motivation,L2 Motivation,openalex,199,89894,0.00221372
+2020,ox_occitan,Occitan,openalex,199,89894,0.00221372
+2020,ox_captioning,Captioning,openalex,197,89894,0.00219147
+2020,ox_specialized_language,Specialized Language,openalex,196,89894,0.00218035
+2020,ox_youth_language,Youth Language,openalex,195,89894,0.00216922
+2020,corrective_feedback,Corrective feedback,curated,194,89894,0.0021581
+2020,ox_ontologies,Ontologies,openalex,194,89894,0.0021581
+2020,intercultural_competence,Intercultural competence,curated,191,89894,0.00212473
+2020,ox_literary_tradition,Literary Tradition,openalex,191,89894,0.00212473
+2020,ox_politeness_strategies,Politeness Strategies,openalex,188,89894,0.00209135
+2020,ox_turn_taking,Turn-Taking,openalex,184,89894,0.00204686
+2020,ox_ethnolinguistics,Ethnolinguistics,openalex,179,89894,0.00199123
+2020,ox_media_influence,Media Influence,openalex,177,89894,0.00196899
+2020,ox_speech_perception,Speech Perception,openalex,172,89894,0.00191336
+2020,pragmatic_competence,Pragmatic competence,curated,166,89894,0.00184662
+2020,ox_saussure,Saussure,openalex,165,89894,0.00183549
+2020,learner_engagement,Learner engagement,curated,160,89894,0.00177987
+2020,ox_multidimensionality,Multidimensionality,openalex,154,89894,0.00171313
+2020,ox_politeness_theory,Politeness Theory,openalex,152,89894,0.00169088
+2020,ox_dialectology,Dialectology,openalex,148,89894,0.00164638
+2020,intelligibility,Intelligibility,curated,147,89894,0.00163526
+2020,ox_cognitive_grammar,Cognitive Grammar,openalex,144,89894,0.00160189
+2020,ox_language_rights,Language Rights,openalex,144,89894,0.00160189
+2020,ox_historical_phonology,Historical Phonology,openalex,137,89894,0.00152402
+2020,ox_nationalism,Nationalism,openalex,134,89894,0.00149065
+2020,language_revitalization,Language revitalization,curated,130,89894,0.00144615
+2020,ox_audio_description,Audio Description,openalex,127,89894,0.00141278
+2020,ox_anglicisms,Anglicisms,openalex,122,89894,0.00135715
+2020,ox_stereotype_analysis,Stereotype Analysis,openalex,119,89894,0.00132378
+2020,ox_cross_cultural_communication,Cross-Cultural Communication,openalex,118,89894,0.00131266
+2020,vocabulary_acquisition,Vocabulary acquisition,curated,116,89894,0.00129041
+2020,ox_multimodal_communication,Multimodal Communication,openalex,111,89894,0.00123479
+2020,ox_racism,Racism,openalex,109,89894,0.00121254
+2020,machine_translation,Machine translation,curated,107,89894,0.00119029
+2020,emi,English-medium instruction,curated,104,89894,0.00115692
+2020,large_language_models,Large language models,curated,103,89894,0.00114579
+2020,ox_medieval_literature,Medieval Literature,openalex,102,89894,0.00113467
+2020,sociocultural_theory,Sociocultural theory,curated,102,89894,0.00113467
+2020,ox_task_based_instruction,Task-based Instruction,openalex,101,89894,0.00112355
+2020,ox_troubadours,Troubadours,openalex,101,89894,0.00112355
+2020,ox_historiography,Historiography,openalex,96,89894,0.00106792
+2020,willingness_to_communicate,Willingness to communicate,curated,96,89894,0.00106792
+2020,ox_social_justice,Social Justice,openalex,94,89894,0.00104568
+2020,ox_universal_grammar,Universal Grammar,openalex,87,89894,0.00096781
+2020,ox_translator_competence,Translator Competence,openalex,85,89894,0.00094556
+2020,written_corrective_feedback,Written corrective feedback,curated,85,89894,0.00094556
+2020,ox_role_play_techniques,Role Play Techniques,openalex,82,89894,0.00091219
+2020,ox_diglossia,Diglossia,openalex,81,89894,0.00090106
+2020,meta_analysis,Meta-analysis,curated,76,89894,0.00084544
+2020,replication_study,Replication study,curated,73,89894,0.00081207
+2020,ox_knowledge_representation,Knowledge Representation,openalex,68,89894,0.00075645
+2020,ox_sociology_of_translation,Sociology of Translation,openalex,68,89894,0.00075645
+2020,ox_proto_indo_european,Proto-Indo-European,openalex,65,89894,0.00072307
+2020,ox_semitic_languages,Semitic Languages,openalex,65,89894,0.00072307
+2020,eye_tracking,Eye-tracking,curated,64,89894,0.00071195
+2020,raciolinguistics,Raciolinguistics,curated,63,89894,0.00070082
+2020,ox_teacher_cognition,Teacher Cognition,openalex,63,89894,0.00070082
+2020,ox_health_communication,Health Communication,openalex,59,89894,0.00065633
+2020,complex_dynamic_systems,Complex dynamic systems,curated,58,89894,0.0006452
+2020,ox_heritage_language_maintenance,Heritage Language Maintenance,openalex,58,89894,0.0006452
+2020,narrative_inquiry,Narrative inquiry,curated,55,89894,0.00061183
+2020,ox_medieval_europe,Medieval Europe,openalex,53,89894,0.00058958
+2020,ox_social_movements,Social Movements,openalex,52,89894,0.00057846
+2020,ideal_l2_self,Ideal L2 self,curated,50,89894,0.00055621
+2020,ox_multimedia_learning,Multimedia Learning,openalex,50,89894,0.00055621
+2020,language_aptitude,Language aptitude,curated,43,89894,0.00047834
+2020,ox_humboldt,Humboldt,openalex,42,89894,0.00046722
+2020,formulaic_language,Formulaic language,curated,41,89894,0.00045609
+2020,post_editing,Post-editing,curated,41,89894,0.00045609
+2020,ox_migration_and_integration,Migration and Integration,openalex,36,89894,0.00040047
+2020,superdiversity,Superdiversity,curated,31,89894,0.00034485
+2020,ox_middle_eastern_languages,Middle Eastern Languages,openalex,30,89894,0.00033373
+2020,ox_textual_criticism,Textual Criticism,openalex,29,89894,0.0003226
+2020,dynamic_assessment,Dynamic assessment,curated,28,89894,0.00031148
+2020,ox_interlanguage_development,Interlanguage Development,openalex,28,89894,0.00031148
+2020,ox_hispanic_linguistics,Hispanic Linguistics,openalex,27,89894,0.00030035
+2020,ox_neo_aramaic_dialects,Neo-Aramaic Dialects,openalex,26,89894,0.00028923
+2020,ox_linguistic_historiography,Linguistic Historiography,openalex,25,89894,0.00027811
+2020,ox_jesuits,Jesuits,openalex,24,89894,0.00026698
+2020,data_driven_learning,Data-driven learning,curated,22,89894,0.00024473
+2020,comprehensible_input,Comprehensible input,curated,21,89894,0.00023361
+2020,ox_oral_epics,oral epics,openalex,21,89894,0.00023361
+2020,ox_pragmatic_borrowing,Pragmatic Borrowing,openalex,20,89894,0.00022248
+2020,ox_scalar_implicature,Scalar Implicature,openalex,18,89894,0.00020024
+2020,washback,Washback,curated,17,89894,0.00018911
+2020,clil,CLIL,curated,16,89894,0.00017799
+2020,ox_urban_linguistics,Urban Linguistics,openalex,16,89894,0.00017799
+2020,mall,Mobile-assisted language learning,curated,15,89894,0.00016686
+2020,ox_missionary_linguistics,Missionary Linguistics,openalex,13,89894,0.00014462
+2020,automated_writing_evaluation,Automated writing evaluation,curated,8,89894,8.899e-05
+2020,duolingo,Duolingo,curated,7,89894,7.787e-05
+2020,ox_innovation_management,Innovation Management,openalex,7,89894,7.787e-05
+2020,chatgpt,ChatGPT,curated,0,89894,0.0
+2020,generative_ai,Generative AI,curated,0,89894,0.0
+2020,ox_manuscriptology,manuscriptology,openalex,0,89894,0.0
+2021,ox_language_studies,Language Studies,openalex,10390,75449,0.13770892
+2021,ox_meaning,Meaning,openalex,4187,75449,0.05549444
+2021,ox_language_learning,Language Learning,openalex,4008,75449,0.05312198
+2021,ox_learners,Learners,openalex,3795,75449,0.05029888
+2021,ox_language_teaching,Language Teaching,openalex,3425,75449,0.0453949
+2021,ox_corpus,Corpus,openalex,3278,75449,0.04344657
+2021,ox_language_education,Language Education,openalex,2557,75449,0.03389044
+2021,ox_grammar,Grammar,openalex,2320,75449,0.03074925
+2021,ox_grammaticalization,Grammaticalization,openalex,2317,75449,0.03070949
+2021,ox_language_change,Language Change,openalex,2316,75449,0.03069623
+2021,ox_dialects,Dialects,openalex,1977,75449,0.02620313
+2021,ox_pragmatics,Pragmatics,openalex,1936,75449,0.02565972
+2021,ox_multilingualism,Multilingualism,openalex,1720,75449,0.02279686
+2021,ox_dictionaries,Dictionaries,openalex,1683,75449,0.02230646
+2021,ox_pedagogy,Pedagogy,openalex,1632,75449,0.02163051
+2021,ox_discourse_study,Discourse Study,openalex,1624,75449,0.02152447
+2021,ox_perception,Perception,openalex,1530,75449,0.0202786
+2021,ox_bilingual,Bilingual,openalex,1507,75449,0.01997376
+2021,ox_bilingualism,Bilingualism,openalex,1507,75449,0.01997376
+2021,ox_morphology,Morphology,openalex,1471,75449,0.01949661
+2021,ox_sociolinguistics,Sociolinguistics,openalex,1451,75449,0.01923153
+2021,ox_discourse_analysis,Discourse Analysis,openalex,1387,75449,0.01838328
+2021,ox_usage,Usage,openalex,1262,75449,0.01672653
+2021,ox_structuralism,Structuralism,openalex,1176,75449,0.01558669
+2021,ox_terminology,Terminology,openalex,1168,75449,0.01548066
+2021,ox_ideology,Ideology,openalex,1167,75449,0.0154674
+2021,ox_second_language_learning,Second Language Learning,openalex,1147,75449,0.01520232
+2021,ox_semantics,Semantics,openalex,1130,75449,0.014977
+2021,focus_on_form,Focus on form,curated,1106,75449,0.01465891
+2021,language_policy,Language policy,curated,1096,75449,0.01452637
+2021,ox_syntax,Syntax,openalex,1077,75449,0.01427454
+2021,ox_teaching_methods,Teaching Methods,openalex,1072,75449,0.01420827
+2021,ox_language_acquisition,Language Acquisition,openalex,1070,75449,0.01418177
+2021,ox_language_attitudes,Language Attitudes,openalex,1056,75449,0.01399621
+2021,ox_cultural_translation,Cultural Translation,openalex,1046,75449,0.01386367
+2021,ox_language_variation,Language Variation,openalex,987,75449,0.01308168
+2021,ox_language_contact,Language Contact,openalex,952,75449,0.01261779
+2021,ox_power,Power,openalex,878,75449,0.011637
+2021,ox_literature_analysis,Literature Analysis,openalex,837,75449,0.01109359
+2021,world_englishes,World Englishes,curated,837,75449,0.01109359
+2021,ox_language_ideologies,Language Ideologies,openalex,813,75449,0.01077549
+2021,language_ideology,Language ideology,curated,813,75449,0.01077549
+2021,ox_conversation_analysis,Conversation Analysis,openalex,769,75449,0.01019232
+2021,ox_social_interaction,Social Interaction,openalex,763,75449,0.01011279
+2021,ox_literary_translation,Literary Translation,openalex,753,75449,0.00998025
+2021,ox_social_communication,Social Communication,openalex,722,75449,0.00956938
+2021,ox_indexicality,Indexicality,openalex,699,75449,0.00926454
+2021,ox_linguistic_identity,Linguistic Identity,openalex,697,75449,0.00923803
+2021,ox_learning_strategies,Learning Strategies,openalex,668,75449,0.00885366
+2021,ox_language_diversity,Language Diversity,openalex,650,75449,0.00861509
+2021,ox_social_meaning,Social Meaning,openalex,637,75449,0.00844279
+2021,ox_lexicography,Lexicography,openalex,614,75449,0.00813795
+2021,ox_ethnography,Ethnography,openalex,611,75449,0.00809819
+2021,ox_foreign_language_education,Foreign Language Education,openalex,608,75449,0.00805842
+2021,ox_semiotics,Semiotics,openalex,589,75449,0.0078066
+2021,ox_second_language_acquisition,Second Language Acquisition,openalex,550,75449,0.00728969
+2021,ox_typology,typology,openalex,549,75449,0.00727644
+2021,heritage_language,Heritage language,curated,547,75449,0.00724993
+2021,multimodality,Multimodality,curated,545,75449,0.00722342
+2021,ox_language_learning_strategies,Language Learning Strategies,openalex,540,75449,0.00715715
+2021,ox_minority_languages,Minority Languages,openalex,515,75449,0.0068258
+2021,ox_etymology,Etymology,openalex,486,75449,0.00644144
+2021,ox_text_linguistics,Text Linguistics,openalex,469,75449,0.00621612
+2021,ox_turkic,Turkic,openalex,442,75449,0.00585826
+2021,mixed_methods,Mixed methods,curated,441,75449,0.00584501
+2021,ox_linguistic_diversity,Linguistic Diversity,openalex,426,75449,0.0056462
+2021,ox_vocabulary_learning,Vocabulary Learning,openalex,424,75449,0.00561969
+2021,ox_phraseology,Phraseology,openalex,412,75449,0.00546064
+2021,ox_accent,Accent,openalex,394,75449,0.00522207
+2021,ox_language_anxiety,Language Anxiety,openalex,391,75449,0.00518231
+2021,codeswitching,Code-switching,curated,387,75449,0.00512929
+2021,ox_verb_morphology,Verb Morphology,openalex,374,75449,0.00495699
+2021,ox_semantic_changes,Semantic Changes,openalex,371,75449,0.00491723
+2021,translanguaging,Translanguaging,curated,366,75449,0.00485096
+2021,usage_based,Usage-based approaches,curated,360,75449,0.00477144
+2021,ox_political_discourse,Political Discourse,openalex,357,75449,0.00473167
+2021,ox_interdisciplinary,Interdisciplinary,openalex,354,75449,0.00469191
+2021,linguistic_landscape,Linguistic landscape,curated,353,75449,0.00467866
+2021,ox_bilingual_education,Bilingual Education,openalex,351,75449,0.00465215
+2021,ox_narrative_analysis,Narrative Analysis,openalex,349,75449,0.00462564
+2021,ox_linguistic_competence,Linguistic Competence,openalex,346,75449,0.00458588
+2021,critical_discourse_analysis,Critical discourse analysis,curated,340,75449,0.00450636
+2021,ox_historical_linguistics,Historical Linguistics,openalex,331,75449,0.00438707
+2021,ox_intercultural_communication,Intercultural Communication,openalex,331,75449,0.00438707
+2021,ox_language_typology,Language Typology,openalex,330,75449,0.00437381
+2021,second_language_writing,Second language writing,curated,328,75449,0.00434731
+2021,ox_subtitling,Subtitling,openalex,328,75449,0.00434731
+2021,ox_language_evolution,Language Evolution,openalex,323,75449,0.00428104
+2021,ox_textual_analysis,Textual Analysis,openalex,308,75449,0.00408223
+2021,corpus_linguistics,Corpus linguistics,curated,306,75449,0.00405572
+2021,ox_construction_grammar,Construction Grammar,openalex,289,75449,0.0038304
+2021,ox_humanities,Humanities,openalex,286,75449,0.00379064
+2021,ox_literary_theory,Literary Theory,openalex,277,75449,0.00367135
+2021,ox_identity_construction,Identity Construction,openalex,273,75449,0.00361834
+2021,ox_lexical_influence,Lexical Influence,openalex,268,75449,0.00355207
+2021,ox_media_discourse,Media Discourse,openalex,267,75449,0.00353881
+2021,ox_german_as_a_foreign_language,German as a Foreign Language,openalex,266,75449,0.00352556
+2021,ox_philology,Philology,openalex,261,75449,0.00345929
+2021,task_based,Task-based language teaching,curated,252,75449,0.00334001
+2021,ox_sociolinguistic_variation,Sociolinguistic Variation,openalex,250,75449,0.0033135
+2021,teacher_identity,Language teacher identity,curated,247,75449,0.00327373
+2021,ox_cognitive_linguistics,Cognitive Linguistics,openalex,244,75449,0.00323397
+2021,ox_lexical_semantics,Lexical Semantics,openalex,244,75449,0.00323397
+2021,ox_indo_european,Indo-European,openalex,241,75449,0.00319421
+2021,study_abroad,Study abroad,curated,238,75449,0.00315445
+2021,ox_neologisms,Neologisms,openalex,237,75449,0.00314119
+2021,corrective_feedback,Corrective feedback,curated,230,75449,0.00304842
+2021,ox_lingua_franca_english,Lingua Franca English,openalex,219,75449,0.00290262
+2021,ox_audiovisual_translation,Audiovisual Translation,openalex,217,75449,0.00287611
+2021,ox_standardization_of_language,Standardization of Language,openalex,217,75449,0.00287611
+2021,learner_identity,Learner identity,curated,206,75449,0.00273032
+2021,positioning_theory,Positioning theory,curated,206,75449,0.00273032
+2021,ox_semantic_relations,Semantic Relations,openalex,204,75449,0.00270381
+2021,ox_interactional_linguistics,Interactional Linguistics,openalex,198,75449,0.00262429
+2021,ox_politeness_strategies,Politeness Strategies,openalex,189,75449,0.002505
+2021,ox_linguistic_borrowing,Linguistic Borrowing,openalex,186,75449,0.00246524
+2021,ox_turn_taking,Turn-Taking,openalex,185,75449,0.00245199
+2021,ox_literary_tradition,Literary Tradition,openalex,182,75449,0.00241223
+2021,ox_specialized_language,Specialized Language,openalex,175,75449,0.00231945
+2021,ox_l2_motivation,L2 Motivation,openalex,174,75449,0.00230619
+2021,ox_youth_language,Youth Language,openalex,174,75449,0.00230619
+2021,ox_ethnolinguistics,Ethnolinguistics,openalex,170,75449,0.00225318
+2021,ox_saussure,Saussure,openalex,170,75449,0.00225318
+2021,ox_media_influence,Media Influence,openalex,168,75449,0.00222667
+2021,machine_translation,Machine translation,curated,164,75449,0.00217365
+2021,ox_ontologies,Ontologies,openalex,163,75449,0.0021604
+2021,ox_captioning,Captioning,openalex,161,75449,0.00213389
+2021,ox_speech_perception,Speech Perception,openalex,157,75449,0.00208088
+2021,pragmatic_competence,Pragmatic competence,curated,156,75449,0.00206762
+2021,ox_dialectology,Dialectology,openalex,155,75449,0.00205437
+2021,ox_language_rights,Language Rights,openalex,152,75449,0.00201461
+2021,ox_politeness_theory,Politeness Theory,openalex,149,75449,0.00197484
+2021,learner_engagement,Learner engagement,curated,147,75449,0.00194834
+2021,intercultural_competence,Intercultural competence,curated,146,75449,0.00193508
+2021,ox_cognitive_grammar,Cognitive Grammar,openalex,136,75449,0.00180254
+2021,ox_task_based_instruction,Task-based Instruction,openalex,133,75449,0.00176278
+2021,willingness_to_communicate,Willingness to communicate,curated,128,75449,0.00169651
+2021,ox_cross_cultural_communication,Cross-Cultural Communication,openalex,123,75449,0.00163024
+2021,language_revitalization,Language revitalization,curated,121,75449,0.00160373
+2021,ox_racism,Racism,openalex,118,75449,0.00156397
+2021,intelligibility,Intelligibility,curated,116,75449,0.00153746
+2021,ox_historical_phonology,Historical Phonology,openalex,115,75449,0.00152421
+2021,ox_translator_competence,Translator Competence,openalex,114,75449,0.00151095
+2021,vocabulary_acquisition,Vocabulary acquisition,curated,113,75449,0.0014977
+2021,ox_multidimensionality,Multidimensionality,openalex,112,75449,0.00148445
+2021,ox_social_justice,Social Justice,openalex,111,75449,0.00147119
+2021,ox_occitan,Occitan,openalex,107,75449,0.00141818
+2021,ox_stereotype_analysis,Stereotype Analysis,openalex,107,75449,0.00141818
+2021,written_corrective_feedback,Written corrective feedback,curated,106,75449,0.00140492
+2021,ox_audio_description,Audio Description,openalex,104,75449,0.00137842
+2021,ox_multimodal_communication,Multimodal Communication,openalex,104,75449,0.00137842
+2021,sociocultural_theory,Sociocultural theory,curated,104,75449,0.00137842
+2021,emi,English-medium instruction,curated,101,75449,0.00133865
+2021,ox_anglicisms,Anglicisms,openalex,100,75449,0.0013254
+2021,ox_nationalism,Nationalism,openalex,96,75449,0.00127238
+2021,ox_medieval_literature,Medieval Literature,openalex,87,75449,0.0011531
+2021,large_language_models,Large language models,curated,83,75449,0.00110008
+2021,ox_historiography,Historiography,openalex,82,75449,0.00108683
+2021,ox_sociology_of_translation,Sociology of Translation,openalex,82,75449,0.00108683
+2021,ox_role_play_techniques,Role Play Techniques,openalex,80,75449,0.00106032
+2021,ox_heritage_language_maintenance,Heritage Language Maintenance,openalex,77,75449,0.00102056
+2021,ox_troubadours,Troubadours,openalex,76,75449,0.0010073
+2021,ox_knowledge_representation,Knowledge Representation,openalex,73,75449,0.00096754
+2021,ox_universal_grammar,Universal Grammar,openalex,73,75449,0.00096754
+2021,ox_proto_indo_european,Proto-Indo-European,openalex,70,75449,0.00092778
+2021,meta_analysis,Meta-analysis,curated,67,75449,0.00088802
+2021,raciolinguistics,Raciolinguistics,curated,67,75449,0.00088802
+2021,ox_medieval_europe,Medieval Europe,openalex,65,75449,0.00086151
+2021,replication_study,Replication study,curated,65,75449,0.00086151
+2021,eye_tracking,Eye-tracking,curated,63,75449,0.000835
+2021,language_aptitude,Language aptitude,curated,63,75449,0.000835
+2021,ox_health_communication,Health Communication,openalex,58,75449,0.00076873
+2021,ox_semitic_languages,Semitic Languages,openalex,57,75449,0.00075548
+2021,formulaic_language,Formulaic language,curated,56,75449,0.00074222
+2021,ox_teacher_cognition,Teacher Cognition,openalex,56,75449,0.00074222
+2021,post_editing,Post-editing,curated,55,75449,0.00072897
+2021,ideal_l2_self,Ideal L2 self,curated,52,75449,0.00068921
+2021,narrative_inquiry,Narrative inquiry,curated,52,75449,0.00068921
+2021,ox_multimedia_learning,Multimedia Learning,openalex,45,75449,0.00059643
+2021,ox_diglossia,Diglossia,openalex,44,75449,0.00058318
+2021,ox_humboldt,Humboldt,openalex,42,75449,0.00055667
+2021,ox_social_movements,Social Movements,openalex,42,75449,0.00055667
+2021,ox_migration_and_integration,Migration and Integration,openalex,41,75449,0.00054341
+2021,ox_textual_criticism,Textual Criticism,openalex,35,75449,0.00046389
+2021,ox_middle_eastern_languages,Middle Eastern Languages,openalex,32,75449,0.00042413
+2021,superdiversity,Superdiversity,curated,32,75449,0.00042413
+2021,ox_oral_epics,oral epics,openalex,31,75449,0.00041087
+2021,complex_dynamic_systems,Complex dynamic systems,curated,29,75449,0.00038437
+2021,ox_jesuits,Jesuits,openalex,28,75449,0.00037111
+2021,comprehensible_input,Comprehensible input,curated,26,75449,0.0003446
+2021,dynamic_assessment,Dynamic assessment,curated,25,75449,0.00033135
+2021,ox_pragmatic_borrowing,Pragmatic Borrowing,openalex,23,75449,0.00030484
+2021,clil,CLIL,curated,21,75449,0.00027833
+2021,ox_interlanguage_development,Interlanguage Development,openalex,21,75449,0.00027833
+2021,ox_urban_linguistics,Urban Linguistics,openalex,21,75449,0.00027833
+2021,data_driven_learning,Data-driven learning,curated,17,75449,0.00022532
+2021,ox_hispanic_linguistics,Hispanic Linguistics,openalex,16,75449,0.00021206
+2021,ox_linguistic_historiography,Linguistic Historiography,openalex,15,75449,0.00019881
+2021,mall,Mobile-assisted language learning,curated,15,75449,0.00019881
+2021,washback,Washback,curated,13,75449,0.0001723
+2021,ox_scalar_implicature,Scalar Implicature,openalex,12,75449,0.00015905
+2021,ox_innovation_management,Innovation Management,openalex,10,75449,0.00013254
+2021,ox_missionary_linguistics,Missionary Linguistics,openalex,10,75449,0.00013254
+2021,automated_writing_evaluation,Automated writing evaluation,curated,8,75449,0.00010603
+2021,duolingo,Duolingo,curated,8,75449,0.00010603
+2021,ox_neo_aramaic_dialects,Neo-Aramaic Dialects,openalex,8,75449,0.00010603
+2021,generative_ai,Generative AI,curated,1,75449,1.325e-05
+2021,chatgpt,ChatGPT,curated,0,75449,0.0
+2021,ox_manuscriptology,manuscriptology,openalex,0,75449,0.0
+2022,ox_language_studies,Language Studies,openalex,9934,65240,0.15226855
+2022,ox_meaning,Meaning,openalex,4002,65240,0.06134274
+2022,ox_language_learning,Language Learning,openalex,3839,65240,0.05884427
+2022,ox_learners,Learners,openalex,3469,65240,0.0531729
+2022,ox_corpus,Corpus,openalex,3229,65240,0.04949418
+2022,ox_language_teaching,Language Teaching,openalex,3072,65240,0.04708768
+2022,ox_language_education,Language Education,openalex,2350,65240,0.03602085
+2022,ox_language_change,Language Change,openalex,2108,65240,0.03231146
+2022,ox_grammar,Grammar,openalex,2031,65240,0.03113121
+2022,ox_grammaticalization,Grammaticalization,openalex,2019,65240,0.03094727
+2022,ox_dialects,Dialects,openalex,1837,65240,0.02815757
+2022,ox_pragmatics,Pragmatics,openalex,1772,65240,0.02716125
+2022,ox_multilingualism,Multilingualism,openalex,1702,65240,0.02608829
+2022,ox_discourse_study,Discourse Study,openalex,1602,65240,0.02455549
+2022,ox_pedagogy,Pedagogy,openalex,1593,65240,0.02441754
+2022,ox_dictionaries,Dictionaries,openalex,1549,65240,0.0237431
+2022,ox_morphology,Morphology,openalex,1387,65240,0.02125996
+2022,ox_perception,Perception,openalex,1370,65240,0.02099939
+2022,ox_bilingual,Bilingual,openalex,1344,65240,0.02060086
+2022,ox_bilingualism,Bilingualism,openalex,1344,65240,0.02060086
+2022,ox_sociolinguistics,Sociolinguistics,openalex,1319,65240,0.02021766
+2022,ox_discourse_analysis,Discourse Analysis,openalex,1295,65240,0.01984979
+2022,ox_ideology,Ideology,openalex,1147,65240,0.01758124
+2022,ox_usage,Usage,openalex,1104,65240,0.01692213
+2022,language_policy,Language policy,curated,1077,65240,0.01650828
+2022,ox_terminology,Terminology,openalex,1066,65240,0.01633967
+2022,ox_language_acquisition,Language Acquisition,openalex,1053,65240,0.01614041
+2022,ox_second_language_learning,Second Language Learning,openalex,1045,65240,0.01601778
+2022,ox_structuralism,Structuralism,openalex,1042,65240,0.0159718
+2022,focus_on_form,Focus on form,curated,1025,65240,0.01571122
+2022,ox_language_attitudes,Language Attitudes,openalex,1023,65240,0.01568056
+2022,ox_cultural_translation,Cultural Translation,openalex,1008,65240,0.01545064
+2022,ox_semantics,Semantics,openalex,1007,65240,0.01543532
+2022,ox_syntax,Syntax,openalex,999,65240,0.01531269
+2022,ox_teaching_methods,Teaching Methods,openalex,957,65240,0.01466891
+2022,ox_language_variation,Language Variation,openalex,942,65240,0.01443899
+2022,ox_power,Power,openalex,915,65240,0.01402514
+2022,ox_language_contact,Language Contact,openalex,832,65240,0.01275291
+2022,ox_language_ideologies,Language Ideologies,openalex,800,65240,0.01226242
+2022,language_ideology,Language ideology,curated,800,65240,0.01226242
+2022,ox_literature_analysis,Literature Analysis,openalex,800,65240,0.01226242
+2022,world_englishes,World Englishes,curated,783,65240,0.01200184
+2022,ox_literary_translation,Literary Translation,openalex,761,65240,0.01166462
+2022,ox_linguistic_identity,Linguistic Identity,openalex,735,65240,0.01126609
+2022,ox_social_communication,Social Communication,openalex,727,65240,0.01114347
+2022,ox_social_interaction,Social Interaction,openalex,726,65240,0.01112814
+2022,ox_conversation_analysis,Conversation Analysis,openalex,721,65240,0.0110515
+2022,ox_language_diversity,Language Diversity,openalex,657,65240,0.01007051
+2022,ox_learning_strategies,Learning Strategies,openalex,607,65240,0.00930411
+2022,ox_indexicality,Indexicality,openalex,606,65240,0.00928878
+2022,ox_semiotics,Semiotics,openalex,598,65240,0.00916616
+2022,multimodality,Multimodality,curated,591,65240,0.00905886
+2022,ox_ethnography,Ethnography,openalex,576,65240,0.00882894
+2022,ox_social_meaning,Social Meaning,openalex,562,65240,0.00861435
+2022,ox_lexicography,Lexicography,openalex,556,65240,0.00852238
+2022,ox_second_language_acquisition,Second Language Acquisition,openalex,546,65240,0.0083691
+2022,heritage_language,Heritage language,curated,509,65240,0.00780196
+2022,ox_etymology,Etymology,openalex,503,65240,0.00770999
+2022,ox_foreign_language_education,Foreign Language Education,openalex,499,65240,0.00764868
+2022,ox_typology,typology,openalex,489,65240,0.0074954
+2022,ox_language_learning_strategies,Language Learning Strategies,openalex,488,65240,0.00748007
+2022,ox_minority_languages,Minority Languages,openalex,479,65240,0.00734212
+2022,ox_linguistic_diversity,Linguistic Diversity,openalex,433,65240,0.00663703
+2022,mixed_methods,Mixed methods,curated,418,65240,0.00640711
+2022,translanguaging,Translanguaging,curated,406,65240,0.00622318
+2022,ox_language_anxiety,Language Anxiety,openalex,393,65240,0.00602391
+2022,ox_phraseology,Phraseology,openalex,382,65240,0.0058553
+2022,ox_text_linguistics,Text Linguistics,openalex,368,65240,0.00564071
+2022,ox_semantic_changes,Semantic Changes,openalex,366,65240,0.00561006
+2022,ox_turkic,Turkic,openalex,357,65240,0.0054721
+2022,ox_vocabulary_learning,Vocabulary Learning,openalex,356,65240,0.00545677
+2022,codeswitching,Code-switching,curated,353,65240,0.00541079
+2022,linguistic_landscape,Linguistic landscape,curated,347,65240,0.00531882
+2022,usage_based,Usage-based approaches,curated,347,65240,0.00531882
+2022,ox_linguistic_competence,Linguistic Competence,openalex,346,65240,0.0053035
+2022,ox_narrative_analysis,Narrative Analysis,openalex,342,65240,0.00524218
+2022,ox_accent,Accent,openalex,338,65240,0.00518087
+2022,second_language_writing,Second language writing,curated,336,65240,0.00515021
+2022,ox_political_discourse,Political Discourse,openalex,333,65240,0.00510423
+2022,ox_construction_grammar,Construction Grammar,openalex,329,65240,0.00504292
+2022,ox_bilingual_education,Bilingual Education,openalex,327,65240,0.00501226
+2022,ox_verb_morphology,Verb Morphology,openalex,326,65240,0.00499693
+2022,ox_subtitling,Subtitling,openalex,322,65240,0.00493562
+2022,corpus_linguistics,Corpus linguistics,curated,310,65240,0.00475169
+2022,ox_historical_linguistics,Historical Linguistics,openalex,309,65240,0.00473636
+2022,ox_interdisciplinary,Interdisciplinary,openalex,298,65240,0.00456775
+2022,ox_language_typology,Language Typology,openalex,298,65240,0.00456775
+2022,critical_discourse_analysis,Critical discourse analysis,curated,296,65240,0.00453709
+2022,ox_language_evolution,Language Evolution,openalex,285,65240,0.00436849
+2022,ox_humanities,Humanities,openalex,273,65240,0.00418455
+2022,ox_media_discourse,Media Discourse,openalex,266,65240,0.00407725
+2022,teacher_identity,Language teacher identity,curated,261,65240,0.00400061
+2022,ox_intercultural_communication,Intercultural Communication,openalex,258,65240,0.00395463
+2022,ox_literary_theory,Literary Theory,openalex,258,65240,0.00395463
+2022,ox_lexical_influence,Lexical Influence,openalex,257,65240,0.0039393
+2022,ox_textual_analysis,Textual Analysis,openalex,254,65240,0.00389332
+2022,ox_german_as_a_foreign_language,German as a Foreign Language,openalex,240,65240,0.00367872
+2022,ox_philology,Philology,openalex,238,65240,0.00364807
+2022,ox_neologisms,Neologisms,openalex,237,65240,0.00363274
+2022,ox_identity_construction,Identity Construction,openalex,236,65240,0.00361741
+2022,ox_indo_european,Indo-European,openalex,236,65240,0.00361741
+2022,ox_sociolinguistic_variation,Sociolinguistic Variation,openalex,233,65240,0.00357143
+2022,ox_lexical_semantics,Lexical Semantics,openalex,229,65240,0.00351012
+2022,ox_lingua_franca_english,Lingua Franca English,openalex,217,65240,0.00332618
+2022,positioning_theory,Positioning theory,curated,212,65240,0.00324954
+2022,study_abroad,Study abroad,curated,203,65240,0.00311159
+2022,ox_cognitive_linguistics,Cognitive Linguistics,openalex,200,65240,0.0030656
+2022,ox_politeness_strategies,Politeness Strategies,openalex,200,65240,0.0030656
+2022,learner_identity,Learner identity,curated,197,65240,0.00301962
+2022,ox_audiovisual_translation,Audiovisual Translation,openalex,191,65240,0.00292765
+2022,ox_linguistic_borrowing,Linguistic Borrowing,openalex,191,65240,0.00292765
+2022,ox_standardization_of_language,Standardization of Language,openalex,191,65240,0.00292765
+2022,ox_language_rights,Language Rights,openalex,183,65240,0.00280503
+2022,ox_youth_language,Youth Language,openalex,183,65240,0.00280503
+2022,ox_literary_tradition,Literary Tradition,openalex,182,65240,0.0027897
+2022,ox_specialized_language,Specialized Language,openalex,182,65240,0.0027897
+2022,ox_ontologies,Ontologies,openalex,177,65240,0.00271306
+2022,ox_semantic_relations,Semantic Relations,openalex,177,65240,0.00271306
+2022,ox_media_influence,Media Influence,openalex,175,65240,0.0026824
+2022,task_based,Task-based language teaching,curated,171,65240,0.00262109
+2022,ox_interactional_linguistics,Interactional Linguistics,openalex,158,65240,0.00242183
+2022,intercultural_competence,Intercultural competence,curated,158,65240,0.00242183
+2022,ox_captioning,Captioning,openalex,154,65240,0.00236052
+2022,ox_turn_taking,Turn-Taking,openalex,152,65240,0.00232986
+2022,machine_translation,Machine translation,curated,150,65240,0.0022992
+2022,ox_saussure,Saussure,openalex,149,65240,0.00228387
+2022,corrective_feedback,Corrective feedback,curated,146,65240,0.00223789
+2022,ox_ethnolinguistics,Ethnolinguistics,openalex,146,65240,0.00223789
+2022,ox_politeness_theory,Politeness Theory,openalex,146,65240,0.00223789
+2022,ox_l2_motivation,L2 Motivation,openalex,145,65240,0.00222256
+2022,learner_engagement,Learner engagement,curated,141,65240,0.00216125
+2022,ox_speech_perception,Speech Perception,openalex,137,65240,0.00209994
+2022,pragmatic_competence,Pragmatic competence,curated,133,65240,0.00203863
+2022,ox_audio_description,Audio Description,openalex,132,65240,0.0020233
+2022,intelligibility,Intelligibility,curated,121,65240,0.00185469
+2022,ox_social_justice,Social Justice,openalex,121,65240,0.00185469
+2022,emi,English-medium instruction,curated,120,65240,0.00183936
+2022,ox_cognitive_grammar,Cognitive Grammar,openalex,119,65240,0.00182403
+2022,language_revitalization,Language revitalization,curated,118,65240,0.00180871
+2022,ox_racism,Racism,openalex,117,65240,0.00179338
+2022,ox_historiography,Historiography,openalex,114,65240,0.00174739
+2022,ox_historical_phonology,Historical Phonology,openalex,111,65240,0.00170141
+2022,ox_dialectology,Dialectology,openalex,109,65240,0.00167075
+2022,willingness_to_communicate,Willingness to communicate,curated,106,65240,0.00162477
+2022,ox_anglicisms,Anglicisms,openalex,100,65240,0.0015328
+2022,ox_multidimensionality,Multidimensionality,openalex,99,65240,0.00151747
+2022,ox_translator_competence,Translator Competence,openalex,99,65240,0.00151747
+2022,vocabulary_acquisition,Vocabulary acquisition,curated,99,65240,0.00151747
+2022,ox_cross_cultural_communication,Cross-Cultural Communication,openalex,98,65240,0.00150215
+2022,large_language_models,Large language models,curated,96,65240,0.00147149
+2022,ox_multimodal_communication,Multimodal Communication,openalex,94,65240,0.00144083
+2022,ox_universal_grammar,Universal Grammar,openalex,94,65240,0.00144083
+2022,sociocultural_theory,Sociocultural theory,curated,93,65240,0.00142551
+2022,ox_task_based_instruction,Task-based Instruction,openalex,93,65240,0.00142551
+2022,meta_analysis,Meta-analysis,curated,92,65240,0.00141018
+2022,ox_nationalism,Nationalism,openalex,92,65240,0.00141018
+2022,ox_stereotype_analysis,Stereotype Analysis,openalex,91,65240,0.00139485
+2022,ox_occitan,Occitan,openalex,88,65240,0.00134887
+2022,ox_role_play_techniques,Role Play Techniques,openalex,77,65240,0.00118026
+2022,ox_medieval_literature,Medieval Literature,openalex,76,65240,0.00116493
+2022,ox_proto_indo_european,Proto-Indo-European,openalex,72,65240,0.00110362
+2022,ox_heritage_language_maintenance,Heritage Language Maintenance,openalex,71,65240,0.00108829
+2022,replication_study,Replication study,curated,70,65240,0.00107296
+2022,ox_troubadours,Troubadours,openalex,70,65240,0.00107296
+2022,ox_health_communication,Health Communication,openalex,68,65240,0.00104231
+2022,raciolinguistics,Raciolinguistics,curated,64,65240,0.00098099
+2022,ox_knowledge_representation,Knowledge Representation,openalex,59,65240,0.00090435
+2022,ox_teacher_cognition,Teacher Cognition,openalex,59,65240,0.00090435
+2022,written_corrective_feedback,Written corrective feedback,curated,59,65240,0.00090435
+2022,eye_tracking,Eye-tracking,curated,53,65240,0.00081238
+2022,narrative_inquiry,Narrative inquiry,curated,53,65240,0.00081238
+2022,ox_social_movements,Social Movements,openalex,51,65240,0.00078173
+2022,ox_diglossia,Diglossia,openalex,49,65240,0.00075107
+2022,language_aptitude,Language aptitude,curated,49,65240,0.00075107
+2022,ox_linguistic_historiography,Linguistic Historiography,openalex,49,65240,0.00075107
+2022,post_editing,Post-editing,curated,49,65240,0.00075107
+2022,ox_sociology_of_translation,Sociology of Translation,openalex,49,65240,0.00075107
+2022,ox_semitic_languages,Semitic Languages,openalex,41,65240,0.00062845
+2022,ox_multimedia_learning,Multimedia Learning,openalex,40,65240,0.00061312
+2022,formulaic_language,Formulaic language,curated,39,65240,0.00059779
+2022,ideal_l2_self,Ideal L2 self,curated,32,65240,0.0004905
+2022,ox_medieval_europe,Medieval Europe,openalex,31,65240,0.00047517
+2022,ox_oral_epics,oral epics,openalex,31,65240,0.00047517
+2022,ox_pragmatic_borrowing,Pragmatic Borrowing,openalex,30,65240,0.00045984
+2022,ox_textual_criticism,Textual Criticism,openalex,29,65240,0.00044451
+2022,ox_humboldt,Humboldt,openalex,28,65240,0.00042919
+2022,ox_middle_eastern_languages,Middle Eastern Languages,openalex,27,65240,0.00041386
+2022,data_driven_learning,Data-driven learning,curated,25,65240,0.0003832
+2022,ox_interlanguage_development,Interlanguage Development,openalex,25,65240,0.0003832
+2022,complex_dynamic_systems,Complex dynamic systems,curated,24,65240,0.00036787
+2022,ox_jesuits,Jesuits,openalex,21,65240,0.00032189
+2022,ox_migration_and_integration,Migration and Integration,openalex,20,65240,0.00030656
+2022,ox_scalar_implicature,Scalar Implicature,openalex,20,65240,0.00030656
+2022,comprehensible_input,Comprehensible input,curated,19,65240,0.00029123
+2022,dynamic_assessment,Dynamic assessment,curated,18,65240,0.0002759
+2022,automated_writing_evaluation,Automated writing evaluation,curated,17,65240,0.00026058
+2022,clil,CLIL,curated,17,65240,0.00026058
+2022,ox_urban_linguistics,Urban Linguistics,openalex,15,65240,0.00022992
+2022,superdiversity,Superdiversity,curated,13,65240,0.00019926
+2022,washback,Washback,curated,11,65240,0.00016861
+2022,ox_hispanic_linguistics,Hispanic Linguistics,openalex,10,65240,0.00015328
+2022,duolingo,Duolingo,curated,9,65240,0.00013795
+2022,mall,Mobile-assisted language learning,curated,9,65240,0.00013795
+2022,ox_missionary_linguistics,Missionary Linguistics,openalex,7,65240,0.0001073
+2022,ox_neo_aramaic_dialects,Neo-Aramaic Dialects,openalex,5,65240,7.664e-05
+2022,generative_ai,Generative AI,curated,2,65240,3.066e-05
+2022,ox_innovation_management,Innovation Management,openalex,2,65240,3.066e-05
+2022,chatgpt,ChatGPT,curated,0,65240,0.0
+2022,ox_manuscriptology,manuscriptology,openalex,0,65240,0.0
+2023,ox_language_studies,Language Studies,openalex,11247,72823,0.15444296
+2023,ox_meaning,Meaning,openalex,4386,72823,0.06022823
+2023,ox_language_learning,Language Learning,openalex,4173,72823,0.05730332
+2023,ox_learners,Learners,openalex,3735,72823,0.05128874
+2023,ox_language_teaching,Language Teaching,openalex,3640,72823,0.04998421
+2023,ox_corpus,Corpus,openalex,3372,72823,0.04630405
+2023,ox_language_education,Language Education,openalex,2683,72823,0.03684276
+2023,ox_language_change,Language Change,openalex,2363,72823,0.03244854
+2023,ox_grammaticalization,Grammaticalization,openalex,2206,72823,0.03029263
+2023,ox_grammar,Grammar,openalex,2144,72823,0.02944125
+2023,ox_dialects,Dialects,openalex,2020,72823,0.02773849
+2023,ox_multilingualism,Multilingualism,openalex,1910,72823,0.02622798
+2023,ox_pragmatics,Pragmatics,openalex,1890,72823,0.02595334
+2023,ox_discourse_study,Discourse Study,openalex,1774,72823,0.02436044
+2023,ox_dictionaries,Dictionaries,openalex,1676,72823,0.02301471
+2023,ox_pedagogy,Pedagogy,openalex,1663,72823,0.02283619
+2023,ox_perception,Perception,openalex,1596,72823,0.02191615
+2023,ox_morphology,Morphology,openalex,1544,72823,0.02120209
+2023,ox_discourse_analysis,Discourse Analysis,openalex,1485,72823,0.02039191
+2023,ox_bilingual,Bilingual,openalex,1423,72823,0.01954053
+2023,ox_bilingualism,Bilingualism,openalex,1423,72823,0.01954053
+2023,ox_sociolinguistics,Sociolinguistics,openalex,1415,72823,0.01943067
+2023,ox_cultural_translation,Cultural Translation,openalex,1351,72823,0.01855183
+2023,ox_usage,Usage,openalex,1327,72823,0.01822227
+2023,ox_teaching_methods,Teaching Methods,openalex,1273,72823,0.01748074
+2023,focus_on_form,Focus on form,curated,1221,72823,0.01676668
+2023,ox_terminology,Terminology,openalex,1214,72823,0.01667056
+2023,ox_language_acquisition,Language Acquisition,openalex,1146,72823,0.01573679
+2023,language_policy,Language policy,curated,1141,72823,0.01566813
+2023,ox_language_attitudes,Language Attitudes,openalex,1122,72823,0.01540722
+2023,ox_ideology,Ideology,openalex,1117,72823,0.01533856
+2023,ox_structuralism,Structuralism,openalex,1087,72823,0.0149266
+2023,ox_second_language_learning,Second Language Learning,openalex,1077,72823,0.01478928
+2023,ox_semantics,Semantics,openalex,1046,72823,0.01436359
+2023,ox_language_variation,Language Variation,openalex,1044,72823,0.01433613
+2023,ox_syntax,Syntax,openalex,1022,72823,0.01403403
+2023,ox_power,Power,openalex,1012,72823,0.01389671
+2023,ox_literature_analysis,Literature Analysis,openalex,991,72823,0.01360834
+2023,ox_language_contact,Language Contact,openalex,930,72823,0.01277069
+2023,world_englishes,World Englishes,curated,908,72823,0.01246859
+2023,ox_literary_translation,Literary Translation,openalex,878,72823,0.01205663
+2023,ox_linguistic_identity,Linguistic Identity,openalex,863,72823,0.01185065
+2023,ox_learning_strategies,Learning Strategies,openalex,832,72823,0.01142496
+2023,ox_language_ideologies,Language Ideologies,openalex,808,72823,0.0110954
+2023,language_ideology,Language ideology,curated,808,72823,0.0110954
+2023,ox_social_communication,Social Communication,openalex,800,72823,0.01098554
+2023,ox_language_diversity,Language Diversity,openalex,777,72823,0.01066971
+2023,ox_social_interaction,Social Interaction,openalex,752,72823,0.01032641
+2023,multimodality,Multimodality,curated,720,72823,0.00988699
+2023,ox_indexicality,Indexicality,openalex,717,72823,0.00984579
+2023,ox_conversation_analysis,Conversation Analysis,openalex,710,72823,0.00974967
+2023,ox_language_learning_strategies,Language Learning Strategies,openalex,682,72823,0.00936517
+2023,ox_social_meaning,Social Meaning,openalex,664,72823,0.009118
+2023,ox_semiotics,Semiotics,openalex,660,72823,0.00906307
+2023,ox_foreign_language_education,Foreign Language Education,openalex,620,72823,0.00851379
+2023,ox_second_language_acquisition,Second Language Acquisition,openalex,593,72823,0.00814303
+2023,mixed_methods,Mixed methods,curated,587,72823,0.00806064
+2023,ox_ethnography,Ethnography,openalex,567,72823,0.007786
+2023,heritage_language,Heritage language,curated,566,72823,0.00777227
+2023,ox_lexicography,Lexicography,openalex,563,72823,0.00773107
+2023,ox_linguistic_diversity,Linguistic Diversity,openalex,563,72823,0.00773107
+2023,ox_etymology,Etymology,openalex,545,72823,0.0074839
+2023,ox_minority_languages,Minority Languages,openalex,515,72823,0.00707194
+2023,ox_vocabulary_learning,Vocabulary Learning,openalex,494,72823,0.00678357
+2023,ox_typology,typology,openalex,486,72823,0.00667372
+2023,ox_language_anxiety,Language Anxiety,openalex,435,72823,0.00597339
+2023,linguistic_landscape,Linguistic landscape,curated,434,72823,0.00595966
+2023,ox_historical_linguistics,Historical Linguistics,openalex,422,72823,0.00579487
+2023,ox_text_linguistics,Text Linguistics,openalex,420,72823,0.00576741
+2023,usage_based,Usage-based approaches,curated,411,72823,0.00564382
+2023,ox_semantic_changes,Semantic Changes,openalex,408,72823,0.00560263
+2023,ox_turkic,Turkic,openalex,408,72823,0.00560263
+2023,ox_phraseology,Phraseology,openalex,405,72823,0.00556143
+2023,codeswitching,Code-switching,curated,404,72823,0.0055477
+2023,ox_narrative_analysis,Narrative Analysis,openalex,394,72823,0.00541038
+2023,translanguaging,Translanguaging,curated,394,72823,0.00541038
+2023,ox_political_discourse,Political Discourse,openalex,390,72823,0.00535545
+2023,ox_interdisciplinary,Interdisciplinary,openalex,388,72823,0.00532799
+2023,ox_subtitling,Subtitling,openalex,384,72823,0.00527306
+2023,ox_language_evolution,Language Evolution,openalex,382,72823,0.00524559
+2023,ox_accent,Accent,openalex,369,72823,0.00506708
+2023,ox_verb_morphology,Verb Morphology,openalex,368,72823,0.00505335
+2023,ox_bilingual_education,Bilingual Education,openalex,355,72823,0.00487483
+2023,ox_textual_analysis,Textual Analysis,openalex,350,72823,0.00480617
+2023,ox_linguistic_competence,Linguistic Competence,openalex,349,72823,0.00479244
+2023,ox_intercultural_communication,Intercultural Communication,openalex,342,72823,0.00469632
+2023,ox_literary_theory,Literary Theory,openalex,330,72823,0.00453153
+2023,ox_lexical_influence,Lexical Influence,openalex,326,72823,0.00447661
+2023,corpus_linguistics,Corpus linguistics,curated,322,72823,0.00442168
+2023,second_language_writing,Second language writing,curated,322,72823,0.00442168
+2023,ox_humanities,Humanities,openalex,317,72823,0.00435302
+2023,ox_media_discourse,Media Discourse,openalex,312,72823,0.00428436
+2023,critical_discourse_analysis,Critical discourse analysis,curated,306,72823,0.00420197
+2023,ox_construction_grammar,Construction Grammar,openalex,303,72823,0.00416077
+2023,ox_language_typology,Language Typology,openalex,298,72823,0.00409211
+2023,ox_sociolinguistic_variation,Sociolinguistic Variation,openalex,297,72823,0.00407838
+2023,ox_indo_european,Indo-European,openalex,285,72823,0.0039136
+2023,ox_identity_construction,Identity Construction,openalex,277,72823,0.00380374
+2023,ox_german_as_a_foreign_language,German as a Foreign Language,openalex,270,72823,0.00370762
+2023,teacher_identity,Language teacher identity,curated,268,72823,0.00368016
+2023,ox_cognitive_linguistics,Cognitive Linguistics,openalex,262,72823,0.00359776
+2023,ox_specialized_language,Specialized Language,openalex,256,72823,0.00351537
+2023,positioning_theory,Positioning theory,curated,252,72823,0.00346044
+2023,task_based,Task-based language teaching,curated,250,72823,0.00343298
+2023,ox_philology,Philology,openalex,247,72823,0.00339179
+2023,ox_standardization_of_language,Standardization of Language,openalex,244,72823,0.00335059
+2023,ox_audiovisual_translation,Audiovisual Translation,openalex,240,72823,0.00329566
+2023,ox_neologisms,Neologisms,openalex,238,72823,0.0032682
+2023,machine_translation,Machine translation,curated,237,72823,0.00325447
+2023,ox_lexical_semantics,Lexical Semantics,openalex,233,72823,0.00319954
+2023,ox_media_influence,Media Influence,openalex,233,72823,0.00319954
+2023,study_abroad,Study abroad,curated,232,72823,0.00318581
+2023,ox_linguistic_borrowing,Linguistic Borrowing,openalex,230,72823,0.00315834
+2023,learner_identity,Learner identity,curated,226,72823,0.00310341
+2023,ox_interactional_linguistics,Interactional Linguistics,openalex,217,72823,0.00297983
+2023,ox_cross_cultural_communication,Cross-Cultural Communication,openalex,211,72823,0.00289744
+2023,ox_literary_tradition,Literary Tradition,openalex,211,72823,0.00289744
+2023,ox_semantic_relations,Semantic Relations,openalex,207,72823,0.00284251
+2023,ox_lingua_franca_english,Lingua Franca English,openalex,205,72823,0.00281504
+2023,learner_engagement,Learner engagement,curated,203,72823,0.00278758
+2023,ox_youth_language,Youth Language,openalex,194,72823,0.00266399
+2023,ox_captioning,Captioning,openalex,190,72823,0.00260907
+2023,ox_politeness_strategies,Politeness Strategies,openalex,190,72823,0.00260907
+2023,intercultural_competence,Intercultural competence,curated,188,72823,0.0025816
+2023,ox_l2_motivation,L2 Motivation,openalex,177,72823,0.00243055
+2023,ox_turn_taking,Turn-Taking,openalex,166,72823,0.0022795
+2023,ox_ethnolinguistics,Ethnolinguistics,openalex,163,72823,0.0022383
+2023,language_revitalization,Language revitalization,curated,157,72823,0.00215591
+2023,ox_ontologies,Ontologies,openalex,157,72823,0.00215591
+2023,ox_speech_perception,Speech Perception,openalex,154,72823,0.00211472
+2023,vocabulary_acquisition,Vocabulary acquisition,curated,152,72823,0.00208725
+2023,ox_cognitive_grammar,Cognitive Grammar,openalex,150,72823,0.00205979
+2023,ox_racism,Racism,openalex,149,72823,0.00204606
+2023,ox_language_rights,Language Rights,openalex,146,72823,0.00200486
+2023,corrective_feedback,Corrective feedback,curated,142,72823,0.00194993
+2023,ox_politeness_theory,Politeness Theory,openalex,141,72823,0.0019362
+2023,pragmatic_competence,Pragmatic competence,curated,138,72823,0.00189501
+2023,willingness_to_communicate,Willingness to communicate,curated,133,72823,0.00182635
+2023,ox_multidimensionality,Multidimensionality,openalex,130,72823,0.00178515
+2023,ox_social_justice,Social Justice,openalex,130,72823,0.00178515
+2023,ox_multimodal_communication,Multimodal Communication,openalex,129,72823,0.00177142
+2023,ox_audio_description,Audio Description,openalex,128,72823,0.00175769
+2023,ox_dialectology,Dialectology,openalex,127,72823,0.00174395
+2023,ox_historical_phonology,Historical Phonology,openalex,124,72823,0.00170276
+2023,ox_occitan,Occitan,openalex,124,72823,0.00170276
+2023,ox_anglicisms,Anglicisms,openalex,119,72823,0.0016341
+2023,ox_saussure,Saussure,openalex,114,72823,0.00156544
+2023,intelligibility,Intelligibility,curated,113,72823,0.00155171
+2023,ox_stereotype_analysis,Stereotype Analysis,openalex,112,72823,0.00153798
+2023,emi,English-medium instruction,curated,110,72823,0.00151051
+2023,large_language_models,Large language models,curated,110,72823,0.00151051
+2023,ox_translator_competence,Translator Competence,openalex,110,72823,0.00151051
+2023,ox_role_play_techniques,Role Play Techniques,openalex,107,72823,0.00146932
+2023,ox_historiography,Historiography,openalex,97,72823,0.001332
+2023,ox_task_based_instruction,Task-based Instruction,openalex,97,72823,0.001332
+2023,ox_nationalism,Nationalism,openalex,96,72823,0.00131827
+2023,ox_medieval_literature,Medieval Literature,openalex,94,72823,0.0012908
+2023,raciolinguistics,Raciolinguistics,curated,94,72823,0.0012908
+2023,meta_analysis,Meta-analysis,curated,89,72823,0.00122214
+2023,sociocultural_theory,Sociocultural theory,curated,86,72823,0.00118095
+2023,ox_semitic_languages,Semitic Languages,openalex,83,72823,0.00113975
+2023,ox_health_communication,Health Communication,openalex,81,72823,0.00111229
+2023,ox_proto_indo_european,Proto-Indo-European,openalex,80,72823,0.00109855
+2023,ox_heritage_language_maintenance,Heritage Language Maintenance,openalex,76,72823,0.00104363
+2023,replication_study,Replication study,curated,76,72823,0.00104363
+2023,ox_sociology_of_translation,Sociology of Translation,openalex,71,72823,0.00097497
+2023,ox_teacher_cognition,Teacher Cognition,openalex,71,72823,0.00097497
+2023,narrative_inquiry,Narrative inquiry,curated,69,72823,0.0009475
+2023,ox_universal_grammar,Universal Grammar,openalex,69,72823,0.0009475
+2023,eye_tracking,Eye-tracking,curated,66,72823,0.00090631
+2023,ox_knowledge_representation,Knowledge Representation,openalex,66,72823,0.00090631
+2023,ox_troubadours,Troubadours,openalex,62,72823,0.00085138
+2023,written_corrective_feedback,Written corrective feedback,curated,61,72823,0.00083765
+2023,post_editing,Post-editing,curated,59,72823,0.00081018
+2023,ox_multimedia_learning,Multimedia Learning,openalex,58,72823,0.00079645
+2023,ox_medieval_europe,Medieval Europe,openalex,57,72823,0.00078272
+2023,ox_social_movements,Social Movements,openalex,53,72823,0.00072779
+2023,language_aptitude,Language aptitude,curated,50,72823,0.0006866
+2023,complex_dynamic_systems,Complex dynamic systems,curated,49,72823,0.00067286
+2023,ideal_l2_self,Ideal L2 self,curated,49,72823,0.00067286
+2023,ox_diglossia,Diglossia,openalex,47,72823,0.0006454
+2023,formulaic_language,Formulaic language,curated,37,72823,0.00050808
+2023,ox_textual_criticism,Textual Criticism,openalex,37,72823,0.00050808
+2023,data_driven_learning,Data-driven learning,curated,36,72823,0.00049435
+2023,ox_migration_and_integration,Migration and Integration,openalex,35,72823,0.00048062
+2023,ox_oral_epics,oral epics,openalex,33,72823,0.00045315
+2023,ox_humboldt,Humboldt,openalex,29,72823,0.00039823
+2023,clil,CLIL,curated,27,72823,0.00037076
+2023,chatgpt,ChatGPT,curated,25,72823,0.0003433
+2023,ox_linguistic_historiography,Linguistic Historiography,openalex,24,72823,0.00032957
+2023,ox_middle_eastern_languages,Middle Eastern Languages,openalex,24,72823,0.00032957
+2023,dynamic_assessment,Dynamic assessment,curated,23,72823,0.00031583
+2023,ox_missionary_linguistics,Missionary Linguistics,openalex,23,72823,0.00031583
+2023,ox_hispanic_linguistics,Hispanic Linguistics,openalex,20,72823,0.00027464
+2023,ox_pragmatic_borrowing,Pragmatic Borrowing,openalex,20,72823,0.00027464
+2023,ox_interlanguage_development,Interlanguage Development,openalex,19,72823,0.00026091
+2023,ox_jesuits,Jesuits,openalex,18,72823,0.00024717
+2023,superdiversity,Superdiversity,curated,17,72823,0.00023344
+2023,comprehensible_input,Comprehensible input,curated,16,72823,0.00021971
+2023,duolingo,Duolingo,curated,16,72823,0.00021971
+2023,ox_urban_linguistics,Urban Linguistics,openalex,16,72823,0.00021971
+2023,automated_writing_evaluation,Automated writing evaluation,curated,11,72823,0.00015105
+2023,mall,Mobile-assisted language learning,curated,10,72823,0.00013732
+2023,ox_innovation_management,Innovation Management,openalex,9,72823,0.00012359
+2023,ox_neo_aramaic_dialects,Neo-Aramaic Dialects,openalex,9,72823,0.00012359
+2023,ox_scalar_implicature,Scalar Implicature,openalex,8,72823,0.00010985
+2023,washback,Washback,curated,7,72823,9.612e-05
+2023,generative_ai,Generative AI,curated,2,72823,2.746e-05
+2023,ox_manuscriptology,manuscriptology,openalex,1,72823,1.373e-05
+2024,ox_language_studies,Language Studies,openalex,12562,68926,0.18225343
+2024,ox_language_learning,Language Learning,openalex,5149,68926,0.0747033
+2024,ox_meaning,Meaning,openalex,4219,68926,0.06121057
+2024,ox_language_teaching,Language Teaching,openalex,4164,68926,0.06041262
+2024,ox_learners,Learners,openalex,4112,68926,0.05965818
+2024,ox_corpus,Corpus,openalex,3354,68926,0.04866088
+2024,ox_language_education,Language Education,openalex,3351,68926,0.04861736
+2024,ox_language_change,Language Change,openalex,2276,68926,0.03302092
+2024,ox_grammaticalization,Grammaticalization,openalex,2192,68926,0.03180222
+2024,ox_grammar,Grammar,openalex,2063,68926,0.02993065
+2024,ox_pedagogy,Pedagogy,openalex,2043,68926,0.02964048
+2024,ox_perception,Perception,openalex,2036,68926,0.02953893
+2024,ox_multilingualism,Multilingualism,openalex,2034,68926,0.02950991
+2024,ox_dialects,Dialects,openalex,2009,68926,0.0291472
+2024,ox_discourse_study,Discourse Study,openalex,1868,68926,0.02710153
+2024,ox_pragmatics,Pragmatics,openalex,1791,68926,0.02598439
+2024,ox_teaching_methods,Teaching Methods,openalex,1737,68926,0.02520094
+2024,ox_dictionaries,Dictionaries,openalex,1571,68926,0.02279256
+2024,ox_cultural_translation,Cultural Translation,openalex,1565,68926,0.02270551
+2024,ox_bilingual,Bilingual,openalex,1532,68926,0.02222674
+2024,ox_bilingualism,Bilingualism,openalex,1532,68926,0.02222674
+2024,ox_discourse_analysis,Discourse Analysis,openalex,1521,68926,0.02206714
+2024,ox_usage,Usage,openalex,1491,68926,0.0216319
+2024,ox_language_acquisition,Language Acquisition,openalex,1459,68926,0.02116763
+2024,ox_morphology,Morphology,openalex,1360,68926,0.01973131
+2024,ox_learning_strategies,Learning Strategies,openalex,1338,68926,0.01941212
+2024,language_policy,Language policy,curated,1334,68926,0.01935409
+2024,ox_sociolinguistics,Sociolinguistics,openalex,1290,68926,0.01871572
+2024,focus_on_form,Focus on form,curated,1282,68926,0.01859966
+2024,ox_language_attitudes,Language Attitudes,openalex,1208,68926,0.01752604
+2024,ox_ideology,Ideology,openalex,1185,68926,0.01719235
+2024,ox_structuralism,Structuralism,openalex,1178,68926,0.01709079
+2024,ox_second_language_learning,Second Language Learning,openalex,1177,68926,0.01707629
+2024,ox_terminology,Terminology,openalex,1159,68926,0.01681513
+2024,ox_literature_analysis,Literature Analysis,openalex,1131,68926,0.0164089
+2024,ox_language_learning_strategies,Language Learning Strategies,openalex,1106,68926,0.01604619
+2024,ox_social_communication,Social Communication,openalex,1075,68926,0.01559644
+2024,ox_power,Power,openalex,1067,68926,0.01548037
+2024,ox_language_variation,Language Variation,openalex,1063,68926,0.01542234
+2024,ox_semantics,Semantics,openalex,1031,68926,0.01495807
+2024,ox_language_diversity,Language Diversity,openalex,1004,68926,0.01456635
+2024,ox_linguistic_identity,Linguistic Identity,openalex,947,68926,0.01373937
+2024,world_englishes,World Englishes,curated,932,68926,0.01352175
+2024,ox_social_interaction,Social Interaction,openalex,902,68926,0.0130865
+2024,ox_syntax,Syntax,openalex,856,68926,0.01241912
+2024,ox_literary_translation,Literary Translation,openalex,843,68926,0.01223051
+2024,ox_language_ideologies,Language Ideologies,openalex,835,68926,0.01211444
+2024,language_ideology,Language ideology,curated,835,68926,0.01211444
+2024,ox_language_contact,Language Contact,openalex,829,68926,0.01202739
+2024,mixed_methods,Mixed methods,curated,813,68926,0.01179526
+2024,multimodality,Multimodality,curated,784,68926,0.01137452
+2024,ox_foreign_language_education,Foreign Language Education,openalex,772,68926,0.01120042
+2024,heritage_language,Heritage language,curated,733,68926,0.01063459
+2024,ox_linguistic_diversity,Linguistic Diversity,openalex,733,68926,0.01063459
+2024,ox_vocabulary_learning,Vocabulary Learning,openalex,696,68926,0.01009779
+2024,ox_conversation_analysis,Conversation Analysis,openalex,690,68926,0.01001074
+2024,ox_social_meaning,Social Meaning,openalex,679,68926,0.00985115
+2024,ox_second_language_acquisition,Second Language Acquisition,openalex,648,68926,0.00940139
+2024,ox_ethnography,Ethnography,openalex,596,68926,0.00864695
+2024,linguistic_landscape,Linguistic landscape,curated,596,68926,0.00864695
+2024,ox_narrative_analysis,Narrative Analysis,openalex,587,68926,0.00851638
+2024,ox_lexicography,Lexicography,openalex,586,68926,0.00850187
+2024,ox_language_anxiety,Language Anxiety,openalex,562,68926,0.00815367
+2024,ox_etymology,Etymology,openalex,542,68926,0.00786351
+2024,ox_semiotics,Semiotics,openalex,535,68926,0.00776195
+2024,ox_indexicality,Indexicality,openalex,511,68926,0.00741375
+2024,ox_language_evolution,Language Evolution,openalex,495,68926,0.00718161
+2024,ox_text_linguistics,Text Linguistics,openalex,472,68926,0.00684792
+2024,ox_minority_languages,Minority Languages,openalex,470,68926,0.00681891
+2024,ox_political_discourse,Political Discourse,openalex,456,68926,0.00661579
+2024,ox_phraseology,Phraseology,openalex,454,68926,0.00658677
+2024,ox_typology,typology,openalex,446,68926,0.00647071
+2024,ox_interdisciplinary,Interdisciplinary,openalex,443,68926,0.00642718
+2024,ox_linguistic_competence,Linguistic Competence,openalex,441,68926,0.00639817
+2024,ox_subtitling,Subtitling,openalex,440,68926,0.00638366
+2024,ox_turkic,Turkic,openalex,433,68926,0.0062821
+2024,codeswitching,Code-switching,curated,429,68926,0.00622407
+2024,usage_based,Usage-based approaches,curated,424,68926,0.00615152
+2024,ox_intercultural_communication,Intercultural Communication,openalex,423,68926,0.00613702
+2024,translanguaging,Translanguaging,curated,423,68926,0.00613702
+2024,ox_semantic_changes,Semantic Changes,openalex,417,68926,0.00604997
+2024,ox_historical_linguistics,Historical Linguistics,openalex,411,68926,0.00596292
+2024,ox_bilingual_education,Bilingual Education,openalex,389,68926,0.00564373
+2024,ox_lexical_influence,Lexical Influence,openalex,388,68926,0.00562923
+2024,second_language_writing,Second language writing,curated,384,68926,0.00557119
+2024,ox_media_influence,Media Influence,openalex,377,68926,0.00546963
+2024,ox_accent,Accent,openalex,374,68926,0.00542611
+2024,ox_textual_analysis,Textual Analysis,openalex,366,68926,0.00531004
+2024,machine_translation,Machine translation,curated,363,68926,0.00526652
+2024,ox_media_discourse,Media Discourse,openalex,352,68926,0.00510693
+2024,critical_discourse_analysis,Critical discourse analysis,curated,351,68926,0.00509242
+2024,teacher_identity,Language teacher identity,curated,332,68926,0.00481676
+2024,learner_engagement,Learner engagement,curated,330,68926,0.00478774
+2024,corpus_linguistics,Corpus linguistics,curated,323,68926,0.00468618
+2024,ox_literary_theory,Literary Theory,openalex,321,68926,0.00465717
+2024,large_language_models,Large language models,curated,306,68926,0.00443954
+2024,ox_verb_morphology,Verb Morphology,openalex,296,68926,0.00429446
+2024,ox_standardization_of_language,Standardization of Language,openalex,286,68926,0.00414938
+2024,ox_cross_cultural_communication,Cross-Cultural Communication,openalex,284,68926,0.00412036
+2024,ox_identity_construction,Identity Construction,openalex,278,68926,0.00403331
+2024,ox_specialized_language,Specialized Language,openalex,277,68926,0.0040188
+2024,task_based,Task-based language teaching,curated,277,68926,0.0040188
+2024,ox_lexical_semantics,Lexical Semantics,openalex,273,68926,0.00396077
+2024,ox_german_as_a_foreign_language,German as a Foreign Language,openalex,269,68926,0.00390274
+2024,ox_cognitive_linguistics,Cognitive Linguistics,openalex,268,68926,0.00388823
+2024,ox_philology,Philology,openalex,268,68926,0.00388823
+2024,vocabulary_acquisition,Vocabulary acquisition,curated,261,68926,0.00378667
+2024,ox_neologisms,Neologisms,openalex,259,68926,0.00375765
+2024,ox_humanities,Humanities,openalex,257,68926,0.00372864
+2024,ox_language_typology,Language Typology,openalex,254,68926,0.00368511
+2024,ox_indo_european,Indo-European,openalex,251,68926,0.00364159
+2024,ox_captioning,Captioning,openalex,244,68926,0.00354003
+2024,ox_construction_grammar,Construction Grammar,openalex,240,68926,0.00348199
+2024,learner_identity,Learner identity,curated,240,68926,0.00348199
+2024,ox_sociolinguistic_variation,Sociolinguistic Variation,openalex,239,68926,0.00346749
+2024,ox_audiovisual_translation,Audiovisual Translation,openalex,236,68926,0.00342396
+2024,ox_linguistic_borrowing,Linguistic Borrowing,openalex,235,68926,0.00340945
+2024,ox_interactional_linguistics,Interactional Linguistics,openalex,226,68926,0.00327888
+2024,positioning_theory,Positioning theory,curated,226,68926,0.00327888
+2024,ox_literary_tradition,Literary Tradition,openalex,216,68926,0.0031338
+2024,ox_lingua_franca_english,Lingua Franca English,openalex,213,68926,0.00309027
+2024,ox_speech_perception,Speech Perception,openalex,208,68926,0.00301773
+2024,intercultural_competence,Intercultural competence,curated,206,68926,0.00298871
+2024,ox_youth_language,Youth Language,openalex,198,68926,0.00287265
+2024,study_abroad,Study abroad,curated,192,68926,0.0027856
+2024,ox_politeness_strategies,Politeness Strategies,openalex,188,68926,0.00272756
+2024,ox_semantic_relations,Semantic Relations,openalex,181,68926,0.002626
+2024,ox_l2_motivation,L2 Motivation,openalex,172,68926,0.00249543
+2024,ox_ethnolinguistics,Ethnolinguistics,openalex,170,68926,0.00246641
+2024,ox_role_play_techniques,Role Play Techniques,openalex,169,68926,0.0024519
+2024,ox_language_rights,Language Rights,openalex,167,68926,0.00242289
+2024,ox_multidimensionality,Multidimensionality,openalex,165,68926,0.00239387
+2024,ox_ontologies,Ontologies,openalex,165,68926,0.00239387
+2024,ox_social_justice,Social Justice,openalex,160,68926,0.00232133
+2024,corrective_feedback,Corrective feedback,curated,157,68926,0.0022778
+2024,ox_turn_taking,Turn-Taking,openalex,157,68926,0.0022778
+2024,pragmatic_competence,Pragmatic competence,curated,153,68926,0.00221977
+2024,sociocultural_theory,Sociocultural theory,curated,149,68926,0.00216174
+2024,willingness_to_communicate,Willingness to communicate,curated,146,68926,0.00211821
+2024,language_revitalization,Language revitalization,curated,138,68926,0.00200215
+2024,ox_audio_description,Audio Description,openalex,137,68926,0.00198764
+2024,ox_task_based_instruction,Task-based Instruction,openalex,136,68926,0.00197313
+2024,ox_multimodal_communication,Multimodal Communication,openalex,135,68926,0.00195862
+2024,ox_politeness_theory,Politeness Theory,openalex,135,68926,0.00195862
+2024,ox_historical_phonology,Historical Phonology,openalex,131,68926,0.00190059
+2024,emi,English-medium instruction,curated,128,68926,0.00185706
+2024,ox_dialectology,Dialectology,openalex,127,68926,0.00184256
+2024,ox_translator_competence,Translator Competence,openalex,126,68926,0.00182805
+2024,ox_saussure,Saussure,openalex,124,68926,0.00179903
+2024,ox_cognitive_grammar,Cognitive Grammar,openalex,120,68926,0.001741
+2024,ox_stereotype_analysis,Stereotype Analysis,openalex,118,68926,0.00171198
+2024,ox_anglicisms,Anglicisms,openalex,115,68926,0.00166846
+2024,chatgpt,ChatGPT,curated,112,68926,0.00162493
+2024,intelligibility,Intelligibility,curated,112,68926,0.00162493
+2024,ox_multimedia_learning,Multimedia Learning,openalex,111,68926,0.00161042
+2024,ox_racism,Racism,openalex,104,68926,0.00150887
+2024,narrative_inquiry,Narrative inquiry,curated,102,68926,0.00147985
+2024,ox_occitan,Occitan,openalex,99,68926,0.00143632
+2024,ox_historiography,Historiography,openalex,98,68926,0.00142182
+2024,ox_health_communication,Health Communication,openalex,94,68926,0.00136378
+2024,replication_study,Replication study,curated,93,68926,0.00134927
+2024,meta_analysis,Meta-analysis,curated,91,68926,0.00132026
+2024,ox_knowledge_representation,Knowledge Representation,openalex,89,68926,0.00129124
+2024,ox_sociology_of_translation,Sociology of Translation,openalex,86,68926,0.00124771
+2024,raciolinguistics,Raciolinguistics,curated,84,68926,0.0012187
+2024,ox_nationalism,Nationalism,openalex,83,68926,0.00120419
+2024,ox_heritage_language_maintenance,Heritage Language Maintenance,openalex,82,68926,0.00118968
+2024,ox_medieval_literature,Medieval Literature,openalex,82,68926,0.00118968
+2024,ox_universal_grammar,Universal Grammar,openalex,77,68926,0.00111714
+2024,post_editing,Post-editing,curated,74,68926,0.00107361
+2024,written_corrective_feedback,Written corrective feedback,curated,70,68926,0.00101558
+2024,ox_proto_indo_european,Proto-Indo-European,openalex,66,68926,0.00095755
+2024,eye_tracking,Eye-tracking,curated,65,68926,0.00094304
+2024,ox_diglossia,Diglossia,openalex,63,68926,0.00091402
+2024,ox_semitic_languages,Semitic Languages,openalex,63,68926,0.00091402
+2024,ox_social_movements,Social Movements,openalex,62,68926,0.00089952
+2024,ox_teacher_cognition,Teacher Cognition,openalex,59,68926,0.00085599
+2024,ideal_l2_self,Ideal L2 self,curated,58,68926,0.00084148
+2024,clil,CLIL,curated,51,68926,0.00073992
+2024,language_aptitude,Language aptitude,curated,50,68926,0.00072542
+2024,complex_dynamic_systems,Complex dynamic systems,curated,48,68926,0.0006964
+2024,ox_migration_and_integration,Migration and Integration,openalex,47,68926,0.00068189
+2024,ox_medieval_europe,Medieval Europe,openalex,45,68926,0.00065287
+2024,ox_troubadours,Troubadours,openalex,41,68926,0.00059484
+2024,data_driven_learning,Data-driven learning,curated,39,68926,0.00056582
+2024,dynamic_assessment,Dynamic assessment,curated,39,68926,0.00056582
+2024,ox_textual_criticism,Textual Criticism,openalex,38,68926,0.00055132
+2024,formulaic_language,Formulaic language,curated,35,68926,0.00050779
+2024,ox_jesuits,Jesuits,openalex,30,68926,0.00043525
+2024,ox_middle_eastern_languages,Middle Eastern Languages,openalex,30,68926,0.00043525
+2024,mall,Mobile-assisted language learning,curated,29,68926,0.00042074
+2024,comprehensible_input,Comprehensible input,curated,27,68926,0.00039172
+2024,ox_humboldt,Humboldt,openalex,26,68926,0.00037722
+2024,ox_linguistic_historiography,Linguistic Historiography,openalex,25,68926,0.00036271
+2024,ox_oral_epics,oral epics,openalex,25,68926,0.00036271
+2024,generative_ai,Generative AI,curated,22,68926,0.00031918
+2024,duolingo,Duolingo,curated,21,68926,0.00030468
+2024,automated_writing_evaluation,Automated writing evaluation,curated,19,68926,0.00027566
+2024,ox_pragmatic_borrowing,Pragmatic Borrowing,openalex,18,68926,0.00026115
+2024,ox_scalar_implicature,Scalar Implicature,openalex,17,68926,0.00024664
+2024,ox_interlanguage_development,Interlanguage Development,openalex,14,68926,0.00020312
+2024,ox_urban_linguistics,Urban Linguistics,openalex,14,68926,0.00020312
+2024,ox_missionary_linguistics,Missionary Linguistics,openalex,12,68926,0.0001741
+2024,ox_innovation_management,Innovation Management,openalex,11,68926,0.00015959
+2024,superdiversity,Superdiversity,curated,11,68926,0.00015959
+2024,ox_neo_aramaic_dialects,Neo-Aramaic Dialects,openalex,10,68926,0.00014508
+2024,ox_hispanic_linguistics,Hispanic Linguistics,openalex,9,68926,0.00013057
+2024,washback,Washback,curated,6,68926,8.705e-05
+2024,ox_manuscriptology,manuscriptology,openalex,0,68926,0.0
+2025,ox_language_studies,Language Studies,openalex,16545,77696,0.21294532
+2025,ox_language_learning,Language Learning,openalex,7165,77696,0.09221839
+2025,ox_learners,Learners,openalex,6564,77696,0.08448311
+2025,ox_language_teaching,Language Teaching,openalex,5622,77696,0.07235894
+2025,ox_language_education,Language Education,openalex,5116,77696,0.06584638
+2025,ox_meaning,Meaning,openalex,4965,77696,0.0639029
+2025,ox_pedagogy,Pedagogy,openalex,4128,77696,0.05313015
+2025,ox_corpus,Corpus,openalex,3734,77696,0.0480591
+2025,ox_multilingualism,Multilingualism,openalex,3242,77696,0.04172673
+2025,ox_grammaticalization,Grammaticalization,openalex,2963,77696,0.03813581
+2025,ox_grammar,Grammar,openalex,2871,77696,0.03695171
+2025,ox_discourse_study,Discourse Study,openalex,2857,77696,0.03677152
+2025,ox_perception,Perception,openalex,2857,77696,0.03677152
+2025,ox_pragmatics,Pragmatics,openalex,2642,77696,0.03400433
+2025,ox_cultural_translation,Cultural Translation,openalex,2605,77696,0.03352811
+2025,ox_language_change,Language Change,openalex,2520,77696,0.0324341
+2025,ox_learning_strategies,Learning Strategies,openalex,2339,77696,0.03010451
+2025,ox_dialects,Dialects,openalex,2333,77696,0.03002729
+2025,ox_teaching_methods,Teaching Methods,openalex,2268,77696,0.02919069
+2025,ox_discourse_analysis,Discourse Analysis,openalex,2237,77696,0.0287917
+2025,ox_language_acquisition,Language Acquisition,openalex,2155,77696,0.02773631
+2025,ox_sociolinguistics,Sociolinguistics,openalex,2117,77696,0.02724722
+2025,language_policy,Language policy,curated,2031,77696,0.02614034
+2025,ox_language_learning_strategies,Language Learning Strategies,openalex,1971,77696,0.0253681
+2025,ox_bilingual,Bilingual,openalex,1938,77696,0.02494337
+2025,ox_bilingualism,Bilingualism,openalex,1938,77696,0.02494337
+2025,ox_linguistic_identity,Linguistic Identity,openalex,1927,77696,0.02480179
+2025,ox_structuralism,Structuralism,openalex,1856,77696,0.02388797
+2025,ox_usage,Usage,openalex,1793,77696,0.02307712
+2025,focus_on_form,Focus on form,curated,1777,77696,0.02287119
+2025,ox_morphology,Morphology,openalex,1772,77696,0.02280684
+2025,ox_dictionaries,Dictionaries,openalex,1688,77696,0.0217257
+2025,mixed_methods,Mixed methods,curated,1660,77696,0.02136532
+2025,ox_social_communication,Social Communication,openalex,1653,77696,0.02127523
+2025,ox_terminology,Terminology,openalex,1616,77696,0.02079901
+2025,ox_ideology,Ideology,openalex,1601,77696,0.02060595
+2025,ox_second_language_learning,Second Language Learning,openalex,1575,77696,0.02027131
+2025,ox_language_variation,Language Variation,openalex,1432,77696,0.01843081
+2025,ox_power,Power,openalex,1430,77696,0.01840507
+2025,ox_social_interaction,Social Interaction,openalex,1424,77696,0.01832784
+2025,ox_literature_analysis,Literature Analysis,openalex,1409,77696,0.01813478
+2025,ox_language_attitudes,Language Attitudes,openalex,1403,77696,0.01805756
+2025,ox_language_diversity,Language Diversity,openalex,1391,77696,0.01790311
+2025,world_englishes,World Englishes,curated,1195,77696,0.01538046
+2025,ox_language_ideologies,Language Ideologies,openalex,1187,77696,0.01527749
+2025,language_ideology,Language ideology,curated,1187,77696,0.01527749
+2025,ox_linguistic_diversity,Linguistic Diversity,openalex,1145,77696,0.01473692
+2025,ox_foreign_language_education,Foreign Language Education,openalex,1121,77696,0.01442803
+2025,ox_semantics,Semantics,openalex,1102,77696,0.01418348
+2025,ox_linguistic_competence,Linguistic Competence,openalex,1087,77696,0.01399042
+2025,multimodality,Multimodality,curated,1084,77696,0.01395181
+2025,learner_engagement,Learner engagement,curated,1054,77696,0.01356569
+2025,ox_syntax,Syntax,openalex,1041,77696,0.01339837
+2025,ox_vocabulary_learning,Vocabulary Learning,openalex,1025,77696,0.01319244
+2025,ox_literary_translation,Literary Translation,openalex,1019,77696,0.01311522
+2025,ox_language_anxiety,Language Anxiety,openalex,1018,77696,0.01310235
+2025,ox_second_language_acquisition,Second Language Acquisition,openalex,987,77696,0.01270336
+2025,ox_language_contact,Language Contact,openalex,975,77696,0.01254891
+2025,heritage_language,Heritage language,curated,956,77696,0.01230437
+2025,ox_social_meaning,Social Meaning,openalex,925,77696,0.01190537
+2025,ox_narrative_analysis,Narrative Analysis,openalex,922,77696,0.01186676
+2025,linguistic_landscape,Linguistic landscape,curated,831,77696,0.01069553
+2025,translanguaging,Translanguaging,curated,805,77696,0.01036089
+2025,ox_language_evolution,Language Evolution,openalex,760,77696,0.00978171
+2025,ox_lexicography,Lexicography,openalex,733,77696,0.0094342
+2025,ox_conversation_analysis,Conversation Analysis,openalex,718,77696,0.00924114
+2025,ox_intercultural_communication,Intercultural Communication,openalex,683,77696,0.00879067
+2025,codeswitching,Code-switching,curated,657,77696,0.00845603
+2025,ox_lexical_influence,Lexical Influence,openalex,624,77696,0.0080313
+2025,ox_ethnography,Ethnography,openalex,622,77696,0.00800556
+2025,ox_semiotics,Semiotics,openalex,620,77696,0.00797982
+2025,ox_indexicality,Indexicality,openalex,616,77696,0.00792834
+2025,task_based,Task-based language teaching,curated,615,77696,0.00791547
+2025,ox_etymology,Etymology,openalex,613,77696,0.00788972
+2025,ox_interdisciplinary,Interdisciplinary,openalex,605,77696,0.00778676
+2025,ox_media_influence,Media Influence,openalex,600,77696,0.0077224
+2025,ox_media_discourse,Media Discourse,openalex,581,77696,0.00747786
+2025,ox_minority_languages,Minority Languages,openalex,580,77696,0.00746499
+2025,ox_bilingual_education,Bilingual Education,openalex,566,77696,0.0072848
+2025,machine_translation,Machine translation,curated,566,77696,0.0072848
+2025,ox_standardization_of_language,Standardization of Language,openalex,564,77696,0.00725906
+2025,ox_political_discourse,Political Discourse,openalex,553,77696,0.00711748
+2025,usage_based,Usage-based approaches,curated,553,77696,0.00711748
+2025,intercultural_competence,Intercultural competence,curated,550,77696,0.00707887
+2025,ox_subtitling,Subtitling,openalex,542,77696,0.00697591
+2025,ox_cross_cultural_communication,Cross-Cultural Communication,openalex,535,77696,0.00688581
+2025,ox_typology,typology,openalex,535,77696,0.00688581
+2025,critical_discourse_analysis,Critical discourse analysis,curated,533,77696,0.00686007
+2025,ox_turkic,Turkic,openalex,526,77696,0.00676998
+2025,ox_semantic_changes,Semantic Changes,openalex,520,77696,0.00669275
+2025,ox_text_linguistics,Text Linguistics,openalex,518,77696,0.00666701
+2025,teacher_identity,Language teacher identity,curated,503,77696,0.00647395
+2025,ox_textual_analysis,Textual Analysis,openalex,499,77696,0.00642247
+2025,ox_task_based_instruction,Task-based Instruction,openalex,497,77696,0.00639673
+2025,learner_identity,Learner identity,curated,486,77696,0.00625515
+2025,ox_historical_linguistics,Historical Linguistics,openalex,483,77696,0.00621654
+2025,ox_accent,Accent,openalex,477,77696,0.00613931
+2025,ox_identity_construction,Identity Construction,openalex,467,77696,0.0060106
+2025,second_language_writing,Second language writing,curated,465,77696,0.00598486
+2025,large_language_models,Large language models,curated,456,77696,0.00586903
+2025,ox_verb_morphology,Verb Morphology,openalex,456,77696,0.00586903
+2025,corpus_linguistics,Corpus linguistics,curated,448,77696,0.00576606
+2025,ox_specialized_language,Specialized Language,openalex,439,77696,0.00565023
+2025,ox_phraseology,Phraseology,openalex,427,77696,0.00549578
+2025,pragmatic_competence,Pragmatic competence,curated,424,77696,0.00545717
+2025,ox_sociolinguistic_variation,Sociolinguistic Variation,openalex,413,77696,0.00531559
+2025,vocabulary_acquisition,Vocabulary acquisition,curated,408,77696,0.00525124
+2025,ox_literary_theory,Literary Theory,openalex,397,77696,0.00510966
+2025,ox_linguistic_borrowing,Linguistic Borrowing,openalex,395,77696,0.00508392
+2025,ox_cognitive_linguistics,Cognitive Linguistics,openalex,391,77696,0.00503243
+2025,ox_construction_grammar,Construction Grammar,openalex,368,77696,0.00473641
+2025,ox_audiovisual_translation,Audiovisual Translation,openalex,362,77696,0.00465918
+2025,ox_language_typology,Language Typology,openalex,341,77696,0.0043889
+2025,ox_politeness_strategies,Politeness Strategies,openalex,336,77696,0.00432455
+2025,ox_german_as_a_foreign_language,German as a Foreign Language,openalex,325,77696,0.00418297
+2025,ox_neologisms,Neologisms,openalex,321,77696,0.00413149
+2025,positioning_theory,Positioning theory,curated,319,77696,0.00410575
+2025,sociocultural_theory,Sociocultural theory,curated,317,77696,0.00408
+2025,ox_lingua_franca_english,Lingua Franca English,openalex,307,77696,0.0039513
+2025,ox_interactional_linguistics,Interactional Linguistics,openalex,301,77696,0.00387407
+2025,ox_l2_motivation,L2 Motivation,openalex,286,77696,0.00368101
+2025,ox_lexical_semantics,Lexical Semantics,openalex,285,77696,0.00366814
+2025,ox_humanities,Humanities,openalex,283,77696,0.0036424
+2025,ox_indo_european,Indo-European,openalex,275,77696,0.00353944
+2025,ox_youth_language,Youth Language,openalex,272,77696,0.00350082
+2025,ox_speech_perception,Speech Perception,openalex,265,77696,0.00341073
+2025,ox_philology,Philology,openalex,260,77696,0.00334638
+2025,chatgpt,ChatGPT,curated,250,77696,0.00321767
+2025,language_revitalization,Language revitalization,curated,246,77696,0.00316619
+2025,emi,English-medium instruction,curated,245,77696,0.00315331
+2025,ox_multidimensionality,Multidimensionality,openalex,242,77696,0.0031147
+2025,ox_role_play_techniques,Role Play Techniques,openalex,242,77696,0.0031147
+2025,ox_cognitive_grammar,Cognitive Grammar,openalex,240,77696,0.00308896
+2025,ox_multimodal_communication,Multimodal Communication,openalex,237,77696,0.00305035
+2025,ox_social_justice,Social Justice,openalex,231,77696,0.00297313
+2025,ox_captioning,Captioning,openalex,224,77696,0.00288303
+2025,ox_historical_phonology,Historical Phonology,openalex,219,77696,0.00281868
+2025,ox_semantic_relations,Semantic Relations,openalex,219,77696,0.00281868
+2025,ox_literary_tradition,Literary Tradition,openalex,218,77696,0.00280581
+2025,ox_politeness_theory,Politeness Theory,openalex,216,77696,0.00278007
+2025,ox_translator_competence,Translator Competence,openalex,216,77696,0.00278007
+2025,corrective_feedback,Corrective feedback,curated,212,77696,0.00272858
+2025,ox_ethnolinguistics,Ethnolinguistics,openalex,204,77696,0.00262562
+2025,ox_language_rights,Language Rights,openalex,204,77696,0.00262562
+2025,willingness_to_communicate,Willingness to communicate,curated,203,77696,0.00261275
+2025,ox_dialectology,Dialectology,openalex,193,77696,0.00248404
+2025,ox_turn_taking,Turn-Taking,openalex,189,77696,0.00243256
+2025,study_abroad,Study abroad,curated,188,77696,0.00241969
+2025,ox_audio_description,Audio Description,openalex,172,77696,0.00221376
+2025,intelligibility,Intelligibility,curated,170,77696,0.00218802
+2025,ox_anglicisms,Anglicisms,openalex,166,77696,0.00213653
+2025,post_editing,Post-editing,curated,160,77696,0.00205931
+2025,narrative_inquiry,Narrative inquiry,curated,155,77696,0.00199496
+2025,ox_multimedia_learning,Multimedia Learning,openalex,154,77696,0.00198208
+2025,ox_ontologies,Ontologies,openalex,147,77696,0.00189199
+2025,replication_study,Replication study,curated,147,77696,0.00189199
+2025,ox_stereotype_analysis,Stereotype Analysis,openalex,147,77696,0.00189199
+2025,ox_saussure,Saussure,openalex,145,77696,0.00186625
+2025,data_driven_learning,Data-driven learning,curated,123,77696,0.00158309
+2025,meta_analysis,Meta-analysis,curated,113,77696,0.00145439
+2025,ox_historiography,Historiography,openalex,109,77696,0.0014029
+2025,generative_ai,Generative AI,curated,107,77696,0.00137716
+2025,ox_racism,Racism,openalex,105,77696,0.00135142
+2025,raciolinguistics,Raciolinguistics,curated,104,77696,0.00133855
+2025,ox_knowledge_representation,Knowledge Representation,openalex,100,77696,0.00128707
+2025,ox_universal_grammar,Universal Grammar,openalex,99,77696,0.0012742
+2025,written_corrective_feedback,Written corrective feedback,curated,99,77696,0.0012742
+2025,ox_heritage_language_maintenance,Heritage Language Maintenance,openalex,98,77696,0.00126133
+2025,eye_tracking,Eye-tracking,curated,93,77696,0.00119697
+2025,clil,CLIL,curated,92,77696,0.0011841
+2025,ox_health_communication,Health Communication,openalex,92,77696,0.0011841
+2025,ox_occitan,Occitan,openalex,88,77696,0.00113262
+2025,ox_nationalism,Nationalism,openalex,86,77696,0.00110688
+2025,ox_migration_and_integration,Migration and Integration,openalex,84,77696,0.00108114
+2025,complex_dynamic_systems,Complex dynamic systems,curated,81,77696,0.00104253
+2025,dynamic_assessment,Dynamic assessment,curated,79,77696,0.00101678
+2025,ideal_l2_self,Ideal L2 self,curated,74,77696,0.00095243
+2025,ox_proto_indo_european,Proto-Indo-European,openalex,70,77696,0.00090095
+2025,ox_teacher_cognition,Teacher Cognition,openalex,69,77696,0.00088808
+2025,ox_social_movements,Social Movements,openalex,66,77696,0.00084946
+2025,ox_semitic_languages,Semitic Languages,openalex,62,77696,0.00079798
+2025,ox_diglossia,Diglossia,openalex,59,77696,0.00075937
+2025,ox_pragmatic_borrowing,Pragmatic Borrowing,openalex,57,77696,0.00073363
+2025,ox_medieval_europe,Medieval Europe,openalex,56,77696,0.00072076
+2025,ox_sociology_of_translation,Sociology of Translation,openalex,56,77696,0.00072076
+2025,ox_medieval_literature,Medieval Literature,openalex,55,77696,0.00070789
+2025,formulaic_language,Formulaic language,curated,54,77696,0.00069502
+2025,duolingo,Duolingo,curated,46,77696,0.00059205
+2025,comprehensible_input,Comprehensible input,curated,45,77696,0.00057918
+2025,language_aptitude,Language aptitude,curated,44,77696,0.00056631
+2025,ox_oral_epics,oral epics,openalex,39,77696,0.00050196
+2025,ox_troubadours,Troubadours,openalex,38,77696,0.00048909
+2025,mall,Mobile-assisted language learning,curated,36,77696,0.00046334
+2025,ox_textual_criticism,Textual Criticism,openalex,36,77696,0.00046334
+2025,ox_interlanguage_development,Interlanguage Development,openalex,35,77696,0.00045047
+2025,ox_linguistic_historiography,Linguistic Historiography,openalex,34,77696,0.0004376
+2025,ox_scalar_implicature,Scalar Implicature,openalex,31,77696,0.00039899
+2025,ox_humboldt,Humboldt,openalex,29,77696,0.00037325
+2025,ox_innovation_management,Innovation Management,openalex,29,77696,0.00037325
+2025,ox_urban_linguistics,Urban Linguistics,openalex,27,77696,0.00034751
+2025,ox_middle_eastern_languages,Middle Eastern Languages,openalex,26,77696,0.00033464
+2025,ox_jesuits,Jesuits,openalex,21,77696,0.00027028
+2025,automated_writing_evaluation,Automated writing evaluation,curated,20,77696,0.00025741
+2025,superdiversity,Superdiversity,curated,18,77696,0.00023167
+2025,ox_missionary_linguistics,Missionary Linguistics,openalex,16,77696,0.00020593
+2025,washback,Washback,curated,15,77696,0.00019306
+2025,ox_hispanic_linguistics,Hispanic Linguistics,openalex,11,77696,0.00014158
+2025,ox_neo_aramaic_dialects,Neo-Aramaic Dialects,openalex,10,77696,0.00012871
+2025,ox_manuscriptology,manuscriptology,openalex,0,77696,0.0
+2026,ox_language_studies,Language Studies,openalex,8450,32830,0.25738654
+2026,ox_language_learning,Language Learning,openalex,4092,32830,0.1246421
+2026,ox_learners,Learners,openalex,4055,32830,0.12351508
+2026,ox_language_teaching,Language Teaching,openalex,3436,32830,0.10466037
+2026,ox_language_education,Language Education,openalex,3039,32830,0.09256777
+2026,ox_pedagogy,Pedagogy,openalex,2928,32830,0.08918672
+2026,ox_meaning,Meaning,openalex,2330,32830,0.07097167
+2026,ox_multilingualism,Multilingualism,openalex,2013,32830,0.06131587
+2026,ox_corpus,Corpus,openalex,1668,32830,0.05080719
+2026,ox_discourse_study,Discourse Study,openalex,1631,32830,0.04968017
+2026,ox_pragmatics,Pragmatics,openalex,1547,32830,0.04712153
+2026,ox_grammaticalization,Grammaticalization,openalex,1515,32830,0.04614682
+2026,ox_grammar,Grammar,openalex,1450,32830,0.04416692
+2026,ox_structuralism,Structuralism,openalex,1397,32830,0.04255254
+2026,ox_cultural_translation,Cultural Translation,openalex,1351,32830,0.04115139
+2026,language_policy,Language policy,curated,1301,32830,0.03962839
+2026,ox_learning_strategies,Learning Strategies,openalex,1244,32830,0.03789217
+2026,ox_discourse_analysis,Discourse Analysis,openalex,1218,32830,0.03710021
+2026,ox_teaching_methods,Teaching Methods,openalex,1208,32830,0.03679561
+2026,ox_bilingual,Bilingual,openalex,1186,32830,0.0361255
+2026,ox_bilingualism,Bilingualism,openalex,1186,32830,0.0361255
+2026,ox_perception,Perception,openalex,1180,32830,0.03594274
+2026,ox_language_acquisition,Language Acquisition,openalex,1151,32830,0.0350594
+2026,ox_linguistic_identity,Linguistic Identity,openalex,1150,32830,0.03502894
+2026,ox_sociolinguistics,Sociolinguistics,openalex,1115,32830,0.03396284
+2026,ox_language_change,Language Change,openalex,1096,32830,0.0333841
+2026,ox_language_learning_strategies,Language Learning Strategies,openalex,1084,32830,0.03301858
+2026,ox_terminology,Terminology,openalex,982,32830,0.02991167
+2026,ox_social_communication,Social Communication,openalex,963,32830,0.02933293
+2026,mixed_methods,Mixed methods,curated,950,32830,0.02893695
+2026,ox_dialects,Dialects,openalex,930,32830,0.02832775
+2026,ox_morphology,Morphology,openalex,869,32830,0.02646969
+2026,ox_linguistic_competence,Linguistic Competence,openalex,864,32830,0.02631739
+2026,ox_second_language_learning,Second Language Learning,openalex,854,32830,0.02601279
+2026,ox_social_interaction,Social Interaction,openalex,840,32830,0.02558635
+2026,learner_engagement,Learner engagement,curated,817,32830,0.02488577
+2026,focus_on_form,Focus on form,curated,785,32830,0.02391106
+2026,ox_usage,Usage,openalex,767,32830,0.02336278
+2026,ox_power,Power,openalex,745,32830,0.02269266
+2026,ox_ideology,Ideology,openalex,739,32830,0.0225099
+2026,ox_language_variation,Language Variation,openalex,674,32830,0.02053
+2026,ox_language_diversity,Language Diversity,openalex,671,32830,0.02043862
+2026,ox_foreign_language_education,Foreign Language Education,openalex,665,32830,0.02025586
+2026,ox_language_attitudes,Language Attitudes,openalex,664,32830,0.0202254
+2026,ox_language_anxiety,Language Anxiety,openalex,660,32830,0.02010356
+2026,ox_literature_analysis,Literature Analysis,openalex,618,32830,0.01882425
+2026,ox_dictionaries,Dictionaries,openalex,614,32830,0.01870241
+2026,ox_vocabulary_learning,Vocabulary Learning,openalex,593,32830,0.01806275
+2026,ox_language_ideologies,Language Ideologies,openalex,587,32830,0.01787999
+2026,language_ideology,Language ideology,curated,587,32830,0.01787999
+2026,ox_literary_translation,Literary Translation,openalex,582,32830,0.01772769
+2026,ox_second_language_acquisition,Second Language Acquisition,openalex,559,32830,0.01702711
+2026,multimodality,Multimodality,curated,554,32830,0.01687481
+2026,ox_linguistic_diversity,Linguistic Diversity,openalex,551,32830,0.01678343
+2026,world_englishes,World Englishes,curated,535,32830,0.01629607
+2026,translanguaging,Translanguaging,curated,510,32830,0.01553457
+2026,ox_social_meaning,Social Meaning,openalex,501,32830,0.01526043
+2026,task_based,Task-based language teaching,curated,491,32830,0.01495583
+2026,ox_syntax,Syntax,openalex,475,32830,0.01446847
+2026,ox_intercultural_communication,Intercultural Communication,openalex,449,32830,0.01367652
+2026,codeswitching,Code-switching,curated,431,32830,0.01312824
+2026,ox_semantics,Semantics,openalex,426,32830,0.01297594
+2026,ox_task_based_instruction,Task-based Instruction,openalex,426,32830,0.01297594
+2026,heritage_language,Heritage language,curated,422,32830,0.0128541
+2026,ox_language_contact,Language Contact,openalex,422,32830,0.0128541
+2026,ox_narrative_analysis,Narrative Analysis,openalex,417,32830,0.0127018
+2026,intercultural_competence,Intercultural competence,curated,399,32830,0.01215352
+2026,ox_interdisciplinary,Interdisciplinary,openalex,385,32830,0.01172708
+2026,teacher_identity,Language teacher identity,curated,380,32830,0.01157478
+2026,ox_language_evolution,Language Evolution,openalex,354,32830,0.01078282
+2026,ox_media_discourse,Media Discourse,openalex,351,32830,0.01069144
+2026,ox_lexicography,Lexicography,openalex,347,32830,0.0105696
+2026,linguistic_landscape,Linguistic landscape,curated,346,32830,0.01053914
+2026,ox_conversation_analysis,Conversation Analysis,openalex,339,32830,0.01032592
+2026,ox_standardization_of_language,Standardization of Language,openalex,330,32830,0.01005178
+2026,machine_translation,Machine translation,curated,328,32830,0.00999086
+2026,ox_lexical_influence,Lexical Influence,openalex,322,32830,0.0098081
+2026,learner_identity,Learner identity,curated,312,32830,0.0095035
+2026,pragmatic_competence,Pragmatic competence,curated,311,32830,0.00947304
+2026,large_language_models,Large language models,curated,304,32830,0.00925982
+2026,critical_discourse_analysis,Critical discourse analysis,curated,301,32830,0.00916844
+2026,ox_media_influence,Media Influence,openalex,299,32830,0.00910752
+2026,ox_minority_languages,Minority Languages,openalex,295,32830,0.00898568
+2026,ox_bilingual_education,Bilingual Education,openalex,283,32830,0.00862016
+2026,ox_cross_cultural_communication,Cross-Cultural Communication,openalex,274,32830,0.00834602
+2026,ox_textual_analysis,Textual Analysis,openalex,268,32830,0.00816326
+2026,ox_historical_linguistics,Historical Linguistics,openalex,259,32830,0.00788913
+2026,ox_identity_construction,Identity Construction,openalex,258,32830,0.00785867
+2026,ox_political_discourse,Political Discourse,openalex,256,32830,0.00779775
+2026,ox_indexicality,Indexicality,openalex,255,32830,0.00776729
+2026,usage_based,Usage-based approaches,curated,252,32830,0.00767591
+2026,second_language_writing,Second language writing,curated,250,32830,0.00761499
+2026,ox_semantic_changes,Semantic Changes,openalex,249,32830,0.00758453
+2026,ox_typology,typology,openalex,249,32830,0.00758453
+2026,ox_linguistic_borrowing,Linguistic Borrowing,openalex,247,32830,0.00752361
+2026,ox_ethnography,Ethnography,openalex,245,32830,0.00746269
+2026,vocabulary_acquisition,Vocabulary acquisition,curated,233,32830,0.00709717
+2026,ox_etymology,Etymology,openalex,232,32830,0.00706671
+2026,ox_accent,Accent,openalex,224,32830,0.00682303
+2026,corpus_linguistics,Corpus linguistics,curated,220,32830,0.00670119
+2026,ox_cognitive_linguistics,Cognitive Linguistics,openalex,219,32830,0.00667073
+2026,ox_interactional_linguistics,Interactional Linguistics,openalex,219,32830,0.00667073
+2026,ox_subtitling,Subtitling,openalex,218,32830,0.00664027
+2026,ox_specialized_language,Specialized Language,openalex,217,32830,0.00660981
+2026,ox_sociolinguistic_variation,Sociolinguistic Variation,openalex,214,32830,0.00651843
+2026,positioning_theory,Positioning theory,curated,212,32830,0.00645751
+2026,ox_politeness_strategies,Politeness Strategies,openalex,211,32830,0.00642705
+2026,sociocultural_theory,Sociocultural theory,curated,207,32830,0.00630521
+2026,ox_text_linguistics,Text Linguistics,openalex,203,32830,0.00618337
+2026,ox_semiotics,Semiotics,openalex,201,32830,0.00612245
+2026,ox_indo_european,Indo-European,openalex,194,32830,0.00590923
+2026,ox_phraseology,Phraseology,openalex,194,32830,0.00590923
+2026,ox_turkic,Turkic,openalex,194,32830,0.00590923
+2026,ox_lingua_franca_english,Lingua Franca English,openalex,187,32830,0.00569601
+2026,ox_verb_morphology,Verb Morphology,openalex,184,32830,0.00560463
+2026,ox_neologisms,Neologisms,openalex,177,32830,0.00539141
+2026,ox_literary_theory,Literary Theory,openalex,176,32830,0.00536095
+2026,ox_multidimensionality,Multidimensionality,openalex,173,32830,0.00526957
+2026,emi,English-medium instruction,curated,162,32830,0.00493451
+2026,ox_construction_grammar,Construction Grammar,openalex,156,32830,0.00475175
+2026,ox_cognitive_grammar,Cognitive Grammar,openalex,149,32830,0.00453853
+2026,ox_language_typology,Language Typology,openalex,148,32830,0.00450807
+2026,chatgpt,ChatGPT,curated,144,32830,0.00438623
+2026,ox_humanities,Humanities,openalex,140,32830,0.00426439
+2026,ox_translator_competence,Translator Competence,openalex,133,32830,0.00405117
+2026,ox_semantic_relations,Semantic Relations,openalex,131,32830,0.00399025
+2026,ox_audiovisual_translation,Audiovisual Translation,openalex,129,32830,0.00392933
+2026,ox_captioning,Captioning,openalex,129,32830,0.00392933
+2026,ox_l2_motivation,L2 Motivation,openalex,129,32830,0.00392933
+2026,ox_german_as_a_foreign_language,German as a Foreign Language,openalex,126,32830,0.00383795
+2026,willingness_to_communicate,Willingness to communicate,curated,126,32830,0.00383795
+2026,ox_multimodal_communication,Multimodal Communication,openalex,121,32830,0.00368565
+2026,ox_social_justice,Social Justice,openalex,120,32830,0.00365519
+2026,ox_historical_phonology,Historical Phonology,openalex,117,32830,0.00356381
+2026,ox_lexical_semantics,Lexical Semantics,openalex,116,32830,0.00353335
+2026,intelligibility,Intelligibility,curated,113,32830,0.00344197
+2026,ox_youth_language,Youth Language,openalex,113,32830,0.00344197
+2026,post_editing,Post-editing,curated,106,32830,0.00322875
+2026,ox_politeness_theory,Politeness Theory,openalex,105,32830,0.00319829
+2026,ox_role_play_techniques,Role Play Techniques,openalex,105,32830,0.00319829
+2026,ox_multimedia_learning,Multimedia Learning,openalex,102,32830,0.00310691
+2026,ox_ontologies,Ontologies,openalex,100,32830,0.003046
+2026,corrective_feedback,Corrective feedback,curated,99,32830,0.00301554
+2026,ox_language_rights,Language Rights,openalex,96,32830,0.00292415
+2026,ox_speech_perception,Speech Perception,openalex,96,32830,0.00292415
+2026,generative_ai,Generative AI,curated,95,32830,0.00289369
+2026,language_revitalization,Language revitalization,curated,95,32830,0.00289369
+2026,ox_philology,Philology,openalex,95,32830,0.00289369
+2026,ox_literary_tradition,Literary Tradition,openalex,91,32830,0.00277186
+2026,replication_study,Replication study,curated,90,32830,0.0027414
+2026,ox_anglicisms,Anglicisms,openalex,84,32830,0.00255864
+2026,ox_turn_taking,Turn-Taking,openalex,82,32830,0.00249772
+2026,study_abroad,Study abroad,curated,81,32830,0.00246726
+2026,ox_audio_description,Audio Description,openalex,74,32830,0.00225404
+2026,data_driven_learning,Data-driven learning,curated,74,32830,0.00225404
+2026,ox_ethnolinguistics,Ethnolinguistics,openalex,71,32830,0.00216266
+2026,ox_dialectology,Dialectology,openalex,69,32830,0.00210174
+2026,meta_analysis,Meta-analysis,curated,68,32830,0.00207128
+2026,ox_migration_and_integration,Migration and Integration,openalex,64,32830,0.00194944
+2026,narrative_inquiry,Narrative inquiry,curated,59,32830,0.00179714
+2026,ox_heritage_language_maintenance,Heritage Language Maintenance,openalex,58,32830,0.00176668
+2026,ox_knowledge_representation,Knowledge Representation,openalex,57,32830,0.00173622
+2026,raciolinguistics,Raciolinguistics,curated,53,32830,0.00161438
+2026,ox_stereotype_analysis,Stereotype Analysis,openalex,53,32830,0.00161438
+2026,clil,CLIL,curated,52,32830,0.00158392
+2026,ox_universal_grammar,Universal Grammar,openalex,52,32830,0.00158392
+2026,dynamic_assessment,Dynamic assessment,curated,49,32830,0.00149254
+2026,ox_saussure,Saussure,openalex,49,32830,0.00149254
+2026,ox_health_communication,Health Communication,openalex,47,32830,0.00143162
+2026,ox_proto_indo_european,Proto-Indo-European,openalex,46,32830,0.00140116
+2026,ox_teacher_cognition,Teacher Cognition,openalex,46,32830,0.00140116
+2026,ox_nationalism,Nationalism,openalex,44,32830,0.00134024
+2026,complex_dynamic_systems,Complex dynamic systems,curated,43,32830,0.00130978
+2026,ox_semitic_languages,Semitic Languages,openalex,39,32830,0.00118794
+2026,ox_sociology_of_translation,Sociology of Translation,openalex,36,32830,0.00109656
+2026,written_corrective_feedback,Written corrective feedback,curated,35,32830,0.0010661
+2026,eye_tracking,Eye-tracking,curated,33,32830,0.00100518
+2026,ox_occitan,Occitan,openalex,33,32830,0.00100518
+2026,mall,Mobile-assisted language learning,curated,30,32830,0.0009138
+2026,comprehensible_input,Comprehensible input,curated,29,32830,0.00088334
+2026,ox_diglossia,Diglossia,openalex,29,32830,0.00088334
+2026,ox_historiography,Historiography,openalex,29,32830,0.00088334
+2026,formulaic_language,Formulaic language,curated,28,32830,0.00085288
+2026,ox_pragmatic_borrowing,Pragmatic Borrowing,openalex,28,32830,0.00085288
+2026,duolingo,Duolingo,curated,27,32830,0.00082242
+2026,language_aptitude,Language aptitude,curated,26,32830,0.00079196
+2026,ox_racism,Racism,openalex,25,32830,0.0007615
+2026,ideal_l2_self,Ideal L2 self,curated,24,32830,0.00073104
+2026,ox_interlanguage_development,Interlanguage Development,openalex,22,32830,0.00067012
+2026,ox_social_movements,Social Movements,openalex,21,32830,0.00063966
+2026,automated_writing_evaluation,Automated writing evaluation,curated,19,32830,0.00057874
+2026,ox_medieval_literature,Medieval Literature,openalex,19,32830,0.00057874
+2026,ox_troubadours,Troubadours,openalex,19,32830,0.00057874
+2026,ox_linguistic_historiography,Linguistic Historiography,openalex,16,32830,0.00048736
+2026,ox_textual_criticism,Textual Criticism,openalex,14,32830,0.00042644
+2026,ox_humboldt,Humboldt,openalex,10,32830,0.0003046
+2026,ox_medieval_europe,Medieval Europe,openalex,9,32830,0.00027414
+2026,ox_middle_eastern_languages,Middle Eastern Languages,openalex,9,32830,0.00027414
+2026,ox_oral_epics,oral epics,openalex,9,32830,0.00027414
+2026,ox_urban_linguistics,Urban Linguistics,openalex,9,32830,0.00027414
+2026,washback,Washback,curated,9,32830,0.00027414
+2026,superdiversity,Superdiversity,curated,6,32830,0.00018276
+2026,ox_innovation_management,Innovation Management,openalex,5,32830,0.0001523
+2026,ox_jesuits,Jesuits,openalex,4,32830,0.00012184
+2026,ox_missionary_linguistics,Missionary Linguistics,openalex,4,32830,0.00012184
+2026,ox_scalar_implicature,Scalar Implicature,openalex,4,32830,0.00012184
+2026,ox_hispanic_linguistics,Hispanic Linguistics,openalex,3,32830,9.138e-05
+2026,ox_neo_aramaic_dialects,Neo-Aramaic Dialects,openalex,2,32830,6.092e-05
+2026,ox_manuscriptology,manuscriptology,openalex,0,32830,0.0

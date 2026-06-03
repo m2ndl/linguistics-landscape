@@ -1,11 +1,13 @@
 """
-Weekly run: compute today's snapshot, refresh the latest-papers feed, rebuild the site.
+Weekly run: rebuild the yearly construct series, refresh the papers feed, rebuild the site.
 
-This is what GitHub Actions calls every week. It is also safe to run by hand.
+The data path is the cheap group_by-publication_year rebuild in series.build_yearly. Re-running it
+each week refreshes recent years as OpenAlex finishes indexing them and rolls a new year in by itself,
+so the site stays current with no manual step. All network reads happen before any write, so a fetch
+error fails the run before it can publish a half-built update.
 
-Fail-safe by design: if OpenAlex errors, compute_snapshot raises before anything is
-written, so we never produce a partial snapshot or a half-built site. The last good
-committed data simply stays in place and the workflow reports the failure.
+build_snapshot() (a single rolling-window snapshot) is retained only for the historical backfill
+helper (scripts/backfill.py); it is not on the weekly path.
 """
 from __future__ import annotations
 
@@ -13,31 +15,39 @@ import argparse
 import datetime as dt
 import sys
 
+import constructs
 import metrics
 import papers
 import render
+import series
 import snapshots
 
 
+def build_snapshot(ref: dt.date, scope: dict, overwrite: bool = False, fetch_papers: bool = False):
+    """Legacy single rolling-12-month snapshot for a reference date (used by scripts/backfill.py)."""
+    totals, field_total = metrics.compute_corpus_totals(ref, scope)       # 2 calls
+    rows = [field_total] + constructs.compute_rows(ref, scope, totals)    # ~2 calls per construct
+    snapshots.write_snapshot(ref.isoformat(), rows, overwrite=overwrite)
+    if fetch_papers:
+        papers.save_feed(papers.fetch_feed(scope, ref))                   # 2 calls
+    return rows
+
+
 def main(argv=None) -> int:
-    ap = argparse.ArgumentParser(description="Run a weekly Applied Linguistics Landscape update.")
+    ap = argparse.ArgumentParser(description="Run a weekly Word on the Street update.")
     ap.add_argument("--date", help="Reference date YYYY-MM-DD (default: today)")
-    ap.add_argument("--overwrite", action="store_true", help="Overwrite today's snapshot if it exists")
-    ap.add_argument("--render-only", action="store_true", help="Skip harvest; rebuild the site from stored data")
+    ap.add_argument("--render-only", action="store_true", help="Rebuild the site from stored data only")
     args = ap.parse_args(argv)
 
     scope = metrics.load_scope()
     ref = dt.date.fromisoformat(args.date) if args.date else dt.date.today()
 
     if not args.render_only:
-        rows, topic_labels = metrics.compute_snapshot(ref, scope)        # network: 2 calls
-        snapshots.write_snapshot(ref.isoformat(), rows, overwrite=args.overwrite)
-        snapshots.write_taxonomy(ref.isoformat(), topic_labels)
-        papers.save_feed(papers.fetch_feed(scope, ref))                  # network: 2 calls
+        series.build_yearly(scope, today=ref, log=lambda m: print(m, flush=True))   # yearly construct series
+        papers.save_feed(papers.fetch_feed(scope, ref))                             # latest-papers feed
 
-    written = render.build_all(scope, generated_on=ref.isoformat())
-    print(f"OK: wrote {len(written)} site data files; "
-          f"{len(snapshots.list_dates())} snapshots on record.")
+    render.build_all(scope, generated_on=ref.isoformat())
+    print(f"OK: {len(snapshots.list_dates())} snapshots on record; site data rebuilt.")
     return 0
 
 

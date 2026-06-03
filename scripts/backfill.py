@@ -1,13 +1,11 @@
 """
-One-time historical backfill: replay the past so the site launches with real history
-instead of a flat line.
+One-time historical backfill of CONSTRUCT snapshots, so the site launches with real history.
 
-For each month going back N years, we compute a snapshot 'as if' the site had run then,
-using OpenAlex publication-date windows. Older windows are fully indexed, so this gives
-an accurate multi-year baseline. Run this ONCE before (or just after) the first deploy.
+For each date going back N years, compute the spine snapshot 'as if' run then, using OpenAlex
+publication-date windows. Cost is ~2 calls per construct per snapshot, so use a modest cadence
+(semiannual by default keeps a ~210-construct backfill inside the free daily budget).
 
-Usage:
-    python scripts/backfill.py --years 8 --step-months 3
+Usage:  python scripts/backfill.py --years 6 --step-months 6
 """
 from __future__ import annotations
 
@@ -18,6 +16,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "src"))
 
+import harvest      # noqa: E402
 import metrics      # noqa: E402
 import render       # noqa: E402
 import snapshots    # noqa: E402
@@ -35,9 +34,9 @@ def add_months(d: dt.date, months: int) -> dt.date:
 
 
 def main(argv=None) -> int:
-    ap = argparse.ArgumentParser(description="Backfill historical snapshots.")
-    ap.add_argument("--years", type=int, default=8, help="How many years back to seed")
-    ap.add_argument("--step-months", type=int, default=3, help="Spacing between historical snapshots")
+    ap = argparse.ArgumentParser(description="Backfill historical construct snapshots.")
+    ap.add_argument("--years", type=int, default=6)
+    ap.add_argument("--step-months", type=int, default=6)
     ap.add_argument("--overwrite", action="store_true")
     ap.add_argument("--no-render", action="store_true")
     args = ap.parse_args(argv)
@@ -52,11 +51,9 @@ def main(argv=None) -> int:
         if snapshots.exists(ds) and not args.overwrite:
             print(f"  skip  {ds} (exists)")
         else:
-            rows, labels = metrics.compute_snapshot(d, scope)
-            snapshots.write_snapshot(ds, rows, overwrite=args.overwrite)
-            snapshots.write_taxonomy(ds, labels)
+            rows = harvest.build_snapshot(d, scope, overwrite=args.overwrite, fetch_papers=False)
             total = next((r["count_recent"] for r in rows if r["dimension_type"] == "field_total"), "?")
-            print(f"  wrote {ds}  (12-month works: {total})")
+            print(f"  wrote {ds}  (corpus 12-mo: {total}, {len(rows) - 1} constructs)", flush=True)
             made += 1
         d = add_months(d, args.step_months)
 

@@ -1,0 +1,1260 @@
+{
+  "version": "2026-06-02",
+  "source_note": "Constructs are crowd-curated: OpenAlex topic keyphrases (subfields 1203+3310) plus a small set of curated newer coinages. Pruned once for over-broad terms; grown automatically. No weekly human curation.",
+  "constructs": [
+    {
+      "id": "ox_accent",
+      "label": "Accent",
+      "q": "accent",
+      "source": "openalex"
+    },
+    {
+      "id": "ox_anglicisms",
+      "label": "Anglicisms",
+      "q": "anglicisms",
+      "source": "openalex"
+    },
+    {
+      "id": "ox_audio_description",
+      "label": "Audio Description",
+      "q": "audio description",
+      "source": "openalex"
+    },
+    {
+      "id": "ox_audiovisual_translation",
+      "label": "Audiovisual Translation",
+      "q": "audiovisual translation",
+      "source": "openalex"
+    },
+    {
+      "id": "automated_writing_evaluation",
+      "label": "Automated writing evaluation",
+      "q": "automated writing evaluation",
+      "source": "curated"
+    },
+    {
+      "id": "ox_bilingual",
+      "label": "Bilingual",
+      "q": "bilingual",
+      "source": "openalex"
+    },
+    {
+      "id": "ox_bilingual_education",
+      "label": "Bilingual Education",
+      "q": "bilingual education",
+      "source": "openalex"
+    },
+    {
+      "id": "ox_bilingualism",
+      "label": "Bilingualism",
+      "q": "bilingualism",
+      "source": "openalex"
+    },
+    {
+      "id": "ox_captioning",
+      "label": "Captioning",
+      "q": "captioning",
+      "source": "openalex"
+    },
+    {
+      "id": "chatgpt",
+      "label": "ChatGPT",
+      "q": "ChatGPT",
+      "source": "curated"
+    },
+    {
+      "id": "clil",
+      "label": "CLIL",
+      "q": "content and language integrated learning",
+      "source": "curated"
+    },
+    {
+      "id": "codeswitching",
+      "label": "Code-switching",
+      "q": "code-switching",
+      "source": "curated"
+    },
+    {
+      "id": "ox_cognitive_grammar",
+      "label": "Cognitive Grammar",
+      "q": "cognitive grammar",
+      "source": "openalex"
+    },
+    {
+      "id": "ox_cognitive_linguistics",
+      "label": "Cognitive Linguistics",
+      "q": "cognitive linguistics",
+      "source": "openalex"
+    },
+    {
+      "id": "complex_dynamic_systems",
+      "label": "Complex dynamic systems",
+      "q": "complex dynamic systems",
+      "source": "curated"
+    },
+    {
+      "id": "comprehensible_input",
+      "label": "Comprehensible input",
+      "q": "comprehensible input",
+      "source": "curated"
+    },
+    {
+      "id": "ox_construction_grammar",
+      "label": "Construction Grammar",
+      "q": "construction grammar",
+      "source": "openalex"
+    },
+    {
+      "id": "ox_conversation_analysis",
+      "label": "Conversation Analysis",
+      "q": "conversation analysis",
+      "source": "openalex"
+    },
+    {
+      "id": "ox_corpus",
+      "label": "Corpus",
+      "q": "corpus",
+      "source": "openalex"
+    },
+    {
+      "id": "corpus_linguistics",
+      "label": "Corpus linguistics",
+      "q": "corpus linguistics",
+      "source": "curated"
+    },
+    {
+      "id": "corrective_feedback",
+      "label": "Corrective feedback",
+      "q": "corrective feedback",
+      "source": "curated"
+    },
+    {
+      "id": "critical_discourse_analysis",
+      "label": "Critical discourse analysis",
+      "q": "critical discourse analysis",
+      "source": "curated"
+    },
+    {
+      "id": "ox_cross_cultural_communication",
+      "label": "Cross-Cultural Communication",
+      "q": "cross cultural communication",
+      "source": "openalex"
+    },
+    {
+      "id": "ox_cultural_translation",
+      "label": "Cultural Translation",
+      "q": "cultural translation",
+      "source": "openalex"
+    },
+    {
+      "id": "data_driven_learning",
+      "label": "Data-driven learning",
+      "q": "data-driven learning",
+      "source": "curated"
+    },
+    {
+      "id": "ox_dialectology",
+      "label": "Dialectology",
+      "q": "dialectology",
+      "source": "openalex"
+    },
+    {
+      "id": "ox_dialects",
+      "label": "Dialects",
+      "q": "dialects",
+      "source": "openalex"
+    },
+    {
+      "id": "ox_dictionaries",
+      "label": "Dictionaries",
+      "q": "dictionaries",
+      "source": "openalex"
+    },
+    {
+      "id": "ox_diglossia",
+      "label": "Diglossia",
+      "q": "diglossia",
+      "source": "openalex"
+    },
+    {
+      "id": "ox_discourse_analysis",
+      "label": "Discourse Analysis",
+      "q": "discourse analysis",
+      "source": "openalex"
+    },
+    {
+      "id": "ox_discourse_study",
+      "label": "Discourse Study",
+      "q": "discourse study",
+      "source": "openalex"
+    },
+    {
+      "id": "duolingo",
+      "label": "Duolingo",
+      "q": "Duolingo",
+      "source": "curated"
+    },
+    {
+      "id": "dynamic_assessment",
+      "label": "Dynamic assessment",
+      "q": "dynamic assessment",
+      "source": "curated"
+    },
+    {
+      "id": "emi",
+      "label": "English-medium instruction",
+      "q": "English medium instruction",
+      "source": "curated"
+    },
+    {
+      "id": "ox_ethnography",
+      "label": "Ethnography",
+      "q": "ethnography",
+      "source": "openalex"
+    },
+    {
+      "id": "ox_ethnolinguistics",
+      "label": "Ethnolinguistics",
+      "q": "ethnolinguistics",
+      "source": "openalex"
+    },
+    {
+      "id": "ox_etymology",
+      "label": "Etymology",
+      "q": "etymology",
+      "source": "openalex"
+    },
+    {
+      "id": "eye_tracking",
+      "label": "Eye-tracking",
+      "q": "eye-tracking",
+      "source": "curated"
+    },
+    {
+      "id": "focus_on_form",
+      "label": "Focus on form",
+      "q": "focus on form",
+      "source": "curated"
+    },
+    {
+      "id": "ox_foreign_language_education",
+      "label": "Foreign Language Education",
+      "q": "foreign language education",
+      "source": "openalex"
+    },
+    {
+      "id": "formulaic_language",
+      "label": "Formulaic language",
+      "q": "formulaic language",
+      "source": "curated"
+    },
+    {
+      "id": "generative_ai",
+      "label": "Generative AI",
+      "q": "generative artificial intelligence",
+      "source": "curated"
+    },
+    {
+      "id": "ox_german_as_a_foreign_language",
+      "label": "German as a Foreign Language",
+      "q": "german as a foreign language",
+      "source": "openalex"
+    },
+    {
+      "id": "ox_grammar",
+      "label": "Grammar",
+      "q": "grammar",
+      "source": "openalex"
+    },
+    {
+      "id": "ox_grammaticalization",
+      "label": "Grammaticalization",
+      "q": "grammaticalization",
+      "source": "openalex"
+    },
+    {
+      "id": "ox_health_communication",
+      "label": "Health Communication",
+      "q": "health communication",
+      "source": "openalex"
+    },
+    {
+      "id": "heritage_language",
+      "label": "Heritage language",
+      "q": "heritage language",
+      "source": "curated"
+    },
+    {
+      "id": "ox_heritage_language_maintenance",
+      "label": "Heritage Language Maintenance",
+      "q": "heritage language maintenance",
+      "source": "openalex"
+    },
+    {
+      "id": "ox_hispanic_linguistics",
+      "label": "Hispanic Linguistics",
+      "q": "hispanic linguistics",
+      "source": "openalex"
+    },
+    {
+      "id": "ox_historical_linguistics",
+      "label": "Historical Linguistics",
+      "q": "historical linguistics",
+      "source": "openalex"
+    },
+    {
+      "id": "ox_historical_phonology",
+      "label": "Historical Phonology",
+      "q": "historical phonology",
+      "source": "openalex"
+    },
+    {
+      "id": "ox_historiography",
+      "label": "Historiography",
+      "q": "historiography",
+      "source": "openalex"
+    },
+    {
+      "id": "ox_humanities",
+      "label": "Humanities",
+      "q": "humanities",
+      "source": "openalex"
+    },
+    {
+      "id": "ox_humboldt",
+      "label": "Humboldt",
+      "q": "humboldt",
+      "source": "openalex"
+    },
+    {
+      "id": "ideal_l2_self",
+      "label": "Ideal L2 self",
+      "q": "ideal L2 self",
+      "source": "curated"
+    },
+    {
+      "id": "ox_identity_construction",
+      "label": "Identity Construction",
+      "q": "identity construction",
+      "source": "openalex"
+    },
+    {
+      "id": "ox_ideology",
+      "label": "Ideology",
+      "q": "ideology",
+      "source": "openalex"
+    },
+    {
+      "id": "ox_indexicality",
+      "label": "Indexicality",
+      "q": "indexicality",
+      "source": "openalex"
+    },
+    {
+      "id": "ox_indo_european",
+      "label": "Indo-European",
+      "q": "indo european",
+      "source": "openalex"
+    },
+    {
+      "id": "ox_innovation_management",
+      "label": "Innovation Management",
+      "q": "innovation management",
+      "source": "openalex"
+    },
+    {
+      "id": "intelligibility",
+      "label": "Intelligibility",
+      "q": "intelligibility",
+      "source": "curated"
+    },
+    {
+      "id": "ox_interactional_linguistics",
+      "label": "Interactional Linguistics",
+      "q": "interactional linguistics",
+      "source": "openalex"
+    },
+    {
+      "id": "ox_intercultural_communication",
+      "label": "Intercultural Communication",
+      "q": "intercultural communication",
+      "source": "openalex"
+    },
+    {
+      "id": "intercultural_competence",
+      "label": "Intercultural competence",
+      "q": "intercultural competence",
+      "source": "curated"
+    },
+    {
+      "id": "ox_interdisciplinary",
+      "label": "Interdisciplinary",
+      "q": "interdisciplinary",
+      "source": "openalex"
+    },
+    {
+      "id": "ox_interlanguage_development",
+      "label": "Interlanguage Development",
+      "q": "interlanguage development",
+      "source": "openalex"
+    },
+    {
+      "id": "ox_jesuits",
+      "label": "Jesuits",
+      "q": "jesuits",
+      "source": "openalex"
+    },
+    {
+      "id": "ox_knowledge_representation",
+      "label": "Knowledge Representation",
+      "q": "knowledge representation",
+      "source": "openalex"
+    },
+    {
+      "id": "ox_l2_motivation",
+      "label": "L2 Motivation",
+      "q": "l2 motivation",
+      "source": "openalex"
+    },
+    {
+      "id": "ox_language_acquisition",
+      "label": "Language Acquisition",
+      "q": "language acquisition",
+      "source": "openalex"
+    },
+    {
+      "id": "ox_language_anxiety",
+      "label": "Language Anxiety",
+      "q": "language anxiety",
+      "source": "openalex"
+    },
+    {
+      "id": "language_aptitude",
+      "label": "Language aptitude",
+      "q": "language aptitude",
+      "source": "curated"
+    },
+    {
+      "id": "ox_language_attitudes",
+      "label": "Language Attitudes",
+      "q": "language attitudes",
+      "source": "openalex"
+    },
+    {
+      "id": "ox_language_change",
+      "label": "Language Change",
+      "q": "language change",
+      "source": "openalex"
+    },
+    {
+      "id": "ox_language_contact",
+      "label": "Language Contact",
+      "q": "language contact",
+      "source": "openalex"
+    },
+    {
+      "id": "ox_language_diversity",
+      "label": "Language Diversity",
+      "q": "language diversity",
+      "source": "openalex"
+    },
+    {
+      "id": "ox_language_education",
+      "label": "Language Education",
+      "q": "language education",
+      "source": "openalex"
+    },
+    {
+      "id": "ox_language_evolution",
+      "label": "Language Evolution",
+      "q": "language evolution",
+      "source": "openalex"
+    },
+    {
+      "id": "ox_language_ideologies",
+      "label": "Language Ideologies",
+      "q": "language ideologies",
+      "source": "openalex"
+    },
+    {
+      "id": "language_ideology",
+      "label": "Language ideology",
+      "q": "language ideology",
+      "source": "curated"
+    },
+    {
+      "id": "ox_language_learning",
+      "label": "Language Learning",
+      "q": "language learning",
+      "source": "openalex"
+    },
+    {
+      "id": "ox_language_learning_strategies",
+      "label": "Language Learning Strategies",
+      "q": "language learning strategies",
+      "source": "openalex"
+    },
+    {
+      "id": "language_policy",
+      "label": "Language policy",
+      "q": "language policy",
+      "source": "curated"
+    },
+    {
+      "id": "language_revitalization",
+      "label": "Language revitalization",
+      "q": "language revitalization",
+      "source": "curated"
+    },
+    {
+      "id": "ox_language_rights",
+      "label": "Language Rights",
+      "q": "language rights",
+      "source": "openalex"
+    },
+    {
+      "id": "ox_language_studies",
+      "label": "Language Studies",
+      "q": "language studies",
+      "source": "openalex"
+    },
+    {
+      "id": "teacher_identity",
+      "label": "Language teacher identity",
+      "q": "language teacher identity",
+      "source": "curated"
+    },
+    {
+      "id": "ox_language_teaching",
+      "label": "Language Teaching",
+      "q": "language teaching",
+      "source": "openalex"
+    },
+    {
+      "id": "ox_language_typology",
+      "label": "Language Typology",
+      "q": "language typology",
+      "source": "openalex"
+    },
+    {
+      "id": "ox_language_variation",
+      "label": "Language Variation",
+      "q": "language variation",
+      "source": "openalex"
+    },
+    {
+      "id": "large_language_models",
+      "label": "Large language models",
+      "q": "large language model",
+      "source": "curated"
+    },
+    {
+      "id": "learner_engagement",
+      "label": "Learner engagement",
+      "q": "learner engagement",
+      "source": "curated"
+    },
+    {
+      "id": "learner_identity",
+      "label": "Learner identity",
+      "q": "learner identity",
+      "source": "curated"
+    },
+    {
+      "id": "ox_learners",
+      "label": "Learners",
+      "q": "learners",
+      "source": "openalex"
+    },
+    {
+      "id": "ox_learning_strategies",
+      "label": "Learning Strategies",
+      "q": "learning strategies",
+      "source": "openalex"
+    },
+    {
+      "id": "ox_lexical_influence",
+      "label": "Lexical Influence",
+      "q": "lexical influence",
+      "source": "openalex"
+    },
+    {
+      "id": "ox_lexical_semantics",
+      "label": "Lexical Semantics",
+      "q": "lexical semantics",
+      "source": "openalex"
+    },
+    {
+      "id": "ox_lexicography",
+      "label": "Lexicography",
+      "q": "lexicography",
+      "source": "openalex"
+    },
+    {
+      "id": "ox_lingua_franca_english",
+      "label": "Lingua Franca English",
+      "q": "lingua franca english",
+      "source": "openalex"
+    },
+    {
+      "id": "ox_linguistic_borrowing",
+      "label": "Linguistic Borrowing",
+      "q": "linguistic borrowing",
+      "source": "openalex"
+    },
+    {
+      "id": "ox_linguistic_competence",
+      "label": "Linguistic Competence",
+      "q": "linguistic competence",
+      "source": "openalex"
+    },
+    {
+      "id": "ox_linguistic_diversity",
+      "label": "Linguistic Diversity",
+      "q": "linguistic diversity",
+      "source": "openalex"
+    },
+    {
+      "id": "ox_linguistic_historiography",
+      "label": "Linguistic Historiography",
+      "q": "linguistic historiography",
+      "source": "openalex"
+    },
+    {
+      "id": "ox_linguistic_identity",
+      "label": "Linguistic Identity",
+      "q": "linguistic identity",
+      "source": "openalex"
+    },
+    {
+      "id": "linguistic_landscape",
+      "label": "Linguistic landscape",
+      "q": "linguistic landscape",
+      "source": "curated"
+    },
+    {
+      "id": "ox_literary_theory",
+      "label": "Literary Theory",
+      "q": "literary theory",
+      "source": "openalex"
+    },
+    {
+      "id": "ox_literary_tradition",
+      "label": "Literary Tradition",
+      "q": "literary tradition",
+      "source": "openalex"
+    },
+    {
+      "id": "ox_literary_translation",
+      "label": "Literary Translation",
+      "q": "literary translation",
+      "source": "openalex"
+    },
+    {
+      "id": "ox_literature_analysis",
+      "label": "Literature Analysis",
+      "q": "literature analysis",
+      "source": "openalex"
+    },
+    {
+      "id": "machine_translation",
+      "label": "Machine translation",
+      "q": "machine translation",
+      "source": "curated"
+    },
+    {
+      "id": "ox_manuscriptology",
+      "label": "manuscriptology",
+      "q": "manuscriptology",
+      "source": "openalex"
+    },
+    {
+      "id": "ox_meaning",
+      "label": "Meaning",
+      "q": "meaning",
+      "source": "openalex"
+    },
+    {
+      "id": "ox_media_discourse",
+      "label": "Media Discourse",
+      "q": "media discourse",
+      "source": "openalex"
+    },
+    {
+      "id": "ox_media_influence",
+      "label": "Media Influence",
+      "q": "media influence",
+      "source": "openalex"
+    },
+    {
+      "id": "ox_medieval_europe",
+      "label": "Medieval Europe",
+      "q": "medieval europe",
+      "source": "openalex"
+    },
+    {
+      "id": "ox_medieval_literature",
+      "label": "Medieval Literature",
+      "q": "medieval literature",
+      "source": "openalex"
+    },
+    {
+      "id": "meta_analysis",
+      "label": "Meta-analysis",
+      "q": "meta-analysis",
+      "source": "curated"
+    },
+    {
+      "id": "ox_middle_eastern_languages",
+      "label": "Middle Eastern Languages",
+      "q": "middle eastern languages",
+      "source": "openalex"
+    },
+    {
+      "id": "ox_migration_and_integration",
+      "label": "Migration and Integration",
+      "q": "migration and integration",
+      "source": "openalex"
+    },
+    {
+      "id": "ox_minority_languages",
+      "label": "Minority Languages",
+      "q": "minority languages",
+      "source": "openalex"
+    },
+    {
+      "id": "ox_missionary_linguistics",
+      "label": "Missionary Linguistics",
+      "q": "missionary linguistics",
+      "source": "openalex"
+    },
+    {
+      "id": "mixed_methods",
+      "label": "Mixed methods",
+      "q": "mixed methods",
+      "source": "curated"
+    },
+    {
+      "id": "mall",
+      "label": "Mobile-assisted language learning",
+      "q": "mobile-assisted language learning",
+      "source": "curated"
+    },
+    {
+      "id": "ox_morphology",
+      "label": "Morphology",
+      "q": "morphology",
+      "source": "openalex"
+    },
+    {
+      "id": "ox_multidimensionality",
+      "label": "Multidimensionality",
+      "q": "multidimensionality",
+      "source": "openalex"
+    },
+    {
+      "id": "ox_multilingualism",
+      "label": "Multilingualism",
+      "q": "multilingualism",
+      "source": "openalex"
+    },
+    {
+      "id": "ox_multimedia_learning",
+      "label": "Multimedia Learning",
+      "q": "multimedia learning",
+      "source": "openalex"
+    },
+    {
+      "id": "ox_multimodal_communication",
+      "label": "Multimodal Communication",
+      "q": "multimodal communication",
+      "source": "openalex"
+    },
+    {
+      "id": "multimodality",
+      "label": "Multimodality",
+      "q": "multimodality",
+      "source": "curated"
+    },
+    {
+      "id": "ox_narrative_analysis",
+      "label": "Narrative Analysis",
+      "q": "narrative analysis",
+      "source": "openalex"
+    },
+    {
+      "id": "narrative_inquiry",
+      "label": "Narrative inquiry",
+      "q": "narrative inquiry",
+      "source": "curated"
+    },
+    {
+      "id": "ox_nationalism",
+      "label": "Nationalism",
+      "q": "nationalism",
+      "source": "openalex"
+    },
+    {
+      "id": "ox_neo_aramaic_dialects",
+      "label": "Neo-Aramaic Dialects",
+      "q": "neo aramaic dialects",
+      "source": "openalex"
+    },
+    {
+      "id": "ox_neologisms",
+      "label": "Neologisms",
+      "q": "neologisms",
+      "source": "openalex"
+    },
+    {
+      "id": "ox_occitan",
+      "label": "Occitan",
+      "q": "occitan",
+      "source": "openalex"
+    },
+    {
+      "id": "ox_ontologies",
+      "label": "Ontologies",
+      "q": "ontologies",
+      "source": "openalex"
+    },
+    {
+      "id": "ox_oral_epics",
+      "label": "oral epics",
+      "q": "oral epics",
+      "source": "openalex"
+    },
+    {
+      "id": "ox_pedagogy",
+      "label": "Pedagogy",
+      "q": "pedagogy",
+      "source": "openalex"
+    },
+    {
+      "id": "ox_perception",
+      "label": "Perception",
+      "q": "perception",
+      "source": "openalex"
+    },
+    {
+      "id": "ox_philology",
+      "label": "Philology",
+      "q": "philology",
+      "source": "openalex"
+    },
+    {
+      "id": "ox_phraseology",
+      "label": "Phraseology",
+      "q": "phraseology",
+      "source": "openalex"
+    },
+    {
+      "id": "ox_politeness_strategies",
+      "label": "Politeness Strategies",
+      "q": "politeness strategies",
+      "source": "openalex"
+    },
+    {
+      "id": "ox_politeness_theory",
+      "label": "Politeness Theory",
+      "q": "politeness theory",
+      "source": "openalex"
+    },
+    {
+      "id": "ox_political_discourse",
+      "label": "Political Discourse",
+      "q": "political discourse",
+      "source": "openalex"
+    },
+    {
+      "id": "positioning_theory",
+      "label": "Positioning theory",
+      "q": "positioning theory",
+      "source": "curated"
+    },
+    {
+      "id": "post_editing",
+      "label": "Post-editing",
+      "q": "post-editing",
+      "source": "curated"
+    },
+    {
+      "id": "ox_power",
+      "label": "Power",
+      "q": "power",
+      "source": "openalex"
+    },
+    {
+      "id": "ox_pragmatic_borrowing",
+      "label": "Pragmatic Borrowing",
+      "q": "pragmatic borrowing",
+      "source": "openalex"
+    },
+    {
+      "id": "pragmatic_competence",
+      "label": "Pragmatic competence",
+      "q": "pragmatic competence",
+      "source": "curated"
+    },
+    {
+      "id": "ox_pragmatics",
+      "label": "Pragmatics",
+      "q": "pragmatics",
+      "source": "openalex"
+    },
+    {
+      "id": "ox_proto_indo_european",
+      "label": "Proto-Indo-European",
+      "q": "proto indo european",
+      "source": "openalex"
+    },
+    {
+      "id": "raciolinguistics",
+      "label": "Raciolinguistics",
+      "q": "raciolinguistics",
+      "source": "curated"
+    },
+    {
+      "id": "ox_racism",
+      "label": "Racism",
+      "q": "racism",
+      "source": "openalex"
+    },
+    {
+      "id": "replication_study",
+      "label": "Replication study",
+      "q": "replication study",
+      "source": "curated"
+    },
+    {
+      "id": "ox_role_play_techniques",
+      "label": "Role Play Techniques",
+      "q": "role play techniques",
+      "source": "openalex"
+    },
+    {
+      "id": "ox_saussure",
+      "label": "Saussure",
+      "q": "saussure",
+      "source": "openalex"
+    },
+    {
+      "id": "ox_scalar_implicature",
+      "label": "Scalar Implicature",
+      "q": "scalar implicature",
+      "source": "openalex"
+    },
+    {
+      "id": "ox_second_language_acquisition",
+      "label": "Second Language Acquisition",
+      "q": "second language acquisition",
+      "source": "openalex"
+    },
+    {
+      "id": "ox_second_language_learning",
+      "label": "Second Language Learning",
+      "q": "second language learning",
+      "source": "openalex"
+    },
+    {
+      "id": "second_language_writing",
+      "label": "Second language writing",
+      "q": "second language writing",
+      "source": "curated"
+    },
+    {
+      "id": "ox_semantic_changes",
+      "label": "Semantic Changes",
+      "q": "semantic changes",
+      "source": "openalex"
+    },
+    {
+      "id": "ox_semantic_relations",
+      "label": "Semantic Relations",
+      "q": "semantic relations",
+      "source": "openalex"
+    },
+    {
+      "id": "ox_semantics",
+      "label": "Semantics",
+      "q": "semantics",
+      "source": "openalex"
+    },
+    {
+      "id": "ox_semiotics",
+      "label": "Semiotics",
+      "q": "semiotics",
+      "source": "openalex"
+    },
+    {
+      "id": "ox_semitic_languages",
+      "label": "Semitic Languages",
+      "q": "semitic languages",
+      "source": "openalex"
+    },
+    {
+      "id": "ox_social_communication",
+      "label": "Social Communication",
+      "q": "social communication",
+      "source": "openalex"
+    },
+    {
+      "id": "ox_social_interaction",
+      "label": "Social Interaction",
+      "q": "social interaction",
+      "source": "openalex"
+    },
+    {
+      "id": "ox_social_justice",
+      "label": "Social Justice",
+      "q": "social justice",
+      "source": "openalex"
+    },
+    {
+      "id": "ox_social_meaning",
+      "label": "Social Meaning",
+      "q": "social meaning",
+      "source": "openalex"
+    },
+    {
+      "id": "ox_social_movements",
+      "label": "Social Movements",
+      "q": "social movements",
+      "source": "openalex"
+    },
+    {
+      "id": "sociocultural_theory",
+      "label": "Sociocultural theory",
+      "q": "sociocultural theory",
+      "source": "curated"
+    },
+    {
+      "id": "ox_sociolinguistic_variation",
+      "label": "Sociolinguistic Variation",
+      "q": "sociolinguistic variation",
+      "source": "openalex"
+    },
+    {
+      "id": "ox_sociolinguistics",
+      "label": "Sociolinguistics",
+      "q": "sociolinguistics",
+      "source": "openalex"
+    },
+    {
+      "id": "ox_sociology_of_translation",
+      "label": "Sociology of Translation",
+      "q": "sociology of translation",
+      "source": "openalex"
+    },
+    {
+      "id": "ox_specialized_language",
+      "label": "Specialized Language",
+      "q": "specialized language",
+      "source": "openalex"
+    },
+    {
+      "id": "ox_speech_perception",
+      "label": "Speech Perception",
+      "q": "speech perception",
+      "source": "openalex"
+    },
+    {
+      "id": "ox_standardization_of_language",
+      "label": "Standardization of Language",
+      "q": "standardization of language",
+      "source": "openalex"
+    },
+    {
+      "id": "ox_stereotype_analysis",
+      "label": "Stereotype Analysis",
+      "q": "stereotype analysis",
+      "source": "openalex"
+    },
+    {
+      "id": "ox_structuralism",
+      "label": "Structuralism",
+      "q": "structuralism",
+      "source": "openalex"
+    },
+    {
+      "id": "study_abroad",
+      "label": "Study abroad",
+      "q": "study abroad",
+      "source": "curated"
+    },
+    {
+      "id": "ox_subtitling",
+      "label": "Subtitling",
+      "q": "subtitling",
+      "source": "openalex"
+    },
+    {
+      "id": "superdiversity",
+      "label": "Superdiversity",
+      "q": "superdiversity",
+      "source": "curated"
+    },
+    {
+      "id": "ox_syntax",
+      "label": "Syntax",
+      "q": "syntax",
+      "source": "openalex"
+    },
+    {
+      "id": "ox_task_based_instruction",
+      "label": "Task-based Instruction",
+      "q": "task based instruction",
+      "source": "openalex"
+    },
+    {
+      "id": "task_based",
+      "label": "Task-based language teaching",
+      "q": "task-based language teaching",
+      "source": "curated"
+    },
+    {
+      "id": "ox_teacher_cognition",
+      "label": "Teacher Cognition",
+      "q": "teacher cognition",
+      "source": "openalex"
+    },
+    {
+      "id": "ox_teaching_methods",
+      "label": "Teaching Methods",
+      "q": "teaching methods",
+      "source": "openalex"
+    },
+    {
+      "id": "ox_terminology",
+      "label": "Terminology",
+      "q": "terminology",
+      "source": "openalex"
+    },
+    {
+      "id": "ox_text_linguistics",
+      "label": "Text Linguistics",
+      "q": "text linguistics",
+      "source": "openalex"
+    },
+    {
+      "id": "ox_textual_analysis",
+      "label": "Textual Analysis",
+      "q": "textual analysis",
+      "source": "openalex"
+    },
+    {
+      "id": "ox_textual_criticism",
+      "label": "Textual Criticism",
+      "q": "textual criticism",
+      "source": "openalex"
+    },
+    {
+      "id": "translanguaging",
+      "label": "Translanguaging",
+      "q": "translanguaging",
+      "source": "curated"
+    },
+    {
+      "id": "ox_translator_competence",
+      "label": "Translator Competence",
+      "q": "translator competence",
+      "source": "openalex"
+    },
+    {
+      "id": "ox_troubadours",
+      "label": "Troubadours",
+      "q": "troubadours",
+      "source": "openalex"
+    },
+    {
+      "id": "ox_turkic",
+      "label": "Turkic",
+      "q": "turkic",
+      "source": "openalex"
+    },
+    {
+      "id": "ox_turn_taking",
+      "label": "Turn-Taking",
+      "q": "turn taking",
+      "source": "openalex"
+    },
+    {
+      "id": "ox_typology",
+      "label": "typology",
+      "q": "typology",
+      "source": "openalex"
+    },
+    {
+      "id": "ox_universal_grammar",
+      "label": "Universal Grammar",
+      "q": "universal grammar",
+      "source": "openalex"
+    },
+    {
+      "id": "ox_urban_linguistics",
+      "label": "Urban Linguistics",
+      "q": "urban linguistics",
+      "source": "openalex"
+    },
+    {
+      "id": "ox_usage",
+      "label": "Usage",
+      "q": "usage",
+      "source": "openalex"
+    },
+    {
+      "id": "usage_based",
+      "label": "Usage-based approaches",
+      "q": "usage-based",
+      "source": "curated"
+    },
+    {
+      "id": "ox_verb_morphology",
+      "label": "Verb Morphology",
+      "q": "verb morphology",
+      "source": "openalex"
+    },
+    {
+      "id": "vocabulary_acquisition",
+      "label": "Vocabulary acquisition",
+      "q": "vocabulary acquisition",
+      "source": "curated"
+    },
+    {
+      "id": "ox_vocabulary_learning",
+      "label": "Vocabulary Learning",
+      "q": "vocabulary learning",
+      "source": "openalex"
+    },
+    {
+      "id": "washback",
+      "label": "Washback",
+      "q": "washback",
+      "source": "curated"
+    },
+    {
+      "id": "willingness_to_communicate",
+      "label": "Willingness to communicate",
+      "q": "willingness to communicate",
+      "source": "curated"
+    },
+    {
+      "id": "world_englishes",
+      "label": "World Englishes",
+      "q": "World Englishes",
+      "source": "curated"
+    },
+    {
+      "id": "written_corrective_feedback",
+      "label": "Written corrective feedback",
+      "q": "written corrective feedback",
+      "source": "curated"
+    },
+    {
+      "id": "ox_youth_language",
+      "label": "Youth Language",
+      "q": "youth language",
+      "source": "openalex"
+    }
+  ]
+}

@@ -11,13 +11,13 @@ Short, practical answers for running and fixing this project. No coding required
    secret → name `OPENALEX_API_KEY`, value = your key → Add secret.
 4. **Enable Pages:** repo → Settings → Pages → Source "Deploy from a branch" → Branch `main`,
    Folder `/docs` → Save.
-5. **Seed history (recommended):** the easiest way is locally, once:
+5. **Build the history (recommended):** locally, once:
    ```
-   python scripts/backfill.py --years 8 --step-months 3
-   git add data docs/data && git commit -m "Seed history" && git push
+   python scripts/build_series.py
+   git add data docs/data && git commit -m "Build history" && git push
    ```
-   (Needs your key in `openalex.key` locally. If you skip this, the site simply builds its
-   history from launch onward.)
+   (Needs your key in `openalex.key` locally. This fetches the full yearly series, 2014 to now,
+   in a few minutes. If you skip it, the first weekly run builds the same history on GitHub.)
 6. **First live run:** repo → Actions → "Weekly update" → "Run workflow".
 7. **Visit:** `https://<your-username>.github.io/<repo-name>/`
 
@@ -46,10 +46,12 @@ Edit `.github/workflows/update.yml`, the line `cron: "0 6 * * 1"`.
 
 ## Where the data is
 
-- `data/snapshots/snapshot-YYYY-MM-DD.csv` — one immutable file per run. **Never edit these by
-  hand.** Together they are the longitudinal record. You can open any of them in Excel.
-- `data/taxonomy/topics-YYYY-MM-DD.json` — the topic list as it was that week (drift detector).
-- `docs/data/*.json` — generated for the website. Safe to delete; a run rebuilds them.
+- `data/snapshots/snapshot-YYYY-12-31.csv` — one file per year, plus one dated file for the
+  current, still-incomplete year. Each weekly run refreshes the recent years as OpenAlex finishes
+  indexing them; the git history is the permanent record of how the numbers firmed up. **Never edit
+  these by hand.** You can open any of them in Excel.
+- `data/feed/latest_papers.json` — the latest and most-cited papers shown on the site.
+- `docs/data/*.json` and `docs/data/constructs.csv` — generated for the website. Safe to delete; a run rebuilds them.
 
 ## Re-key, re-scope, or expand later
 

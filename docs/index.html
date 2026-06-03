@@ -3,74 +3,78 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Applied Linguistics Landscape</title>
-  <meta name="description" content="A weekly observatory of trends in the indexed linguistics and language-education literature." />
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect width='16' height='16' rx='3' fill='%232f5d50'/%3E%3C/svg%3E" />
-  <link rel="stylesheet" href="assets/style.css" />
+  <title>Word on the Street · Research trends in linguistics</title>
+  <meta name="description" content="What is rising and fading across linguistics, applied linguistics, sociolinguistics, psycholinguistics, translation, and language education. Research trends tracked every week, built from OpenAlex." />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect width='16' height='16' rx='3' fill='%231b6b5f'/%3E%3C/svg%3E" />
+  <link rel="stylesheet" href="assets/magazine.css" />
 </head>
 <body>
-  <header class="site-header">
+  <header class="nameplate">
     <div class="wrap">
-      <h1 id="site-name">Applied Linguistics Landscape</h1>
-      <p id="tagline" class="tagline">A weekly observatory of trends in the indexed linguistics and language-education literature.</p>
-      <p class="asof"><span id="asof">—</span> · <span id="snapcount">—</span> · <a href="about.html">What this covers &amp; misses</a></p>
+      <div class="np-rule"></div>
+      <h1 class="np-title" id="site-name">Word on the Street</h1>
+      <div class="np-rule"></div>
+      <p class="np-standfirst">Research trends across linguistics, applied linguistics, and language education, tracked weekly.</p>
+      <p class="np-dateline" id="np-date">Updated weekly</p>
     </div>
   </header>
 
-  <div id="baseline-banner" class="banner hidden">
-    <div class="wrap">
-      Baseline still accumulating. Treat these movements as provisional, not settled trends.
-    </div>
+  <div id="baseline-banner" class="notice hidden">
+    <div class="wrap">Still building a baseline, so read these as early signals, not settled trends.</div>
   </div>
 
   <main class="wrap">
-    <section id="narrative-section" class="card narrative">
-      <h2>This week in the field</h2>
-      <p id="narrative">Loading the latest snapshot…</p>
+    <article class="cover">
+      <p class="kicker" id="kicker">The fastest riser this year</p>
+      <h2 class="cover-head" id="lead-term">Loading…</h2>
+      <div class="cover-grid">
+        <div class="cover-text">
+          <p class="lede"><span class="dropcap" id="dropcap"></span><span id="lede-rest"></span></p>
+          <p class="pullstat">
+            <span class="ps-num" id="lead-delta"></span>
+            <span class="ps-lab" id="lead-context"></span>
+          </p>
+        </div>
+        <figure class="cover-fig">
+          <div id="hero-chart" class="hero-chart"></div>
+          <figcaption class="cover-cap">Share of the field's output across the fully indexed years. Hover to read any year.</figcaption>
+        </figure>
+      </div>
+    </article>
+
+    <section class="feature">
+      <h3 class="rule-head"><span class="movers-year">Movers this year</span></h3>
+      <div class="movers-grid">
+        <div class="movers-col">
+          <p class="col-label up">Rising</p>
+          <ol id="rising" class="lboard"></ol>
+        </div>
+        <div class="movers-col">
+          <p class="col-label down">Fading</p>
+          <ol id="cooling" class="lboard"></ol>
+        </div>
+      </div>
     </section>
 
-    <div class="two-col">
-      <section class="card">
-        <h2>Rising <span class="hint">share gaining, year over year</span></h2>
-        <ol id="rising" class="topic-list"></ol>
-      </section>
-      <section class="card">
-        <h2>Cooling <span class="hint">share falling, year over year</span></h2>
-        <ol id="cooling" class="topic-list"></ol>
-      </section>
-    </div>
-
-    <section class="card">
-      <h2>Biggest areas right now <span class="hint">by share of the last 12 months</span></h2>
-      <ol id="biggest" class="bar-list"></ol>
+    <section class="feature">
+      <h3 class="rule-head"><span>New this week</span></h3>
+      <ul id="newest" class="briefs"></ul>
     </section>
 
-    <div class="two-col">
-      <section class="card">
-        <h2>Newest papers <span class="hint">most recent in the corpus</span></h2>
-        <ul id="newest" class="paper-list"></ul>
-      </section>
-      <section class="card">
-        <h2>Most cited recently <span class="hint">last 24 months</span></h2>
-        <ul id="most-cited" class="paper-list"></ul>
-      </section>
-    </div>
-
-    <section id="coverage" class="card coverage">
-      <h2>What these numbers are</h2>
-      <p id="coverage-note"></p>
-      <p class="small">Read the full <a href="about.html">methodology and coverage limitations</a>.</p>
+    <section class="feature">
+      <h3 class="rule-head"><span>About these numbers</span></h3>
+      <p id="coverage-note" class="cov"></p>
+      <p class="small">Read the full <a href="about.html">methodology and limits</a>. <span id="stats-inline"></span></p>
     </section>
   </main>
 
-  <footer class="site-footer">
+  <footer class="np-foot">
     <div class="wrap">
-      <p>Data from <a href="https://openalex.org" rel="noopener">OpenAlex</a> (CC0 metadata). Updated weekly, automatically.
-         Generated <span id="generated">—</span>.</p>
-      <p class="small">This is an observatory of the indexed journal literature, not a complete picture of the field.</p>
+      <div class="np-rule thin"></div>
+      <p>Data from <a href="https://openalex.org" rel="noopener">OpenAlex</a>, CC0 metadata. Updated automatically each week, as of <span id="generated" class="mono">-</span>.</p>
     </div>
   </footer>
 
-  <script src="assets/app.js"></script>
+  <script src="assets/magazine.js?v=5"></script>
 </body>
 </html>

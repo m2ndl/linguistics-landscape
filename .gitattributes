@@ -1,0 +1,5 @@
+# Normalise line endings: LF in the repo for all text, so Windows-local and Linux-CI commits
+# don't churn the diff. Binary types are left untouched.
+* text=auto eol=lf
+*.png binary
+*.pdf binary

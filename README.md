@@ -1,4 +1,6 @@
-# Applied Linguistics Landscape
+# Word on the Street
+
+*Research trends across linguistics, applied linguistics, and language education.*
 
 A website that refreshes itself every week and shows the current state of research in
 linguistics, applied linguistics, and language education, along with how the field's

@@ -1,11 +1,11 @@
 """
-Read and write the append-only snapshot history (plain CSV, one file per run).
+Read and write the yearly snapshot history (plain CSV, one file per data year).
 
-Each snapshot file is immutable once written: it records what the site reported on
-that date. The whole collection, tracked in git, is the project's permanent
-longitudinal database. We never edit or delete old snapshots; we only add new ones.
-CSV is chosen on purpose: a non-technical owner can open any snapshot in Excel, and
-git shows a readable diff of exactly what changed each week.
+Snapshots are keyed by the DATA year. Complete years (YYYY-12-31) are rewritten on each weekly run
+so their counts firm up as OpenAlex finishes indexing them; the current year is kept as a single
+dated partial. The immutable record lives in git: each weekly commit is a timestamped diff of exactly
+what changed, so the longitudinal history is preserved at the commit level even though files are
+refreshed. CSV is chosen so a non-technical owner can open any snapshot in Excel and read the diff.
 """
 from __future__ import annotations
 
@@ -30,6 +30,13 @@ def snapshot_path(date_str: str) -> Path:
 
 def exists(date_str: str) -> bool:
     return snapshot_path(date_str).exists()
+
+
+def remove_snapshot(date_str: str) -> None:
+    """Delete a snapshot file if present (used to prune superseded current-year partials)."""
+    path = snapshot_path(date_str)
+    if path.exists():
+        path.unlink()
 
 
 def write_snapshot(date_str: str, rows: list[dict], *, overwrite: bool = False) -> Path:

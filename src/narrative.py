@@ -16,11 +16,13 @@ def _points(x: float) -> str:
     return f"{x * 100:+.2f} points"
 
 
-def weekly_narrative(trends: dict, totals: dict) -> str:
+def weekly_narrative(trends: dict, totals: dict, current: dict | None = None) -> str:
     parts: list[str] = []
+    ref_year = (trends.get("latest") or "")[:4]
     n = int(totals.get("count_recent", 0))
-    parts.append(f"Over the trailing 12 months the indexed linguistics and language literature "
-                 f"recorded about {n:,} works.")
+    if n:
+        parts.append(f"In {ref_year}, the last fully indexed year, the linguistics and language "
+                     f"literature recorded about {n:,} indexed works.")
 
     if trends.get("baseline_building"):
         parts.append("The observatory is still accumulating its baseline, so read these movements "
@@ -32,14 +34,19 @@ def weekly_narrative(trends: dict, totals: dict) -> str:
     if rising:
         top = rising[0]
         tag = "a confirmed rise" if top.get("confirmed") else "an early rise"
-        parts.append(f"The sharpest upward move is {top['label']}, now {_pct(top['share_recent'])} "
+        parts.append(f"The sharpest upward move was {top['label']}, reaching {_pct(top['share_recent'])} "
                      f"of output ({_points(top['yoy_share_change'])} year over year), {tag}.")
     if cooling:
         bottom = cooling[0]
-        parts.append(f"The sharpest decline is {bottom['label']}, now {_pct(bottom['share_recent'])} "
+        parts.append(f"The sharpest decline was {bottom['label']}, at {_pct(bottom['share_recent'])} "
                      f"({_points(bottom['yoy_share_change'])}).")
 
     if not rising and not cooling:
-        parts.append("No topic cleared the volume and persistence thresholds for a trend this period.")
+        parts.append("No construct cleared the volume and persistence thresholds for a trend this period.")
+
+    if current and current.get("provisional") and current.get("leaders"):
+        names = ", ".join(e["label"] for e in current["leaders"][:3])
+        parts.append(f"So far in {current['year']}, the constructs gaining fastest are {names}, "
+                     f"though that year is only partly indexed.")
 
     return " ".join(parts)

@@ -43,9 +43,18 @@ jobs:
         run: |
           git config user.name "landscape-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add data docs/data
-          git commit -m "Weekly update $(date -u +%Y-%m-%d)" || echo "Nothing new to commit"
-          git push
+          # Stage only the run's outputs (note: NOT a blanket "git add data", which would sweep
+          # any stray file dropped into data/ into the public history). -A captures the prune of
+          # superseded current-year partials too.
+          git add -A data/snapshots data/feed data/last_run.txt docs/data
+          if git diff --cached --quiet; then
+            echo "Nothing new to commit"
+          else
+            git commit -m "Weekly update $(date -u +%Y-%m-%d)"
+            # Survive a manual commit racing the cron, then publish.
+            git pull --rebase --autostash origin main
+            git push
+          fi
 
       # Fail loud: if anything above failed, open an issue so the owner hears about it
       # in their inbox. The last good site stays live because nothing partial was committed.
@@ -54,13 +63,13 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
+          # Don't pile up a new issue every Monday during a persistent outage: reuse the open one.
+          open=$(gh issue list --state open --search "Weekly update failed in:title" --json number --jq 'length' 2>/dev/null || echo 0)
+          if [ "$open" -gt 0 ]; then
+            echo "An open failure issue already exists; not filing another."
+            exit 0
+          fi
           gh issue create \
             --title "Weekly update failed on $(date -u +%Y-%m-%d)" \
-            --body "The scheduled update failed. Logs: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
-
-          Most likely causes:
-          - the OPENALEX_API_KEY secret is missing or expired (get a new one at https://openalex.org/settings/api), or
-          - OpenAlex changed its API.
-
-          The previously published site is still live; no bad data was written." \
+            --body "The scheduled update failed. Logs: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }} . Most likely the OPENALEX_API_KEY secret is missing or expired (get a new one at https://openalex.org/settings/api), or OpenAlex changed its API. The previously published site is still live; no bad data was written." \
             || echo "Could not open an issue"

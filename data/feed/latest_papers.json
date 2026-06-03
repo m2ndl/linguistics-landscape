@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-06-02",
+  "as_of": "2026-06-03",
   "newest": [
     {
       "id": "https://openalex.org/W7163029199",
@@ -140,6 +140,21 @@
       "type": "article"
     },
     {
+      "id": "https://openalex.org/W7162994345",
+      "title": "‘Manden practicar el mas eficaz reconocimiento del pueblo’",
+      "authors": [
+        "Elia Puertas Ribés"
+      ],
+      "venue": "Oralia análisis del discurso oral",
+      "year": 2026,
+      "date": "2026-06-01",
+      "cited_by_count": 0,
+      "doi": "https://doi.org/10.25115/oralia.v29i1.10418",
+      "oa_url": "https://doi.org/10.25115/oralia.v29i1.10418",
+      "topic": "Linguistic Variation and Morphology",
+      "type": "article"
+    },
+    {
       "id": "https://openalex.org/W7163020647",
       "title": "Reconstructing the spread of word-final /n/ deletion in Central Franconian dialects. Internal and geographical dynamics",
       "authors": [
@@ -168,21 +183,6 @@
       "doi": "https://doi.org/10.5281/zenodo.20484719",
       "oa_url": "https://doi.org/10.5281/zenodo.20484719",
       "topic": "Lexicography and Language Studies",
-      "type": "article"
-    },
-    {
-      "id": "https://openalex.org/W7162994345",
-      "title": "‘Manden practicar el mas eficaz reconocimiento del pueblo’",
-      "authors": [
-        "Elia Puertas Ribés"
-      ],
-      "venue": "Oralia análisis del discurso oral",
-      "year": 2026,
-      "date": "2026-06-01",
-      "cited_by_count": 0,
-      "doi": "https://doi.org/10.25115/oralia.v29i1.10418",
-      "oa_url": "https://doi.org/10.25115/oralia.v29i1.10418",
-      "topic": "Linguistic Variation and Morphology",
       "type": "article"
     },
     {
@@ -219,18 +219,20 @@
       "type": "article"
     },
     {
-      "id": "https://openalex.org/W7163009682",
-      "title": "Lisisme: un canvi en procés en l’ús del pronom datiu de tercera persona del plural en el català oral actual?",
+      "id": "https://openalex.org/W7163001863",
+      "title": "Informed by social justice? Fairness and inclusion in the Primary Teacher Education (PrimTEd) English language test item development",
       "authors": [
-        "Georgina Alvarez-Morera"
+        "Thelma K.B Mort",
+        "Duduzile Zwane",
+        "Hayley Van der Haar"
       ],
-      "venue": "Revista de Llengua i Dret",
+      "venue": "Reading & Writing",
       "year": 2026,
       "date": "2026-06-01",
       "cited_by_count": 0,
-      "doi": "https://doi.org/10.58992/rld.i85.2026.4577",
-      "oa_url": "https://doi.org/10.58992/rld.i85.2026.4577",
-      "topic": "Spanish Linguistics and Language Studies",
+      "doi": "https://doi.org/10.4102/rw.v17i1.610",
+      "oa_url": "https://doi.org/10.4102/rw.v17i1.610",
+      "topic": "Multilingual Education and Policy",
       "type": "article"
     }
   ],
