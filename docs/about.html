@@ -164,7 +164,8 @@
       <p>The "underserved niches" on the front page flag constructs whose recent papers are cited at well
          above the field's rate while the literature on them is still thin. Citations build with age, so a
          naive reading would just track citation lag; instead each construct's early-citation rate (the
-         share of its papers in a settled three-year cohort that have reached at least five citations) is
+         share of its papers in a settled three-year cohort, <span id="gaps-cohort">2022 to 2024</span>, that
+         have reached at least five citations) is
          divided by the field's own rate, which cancels that lag, and a niche is flagged only when that
          ratio is high and the cohort is still small. Read it as a tip about where attention may be heading,
          not a verdict.</p>
@@ -231,7 +232,7 @@
     (async function () {
       const get = async p => { try { const r = await fetch(p, { cache: "no-store" }); return r.ok ? await r.json() : null; } catch (e) { return null; } };
       const set = (id, v) => { const el = document.getElementById(id); if (el && v != null && v !== "") el.textContent = v; };
-      const [meta, latest] = await Promise.all([get("data/meta.json"), get("data/latest.json")]);
+      const [meta, latest, gaps] = await Promise.all([get("data/meta.json"), get("data/latest.json"), get("data/gaps.json")]);
       if (meta) {
         if (meta.construct_count) set("n-constructs", meta.construct_count);
         if (meta.reference_year) set("ref-year", meta.reference_year);
@@ -246,6 +247,10 @@
       if (latest) {
         const works = (latest.totals || {}).count_recent;
         if (works) set("corpus-size", works.toLocaleString("en-US"));
+      }
+      if (gaps && Array.isArray(gaps.cohort_years) && gaps.cohort_years.length) {
+        const cy = gaps.cohort_years;
+        set("gaps-cohort", `${cy[0]} to ${cy[cy.length - 1]}`);
       }
     })();
   </script>

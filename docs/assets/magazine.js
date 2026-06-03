@@ -130,6 +130,8 @@ async function main() {
       <span><a href="construct.html?id=${encodeURIComponent(g.id)}">${escapeHtml(g.label)}</a><span class="gap-vol">${INT(g.cohort_volume)} papers, ${cohort}</span></span>
       <span class="gap-lift">&times;${g.lift.toFixed(1)} the field</span>
     </li>`).join(""));
+    const win = document.getElementById("gaps-window");   // keep the stated window in sync with the data
+    if (win) win.textContent = cohort;
     const sec = document.getElementById("gaps-section");
     if (sec) sec.classList.remove("hidden");
   }
