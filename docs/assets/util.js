@@ -34,3 +34,23 @@ function deltaText(e) {
   if (typeof e.growth === "number") { const g = Math.round(e.growth * 100); return (g > 0 ? "+" : "") + g + "%"; }
   const v = Math.round((e.yoy_share_change || 0) * 1000) / 10; return (v > 0 ? "+" : "") + v.toFixed(1) + " pts";
 }
+
+// Paper-feed row renderers, shared by the front page and the Papers page.
+function paperRow(p) {
+  const url = p.oa_url || p.doi || p.id || "#";
+  const meta = [p.authors && p.authors.length ? escapeHtml(p.authors.slice(0, 3).join(", ")) : "", p.venue ? escapeHtml(p.venue) : "", p.year || ""].filter(Boolean).join(" · ");
+  return `<li class="brief">
+    <a class="brief-title" href="${escapeHtml(url)}" target="_blank" rel="noopener">${escapeHtml(p.title)}</a>
+    <div class="brief-meta">${meta}</div>
+  </li>`;
+}
+function citedRow(p) {
+  const url = p.oa_url || p.doi || p.id || "#";
+  const meta = [p.authors && p.authors.length ? escapeHtml(p.authors.slice(0, 3).join(", ")) : "", p.venue ? escapeHtml(p.venue) : "", p.year || ""].filter(Boolean).join(" · ");
+  const cites = (p.cited_by_count || 0).toLocaleString("en-US");
+  return `<li class="brief">
+    <a class="brief-title" href="${escapeHtml(url)}" target="_blank" rel="noopener">${escapeHtml(p.title)}</a>
+    <div class="brief-meta">${meta}</div>
+    <div class="brief-cites">${cites} citations</div>
+  </li>`;
+}

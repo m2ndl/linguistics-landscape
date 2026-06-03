@@ -76,26 +76,6 @@ function moverRow(e, i) {
   </li>`;
 }
 
-function paperRow(p) {
-  const url = p.oa_url || p.doi || p.id || "#";
-  const meta = [p.authors && p.authors.length ? escapeHtml(p.authors.slice(0, 3).join(", ")) : "", p.venue ? escapeHtml(p.venue) : "", p.year || ""].filter(Boolean).join(" · ");
-  return `<li class="brief">
-    <a class="brief-title" href="${escapeHtml(url)}" target="_blank" rel="noopener">${escapeHtml(p.title)}</a>
-    <div class="brief-meta">${meta}</div>
-  </li>`;
-}
-
-function citedRow(p) {
-  const url = p.oa_url || p.doi || p.id || "#";
-  const meta = [p.authors && p.authors.length ? escapeHtml(p.authors.slice(0, 3).join(", ")) : "", p.venue ? escapeHtml(p.venue) : "", p.year || ""].filter(Boolean).join(" · ");
-  const cites = (p.cited_by_count || 0).toLocaleString("en-US");
-  return `<li class="brief">
-    <a class="brief-title" href="${escapeHtml(url)}" target="_blank" rel="noopener">${escapeHtml(p.title)}</a>
-    <div class="brief-meta">${meta}</div>
-    <div class="brief-cites">${cites} citations</div>
-  </li>`;
-}
-
 function wire() {
   ["rising", "cooling"].forEach(id => {
     const ol = document.getElementById(id);

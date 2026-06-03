@@ -59,6 +59,13 @@ a:hover { text-decoration:underline; text-underline-offset:2px; }
 .np-standfirst { font-family:var(--serif); font-style:italic; font-size:16px; color:var(--muted); margin:12px 0 0; }
 .np-dateline { font-family:var(--mono); font-size:11px; letter-spacing:.1em; text-transform:uppercase; color:var(--faint); margin:7px 0 0; }
 
+/* ---------- section nav (under the masthead, on every page) ---------- */
+.topnav { display:flex; flex-wrap:wrap; justify-content:center; align-items:center; gap:0 6px; font-family:var(--mono); font-size:11.5px; letter-spacing:.1em; text-transform:uppercase; margin:16px auto 0; padding:11px 0 0; max-width:560px; border-top:1px solid var(--line); }
+.topnav a { color:var(--muted); padding:5px 12px; border-radius:6px; }
+.topnav a:hover { color:var(--accent); }
+.topnav a:focus-visible { outline:2px solid var(--accent); outline-offset:2px; }
+.topnav a[aria-current="page"] { color:var(--ink); background:var(--accent-weak); }
+
 .notice { background:var(--accent-weak); border-top:1px solid var(--line); border-bottom:1px solid var(--line); margin-top:8px; }
 .notice .wrap { padding:9px 28px; font-size:13.5px; color:var(--accent); text-align:center; }
 
