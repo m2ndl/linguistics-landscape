@@ -104,6 +104,35 @@ def build_all(scope: dict | None = None, generated_on: str | None = None) -> lis
         }),
     ]
 
+    # Per-construct dataset for the Explore and construct-detail pages: every construct's full
+    # complete-year share series plus summary fields (latest share, rank, firm year-over-year growth).
+    ref_rows = all_snaps.get(ref, []) if ref else []
+    constructs_out = []
+    for r in ref_rows:
+        if r.get("dimension_type") != "construct":
+            continue
+        cid = r["dimension_id"]
+        sr, sp = _f(r.get("share_recent")), _f(r.get("share_prior"))
+        growth = (sr / sp - 1.0) if sp > 0 else None
+        pts = [{"year": int(p["date"][:4]), "share": round(p["share"], 9), "papers": int(p["count"])}
+               for p in (series.get(cid, {}).get("points") or []) if metrics.is_complete_year(p["date"])]
+        constructs_out.append({
+            "id": cid, "label": r["dimension_label"], "source": r.get("data_version", ""),
+            "latest_share": round(sr, 9), "latest_papers": int(_f(r.get("count_recent"))),
+            "rank": int(_f(r.get("rank_recent"))),
+            "growth": (round(growth, 6) if growth is not None else None),
+            "series": pts,
+        })
+    constructs_out.sort(key=lambda c: (c["rank"] or 99999))
+    written.append(_write("constructs.json", {
+        "generated_on": gen,
+        "reference_year": (ref or "")[:4],
+        "current_year": current.get("year"),
+        "complete_years": [int(d[:4]) for d in complete_dates],
+        "count": len(constructs_out),
+        "constructs": constructs_out,
+    }))
+
     # Consolidated long-format dataset for download (the research-data-engine artifact).
     csv_path = OUT_DIR / "constructs.csv"
     with csv_path.open("w", newline="", encoding="utf-8") as f:
