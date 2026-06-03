@@ -49,10 +49,15 @@ def main(argv=None) -> int:
         papers.save_feed(papers.fetch_feed(scope, ref))                             # latest-papers feed
         # Track B and the gap finder are EXPERIMENTAL sidecars. Guard each so a failure here can never
         # block the firm site (the spine series + papers feed have already been written above).
-        try:
-            radar.build_radar(scope, ref, log=lambda m: print(m, flush=True))
-        except Exception as e:                                                       # noqa: BLE001
-            print(f"WARN: radar (Track B) failed, skipping: {e}", flush=True)
+        # Track B radar PARKED 2026-06-03: its rising-phrase quality is not ship-worthy yet (mostly
+        # field-generic vocabulary; see project/LOG.md), so the heavy ~70-min harvest is skipped weekly
+        # until the scoring is tuned and a frontend is built. Flip RUN_RADAR to re-enable.
+        RUN_RADAR = False
+        if RUN_RADAR:
+            try:
+                radar.build_radar(scope, ref, log=lambda m: print(m, flush=True))
+            except Exception as e:                                                   # noqa: BLE001
+                print(f"WARN: radar (Track B) failed, skipping: {e}", flush=True)
         try:
             gaps.build_gaps(scope, ref, log=lambda m: print(m, flush=True))
         except Exception as e:                                                       # noqa: BLE001
