@@ -4,8 +4,6 @@
 
 const PCT = x => (x * 100).toFixed(2) + "%";
 const INT = x => (x || 0).toLocaleString("en-US");
-const MONTHS = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
-function monthYear(iso) { const m = /^(\d{4})-(\d{2})/.exec(iso || ""); return m ? `${MONTHS[+m[2] - 1]} ${m[1]}` : ""; }
 const reduceMotion = () => window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
 let _data = null, _selected = null, _chartCtx = null;
@@ -218,8 +216,6 @@ async function main() {
 
   setHTML("rising", (latest.rising || []).slice(0, 7).map(moverRow).join("") || emptyLi("No clear risers yet."));
   setHTML("cooling", (latest.cooling || []).slice(0, 7).map(moverRow).join("") || emptyLi("No clear decliners yet."));
-  const citedSince = monthYear((latest.papers || {}).cited_since);
-  if (citedSince) setText("most-cited-head", `Most cited since ${citedSince}`);
   setHTML("most-cited", ((latest.papers || {}).most_cited_recent || []).slice(0, 8).map(citedRow).join("") || emptyLi("No citation data yet."));
   setHTML("newest", ((latest.papers || {}).newest || []).slice(0, 8).map(paperRow).join("") || emptyLi("No recent papers found."));
 
