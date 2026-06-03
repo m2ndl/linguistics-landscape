@@ -18,12 +18,12 @@
   --sans:system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   --mono:ui-monospace,"Cascadia Code","Segoe UI Mono","SF Mono",Menlo,Consolas,monospace;
 }
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bg:#16171a; --panel:#1d1f23; --ink:#eae9e3; --muted:#a6abb2; --faint:#7b818a;
-    --line:#2a2c31; --line-2:#3c3f45; --accent:#5cbaa8; --accent-weak:#1e2c29;
-    --up:#5cbaa8; --down:#d98a60;
-  }
+/* Light is the default. Dark is opt-in via the toggle (data-theme on <html>), remembered in
+   localStorage. We intentionally do NOT follow prefers-color-scheme, so light is the default for all. */
+:root[data-theme="dark"] {
+  --bg:#16171a; --panel:#1d1f23; --ink:#eae9e3; --muted:#a6abb2; --faint:#7b818a;
+  --line:#2a2c31; --line-2:#3c3f45; --accent:#5cbaa8; --accent-weak:#1e2c29;
+  --up:#5cbaa8; --down:#d98a60;
 }
 
 * { box-sizing:border-box; }
@@ -34,6 +34,22 @@ a:hover { text-decoration:underline; text-underline-offset:2px; }
 .mono { font-family:var(--mono); font-variant-numeric:tabular-nums; }
 .small { font-size:13px; color:var(--muted); }
 .hidden { display:none; }
+
+/* ---------- light/dark toggle ---------- */
+.theme-toggle {
+  position:fixed; top:14px; right:14px; z-index:20;
+  width:38px; height:38px; display:inline-flex; align-items:center; justify-content:center;
+  background:var(--panel); color:var(--muted); border:1px solid var(--line-2); border-radius:50%;
+  cursor:pointer; padding:0; -webkit-tap-highlight-color:transparent;
+  transition:color .15s, border-color .15s, background .15s;
+}
+.theme-toggle:hover { color:var(--accent); border-color:var(--accent); background:var(--accent-weak); }
+.theme-toggle:focus-visible { outline:2px solid var(--accent); outline-offset:2px; }
+.theme-toggle svg { display:block; width:18px; height:18px; }
+.theme-toggle .icon-sun { display:none; }
+:root[data-theme="dark"] .theme-toggle .icon-sun { display:block; }
+:root[data-theme="dark"] .theme-toggle .icon-moon { display:none; }
+@media (max-width:760px) { .theme-toggle { top:10px; right:10px; } }
 
 /* ---------- nameplate ---------- */
 .nameplate { text-align:center; padding:30px 0 16px; }
