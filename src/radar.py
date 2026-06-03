@@ -49,6 +49,11 @@ RECENT_FLOOR_BREAKING = 45      # ... but clearly present now
 W_Z, W_CVAL, W_GROWTH = 0.45, 0.25, 0.30
 
 # --- auto-promotion gate (the only bridge into the firm spine) ---
+# PARKED 2026-06-03: the first full real run surfaced mostly field-generic vocabulary (e.g. "speaking
+# skills", "english proficiency") plus some leakage, which would clear these gates and pollute the
+# curated spine. Auto-promotion stays OFF until the rising-phrase scoring is tuned (the z-score over-
+# rewards the field's own defining terms). The miner still runs as a sidecar; only the spine bridge is shut.
+PROMOTE_ENABLED = False
 PROMOTE_RUNS = 3                # must clear the gate this many consecutive runs
 PROMOTE_Z = 3.0
 PROMOTE_GROWTH = 0.25
@@ -311,7 +316,7 @@ def build_radar(scope: dict, ref: dt.date | None = None, log=lambda *_: None, wr
         "candidates": cands,            # full scored set (history needs it for the promotion gate)
     }
 
-    promoted = _promote(record, log) if write else []
+    promoted = _promote(record, log) if (write and PROMOTE_ENABLED) else []
     published = {
         "generated_on": date_str,
         "window": record["window"],
