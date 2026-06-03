@@ -46,7 +46,7 @@ jobs:
           # Stage only the run's outputs (note: NOT a blanket "git add data", which would sweep
           # any stray file dropped into data/ into the public history). -A captures the prune of
           # superseded current-year partials too.
-          git add -A data/snapshots data/feed data/last_run.txt docs/data
+          git add -A data/snapshots data/feed data/radar data/gaps data/last_run.txt docs/data config/spine.json
           if git diff --cached --quiet; then
             echo "Nothing new to commit"
           else

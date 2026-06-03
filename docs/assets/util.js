@@ -35,22 +35,34 @@ function deltaText(e) {
   const v = Math.round((e.yoy_share_change || 0) * 1000) / 10; return (v > 0 ? "+" : "") + v.toFixed(1) + " pts";
 }
 
+// The title links to the paper's DOI: the canonical identifier that always resolves to the
+// version of record. A separate open-access copy (when OpenAlex has one that isn't just the
+// DOI again) is offered as a small labelled extra, so a fragile publisher PDF deep-link is
+// never the primary link. Falls back to the OA copy, then the OpenAlex record, when no DOI.
+function paperLinks(p) {
+  const url = p.doi || p.oa_url || p.id || "#";
+  const oa = (p.oa_url && p.oa_url !== url) ? p.oa_url : null;
+  return { url, oa };
+}
+
 // Paper-feed row renderers, shared by the front page and the Papers page.
 function paperRow(p) {
-  const url = p.oa_url || p.doi || p.id || "#";
+  const { url, oa } = paperLinks(p);
   const meta = [p.authors && p.authors.length ? escapeHtml(p.authors.slice(0, 3).join(", ")) : "", p.venue ? escapeHtml(p.venue) : "", p.year || ""].filter(Boolean).join(" · ");
+  const oaLink = oa ? `${meta ? " · " : ""}<a class="brief-oa" href="${escapeHtml(oa)}" target="_blank" rel="noopener">open access</a>` : "";
   return `<li class="brief">
     <a class="brief-title" href="${escapeHtml(url)}" target="_blank" rel="noopener">${escapeHtml(p.title)}</a>
-    <div class="brief-meta">${meta}</div>
+    <div class="brief-meta">${meta}${oaLink}</div>
   </li>`;
 }
 function citedRow(p) {
-  const url = p.oa_url || p.doi || p.id || "#";
+  const { url, oa } = paperLinks(p);
   const meta = [p.authors && p.authors.length ? escapeHtml(p.authors.slice(0, 3).join(", ")) : "", p.venue ? escapeHtml(p.venue) : "", p.year || ""].filter(Boolean).join(" · ");
+  const oaLink = oa ? `${meta ? " · " : ""}<a class="brief-oa" href="${escapeHtml(oa)}" target="_blank" rel="noopener">open access</a>` : "";
   const cites = (p.cited_by_count || 0).toLocaleString("en-US");
   return `<li class="brief">
     <a class="brief-title" href="${escapeHtml(url)}" target="_blank" rel="noopener">${escapeHtml(p.title)}</a>
-    <div class="brief-meta">${meta}</div>
+    <div class="brief-meta">${meta}${oaLink}</div>
     <div class="brief-cites">${cites} citations</div>
   </li>`;
 }

@@ -20,7 +20,7 @@
   <meta name="twitter:description" content="How the numbers are built, what they can and cannot tell you, and how to download the dataset." />
   <meta name="twitter:image" content="https://m2ndl.github.io/applied-linguistics-landscape/og.png" />
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect width='16' height='16' rx='3' fill='%231b6b5f'/%3E%3C/svg%3E" />
-  <link rel="stylesheet" href="assets/magazine.css?v=4" />
+  <link rel="stylesheet" href="assets/magazine.css?v=5" />
   <style>
     /* Page-scoped styles for the methodology page; all colours come from magazine.css tokens. */
     .prose p, .prose li { font-size:16px; color:var(--ink); }
@@ -160,6 +160,17 @@
     </section>
 
     <section class="feature">
+      <h2 class="rule-head"><span>Underserved niches</span></h2>
+      <p>The "underserved niches" on the front page flag constructs whose recent papers are cited at well
+         above the field's rate while the literature on them is still thin. Citations build with age, so a
+         naive reading would just track citation lag; instead each construct's early-citation rate (the
+         share of its papers in a settled three-year cohort that have reached at least five citations) is
+         divided by the field's own rate, which cancels that lag, and a niche is flagged only when that
+         ratio is high and the cohort is still small. Read it as a tip about where attention may be heading,
+         not a verdict.</p>
+    </section>
+
+    <section class="feature">
       <h2 class="rule-head"><span>The dataset</span></h2>
       <p>The full series is downloadable as one long-format CSV: one row per construct per year, every year
          on record. The latest year is the partial current year and is flagged provisional above; the rest
@@ -194,12 +205,11 @@
 
     <section class="feature">
       <h2 class="rule-head"><span>How it runs</span></h2>
-      <p>A small scheduled job queries OpenAlex once a week, writes the updated data into a public
-         repository, and rebuilds these pages from what is stored. The repository's own history is the
-         archive. There is no server and no database to maintain, and there is no language model in the
-         pipeline. The paper lists show titles, authors,
-         venues, and links only; the site does not store or redisplay abstract text, and where a free
-         full-text version exists the link points to it.</p>
+      <p>The data comes from OpenAlex and refreshes once a week. No language model is involved at any
+         stage; every figure is computed directly from the metadata, so nothing here is generated or
+         guessed. The paper lists carry titles, authors, venues, and links only; abstract text is never
+         stored or shown. Each title links to the paper's DOI, with a separate open-access link
+         where a free copy exists.</p>
       <p class="small" id="freshness">Data as of the latest weekly run.</p>
     </section>
   </main>

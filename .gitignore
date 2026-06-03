@@ -23,16 +23,18 @@ Thumbs.db
 # Dev/preview screenshots live at the repo root; the site's own images live under docs/.
 /*.png
 
-# --- experimental / dev-only, not wired into the live site (track when built) ---
-# src/terms.py is the planned "Track B" discovery miner; the other two are one-off probes.
+# --- experimental / dev-only, not wired into the live site ---
 scripts/explore_signals.py
 scripts/mine_test.py
-src/terms.py
+scripts/radar_test.py
 
 # --- local working notes (kept out of the public repo) ---
 project/
+SUGGESTED_ENHANCEMENTS.md
 
 # NOTE: data/ and docs/data/ are intentionally NOT ignored.
 # Those committed files ARE the project's permanent longitudinal record.
 # Exception: stray reference docs dropped into data/ are not part of that record.
 data/*.pdf
+# Radar's local resume cache (harvest + background counts) is scratch, not the record.
+data/radar/_cache.json

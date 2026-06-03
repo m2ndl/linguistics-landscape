@@ -16,8 +16,10 @@ import datetime as dt
 import sys
 
 import constructs
+import gaps
 import metrics
 import papers
+import radar
 import render
 import series
 import snapshots
@@ -43,8 +45,18 @@ def main(argv=None) -> int:
     ref = dt.date.fromisoformat(args.date) if args.date else dt.date.today()
 
     if not args.render_only:
-        series.build_yearly(scope, today=ref, log=lambda m: print(m, flush=True))   # yearly construct series
+        series.build_yearly(scope, today=ref, log=lambda m: print(m, flush=True))   # yearly construct series (firm)
         papers.save_feed(papers.fetch_feed(scope, ref))                             # latest-papers feed
+        # Track B and the gap finder are EXPERIMENTAL sidecars. Guard each so a failure here can never
+        # block the firm site (the spine series + papers feed have already been written above).
+        try:
+            radar.build_radar(scope, ref, log=lambda m: print(m, flush=True))
+        except Exception as e:                                                       # noqa: BLE001
+            print(f"WARN: radar (Track B) failed, skipping: {e}", flush=True)
+        try:
+            gaps.build_gaps(scope, ref, log=lambda m: print(m, flush=True))
+        except Exception as e:                                                       # noqa: BLE001
+            print(f"WARN: gap finder failed, skipping: {e}", flush=True)
 
     render.build_all(scope, generated_on=ref.isoformat())
     print(f"OK: {len(snapshots.list_dates())} snapshots on record; site data rebuilt.")

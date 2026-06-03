@@ -120,6 +120,20 @@ async function main() {
   setHTML("most-cited", ((latest.papers || {}).most_cited_recent || []).slice(0, 8).map(citedRow).join("") || emptyLi("No citation data yet."));
   setHTML("newest", ((latest.papers || {}).newest || []).slice(0, 8).map(paperRow).join("") || emptyLi("No recent papers found."));
 
+  // Underserved niches (gap finder): a guarded sidecar; render only if its data file exists with gaps.
+  const gapsData = await getJSON("data/gaps.json");
+  const gapList = (gapsData && gapsData.gaps) || [];
+  if (gapList.length) {
+    const cy = gapsData.cohort_years || [];
+    const cohort = cy.length ? `${cy[0]} to ${cy[cy.length - 1]}` : "recent years";
+    setHTML("gaps", gapList.slice(0, 6).map(g => `<li class="gap-row">
+      <span><a href="construct.html?id=${encodeURIComponent(g.id)}">${escapeHtml(g.label)}</a><span class="gap-vol">${INT(g.cohort_volume)} papers, ${cohort}</span></span>
+      <span class="gap-lift">&times;${g.lift.toFixed(1)} the field</span>
+    </li>`).join(""));
+    const sec = document.getElementById("gaps-section");
+    if (sec) sec.classList.remove("hidden");
+  }
+
   wire();
   selectTerm(null);
 }

@@ -86,6 +86,8 @@ async function main() {
     ? `<span class="flat" title="No firm change; too few papers">&#8211;</span>`
     : deltaText({ growth: c.growth });
   const chgCls = c.growth == null ? "" : dir;
+  const gapsData = await getJSON("data/gaps.json");
+  const gap = gapsData && (gapsData.all || gapsData.gaps || []).find(x => x.id === c.id);
   const facts = [
     [`Share in ${refYear}`, `<dd class="mono">${PCT(c.latest_share)}</dd>`],
     [`Change vs ${priorYear}`, `<dd class="mono ${chgCls}">${chgVal}</dd>`],
@@ -93,6 +95,11 @@ async function main() {
     [`Matched works, ${refYear}`, `<dd class="mono">${INT(c.latest_papers)}</dd>`],
     ["Source", `<dd>${provenance}</dd>`],
   ];
+  if (gap) {
+    const cy = gapsData.cohort_years || [];
+    const span = cy.length ? `${cy[0]} to ${cy[cy.length - 1]}` : "recent years";
+    facts.splice(3, 0, ["Early-citation rate", `<dd class="mono up">&times;${gap.lift.toFixed(1)} the field (${span})</dd>`]);
+  }
   setHTML("facts", facts.map(([dt, dd]) => `<div class="fact"><dt>${dt}</dt>${dd}</div>`).join(""));
 
   // Provisional current-year note (guarded; optional rank-only standing from latest.json).
