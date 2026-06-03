@@ -167,6 +167,17 @@ function paperRow(p) {
   </li>`;
 }
 
+function citedRow(p) {
+  const url = p.oa_url || p.doi || p.id || "#";
+  const meta = [p.authors && p.authors.length ? escapeHtml(p.authors.slice(0, 3).join(", ")) : "", p.venue ? escapeHtml(p.venue) : "", p.year || ""].filter(Boolean).join(" · ");
+  const cites = (p.cited_by_count || 0).toLocaleString("en-US");
+  return `<li class="brief">
+    <a class="brief-title" href="${escapeHtml(url)}" target="_blank" rel="noopener">${escapeHtml(p.title)}</a>
+    <div class="brief-meta">${meta}</div>
+    <div class="brief-cites">${cites} citations</div>
+  </li>`;
+}
+
 function wire() {
   ["rising", "cooling"].forEach(id => {
     const ol = document.getElementById(id);
@@ -205,6 +216,7 @@ async function main() {
 
   setHTML("rising", (latest.rising || []).slice(0, 7).map(moverRow).join("") || emptyLi("No clear risers yet."));
   setHTML("cooling", (latest.cooling || []).slice(0, 7).map(moverRow).join("") || emptyLi("No clear decliners yet."));
+  setHTML("most-cited", ((latest.papers || {}).most_cited_recent || []).slice(0, 8).map(citedRow).join("") || emptyLi("No citation data yet."));
   setHTML("newest", ((latest.papers || {}).newest || []).slice(0, 8).map(paperRow).join("") || emptyLi("No recent papers found."));
 
   wire();

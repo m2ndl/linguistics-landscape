@@ -99,11 +99,13 @@ a:hover { text-decoration:underline; text-underline-offset:2px; }
 .brief { break-inside:avoid; padding:0 0 16px; }
 .brief-title { font-weight:500; font-size:15px; line-height:1.38; }
 .brief-meta { font-size:12.5px; color:var(--muted); margin-top:3px; }
+.brief-cites { font-family:var(--mono); font-variant-numeric:tabular-nums; font-size:12px; color:var(--accent); margin-top:3px; }
 .empty { color:var(--faint); font-style:italic; }
 
 .cov { font-family:var(--serif); font-size:16px; color:var(--muted); max-width:68ch; margin:0 0 10px; }
 .np-foot { padding:18px 0 48px; color:var(--muted); font-size:13px; text-align:center; }
 .np-foot .np-rule { margin-bottom:14px; }
+.byline { font-family:var(--mono); font-size:11px; letter-spacing:.14em; text-transform:uppercase; color:var(--faint); margin:8px 0 0; }
 
 /* ---------- responsive ---------- */
 @media (max-width:760px) {
