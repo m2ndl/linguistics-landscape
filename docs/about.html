@@ -185,18 +185,11 @@
           <p>Every construct, every year on record, in one tidy file.</p>
           <a class="dl-btn" href="data/constructs.csv" download>Download constructs.csv</a>
         </div>
-        <div class="dl-card">
-          <h4>Full snapshot history</h4>
-          <p>The dated, append-only snapshots behind the CSV. The git history is the longitudinal archive.</p>
-          <a class="dl-btn ghost" id="repo-data-link" href="https://github.com/m2ndl/applied-linguistics-landscape/tree/main/data" rel="noopener">Browse the data on GitHub</a>
-        </div>
       </div>
 
       <p class="small" style="margin-top:18px">Licence: the underlying metadata is OpenAlex, released under
          <a href="https://creativecommons.org/publicdomain/zero/1.0/" rel="noopener">CC0</a>. This derived
          dataset is shared under the same terms; please credit OpenAlex and link back to this site.</p>
-      <p class="small">Suggested citation:</p>
-      <p class="cite" id="cite">Word on the Street (<span id="cite-year">2026</span>). Construct trends in the indexed linguistics literature. Derived from OpenAlex (CC0). Retrieved from this site.</p>
     </section>
 
     <section class="feature">
@@ -232,7 +225,7 @@
       if (meta) {
         if (meta.construct_count) set("n-constructs", meta.construct_count);
         if (meta.reference_year) set("ref-year", meta.reference_year);
-        if (meta.current_year) { set("cur-year", meta.current_year); set("cite-year", meta.current_year); }
+        if (meta.current_year) set("cur-year", meta.current_year);
         if (meta.subfields && meta.subfields.length) {
           const parts = meta.subfields.map(s => `<em>${s.label}</em> (${s.field})`);
           const el = document.getElementById("subfields");
