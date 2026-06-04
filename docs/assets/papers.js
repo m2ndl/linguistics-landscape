@@ -11,7 +11,6 @@ function render() {
   const p = (_latest && _latest.papers) || {};
   setHTML("newest", (p.newest || []).map(paperRow).join("") || emptyLi(T("no_papers")));
   setHTML("most-cited", (p.most_cited_recent || []).map(citedRow).join("") || emptyLi(T("no_citations")));
-  setText("as-of", p.as_of ? T("pp_as_of", { date: p.as_of }) : "");
 }
 
 async function main() {

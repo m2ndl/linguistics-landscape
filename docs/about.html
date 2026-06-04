@@ -209,7 +209,6 @@
            stage; every figure is computed directly from the metadata. The paper lists carry titles, authors,
            venues, and links only; abstract text is never stored or shown. Each title links to the paper's
            DOI, with a separate open-access link where a free copy exists.</p>
-        <p class="small" id="freshness">Data as of the latest update.</p>
       </section>
     </div>
 
@@ -334,7 +333,6 @@
            محسوب مباشرة من البيانات الوصفية. وتحمل قوائم الأوراق العناوين والمؤلّفين والأوعية والروابط فقط،
            ولا يُخزَّن نصّ الملخّص أو يُعرَض. ويرتبط كل عنوان بمُعرِّف DOI للورقة، مع رابط وصول مفتوح منفصل
            حيثما توفّرت نسخة مجانية.</p>
-        <p class="small" id="freshness-ar">البيانات حتى آخر تحديث.</p>
       </section>
     </div>
   </main>
@@ -376,10 +374,6 @@
           if (meta.subfields && meta.subfields.length) {
             var parts = meta.subfields.map(function (s) { return "<em>" + s.label + "</em> (" + s.field + ")"; });
             var el = document.getElementById("subfields"); if (el) el.innerHTML = parts.join(" and ");
-          }
-          if (meta.generated_on) {
-            set("freshness", "Data as of " + meta.generated_on + ".");
-            set("freshness-ar", "البيانات حتى " + meta.generated_on + ".");
           }
         }
         if (latest) { var works = (latest.totals || {}).count_recent; if (works) { set("corpus-size", works.toLocaleString("en-US")); set("corpus-size-ar", works.toLocaleString("en-US")); } }
