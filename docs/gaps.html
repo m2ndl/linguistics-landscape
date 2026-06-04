@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en" data-i18n-title="doc_title_openings" data-i18n-desc="doc_desc_openings">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <script>(function(){try{var d=document.documentElement;if(localStorage.getItem('theme')==='dark')d.setAttribute('data-theme','dark');var p=new URLSearchParams(location.search).get('lang');var l=(p==='ar'||p==='en')?p:(localStorage.getItem('lang')==='ar'?'ar':'en');if(p==='ar'||p==='en'){try{localStorage.setItem('lang',l);}catch(e){}}d.lang=l;d.dir=l==='ar'?'rtl':'ltr';}catch(e){}})();</script>
+  <title>Research gaps · Word on the Street</title>
+  <meta name="description" content="The underserved niches from the gap finder, set against the direction of their output: which are drawing more papers than a few years ago, and which fewer, across linguistics, applied linguistics, and language education." />
+  <link rel="canonical" href="https://language-research.com/gaps.html" />
+  <link rel="alternate" hreflang="en" href="https://language-research.com/gaps.html" />
+  <link rel="alternate" hreflang="ar" href="https://language-research.com/gaps.html?lang=ar" />
+  <link rel="alternate" hreflang="x-default" href="https://language-research.com/gaps.html" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Word on the Street" />
+  <meta property="og:title" content="Research gaps · Word on the Street" />
+  <meta property="og:description" content="Underserved niches set against the direction of their output: which the field is producing more work on, and which less." />
+  <meta property="og:url" content="https://language-research.com/gaps.html" />
+  <meta property="og:image" content="https://language-research.com/og.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Research gaps · Word on the Street" />
+  <meta name="twitter:description" content="Underserved niches set against the direction of their output." />
+  <meta name="twitter:image" content="https://language-research.com/og.png" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect width='16' height='16' rx='3' fill='%231b6b5f'/%3E%3C/svg%3E" />
+  <link rel="stylesheet" href="assets/magazine.css?v=11" />
+  <!-- Cloudflare Web Analytics -->
+  <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "eaa5e23fef174b0b98b67dd910f3f6fd"}'></script>
+</head>
+<body>
+  <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Switch to dark theme">
+    <svg class="icon-moon" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+    <svg class="icon-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.4" fill="currentColor"/><g stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><line x1="12" y1="1.6" x2="12" y2="4"/><line x1="12" y1="20" x2="12" y2="22.4"/><line x1="1.6" y1="12" x2="4" y2="12"/><line x1="20" y1="12" x2="22.4" y2="12"/><line x1="4.4" y1="4.4" x2="6.1" y2="6.1"/><line x1="17.9" y1="17.9" x2="19.6" y2="19.6"/><line x1="4.4" y1="19.6" x2="6.1" y2="17.9"/><line x1="17.9" y1="6.1" x2="19.6" y2="4.4"/></g></svg>
+  </button>
+  <button id="lang-toggle" class="lang-toggle" type="button" aria-label="Switch to Arabic">ع</button>
+
+  <header class="nameplate">
+    <div class="wrap">
+      <div class="np-rule"></div>
+      <h1 class="np-title" data-i18n="op_title">Underserved niches, by direction of output</h1>
+      <div class="np-rule"></div>
+      <p class="np-standfirst" data-i18n="op_standfirst">Every niche here is cited well above the field's rate while the literature on it is still thin. This page sets that against the direction of its output: which niches the field is producing more work on than a few years ago, and which fewer.</p>
+      <p class="slow-lead" id="op-lead"></p>
+      <nav class="topnav" aria-label="Sections">
+        <a href="index.html" data-i18n="nav_front">Front page</a>
+        <a href="explore.html" data-i18n="nav_index">The Index</a>
+        <a href="slow.html" data-i18n="nav_slow">Rankings</a>
+        <a href="bestyear.html" data-i18n="nav_bestyear">Best year</a>
+        <a href="niches.html" data-i18n="nav_niches">Niches</a>
+        <a href="gaps.html" aria-current="page" data-i18n="nav_openings">Gaps</a>
+        <a href="papers.html" data-i18n="nav_papers">Papers</a>
+        <a href="about.html" data-i18n="nav_methods">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <!-- Headline: high-confidence niches whose output is rising / falling on the settled years -->
+    <section class="feature">
+      <div class="movers-grid">
+        <div>
+          <p class="col-label up" data-i18n="op_rising_head">Cited early, and output rising</p>
+          <div class="slow-rows" id="rising-list"></div>
+        </div>
+        <div>
+          <p class="col-label down" data-i18n="op_falling_head">Cited early, but output falling</p>
+          <div class="slow-rows" id="falling-list"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Full sortable/searchable/filterable table of every niche -->
+    <section class="feature">
+      <h2 class="rule-head" data-i18n="op_table_head">Every niche</h2>
+
+      <form id="op-form" class="ex-controls" role="search" data-i18n-aria="op_form_aria" aria-label="Filter and sort niches">
+        <input id="q" type="search" placeholder="Search niches" aria-label="Search construct names" data-i18n-aria="ex_search_aria" autocomplete="off" />
+        <label class="sr-only" for="sort" data-i18n="ex_sort_label">Sort</label>
+        <select id="sort">
+          <option value="lift_desc" data-i18n="op_sort_lift">Citation pull, high to low</option>
+          <option value="floor_desc" data-i18n="op_sort_floor">Cautious floor, high to low</option>
+          <option value="trend_desc" data-i18n="op_sort_trend_desc">Output, fastest rising</option>
+          <option value="trend_asc" data-i18n="op_sort_trend_asc">Output, fastest falling</option>
+          <option value="vol_asc" data-i18n="ni_sort_vol_asc">Papers, fewest first</option>
+          <option value="vol_desc" data-i18n="ni_sort_vol_desc">Papers, most first</option>
+          <option value="name_asc" data-i18n="ex_sort_name_asc">Name, A to Z</option>
+        </select>
+        <span class="seg" data-seg="dir" role="group" aria-label="Output trend" data-i18n-aria="op_trend_label">
+          <button type="button" data-dir="all" aria-pressed="true" data-i18n="ex_dir_all">All</button>
+          <button type="button" data-dir="up" aria-pressed="false" data-i18n="op_dir_rising">Rising</button>
+          <button type="button" data-dir="flat" aria-pressed="false" data-i18n="op_dir_steady">Steady</button>
+          <button type="button" data-dir="down" aria-pressed="false" data-i18n="op_dir_falling">Falling</button>
+        </span>
+        <span class="seg" data-seg="src" role="group" aria-label="Source" data-i18n-aria="ex_src_label">
+          <button type="button" data-src="all" aria-pressed="true" data-i18n="ex_src_all">All</button>
+          <button type="button" data-src="openalex" aria-pressed="false" data-i18n="ex_src_openalex">OpenAlex</button>
+          <button type="button" data-src="curated" aria-pressed="false" data-i18n="ex_src_curated">Curated</button>
+        </span>
+        <span class="seg" data-seg="type" role="group" aria-label="Type" data-i18n-aria="op_type_label">
+          <button type="button" data-type="all" aria-pressed="true" data-i18n="ex_src_all">All</button>
+          <button type="button" data-type="topics" aria-pressed="false" data-i18n="op_type_topics">Topics</button>
+          <button type="button" data-type="methods" aria-pressed="false" data-i18n="op_type_methods">Methods</button>
+        </span>
+        <button type="reset" class="ex-reset hidden" data-i18n="ex_reset">Reset</button>
+      </form>
+
+      <p class="ex-count mono" aria-live="polite" data-i18n-html="ni_count_html"><span id="shown">0</span> of <span id="total">0</span> niches</p>
+
+      <table class="ctable optable">
+        <caption class="sr-only" data-i18n="op_caption">Underserved niches, by citation pull and the direction of their output</caption>
+        <thead><tr>
+          <th scope="col" class="c-name" data-i18n="ex_th_construct">Construct</th>
+          <th scope="col" class="c-lift" data-i18n="ni_th_lift">vs field</th>
+          <th scope="col" class="op-floor" data-i18n="op_th_floor">Cautious floor</th>
+          <th scope="col" class="op-trend" data-i18n="op_th_trend">Output trend</th>
+          <th scope="col" class="c-vol" data-i18n="ni_th_vol">Cohort papers</th>
+          <th scope="col" class="op-path" data-i18n="by_th_path">Trajectory</th>
+        </tr></thead>
+        <tbody id="rows"></tbody>
+      </table>
+
+      <p class="empty hidden" id="empty" data-i18n-html="op_empty_html">No niches match. <button type="reset" form="op-form" class="linklike">Reset.</button></p>
+
+      <div class="op-notes small faint">
+        <p id="op-note-trend"></p>
+        <p data-i18n="op_note_field"></p>
+        <p data-i18n="op_note_floor"></p>
+        <p data-i18n="op_note_conc"></p>
+        <p data-i18n="op_note_method"></p>
+      </div>
+    </section>
+
+    <!-- Constructs that began only mid-decade: no settled earlier window to compare output against -->
+    <section class="feature" id="new-section" style="border-bottom:none">
+      <h2 class="rule-head" data-i18n="op_new_head">Recently emerged</h2>
+      <p class="cov" data-i18n="op_new_sub"></p>
+      <ul class="arrived-list" id="new-list"></ul>
+    </section>
+  </main>
+
+  <footer class="np-foot">
+    <div class="wrap">
+      <div class="np-rule thin"></div>
+      <p data-i18n-html="footer_data">Data from <a href="https://openalex.org" rel="noopener">OpenAlex</a>, CC0 metadata.</p>
+      <p class="small" data-i18n-html="footer_nav"><a href="index.html">Front page</a> · <a href="explore.html">The Index</a> · <a href="slow.html">Rankings</a> · <a href="bestyear.html">Best year</a> · <a href="niches.html">Niches</a> · <a href="gaps.html">Gaps</a> · <a href="papers.html">Papers</a> · <a href="about.html">About</a></p>
+      <p class="byline">Muhammad Alhatlani<br /><a href="mailto:mo.alhatlani@gmail.com">email me</a></p>
+    </div>
+  </footer>
+
+  <script src="assets/i18n.js?v=10"></script>
+  <script src="assets/theme.js?v=2"></script>
+  <script src="assets/util.js?v=4"></script>
+  <script src="assets/gaps.js?v=1"></script>
+</body>
+</html>
