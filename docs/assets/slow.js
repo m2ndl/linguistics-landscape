@@ -193,8 +193,6 @@ function renderArrived(newcomers) {
 function renderChrome() {
   applyI18n();
   const yy0 = String(y0).slice(2), yy1 = String(y1).slice(2);
-  setHTML("slow-insight", T("slow_insight_html", { n: DIV.n, total: DIV.total, y0: y0, y1: y1 }));
-  setHTML("slow-effn", T("slow_effn", { k: CUR_N, a: Math.round(effN0), b: Math.round(effN1) }));
   setText("reshuffle-sub", T("slow_reshuffle_sub", { k: CUR_N, y0: y0, y1: y1 }));
   setText("ladder-sub", T("slow_ladder_sub", { n: LADDER.length, y0: y0, y1: y1 }));
   setText("arrived-sub", T("slow_arrived_sub", { y0: y0, y1: y1 }));
