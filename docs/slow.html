@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <script>(function(){try{var d=document.documentElement;if(localStorage.getItem('theme')==='dark')d.setAttribute('data-theme','dark');var p=new URLSearchParams(location.search).get('lang');var l=(p==='ar'||p==='en')?p:(localStorage.getItem('lang')==='ar'?'ar':'en');if(p==='ar'||p==='en'){try{localStorage.setItem('lang',l);}catch(e){}}d.lang=l;d.dir=l==='ar'?'rtl':'ltr';}catch(e){}})();</script>
   <title>The Slow Table · Word on the Street</title>
-  <meta name="description" content="A decade of rank movement: which constructs climbed or slipped in the field's pecking order from 2014 to 2025, measured in rank so the indexing tailwind cannot reach them." />
+  <meta name="description" content="A decade of rank movement: which constructs rose and which fell in the field's ranking from 2014 to 2025, measured by each construct's yearly share of the literature." />
   <link rel="canonical" href="https://language-research.com/slow.html" />
   <link rel="alternate" hreflang="en" href="https://language-research.com/slow.html" />
   <link rel="alternate" hreflang="ar" href="https://language-research.com/slow.html?lang=ar" />
@@ -13,14 +13,14 @@
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="Word on the Street" />
   <meta property="og:title" content="The Slow Table · Word on the Street" />
-  <meta property="og:description" content="A decade of rank movement in language research: who climbed or slipped the field's pecking order, measured so the indexing tailwind cannot reach it." />
+  <meta property="og:description" content="A decade of rank movement in language research: which constructs rose and which fell in the field's ranking from 2014 to 2025." />
   <meta property="og:url" content="https://language-research.com/slow.html" />
   <meta property="og:image" content="https://language-research.com/og.png" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="The Slow Table · Word on the Street" />
-  <meta name="twitter:description" content="A decade of rank movement in language research: who climbed or slipped the field's pecking order." />
+  <meta name="twitter:description" content="A decade of rank movement in language research: which constructs rose and which fell in the field's ranking." />
   <meta name="twitter:image" content="https://language-research.com/og.png" />
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect width='16' height='16' rx='3' fill='%231b6b5f'/%3E%3C/svg%3E" />
   <link rel="stylesheet" href="assets/magazine.css?v=9" />
@@ -37,7 +37,7 @@
       <div class="np-rule"></div>
       <h1 class="np-title" data-i18n="slow_title">The Slow Table</h1>
       <div class="np-rule"></div>
-      <p class="np-standfirst" data-i18n="slow_standfirst">How the field's pecking order has shifted over a decade. Each year, every construct is ranked by its share of the literature, and we trace who climbed and who slipped between 2014 and 2025.</p>
+      <p class="np-standfirst" data-i18n="slow_standfirst">How the field's ranking has shifted over a decade. Each year, every construct is ranked by its share of the literature, and we trace which ones rose and which fell between 2014 and 2025.</p>
       <p class="slow-lead" id="slow-insight"></p>
       <p class="slow-lead faint" id="slow-effn"></p>
       <nav class="topnav" aria-label="Sections">
@@ -54,15 +54,15 @@
   <main class="wrap">
     <!-- Section A: the curated-cohort reshuffle -->
     <section class="feature">
-      <h2 class="rule-head" data-i18n="slow_reshuffle_head">The pecking order, reshuffled</h2>
+      <h2 class="rule-head" data-i18n="slow_reshuffle_head">Risers and fallers among the named constructs</h2>
       <p class="cov" id="reshuffle-sub"></p>
       <div class="movers-grid">
         <div>
-          <p class="col-label up" data-i18n="slow_climbed">Climbed the order</p>
+          <p class="col-label up" data-i18n="slow_climbed">Rose</p>
           <div class="slow-rows" id="climbed-list"></div>
         </div>
         <div>
-          <p class="col-label down" data-i18n="slow_slipped">Slipped down</p>
+          <p class="col-label down" data-i18n="slow_slipped">Fell</p>
           <div class="slow-rows" id="slipped-list"></div>
         </div>
       </div>
@@ -70,7 +70,7 @@
 
     <!-- Section B: the full ladder, all constructs -->
     <section class="feature">
-      <h2 class="rule-head" data-i18n="slow_ladder_head">The full ladder</h2>
+      <h2 class="rule-head" data-i18n="slow_ladder_head">The full ranking</h2>
       <p class="cov" id="ladder-sub"></p>
 
       <form id="ex-form" class="ex-controls" role="search" data-i18n-aria="ex_form_aria" aria-label="Filter and sort constructs">
@@ -98,7 +98,7 @@
       <p class="ex-count mono" aria-live="polite" data-i18n-html="ex_count_html"><span id="shown">0</span> of <span id="total">0</span> constructs</p>
 
       <table class="ctable stable">
-        <caption class="sr-only" data-i18n="slow_ladder_head">The full ladder</caption>
+        <caption class="sr-only" data-i18n="slow_ladder_head">The full ranking</caption>
         <thead><tr>
           <th scope="col" class="c-name" data-i18n="ex_th_construct">Construct</th>
           <th scope="col" class="s-rank" id="th-rank">Rank</th>
@@ -130,7 +130,7 @@
     </div>
   </footer>
 
-  <script src="assets/i18n.js?v=5"></script>
+  <script src="assets/i18n.js?v=6"></script>
   <script src="assets/theme.js?v=2"></script>
   <script src="assets/util.js?v=4"></script>
   <script src="assets/slow.js?v=1"></script>
