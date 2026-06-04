@@ -23,5 +23,5 @@
     "_comment": "Guards against fake trends: a topic must clear min_works_per_window and persist across persistence_snapshots consecutive runs before it is labelled rising/falling. The trailing weeks and the first months after launch are shown as provisional."
   },
 
-  "coverage_note": "This site measures the OpenAlex-indexed, mostly-English, journal-article slice of the field. It under-represents books and edited volumes, conference proceedings, grey literature, and non-English scholarship, all of which carry real theoretical weight in applied linguistics. Read these as trends in the indexed journal literature, not a complete picture of the field. The constructs tracked are drawn from OpenAlex's own topic keyphrases plus a few newer coinages, so the vocabulary is curated by OpenAlex and the field, and grown automatically, not maintained by hand."
+  "coverage_note": "Every figure is each construct's share of the OpenAlex-indexed, mostly-English journal literature."
 }

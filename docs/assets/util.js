@@ -49,7 +49,7 @@ function paperLinks(p) {
 function paperRow(p) {
   const { url, oa } = paperLinks(p);
   const meta = [p.authors && p.authors.length ? escapeHtml(p.authors.slice(0, 3).join(", ")) : "", p.venue ? escapeHtml(p.venue) : "", p.year || ""].filter(Boolean).join(" · ");
-  const oaLink = oa ? `${meta ? " · " : ""}<a class="brief-oa" href="${escapeHtml(oa)}" target="_blank" rel="noopener">open access</a>` : "";
+  const oaLink = oa ? `${meta ? " · " : ""}<a class="brief-oa" href="${escapeHtml(oa)}" target="_blank" rel="noopener">${escapeHtml(T("open_access"))}</a>` : "";
   return `<li class="brief">
     <a class="brief-title" href="${escapeHtml(url)}" target="_blank" rel="noopener">${escapeHtml(p.title)}</a>
     <div class="brief-meta">${meta}${oaLink}</div>
@@ -58,11 +58,11 @@ function paperRow(p) {
 function citedRow(p) {
   const { url, oa } = paperLinks(p);
   const meta = [p.authors && p.authors.length ? escapeHtml(p.authors.slice(0, 3).join(", ")) : "", p.venue ? escapeHtml(p.venue) : "", p.year || ""].filter(Boolean).join(" · ");
-  const oaLink = oa ? `${meta ? " · " : ""}<a class="brief-oa" href="${escapeHtml(oa)}" target="_blank" rel="noopener">open access</a>` : "";
+  const oaLink = oa ? `${meta ? " · " : ""}<a class="brief-oa" href="${escapeHtml(oa)}" target="_blank" rel="noopener">${escapeHtml(T("open_access"))}</a>` : "";
   const cites = (p.cited_by_count || 0).toLocaleString("en-US");
   return `<li class="brief">
     <a class="brief-title" href="${escapeHtml(url)}" target="_blank" rel="noopener">${escapeHtml(p.title)}</a>
     <div class="brief-meta">${meta}${oaLink}</div>
-    <div class="brief-cites">${cites} citations</div>
+    <div class="brief-cites">${T("citations", { n: cites })}</div>
   </li>`;
 }

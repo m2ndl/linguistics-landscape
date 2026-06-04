@@ -1,32 +1,33 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" data-i18n-title="doc_title_about" data-i18n-desc="doc_desc_about">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <script>(function(){try{if(localStorage.getItem('theme')==='dark')document.documentElement.setAttribute('data-theme','dark');}catch(e){}})();</script>
-  <title>Methods &amp; Data · Word on the Street</title>
+  <script>(function(){try{var d=document.documentElement;if(localStorage.getItem('theme')==='dark')d.setAttribute('data-theme','dark');var p=new URLSearchParams(location.search).get('lang');var l=(p==='ar'||p==='en')?p:(localStorage.getItem('lang')==='ar'?'ar':'en');if(p==='ar'||p==='en'){try{localStorage.setItem('lang',l);}catch(e){}}d.lang=l;d.dir=l==='ar'?'rtl':'ltr';}catch(e){}})();</script>
+  <title>About · Word on the Street</title>
   <meta name="description" content="How Word on the Street builds its numbers on research trends across linguistics, applied linguistics, and language education, what they can and cannot tell you, and how to download the dataset." />
   <link rel="canonical" href="https://language-research.com/about.html" />
+  <link rel="alternate" hreflang="en" href="https://language-research.com/about.html" />
+  <link rel="alternate" hreflang="ar" href="https://language-research.com/about.html?lang=ar" />
+  <link rel="alternate" hreflang="x-default" href="https://language-research.com/about.html" />
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="Word on the Street" />
-  <meta property="og:title" content="Methods &amp; Data · Word on the Street" />
+  <meta property="og:title" content="About · Word on the Street" />
   <meta property="og:description" content="How the numbers are built, what they can and cannot tell you, and how to download the dataset." />
   <meta property="og:url" content="https://language-research.com/about.html" />
   <meta property="og:image" content="https://language-research.com/og.png" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Methods &amp; Data · Word on the Street" />
+  <meta name="twitter:title" content="About · Word on the Street" />
   <meta name="twitter:description" content="How the numbers are built, what they can and cannot tell you, and how to download the dataset." />
   <meta name="twitter:image" content="https://language-research.com/og.png" />
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect width='16' height='16' rx='3' fill='%231b6b5f'/%3E%3C/svg%3E" />
-  <link rel="stylesheet" href="assets/magazine.css?v=5" />
+  <link rel="stylesheet" href="assets/magazine.css?v=8" />
   <style>
     /* Page-scoped styles for the methodology page; all colours come from magazine.css tokens. */
     .prose p, .prose li { font-size:16px; color:var(--ink); }
     .prose .feature:last-of-type { border-bottom:none; }
-    .lead-note { font-family:var(--serif); font-size:18px; color:var(--muted); max-width:64ch; margin:0 auto 6px; text-align:center; }
-    .back-link { font-family:var(--mono); font-size:11px; letter-spacing:.1em; text-transform:uppercase; }
     .keylist { list-style:none; margin:0; padding:0; }
     .keylist li { padding:9px 0; border-bottom:1px solid var(--line); }
     .keylist li:last-child { border-bottom:none; }
@@ -38,6 +39,7 @@
     .dict thead th { font-family:var(--sans); font-size:12px; letter-spacing:.05em; text-transform:uppercase; color:var(--muted); border-bottom:1px solid var(--line-2); }
     .dict td.col { font-family:var(--mono); color:var(--accent); white-space:nowrap; }
     .dict td.type { font-family:var(--mono); color:var(--faint); font-size:13px; white-space:nowrap; }
+    [dir="rtl"] .dict th, [dir="rtl"] .dict td { text-align:right; }
     /* download block */
     .downloads { display:grid; grid-template-columns:1fr 1fr; gap:18px; margin:4px 0 0; }
     .dl-card { border:1px solid var(--line-2); border-radius:10px; padding:18px 20px; background:var(--panel); }
@@ -55,203 +57,338 @@
     <svg class="icon-moon" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
     <svg class="icon-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.4" fill="currentColor"/><g stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><line x1="12" y1="1.6" x2="12" y2="4"/><line x1="12" y1="20" x2="12" y2="22.4"/><line x1="1.6" y1="12" x2="4" y2="12"/><line x1="20" y1="12" x2="22.4" y2="12"/><line x1="4.4" y1="4.4" x2="6.1" y2="6.1"/><line x1="17.9" y1="17.9" x2="19.6" y2="19.6"/><line x1="4.4" y1="19.6" x2="6.1" y2="17.9"/><line x1="17.9" y1="6.1" x2="19.6" y2="4.4"/></g></svg>
   </button>
+  <button id="lang-toggle" class="lang-toggle" type="button" aria-label="Switch to Arabic">ع</button>
+
   <header class="nameplate">
     <div class="wrap">
       <div class="np-rule"></div>
-      <h1 class="np-title">Methods &amp; Data</h1>
+      <h1 class="np-title" data-i18n="about_title">About</h1>
       <div class="np-rule"></div>
-      <p class="np-standfirst">How these numbers are built, and what they can and cannot tell you.</p>
+      <p class="np-standfirst" data-i18n="about_standfirst">How these numbers are built, and what they can and cannot tell you.</p>
       <nav class="topnav" aria-label="Sections">
-        <a href="index.html">Front page</a>
-        <a href="explore.html">The Index</a>
-        <a href="papers.html">Papers</a>
-        <a href="about.html" aria-current="page">Methods</a>
+        <a href="index.html" data-i18n="nav_front">Front page</a>
+        <a href="explore.html" data-i18n="nav_index">The Index</a>
+        <a href="niches.html" data-i18n="nav_niches">Niches</a>
+        <a href="papers.html" data-i18n="nav_papers">Papers</a>
+        <a href="about.html" aria-current="page" data-i18n="nav_methods">About</a>
       </nav>
     </div>
   </header>
 
   <main class="wrap prose">
-    <section class="feature">
-      <h2 class="rule-head"><span>What this is</span></h2>
-      <p>Word on the Street tracks how research attention in linguistics, applied
-         linguistics, and language education shifts over time. It watches a set of
-         <span id="n-constructs">about 200</span> named constructs (methods, theories, and objects of
-         study) and measures how large a share of the field's published output each one accounts for,
-         year by year. The site rebuilds itself automatically every week, and every run is committed to a
-         public repository, so the record only grows: months and years from now you can see how the field
-         actually moved, not just where it stands today.</p>
-    </section>
+    <!-- English -->
+    <div id="prose-en">
+      <section class="feature">
+        <h2 class="rule-head"><span>What this is</span></h2>
+        <p>Word on the Street tracks how research attention in linguistics, applied
+           linguistics, and language education shifts over time. It watches a set of
+           <span id="n-constructs">about 200</span> named constructs (methods, theories, and objects of
+           study) and measures how large a share of the field's published output each one accounts for,
+           year by year. Months and years from now, you can see how the field actually moved over time.</p>
+      </section>
 
-    <section class="feature">
-      <h2 class="rule-head"><span>Where the data comes from</span></h2>
-      <p>Every count comes from <a href="https://openalex.org" rel="noopener">OpenAlex</a>, an open index
-         of scholarly works whose metadata is released under a CC0 (public domain) licence. The corpus is
-         the union of the two OpenAlex subfields that hold linguistics:
-         <span id="subfields"><em>Language and Linguistics</em> (Arts and Humanities) and
-         <em>Linguistics and Language</em> (Social Sciences)</span>. Both are included: the
-         Arts and Humanities branch is several times larger, and scoping to one alone would silently drop
-         most of the literature, including much of sociolinguistics, pragmatics, and language policy. In
-         the last fully indexed year the corpus held about <span id="corpus-size">75,000</span> works.</p>
-    </section>
+      <section class="feature">
+        <h2 class="rule-head"><span>Where the data comes from</span></h2>
+        <p>Every count comes from <a href="https://openalex.org" rel="noopener">OpenAlex</a>, an open index
+           of scholarly works whose metadata is released under a CC0 (public domain) licence. The corpus is
+           the union of the two OpenAlex subfields that hold linguistics:
+           <span id="subfields"><em>Language and Linguistics</em> (Arts and Humanities) and
+           <em>Linguistics and Language</em> (Social Sciences)</span>. Both are included: the
+           Arts and Humanities branch is several times larger, and scoping to one alone would silently drop
+           most of the literature, including much of sociolinguistics, pragmatics, and language policy. In
+           the last fully indexed year the corpus held about <span id="corpus-size">75,000</span> works.</p>
+      </section>
 
-    <section class="feature">
-      <h2 class="rule-head"><span>The constructs it tracks</span></h2>
-      <p>The list of constructs is not hand-curated week to week. Most of it is
-         OpenAlex's own topic keyphrases for the two linguistics subfields, after pruning the handful that
-         are too broad to be useful. The remainder is a small
-         set of newer coinages the index is still catching up with, such as translanguaging, willingness
-         to communicate, raciolinguistics, and ChatGPT. So the vocabulary is curated by OpenAlex and the
-         field rather than by one person's taste, and it grows on its own as the index adds keyphrases.
-         In the dataset each construct carries a <span class="mono">source</span> of either
-         <span class="mono">openalex</span> or <span class="mono">curated</span> so you can tell the two
-         apart.</p>
-    </section>
+      <section class="feature">
+        <h2 class="rule-head"><span>The constructs it tracks</span></h2>
+        <p>The construct list builds itself. Most of it is OpenAlex's own topic keyphrases for the two
+           linguistics subfields, after pruning the handful that are too broad to be useful. The rest is a
+           small set of newer coinages the index is still catching up with, such as translanguaging, willingness
+           to communicate, raciolinguistics, and ChatGPT. So OpenAlex and the field curate the vocabulary,
+           and it grows on its own as the index adds keyphrases. In the dataset each construct carries a
+           <span class="mono">source</span> of either <span class="mono">openalex</span> or
+           <span class="mono">curated</span> so you can tell the two apart.</p>
+      </section>
 
-    <section class="feature">
-      <h2 class="rule-head"><span>How trends are measured</span></h2>
-      <ul class="keylist">
-        <li><b>Share, not raw counts.</b> Each construct is measured as its share of all linguistics
-            output that year: papers matching the construct divided by the corpus that year. The index
-            grows every year, so a rising raw count is often just more indexing. Share is what stays
-            comparable across time.</li>
-        <li><b>Matching.</b> A paper counts toward a construct when the construct's phrase appears in its
-            title or abstract (OpenAlex's <span class="mono">title_and_abstract.search</span>). A paper
-            can match several constructs, so the shares do not sum to one.</li>
-        <li><b>Year over year, on the last complete year.</b> The headline movements compare the most
-            recent <em>fully indexed</em> year (<span id="ref-year">2025</span>) against the year before
-            it. Ranking is by relative change in share, which is what lets a construct read as "up 224%".</li>
-        <li><b>The current year, by rank only.</b> <span id="cur-year">2026</span> is shown as the lead,
-            but only as an ordering of which constructs are gaining fastest so far. Its percentages are
-            not published, for the reason given in the next section.</li>
-        <li><b>Guards against false trends.</b> A construct must clear a minimum yearly volume and keep
-            moving the same direction across several consecutive years before it is treated as confirmed.</li>
-      </ul>
-    </section>
+      <section class="feature">
+        <h2 class="rule-head"><span>How trends are measured</span></h2>
+        <ul class="keylist">
+          <li><b>Share of output.</b> Each construct is measured as its share of all linguistics
+              output that year: papers matching the construct divided by the corpus that year. The index
+              grows every year, so a rising raw count often just reflects more indexing, while share stays
+              comparable across time.</li>
+          <li><b>Matching.</b> A paper counts toward a construct when the construct's phrase appears in its
+              title or abstract (OpenAlex's <span class="mono">title_and_abstract.search</span>). A paper
+              can match several constructs, so the shares do not sum to one.</li>
+          <li><b>Year over year, on the last complete year.</b> The headline movements compare the most
+              recent <em>fully indexed</em> year (<span id="ref-year">2025</span>) against the year before
+              it. Ranking is by relative change in share, which is what lets a construct read as "up 224%".</li>
+          <li><b>The current year, by rank only.</b> <span id="cur-year">2026</span> is shown as the lead,
+              as an ordering of which constructs are gaining fastest so far. Its percentages stay unpublished,
+              for the reason given in the next section.</li>
+          <li><b>Guards against false trends.</b> A construct must clear a minimum yearly volume and keep
+              moving the same direction across several consecutive years before it is treated as confirmed.</li>
+        </ul>
+      </section>
 
-    <section class="feature">
-      <h2 class="rule-head"><span>Why the current year is provisional</span></h2>
-      <p>OpenAlex keeps adding records for a year well after that year ends, and a paper's abstract often
-         arrives later still. Because a construct is matched on title and abstract text, the part of a
-         year that is already indexed is richer in matchable text than the year as a whole will be. The
-         visible effect is that, in the current year, almost every construct's share is inflated by a
-         similar factor at once, so raw year-to-date growth would read as "everything rising" with no real
-         losers. That is an artifact of indexing, not a real trend.</p>
-      <p>Two design choices follow. The firm percentages and the chart use only complete years, where the
-         distortion has largely settled. The current year is summarised by <em>rank</em>, since the order
-         of the fastest risers survives a distortion that lifts everything together, even though the size
-         of the move does not. As OpenAlex finishes indexing, the recent years firm up, and because every
-         weekly run is committed, you can watch that happen in the repository's history.</p>
-    </section>
+      <section class="feature">
+        <h2 class="rule-head"><span>Why the current year is provisional</span></h2>
+        <p>OpenAlex keeps adding records for a year well after that year ends, and a paper's abstract often
+           arrives later still. Because a construct is matched on title and abstract text, the part of a
+           year that is already indexed is richer in matchable text than the year as a whole will be. The
+           visible effect is that, in the current year, almost every construct's share is inflated by a
+           similar factor at once, so raw year-to-date growth would read as "everything rising" with no real
+           losers. That is an artifact of indexing.</p>
+        <p>Two design choices follow. The firm percentages and the chart use only complete years, where the
+           distortion has largely settled. The current year is summarised by <em>rank</em>, since the order
+           of the fastest risers survives a distortion that lifts everything together. As OpenAlex finishes
+           indexing, the recent years firm up.</p>
+      </section>
 
-    <section class="feature">
-      <h2 class="rule-head"><span>What it covers, and what it misses</span></h2>
-      <p>This is an observatory of the <b>indexed, mostly-English, journal-article</b> slice of the field.
-         The main blind spots:</p>
-      <ul class="miss">
-        <li>Books and edited volumes are under-represented, and they carry real theoretical weight here.</li>
-        <li>Non-English scholarship (for example Francophone, Hispanophone, and Sinophone work) is
-            under-indexed.</li>
-        <li>Conference proceedings and grey literature are patchy; the computational-language slice lives
-            largely on preprint servers and is only partially captured.</li>
-        <li>A meaningful share of records lack abstracts, and automatic language labels are imperfect.</li>
-      </ul>
-      <p>So read these as <b>trends in the indexed journal literature</b>, not a complete census of the
-         field.</p>
-    </section>
+      <section class="feature">
+        <h2 class="rule-head"><span>What it covers, and what it misses</span></h2>
+        <p>This is an observatory of the <b>indexed, mostly-English, journal-article</b> slice of the field.
+           The main blind spots:</p>
+        <ul class="miss">
+          <li>Books and edited volumes are under-represented, and they carry real theoretical weight here.</li>
+          <li>Non-English scholarship (for example Francophone, Hispanophone, and Sinophone work) is
+              under-indexed.</li>
+          <li>Conference proceedings and grey literature are patchy; the computational-language slice lives
+              largely on preprint servers and is only partially captured.</li>
+          <li>A meaningful share of records lack abstracts, and automatic language labels are imperfect.</li>
+        </ul>
+        <p>These are <b>trends in the indexed journal literature</b>.</p>
+      </section>
 
-    <section class="feature">
-      <h2 class="rule-head"><span>Underserved niches</span></h2>
-      <p>The "underserved niches" on the front page flag constructs whose recent papers are cited at well
-         above the field's rate while the literature on them is still thin. Citations build with age, so a
-         naive reading would just track citation lag; instead each construct's early-citation rate (the
-         share of its papers in a settled three-year cohort, <span id="gaps-cohort">2022 to 2024</span>, that
-         have reached at least five citations) is
-         divided by the field's own rate, which cancels that lag, and a niche is flagged only when that
-         ratio is high and the cohort is still small. Read it as a tip about where attention may be heading,
-         not a verdict.</p>
-    </section>
+      <section class="feature">
+        <h2 class="rule-head"><span>Underserved niches</span></h2>
+        <p>The "underserved niches" on the front page flag constructs whose recent papers are cited at well
+           above the field's rate while the literature on them is still thin. Citations build with age, so a
+           naive reading would just track citation lag; instead each construct's early-citation rate (the
+           share of its papers in a settled three-year cohort, <span id="gaps-cohort">2022 to 2024</span>, that
+           have reached at least five citations) is divided by the field's own rate, which cancels that lag,
+           and a niche is flagged only when that ratio is high and the cohort is still small. It points to where attention may be heading.</p>
+      </section>
 
-    <section class="feature">
-      <h2 class="rule-head"><span>The dataset</span></h2>
-      <p>The full series is downloadable as one long-format CSV: one row per construct per year, every year
-         on record. The latest year is the partial current year and is flagged provisional above; the rest
-         are complete years.</p>
-      <table class="dict">
-        <thead>
-          <tr><th>Column</th><th>Type</th><th>Meaning</th></tr>
-        </thead>
-        <tbody>
-          <tr><td class="col">year</td><td class="type">integer</td><td>Publication year of the window.</td></tr>
-          <tr><td class="col">construct_id</td><td class="type">string</td><td>Stable identifier for the construct.</td></tr>
-          <tr><td class="col">construct</td><td class="type">string</td><td>Human-readable construct label.</td></tr>
-          <tr><td class="col">source</td><td class="type">string</td><td><span class="mono">openalex</span> (a pruned topic keyphrase) or <span class="mono">curated</span> (a newer coinage added by hand).</td></tr>
-          <tr><td class="col">papers</td><td class="type">integer</td><td>Works that year whose title or abstract matched the construct.</td></tr>
-          <tr><td class="col">corpus_papers</td><td class="type">integer</td><td>All linguistics works indexed for that year (the denominator).</td></tr>
-          <tr><td class="col">share</td><td class="type">float</td><td><span class="mono">papers / corpus_papers</span>: the construct's share of the field that year.</td></tr>
-        </tbody>
-      </table>
+      <section class="feature">
+        <h2 class="rule-head"><span>The dataset</span></h2>
+        <p>The full series is downloadable as one long-format CSV: one row per construct per year, every year
+           on record. The latest year is the partial current year, flagged provisional above; the rest
+           are complete years.</p>
+        <table class="dict">
+          <thead>
+            <tr><th>Column</th><th>Type</th><th>Meaning</th></tr>
+          </thead>
+          <tbody>
+            <tr><td class="col">year</td><td class="type">integer</td><td>Publication year of the window.</td></tr>
+            <tr><td class="col">construct_id</td><td class="type">string</td><td>Stable identifier for the construct.</td></tr>
+            <tr><td class="col">construct</td><td class="type">string</td><td>Human-readable construct label.</td></tr>
+            <tr><td class="col">source</td><td class="type">string</td><td><span class="mono">openalex</span> (a pruned topic keyphrase) or <span class="mono">curated</span> (a newer coinage added by hand).</td></tr>
+            <tr><td class="col">papers</td><td class="type">integer</td><td>Works that year whose title or abstract matched the construct.</td></tr>
+            <tr><td class="col">corpus_papers</td><td class="type">integer</td><td>All linguistics works indexed for that year (the denominator).</td></tr>
+            <tr><td class="col">share</td><td class="type">float</td><td><span class="mono">papers / corpus_papers</span>: the construct's share of the field that year.</td></tr>
+          </tbody>
+        </table>
 
-      <div class="downloads" style="margin-top:22px">
-        <div class="dl-card">
-          <h4>Construct series (CSV)</h4>
-          <p>Every construct, every year on record, in one tidy file.</p>
-          <a class="dl-btn" href="data/constructs.csv" download>Download constructs.csv</a>
+        <div class="downloads" style="margin-top:22px">
+          <div class="dl-card">
+            <h4>Construct series (CSV)</h4>
+            <p>Every construct, every year on record, in one tidy file.</p>
+            <a class="dl-btn" href="data/constructs.csv" download>Download constructs.csv</a>
+          </div>
         </div>
-      </div>
 
-      <p class="small" style="margin-top:18px">Licence: the underlying metadata is OpenAlex, released under
-         <a href="https://creativecommons.org/publicdomain/zero/1.0/" rel="noopener">CC0</a>. This derived
-         dataset is shared under the same terms; please credit OpenAlex and link back to this site.</p>
-    </section>
+        <p class="small" style="margin-top:18px">Licence: the underlying metadata is OpenAlex, released under
+           <a href="https://creativecommons.org/publicdomain/zero/1.0/" rel="noopener">CC0</a>. This derived
+           dataset is shared under the same terms; please credit OpenAlex and link back to this site.</p>
+      </section>
 
-    <section class="feature">
-      <h2 class="rule-head"><span>How it runs</span></h2>
-      <p>The data comes from OpenAlex and refreshes once a week. No language model is involved at any
-         stage; every figure is computed directly from the metadata, so nothing here is generated or
-         guessed. The paper lists carry titles, authors, venues, and links only; abstract text is never
-         stored or shown. Each title links to the paper's DOI, with a separate open-access link
-         where a free copy exists.</p>
-      <p class="small" id="freshness">Data as of the latest weekly run.</p>
-    </section>
+      <section class="feature">
+        <h2 class="rule-head"><span>How it runs</span></h2>
+        <p>No language model is involved at any
+           stage; every figure is computed directly from the metadata. The paper lists carry titles, authors,
+           venues, and links only; abstract text is never stored or shown. Each title links to the paper's
+           DOI, with a separate open-access link where a free copy exists.</p>
+        <p class="small" id="freshness">Data as of the latest update.</p>
+      </section>
+    </div>
+
+    <!-- العربية -->
+    <div id="prose-ar" dir="rtl" hidden>
+      <section class="feature">
+        <h2 class="rule-head"><span>ما هذا الموقع</span></h2>
+        <p>يتتبّع «حديث الساعة» كيف يتحوّل اهتمام البحث في اللسانيات واللسانيات التطبيقية وتعليم اللغات عبر
+           الزمن. يرصد مجموعة من نحو <span id="n-constructs-ar">200</span> مفهوم (مناهج ونظريات وموضوعات
+           دراسة) ويقيس حصّة كلٍّ منها من إنتاج المجال المنشور، عامًا بعد عام. وبعد أشهر وسنوات يمكنك أن ترى كيف تحرّك المجال فعلًا عبر الزمن.</p>
+      </section>
+
+      <section class="feature">
+        <h2 class="rule-head"><span>مصدر البيانات</span></h2>
+        <p>كل عدّ مستمدّ من <a href="https://openalex.org" rel="noopener">OpenAlex</a>، وهو فهرس مفتوح
+           للأعمال العلمية تُنشَر بياناته الوصفية برخصة CC0 (الملكية العامة). والمدوّنة هي اتحاد حقلَي
+           اللسانيات الفرعيين في OpenAlex: «اللغة واللسانيات» (الآداب والعلوم الإنسانية) و«اللسانيات واللغة»
+           (العلوم الاجتماعية). وكلاهما مشمول: فرع الآداب والعلوم الإنسانية أكبر بأضعاف، وقصر النطاق على واحد
+           وحده يُسقِط بصمت معظم الأدبيات، ومنها كثير من اللسانيات الاجتماعية والتداولية والسياسة اللغوية. وفي
+           آخر عام مكتمل الفهرسة ضمّت المدوّنة نحو <span id="corpus-size-ar">75,000</span> عمل.</p>
+      </section>
+
+      <section class="feature">
+        <h2 class="rule-head"><span>المفاهيم التي يتتبّعها</span></h2>
+        <p>تبني قائمة المفاهيم نفسها بنفسها. معظمها عبارات موضوعية من OpenAlex نفسه لحقلَي اللسانيات
+           الفرعيين، بعد تنقية القلّة المفرطة في العموم. وبقيّتها مجموعة صغيرة من المصطلحات الأحدث التي ما يزال
+           الفهرس يلحق بها، مثل العبور اللغوي والرغبة في التواصل واللسانيات العِرقية وChatGPT. فينظّم OpenAlex
+           والمجالُ المفرداتِ، وتنمو من تلقاء نفسها كلما أضاف الفهرس عبارات جديدة. ويحمل كل مفهوم في مجموعة
+           البيانات حقلَ <span class="mono">source</span> بقيمة <span class="mono">openalex</span> أو
+           <span class="mono">curated</span> لتمييز النوعين.</p>
+      </section>
+
+      <section class="feature">
+        <h2 class="rule-head"><span>كيف تُقاس الاتجاهات</span></h2>
+        <ul class="keylist">
+          <li><b>الحصّة من الإنتاج.</b> يُقاس كل مفهوم بحصّته من إنتاج اللسانيات في ذلك العام: الأوراق
+              المطابِقة للمفهوم مقسومةً على المدوّنة في ذلك العام. الفهرس ينمو كل عام، فالعدّ الخام المتزايد
+              كثيرًا ما يعكس فهرسةً أكثر، والحصّة تبقى قابلة للمقارنة عبر الزمن.</li>
+          <li><b>المطابقة.</b> تُحسَب الورقة ضمن مفهوم حين تظهر عبارته في عنوانها أو ملخّصها (خاصّية
+              <span class="mono">title_and_abstract.search</span> في OpenAlex). وقد تطابق الورقة عدّة مفاهيم،
+              فالحصص لا تجمع إلى واحد.</li>
+          <li><b>تغيّر سنوي على آخر عام مكتمل.</b> تقارن التحرّكات الرئيسة آخرَ عام مكتمل الفهرسة
+              (<span id="ref-year-ar">2025</span>) بالعام السابق له. والترتيب بحسب التغيّر النسبي في الحصّة،
+              وهو ما يجعل مفهومًا يُقرأ بـ«ارتفاع 224%».</li>
+          <li><b>العام الجاري بالترتيب فقط.</b> يظهر <span id="cur-year-ar">2026</span> في الصدارة، بوصفه
+              ترتيبًا للمفاهيم الأسرع صعودًا حتى الآن. وتبقى نسبه غير منشورة، للسبب المذكور في القسم التالي.</li>
+          <li><b>حواجز ضدّ الاتجاهات الزائفة.</b> على المفهوم أن يتجاوز حدًّا أدنى من الحجم السنوي وأن
+              يستمرّ في الاتجاه نفسه عبر عدّة أعوام متتالية قبل أن يُعَدّ مؤكَّدًا.</li>
+        </ul>
+      </section>
+
+      <section class="feature">
+        <h2 class="rule-head"><span>لماذا العام الجاري أوّليّ</span></h2>
+        <p>يواصل OpenAlex إضافة سجلّات لعامٍ ما بعد انتهائه بوقت طويل، وكثيرًا ما يصل ملخّص الورقة متأخّرًا
+           أكثر. ولأن المفهوم يُطابَق على نصّ العنوان والملخّص، فإن الجزء المفهرَس من العام يكون أغنى بالنصّ
+           القابل للمطابقة ممّا سيكون عليه العام كاملًا. والأثر الظاهر أن حصّة كل مفهوم تقريبًا في العام الجاري
+           تنتفخ بعامل متقارب دفعةً واحدة، فيُقرأ النموّ الخام حتى تاريخه ارتفاعًا شاملًا بلا خاسرين. وذلك أثرٌ
+           من الفهرسة.</p>
+        <p>ويترتّب على ذلك خياران في التصميم. تَستعمل النسبُ المؤكَّدة والرسمُ البياني الأعوامَ المكتملة وحدها،
+           حيث استقرّ التشويه إلى حدّ كبير. ويُلخَّص العام الجاري بالترتيب، لأن ترتيب الأسرع صعودًا يصمد أمام
+           تشويهٍ يرفع كل شيء معًا. وكلما أتمّ OpenAlex الفهرسة ترسّخت الأعوام الأخيرة.</p>
+      </section>
+
+      <section class="feature">
+        <h2 class="rule-head"><span>ما يغطّيه وما يفوته</span></h2>
+        <p>هذا مرصدٌ للشريحة المفهرَسة، الغالبة الإنجليزية، من مقالات الدوريات في المجال. وأبرز نقاط العمى:</p>
+        <ul class="miss">
+          <li>الكتب والأعمال المحرَّرة مُمثَّلة تمثيلًا ناقصًا، وهي تحمل ثقلًا نظريًا حقيقيًا هنا.</li>
+          <li>البحث بغير الإنجليزية (مثل الأعمال الفرنسية والإسبانية والصينية) مفهرَس فهرسةً ناقصة.</li>
+          <li>وقائع المؤتمرات والأدبيات الرمادية متفاوتة، وشريحة اللسانيات الحاسوبية تعيش غالبًا على خوادم
+              المسودّات وتُلتقَط جزئيًا.</li>
+          <li>نسبة معتبرة من السجلّات تخلو من الملخّصات، ووسوم اللغة الآلية غير دقيقة.</li>
+        </ul>
+        <p>وهذه اتجاهات في الأدبيات الدورية المفهرَسة.</p>
+      </section>
+
+      <section class="feature">
+        <h2 class="rule-head"><span>الثغرات البحثية</span></h2>
+        <p>تُبرِز «الثغرات البحثية» في الصفحة الأولى مفاهيمَ تُقتبَس أوراقها الحديثة فوق معدّل المجال بكثير
+           بينما ما يزال ما كُتب عنها قليلًا. والاقتباسات تتراكم مع العمر، فالقراءة الساذجة تتعقّب تأخّر
+           الاقتباس وحده؛ ولذلك يُقسَم معدّل الاقتباس المبكّر لكل مفهوم (حصّة أوراقه التي بلغت خمسة اقتباسات
+           على الأقلّ ضمن فترة مستقرّة من ثلاث سنوات، <span id="gaps-cohort-ar">2022 إلى 2024</span>) على
+           معدّل المجال نفسه، فيُلغى ذلك التأخّر، وتُعلَّم الثغرة حين تكون تلك النسبة مرتفعة والفترة لا تزال
+           صغيرة. وهي تشير إلى وجهة الاهتمام المحتملة.</p>
+      </section>
+
+      <section class="feature">
+        <h2 class="rule-head"><span>مجموعة البيانات</span></h2>
+        <p>السلسلة الكاملة متاحة للتنزيل في ملفّ CSV واحد بالتنسيق الطولي: صفّ لكل مفهوم في كل عام، لكل عام
+           مسجَّل. وآخر عام هو العام الجاري الجزئي، وهو مُعلَّم أوّليًّا أعلاه، وما عداه أعوام مكتملة.</p>
+        <table class="dict">
+          <thead>
+            <tr><th>العمود</th><th>النوع</th><th>المعنى</th></tr>
+          </thead>
+          <tbody>
+            <tr><td class="col">year</td><td class="type">عدد صحيح</td><td>سنة نشر النافذة.</td></tr>
+            <tr><td class="col">construct_id</td><td class="type">نصّ</td><td>مُعرِّف ثابت للمفهوم.</td></tr>
+            <tr><td class="col">construct</td><td class="type">نصّ</td><td>تسمية المفهوم المقروءة.</td></tr>
+            <tr><td class="col">source</td><td class="type">نصّ</td><td><span class="mono">openalex</span> (عبارة موضوعية منقّاة) أو <span class="mono">curated</span> (مصطلح أحدث مُضاف يدويًا).</td></tr>
+            <tr><td class="col">papers</td><td class="type">عدد صحيح</td><td>أعمال ذلك العام التي طابق عنوانها أو ملخّصها المفهوم.</td></tr>
+            <tr><td class="col">corpus_papers</td><td class="type">عدد صحيح</td><td>كل أعمال اللسانيات المفهرَسة لذلك العام (المقام).</td></tr>
+            <tr><td class="col">share</td><td class="type">عدد عشري</td><td><span class="mono">papers / corpus_papers</span>: حصّة المفهوم من المجال في ذلك العام.</td></tr>
+          </tbody>
+        </table>
+
+        <div class="downloads" style="margin-top:22px">
+          <div class="dl-card">
+            <h4>سلسلة المفاهيم (CSV)</h4>
+            <p>كل مفهوم، لكل عام مسجَّل، في ملفّ واحد مرتَّب.</p>
+            <a class="dl-btn" href="data/constructs.csv" download>تنزيل constructs.csv</a>
+          </div>
+        </div>
+
+        <p class="small" style="margin-top:18px">الترخيص: البيانات الوصفية الأساسية من OpenAlex، منشورة برخصة
+           <a href="https://creativecommons.org/publicdomain/zero/1.0/" rel="noopener">CC0</a>. وتُشارَك مجموعة
+           البيانات المشتقّة بالشروط نفسها؛ يُرجى نسبة الفضل إلى OpenAlex ووضع رابط إلى هذا الموقع.</p>
+      </section>
+
+      <section class="feature">
+        <h2 class="rule-head"><span>كيف يعمل</span></h2>
+        <p>لا يتدخّل أيّ نموذج لغوي في أيّ مرحلة، فكل رقم
+           محسوب مباشرة من البيانات الوصفية. وتحمل قوائم الأوراق العناوين والمؤلّفين والأوعية والروابط فقط،
+           ولا يُخزَّن نصّ الملخّص أو يُعرَض. ويرتبط كل عنوان بمُعرِّف DOI للورقة، مع رابط وصول مفتوح منفصل
+           حيثما توفّرت نسخة مجانية.</p>
+        <p class="small" id="freshness-ar">البيانات حتى آخر تحديث.</p>
+      </section>
+    </div>
   </main>
 
   <footer class="np-foot">
     <div class="wrap">
       <div class="np-rule thin"></div>
-      <p>Data from <a href="https://openalex.org" rel="noopener">OpenAlex</a>, CC0 metadata.</p>
-      <p class="small"><a href="index.html">Front page</a> · <a href="explore.html">The Index</a> · <a href="papers.html">Papers</a> · <a href="about.html">Methods</a></p>
+      <p data-i18n-html="footer_data">Data from <a href="https://openalex.org" rel="noopener">OpenAlex</a>, CC0 metadata.</p>
+      <p class="small" data-i18n-html="footer_nav"><a href="index.html">Front page</a> · <a href="explore.html">The Index</a> · <a href="niches.html">Niches</a> · <a href="papers.html">Papers</a> · <a href="about.html">About</a></p>
       <p class="byline">Muhammad Alhatlani<br /><a href="mailto:mo.alhatlani@gmail.com">email me</a></p>
+      <p class="small mt-note" data-i18n="mt_note"></p>
     </div>
   </footer>
 
-  <script src="assets/theme.js?v=1"></script>
+  <script src="assets/i18n.js?v=2"></script>
+  <script src="assets/theme.js?v=2"></script>
   <script>
     "use strict";
-    // Progressive enhancement: the page reads correctly as static text; these fills just keep the
-    // figures current. Every lookup is guarded so a missing field never blanks the prose.
-    (async function () {
-      const get = async p => { try { const r = await fetch(p, { cache: "no-store" }); return r.ok ? await r.json() : null; } catch (e) { return null; } };
-      const set = (id, v) => { const el = document.getElementById(id); if (el && v != null && v !== "") el.textContent = v; };
-      const [meta, latest, gaps] = await Promise.all([get("data/meta.json"), get("data/latest.json"), get("data/gaps.json")]);
-      if (meta) {
-        if (meta.construct_count) set("n-constructs", meta.construct_count);
-        if (meta.reference_year) set("ref-year", meta.reference_year);
-        if (meta.current_year) set("cur-year", meta.current_year);
-        if (meta.subfields && meta.subfields.length) {
-          const parts = meta.subfields.map(s => `<em>${s.label}</em> (${s.field})`);
-          const el = document.getElementById("subfields");
-          if (el) el.innerHTML = parts.join(" and ");
+    // The page reads as static text; this shows the matching language block and keeps the live figures current.
+    (function () {
+      function showProse() {
+        var ar = (typeof curLang === "function") ? curLang() === "ar" : (localStorage.getItem("lang") === "ar");
+        var en = document.getElementById("prose-en"), arEl = document.getElementById("prose-ar");
+        if (en) en.hidden = ar;
+        if (arEl) arEl.hidden = !ar;
+      }
+      window.renderI18n = showProse;   // the language button (i18n.js) calls this after switching
+      showProse();
+
+      var get = async function (p) { try { var r = await fetch(p, { cache: "no-store" }); return r.ok ? await r.json() : null; } catch (e) { return null; } };
+      var set = function (id, v) { var el = document.getElementById(id); if (el && v != null && v !== "") el.textContent = v; };
+      (async function () {
+        var res = await Promise.all([get("data/meta.json"), get("data/latest.json"), get("data/gaps.json")]);
+        var meta = res[0], latest = res[1], gaps = res[2];
+        if (meta) {
+          if (meta.construct_count) { set("n-constructs", meta.construct_count); set("n-constructs-ar", meta.construct_count); }
+          if (meta.reference_year) { set("ref-year", meta.reference_year); set("ref-year-ar", meta.reference_year); }
+          if (meta.current_year) { set("cur-year", meta.current_year); set("cur-year-ar", meta.current_year); }
+          if (meta.subfields && meta.subfields.length) {
+            var parts = meta.subfields.map(function (s) { return "<em>" + s.label + "</em> (" + s.field + ")"; });
+            var el = document.getElementById("subfields"); if (el) el.innerHTML = parts.join(" and ");
+          }
+          if (meta.generated_on) {
+            set("freshness", "Data as of " + meta.generated_on + ".");
+            set("freshness-ar", "البيانات حتى " + meta.generated_on + ".");
+          }
         }
-        if (meta.generated_on) set("freshness", `Data as of the weekly run on ${meta.generated_on}.`);
-      }
-      if (latest) {
-        const works = (latest.totals || {}).count_recent;
-        if (works) set("corpus-size", works.toLocaleString("en-US"));
-      }
-      if (gaps && Array.isArray(gaps.cohort_years) && gaps.cohort_years.length) {
-        const cy = gaps.cohort_years;
-        set("gaps-cohort", `${cy[0]} to ${cy[cy.length - 1]}`);
-      }
+        if (latest) { var works = (latest.totals || {}).count_recent; if (works) { set("corpus-size", works.toLocaleString("en-US")); set("corpus-size-ar", works.toLocaleString("en-US")); } }
+        if (gaps && Array.isArray(gaps.cohort_years) && gaps.cohort_years.length) {
+          var cy = gaps.cohort_years;
+          set("gaps-cohort", cy[0] + " to " + cy[cy.length - 1]);
+          set("gaps-cohort-ar", cy[0] + " إلى " + cy[cy.length - 1]);
+        }
+      })();
     })();
   </script>
 </body>

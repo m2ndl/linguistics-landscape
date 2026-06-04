@@ -27,7 +27,7 @@ function lineChart(opts) {
   const x0 = xAt(Math.max(0, gi(pts[0].date))), xN = xAt(Math.max(0, gi(pts[pts.length - 1].date)));
   const anim = reduceMotion() ? "" : ' class="draw" pathLength="1"';
 
-  let svg = `<svg viewBox="0 0 ${W} ${H}" preserveAspectRatio="xMidYMid meet" role="img" aria-label="${escapeHtml(label)} over time">`;
+  let svg = `<svg viewBox="0 0 ${W} ${H}" preserveAspectRatio="xMidYMid meet" role="img" aria-label="${escapeHtml(T("chart_over_time", { label: label }))}">`;
   svg += `<path d="${d} L ${xN.toFixed(1)} ${yBot} L ${x0.toFixed(1)} ${yBot} Z" style="fill:var(${cssVar});opacity:.08"/>`;
   svg += `<line x1="${padL}" y1="${yBot}" x2="${W - padR}" y2="${yBot}" style="stroke:var(--line)" stroke-width="1"/>`;
   svg += `<text x="${padL}" y="${yTop - 6}" font-size="11" style="fill:var(--faint);font-family:var(--mono)">${PCT(maxS)}</text>`;
@@ -60,7 +60,7 @@ function attachChartHover() {
     guide.style.left = gx.toFixed(2) + "%";
     if (share == null) dot.style.opacity = "0";
     else { dot.style.opacity = "1"; dot.style.left = gx.toFixed(2) + "%"; dot.style.top = (c.yAt(share) / c.H * 100).toFixed(2) + "%"; dot.style.background = `var(${c.cssVar})`; }
-    tip.innerHTML = `<div class="tip-date">${date}</div><div class="tip-row"><span>${escapeHtml(trimLabel(c.label, 22))}</span><span class="tip-val">${share == null ? "n/a" : PCT(share)}</span></div>`;
+    tip.innerHTML = `<div class="tip-date">${date}</div><div class="tip-row"><span>${escapeHtml(trimLabel(c.label, 22))}</span><span class="tip-val">${share == null ? escapeHtml(T("na")) : PCT(share)}</span></div>`;
     const tw = tip.offsetWidth, cw = rect.width, px = gx / 100 * cw;
     let leftPct = gx;
     if (px + tw / 2 > cw) leftPct = (cw - tw / 2) / cw * 100;

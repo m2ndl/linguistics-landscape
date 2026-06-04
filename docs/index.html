@@ -1,56 +1,61 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" data-i18n-title="doc_title_index" data-i18n-desc="doc_desc_index">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <script>(function(){try{if(localStorage.getItem('theme')==='dark')document.documentElement.setAttribute('data-theme','dark');}catch(e){}})();</script>
+  <script>(function(){try{var d=document.documentElement;if(localStorage.getItem('theme')==='dark')d.setAttribute('data-theme','dark');var p=new URLSearchParams(location.search).get('lang');var l=(p==='ar'||p==='en')?p:(localStorage.getItem('lang')==='ar'?'ar':'en');if(p==='ar'||p==='en'){try{localStorage.setItem('lang',l);}catch(e){}}d.lang=l;d.dir=l==='ar'?'rtl':'ltr';}catch(e){}})();</script>
   <title>Word on the Street · Research trends in linguistics</title>
   <meta name="description" content="What is rising and fading across linguistics, applied linguistics, sociolinguistics, psycholinguistics, translation, and language education. Research trends tracked every week, built from OpenAlex." />
-  <link rel="canonical" href="https://m2ndl.github.io/applied-linguistics-landscape/" />
+  <link rel="canonical" href="https://language-research.com/" />
+  <link rel="alternate" hreflang="en" href="https://language-research.com/" />
+  <link rel="alternate" hreflang="ar" href="https://language-research.com/?lang=ar" />
+  <link rel="alternate" hreflang="x-default" href="https://language-research.com/" />
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="Word on the Street" />
   <meta property="og:title" content="Word on the Street" />
   <meta property="og:description" content="Research trends across linguistics, applied linguistics, and language education, tracked weekly." />
-  <meta property="og:url" content="https://m2ndl.github.io/applied-linguistics-landscape/" />
-  <meta property="og:image" content="https://m2ndl.github.io/applied-linguistics-landscape/og.png" />
+  <meta property="og:url" content="https://language-research.com/" />
+  <meta property="og:image" content="https://language-research.com/og.png" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Word on the Street" />
   <meta name="twitter:description" content="Research trends across linguistics, applied linguistics, and language education, tracked weekly." />
-  <meta name="twitter:image" content="https://m2ndl.github.io/applied-linguistics-landscape/og.png" />
+  <meta name="twitter:image" content="https://language-research.com/og.png" />
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect width='16' height='16' rx='3' fill='%231b6b5f'/%3E%3C/svg%3E" />
-  <link rel="stylesheet" href="assets/magazine.css?v=5" />
+  <link rel="stylesheet" href="assets/magazine.css?v=8" />
 </head>
 <body>
   <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Switch to dark theme">
     <svg class="icon-moon" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
     <svg class="icon-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.4" fill="currentColor"/><g stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><line x1="12" y1="1.6" x2="12" y2="4"/><line x1="12" y1="20" x2="12" y2="22.4"/><line x1="1.6" y1="12" x2="4" y2="12"/><line x1="20" y1="12" x2="22.4" y2="12"/><line x1="4.4" y1="4.4" x2="6.1" y2="6.1"/><line x1="17.9" y1="17.9" x2="19.6" y2="19.6"/><line x1="4.4" y1="19.6" x2="6.1" y2="17.9"/><line x1="17.9" y1="6.1" x2="19.6" y2="4.4"/></g></svg>
   </button>
+  <button id="lang-toggle" class="lang-toggle" type="button" aria-label="Switch to Arabic">ع</button>
   <header class="nameplate">
     <div class="wrap">
       <div class="np-rule"></div>
       <h1 class="np-title" id="site-name">Word on the Street</h1>
       <div class="np-rule"></div>
-      <p class="np-standfirst">Research trends across linguistics, applied linguistics, and language education, tracked weekly.</p>
+      <p class="np-standfirst" data-i18n="standfirst">Research trends across linguistics, applied linguistics, and language education, tracked weekly.</p>
       <p class="np-dateline" id="np-date">Updated weekly</p>
       <nav class="topnav" aria-label="Sections">
-        <a href="index.html" aria-current="page">Front page</a>
-        <a href="explore.html">The Index</a>
-        <a href="papers.html">Papers</a>
-        <a href="about.html">Methods</a>
+        <a href="index.html" aria-current="page" data-i18n="nav_front">Front page</a>
+        <a href="explore.html" data-i18n="nav_index">The Index</a>
+        <a href="niches.html" data-i18n="nav_niches">Niches</a>
+        <a href="papers.html" data-i18n="nav_papers">Papers</a>
+        <a href="about.html" data-i18n="nav_methods">About</a>
       </nav>
     </div>
   </header>
 
   <div id="baseline-banner" class="notice hidden">
-    <div class="wrap">Still building a baseline, so read these as early signals, not settled trends.</div>
+    <div class="wrap" data-i18n="baseline">Still building a baseline, so read these as early signals, not settled trends.</div>
   </div>
 
   <main class="wrap">
     <article class="cover">
-      <p class="kicker" id="kicker">The fastest riser this year</p>
-      <h2 class="cover-head" id="lead-term">Loading…</h2>
+      <p class="kicker" id="kicker" data-i18n="kicker_default">The fastest riser this year</p>
+      <h2 class="cover-head" id="lead-term" data-i18n="loading">Loading…</h2>
       <div class="cover-grid">
         <div class="cover-text">
           <p class="lede"><span class="dropcap" id="dropcap"></span><span id="lede-rest"></span></p>
@@ -61,7 +66,7 @@
         </div>
         <figure class="cover-fig">
           <div id="hero-chart" class="hero-chart"></div>
-          <figcaption class="cover-cap">Share of the field's output across the fully indexed years. Hover to read any year.</figcaption>
+          <figcaption class="cover-cap" data-i18n="cover_cap">Share of the field's output across the fully indexed years. Hover to read any year.</figcaption>
         </figure>
       </div>
     </article>
@@ -70,52 +75,54 @@
       <h3 class="rule-head"><span class="movers-year">Movers this year</span></h3>
       <div class="movers-grid">
         <div class="movers-col">
-          <p class="col-label up">Rising</p>
+          <p class="col-label up" data-i18n="rising_col">Rising</p>
           <ol id="rising" class="lboard"></ol>
         </div>
         <div class="movers-col">
-          <p class="col-label down">Fading</p>
+          <p class="col-label down" data-i18n="fading_col">Fading</p>
           <ol id="cooling" class="lboard"></ol>
         </div>
       </div>
     </section>
 
     <section class="feature hidden" id="gaps-section">
-      <h3 class="rule-head"><span>Underserved niches</span></h3>
-      <p class="small">Constructs whose <span id="gaps-window">2022 to 2024</span> papers were cited well above the field's rate, while the literature on them is still thin. That window ends two years back, so citations have had time to land. A tip about where attention may be heading, not a verdict.</p>
+      <h3 class="rule-head"><span data-i18n="gaps_head">Underserved niches</span></h3>
+      <p class="small" data-i18n-html="gaps_intro">Constructs whose <span id="gaps-window">2022 to 2024</span> papers were cited well above the field's rate, while the literature on them is still thin. That window ends two years back, so citations have had time to land. A tip about where attention may be heading, not a verdict.</p>
       <ol id="gaps" class="gap-list"></ol>
+      <p class="small more-link"><a id="gaps-see-all" class="see-all hidden" href="niches.html"></a></p>
     </section>
 
     <section class="feature">
-      <h3 class="rule-head"><span>Most cited in the last two years</span></h3>
+      <h3 class="rule-head"><span data-i18n="most_cited_head">Most cited in the last two years</span></h3>
       <ul id="most-cited" class="briefs"></ul>
-      <p class="small">By OpenAlex citation count.</p>
+      <p class="small" data-i18n="most_cited_by">By OpenAlex citation count.</p>
     </section>
 
     <section class="feature">
-      <h3 class="rule-head"><span>New this week</span></h3>
+      <h3 class="rule-head"><span data-i18n="newest_head">New this week</span></h3>
       <ul id="newest" class="briefs"></ul>
     </section>
 
     <section class="feature">
-      <h3 class="rule-head"><span>About these numbers</span></h3>
+      <h3 class="rule-head"><span data-i18n="about_nums_head">About these numbers</span></h3>
       <p id="coverage-note" class="cov"></p>
-      <p class="small"><a href="explore.html">Browse all constructs</a> · Read the full <a href="about.html">methodology and limits</a>. <span id="stats-inline"></span></p>
+      <p class="small" data-i18n-html="about_nums_links"><a href="explore.html">Browse all constructs</a> · Read the full <a href="about.html">methodology and limits</a>. <span id="stats-inline"></span></p>
     </section>
   </main>
 
   <footer class="np-foot">
     <div class="wrap">
       <div class="np-rule thin"></div>
-      <p>Data from <a href="https://openalex.org" rel="noopener">OpenAlex</a>, CC0 metadata. Updated automatically each week, as of <span id="generated" class="mono">-</span>.</p>
-      <p class="small"><a href="index.html">Front page</a> · <a href="explore.html">The Index</a> · <a href="papers.html">Papers</a> · <a href="about.html">Methods</a></p>
+      <p data-i18n-html="footer_data">Data from <a href="https://openalex.org" rel="noopener">OpenAlex</a>, CC0 metadata. Updated automatically each week, as of <span id="generated" class="mono">-</span>.</p>
+      <p class="small" data-i18n-html="footer_nav"><a href="index.html">Front page</a> · <a href="explore.html">The Index</a> · <a href="niches.html">Niches</a> · <a href="papers.html">Papers</a> · <a href="about.html">About</a></p>
       <p class="byline">Muhammad Alhatlani<br /><a href="mailto:mo.alhatlani@gmail.com">email me</a></p>
     </div>
   </footer>
 
-  <script src="assets/theme.js?v=1"></script>
-  <script src="assets/util.js?v=3"></script>
-  <script src="assets/chart.js?v=1"></script>
-  <script src="assets/magazine.js?v=12"></script>
+  <script src="assets/i18n.js?v=2"></script>
+  <script src="assets/theme.js?v=2"></script>
+  <script src="assets/util.js?v=4"></script>
+  <script src="assets/chart.js?v=2"></script>
+  <script src="assets/magazine.js?v=14"></script>
 </body>
 </html>

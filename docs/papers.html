@@ -1,72 +1,78 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" data-i18n-title="doc_title_papers" data-i18n-desc="doc_desc_papers">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <script>(function(){try{if(localStorage.getItem('theme')==='dark')document.documentElement.setAttribute('data-theme','dark');}catch(e){}})();</script>
+  <script>(function(){try{var d=document.documentElement;if(localStorage.getItem('theme')==='dark')d.setAttribute('data-theme','dark');var p=new URLSearchParams(location.search).get('lang');var l=(p==='ar'||p==='en')?p:(localStorage.getItem('lang')==='ar'?'ar':'en');if(p==='ar'||p==='en'){try{localStorage.setItem('lang',l);}catch(e){}}d.lang=l;d.dir=l==='ar'?'rtl':'ltr';}catch(e){}})();</script>
   <title>Papers · Word on the Street</title>
   <meta name="description" content="The latest and most-cited work across linguistics, applied linguistics, and language education, from OpenAlex." />
-  <link rel="canonical" href="https://m2ndl.github.io/applied-linguistics-landscape/papers.html" />
+  <link rel="canonical" href="https://language-research.com/papers.html" />
+  <link rel="alternate" hreflang="en" href="https://language-research.com/papers.html" />
+  <link rel="alternate" hreflang="ar" href="https://language-research.com/papers.html?lang=ar" />
+  <link rel="alternate" hreflang="x-default" href="https://language-research.com/papers.html" />
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="Word on the Street" />
   <meta property="og:title" content="Papers · Word on the Street" />
   <meta property="og:description" content="The latest and most-cited work across the field's journals." />
-  <meta property="og:url" content="https://m2ndl.github.io/applied-linguistics-landscape/papers.html" />
-  <meta property="og:image" content="https://m2ndl.github.io/applied-linguistics-landscape/og.png" />
+  <meta property="og:url" content="https://language-research.com/papers.html" />
+  <meta property="og:image" content="https://language-research.com/og.png" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Papers · Word on the Street" />
   <meta name="twitter:description" content="The latest and most-cited work across the field's journals." />
-  <meta name="twitter:image" content="https://m2ndl.github.io/applied-linguistics-landscape/og.png" />
+  <meta name="twitter:image" content="https://language-research.com/og.png" />
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect width='16' height='16' rx='3' fill='%231b6b5f'/%3E%3C/svg%3E" />
-  <link rel="stylesheet" href="assets/magazine.css?v=5" />
+  <link rel="stylesheet" href="assets/magazine.css?v=8" />
 </head>
 <body>
   <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Switch to dark theme">
     <svg class="icon-moon" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
     <svg class="icon-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.4" fill="currentColor"/><g stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><line x1="12" y1="1.6" x2="12" y2="4"/><line x1="12" y1="20" x2="12" y2="22.4"/><line x1="1.6" y1="12" x2="4" y2="12"/><line x1="20" y1="12" x2="22.4" y2="12"/><line x1="4.4" y1="4.4" x2="6.1" y2="6.1"/><line x1="17.9" y1="17.9" x2="19.6" y2="19.6"/><line x1="4.4" y1="19.6" x2="6.1" y2="17.9"/><line x1="17.9" y1="6.1" x2="19.6" y2="4.4"/></g></svg>
   </button>
+  <button id="lang-toggle" class="lang-toggle" type="button" aria-label="Switch to Arabic">ع</button>
 
   <header class="nameplate">
     <div class="wrap">
       <div class="np-rule"></div>
-      <h1 class="np-title">Papers</h1>
+      <h1 class="np-title" data-i18n="pp_title">Papers</h1>
       <div class="np-rule"></div>
-      <p class="np-standfirst">The latest and most-cited work across the field's journals.</p>
+      <p class="np-standfirst" data-i18n="pp_standfirst">The latest and most-cited work across the field's journals.</p>
       <nav class="topnav" aria-label="Sections">
-        <a href="index.html">Front page</a>
-        <a href="explore.html">The Index</a>
-        <a href="papers.html" aria-current="page">Papers</a>
-        <a href="about.html">Methods</a>
+        <a href="index.html" data-i18n="nav_front">Front page</a>
+        <a href="explore.html" data-i18n="nav_index">The Index</a>
+        <a href="niches.html" data-i18n="nav_niches">Niches</a>
+        <a href="papers.html" aria-current="page" data-i18n="nav_papers">Papers</a>
+        <a href="about.html" data-i18n="nav_methods">About</a>
       </nav>
     </div>
   </header>
 
   <main class="wrap">
     <section class="feature">
-      <h2 class="rule-head"><span>Newest</span></h2>
+      <h2 class="rule-head"><span data-i18n="pp_newest_head">Newest</span></h2>
       <ul id="newest" class="briefs"></ul>
     </section>
 
     <section class="feature" style="border-bottom:none">
-      <h2 class="rule-head"><span>Most cited in the last two years</span></h2>
+      <h2 class="rule-head"><span data-i18n="most_cited_head">Most cited in the last two years</span></h2>
       <ul id="most-cited" class="briefs"></ul>
-      <p class="small">Most-cited work of roughly the last two years, by OpenAlex citation count. <span id="as-of"></span> Titles, authors, venues, and links only; full text lives at the source.</p>
+      <p class="small" data-i18n-html="pp_note_html">Most-cited work of roughly the last two years, by OpenAlex citation count. <span id="as-of"></span> Titles, authors, venues, and links only; full text lives at the source.</p>
     </section>
   </main>
 
   <footer class="np-foot">
     <div class="wrap">
       <div class="np-rule thin"></div>
-      <p>Data from <a href="https://openalex.org" rel="noopener">OpenAlex</a>, CC0 metadata.</p>
-      <p class="small"><a href="index.html">Front page</a> · <a href="explore.html">The Index</a> · <a href="papers.html">Papers</a> · <a href="about.html">Methods</a></p>
+      <p data-i18n-html="footer_data">Data from <a href="https://openalex.org" rel="noopener">OpenAlex</a>, CC0 metadata.</p>
+      <p class="small" data-i18n-html="footer_nav"><a href="index.html">Front page</a> · <a href="explore.html">The Index</a> · <a href="niches.html">Niches</a> · <a href="papers.html">Papers</a> · <a href="about.html">About</a></p>
       <p class="byline">Muhammad Alhatlani<br /><a href="mailto:mo.alhatlani@gmail.com">email me</a></p>
     </div>
   </footer>
 
-  <script src="assets/theme.js?v=1"></script>
-  <script src="assets/util.js?v=3"></script>
-  <script src="assets/papers.js?v=1"></script>
+  <script src="assets/i18n.js?v=2"></script>
+  <script src="assets/theme.js?v=2"></script>
+  <script src="assets/util.js?v=4"></script>
+  <script src="assets/papers.js?v=2"></script>
 </body>
 </html>

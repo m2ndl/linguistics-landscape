@@ -102,13 +102,13 @@ def fetch_feed(scope: dict, today: dt.date | None = None) -> dict:
     since_new = (today - dt.timedelta(days=90)).isoformat()
     newest = openalex.top_works(
         f"{base},{TYPES},from_publication_date:{since_new},to_publication_date:{today_s}",
-        sort="publication_date:desc", per_page=40, select=SELECT)
+        sort="publication_date:desc", per_page=100, select=SELECT)
 
     # Most prominent: most cited among works published in the last 24 months.
     since_cited = metrics.minus_years(today, 2).isoformat()
     prominent = openalex.top_works(
         f"{base},{TYPES},from_publication_date:{since_cited},to_publication_date:{today_s}",
-        sort="cited_by_count:desc", per_page=40, select=SELECT)
+        sort="cited_by_count:desc", per_page=100, select=SELECT)
 
     # Drop re-indexed classics that are cited from before their stated publication date, so they
     # can't masquerade as recent high-impact work.
@@ -118,8 +118,8 @@ def fetch_feed(scope: dict, today: dt.date | None = None) -> dict:
     return {
         "as_of": today_s,
         "cited_since": since_cited,
-        "newest": _dedupe([_card(w) for w in newest], 15),
-        "most_cited_recent": _dedupe([_card(w) for w in prominent], 15),
+        "newest": _dedupe([_card(w) for w in newest], 25),
+        "most_cited_recent": _dedupe([_card(w) for w in prominent], 25),
     }
 
 

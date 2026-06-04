@@ -7,12 +7,19 @@
   function currentTheme() {
     return document.documentElement.getAttribute("data-theme") === "dark" ? "dark" : "light";
   }
+  function label(theme) {
+    var key = theme === "dark" ? "theme_to_light" : "theme_to_dark";
+    if (typeof T === "function") return T(key);
+    return theme === "dark" ? "Switch to light theme" : "Switch to dark theme";
+  }
   function apply(theme) {
     if (theme === "dark") document.documentElement.setAttribute("data-theme", "dark");
     else document.documentElement.removeAttribute("data-theme");
     var btn = document.getElementById("theme-toggle");
-    if (btn) btn.setAttribute("aria-label", theme === "dark" ? "Switch to light theme" : "Switch to dark theme");
+    if (btn) btn.setAttribute("aria-label", label(theme));
   }
+  // the language toggle calls this so the theme button's aria-label follows the chosen language
+  window.refreshThemeLabel = function () { apply(currentTheme()); };
   function init() {
     var btn = document.getElementById("theme-toggle");
     if (!btn) return;
