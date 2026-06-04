@@ -60,7 +60,7 @@ a:hover { text-decoration:underline; text-underline-offset:2px; }
 .np-dateline { font-family:var(--mono); font-size:11px; letter-spacing:.1em; text-transform:uppercase; color:var(--faint); margin:7px 0 0; }
 
 /* ---------- section nav (under the masthead, on every page) ---------- */
-.topnav { display:flex; flex-wrap:wrap; justify-content:center; align-items:center; gap:0 6px; font-family:var(--mono); font-size:11.5px; letter-spacing:.1em; text-transform:uppercase; margin:16px auto 0; padding:11px 0 0; max-width:560px; border-top:1px solid var(--line); }
+.topnav { display:flex; flex-wrap:wrap; justify-content:center; align-items:center; gap:0 6px; font-family:var(--mono); font-size:11.5px; letter-spacing:.1em; text-transform:uppercase; margin:16px auto 0; padding:11px 0 0; max-width:680px; border-top:1px solid var(--line); }
 .topnav a { color:var(--muted); padding:5px 12px; border-radius:6px; }
 .topnav a:hover { color:var(--accent); }
 .topnav a:focus-visible { outline:2px solid var(--accent); outline-offset:2px; }
@@ -265,3 +265,54 @@ a:hover { text-decoration:underline; text-underline-offset:2px; }
 [dir="rtl"] .ps-num, [dir="rtl"] .lb-delta, [dir="rtl"] .lb-rank,
 [dir="rtl"] .c-share, [dir="rtl"] .c-chg, [dir="rtl"] .c-lift, [dir="rtl"] .c-vol, [dir="rtl"] .brief-cites,
 [dir="rtl"] .chart-tip .tip-val { direction:ltr; }
+
+/* ---------- The Slow Table (a decade of rank movement) ---------- */
+.slow-lead { font-family:var(--serif); font-size:16.5px; line-height:1.5; color:var(--ink); max-width:70ch; margin:14px auto 0; }
+.slow-lead.faint { font-size:14.5px; color:var(--muted); font-style:italic; }
+.slow-lead strong { color:var(--accent); font-weight:700; }
+
+/* reshuffle rows (section A): name + sub | rank sparkline | signed move */
+.slow-rows { display:flex; flex-direction:column; }
+.slow-row { display:grid; grid-template-columns:1fr 96px 3.4em; align-items:center; gap:14px; padding:10px 8px; margin:0 -8px; border-bottom:1px solid var(--line); }
+.slow-row:last-child { border-bottom:none; }
+.slow-row:hover { background:var(--accent-weak); }
+.sr-main { min-width:0; }
+.sr-main a { color:var(--ink); font-size:15.5px; }
+.sr-main a:hover, .sr-main a:focus-visible { color:var(--accent); text-decoration:underline; text-underline-offset:2px; }
+.sr-sub { display:block; font-size:12.5px; color:var(--faint); margin-top:2px; }
+.sr-ranks { color:var(--muted); }
+.sr-steady { color:var(--accent); font-family:var(--mono); font-size:10px; letter-spacing:.05em; text-transform:uppercase; }
+.real.up { color:var(--up); } .real.down { color:var(--down); } .real.flat { color:var(--faint); }
+.sr-spark { display:block; }
+.sr-delta { text-align:right; font-variant-numeric:tabular-nums; font-weight:600; font-size:15px; }
+.sr-delta.up { color:var(--up); } .sr-delta.down { color:var(--down); } .sr-delta.flat { color:var(--faint); }
+
+/* the full ladder (section B): 5-column grid over the shared .ctable scaffold */
+.stable thead tr, .stable .crow { grid-template-columns:1fr 7.4em 4.4em 96px 7em; }
+.s-rank, .s-move { font-variant-numeric:tabular-nums; font-family:var(--mono); }
+.s-rank { color:var(--muted); white-space:nowrap; }
+.s-move { text-align:right; font-weight:600; }
+.s-move.up { color:var(--up); } .s-move.down { color:var(--down); } .s-move.flat { color:var(--faint); }
+.stable th.s-move { text-align:right; }
+.s-real .real { font-size:13.5px; }
+.s-path .spark { display:block; }
+
+/* arrived mid-decade (section C) */
+.arrived-list { list-style:none; margin:0; padding:0; display:flex; flex-wrap:wrap; gap:10px 26px; }
+.arrived { font-size:15px; }
+.arrived a { color:var(--ink); } .arrived a:hover, .arrived a:focus-visible { color:var(--accent); text-decoration:underline; text-underline-offset:2px; }
+.arrived .faint { font-size:12.5px; margin-left:6px; }
+
+@media (max-width:720px) {
+  .stable thead { display:none; }
+  .stable .crow { grid-template-columns:1fr auto; row-gap:4px; padding:10px 0; margin:0; }
+  .stable .c-name { order:1; grid-column:1 / -1; }
+  .stable .s-rank { order:2; } .stable .s-move { order:3; text-align:right; }
+  .stable .s-path { order:4; } .stable .s-real { order:5; text-align:right; }
+}
+
+/* RTL: numeric cells stay LTR so "162 → 52" and "+110" read correctly; move column flips to the start edge */
+[dir="rtl"] .sr-ranks, [dir="rtl"] .sr-delta, [dir="rtl"] .s-rank, [dir="rtl"] .s-move { direction:ltr; }
+[dir="rtl"] .sr-delta, [dir="rtl"] .s-move, [dir="rtl"] .stable th.s-move { text-align:left; }
+[dir="rtl"] .sr-steady { letter-spacing:normal; text-transform:none; }
+[dir="rtl"] .arrived .faint { margin-left:0; margin-right:6px; }
