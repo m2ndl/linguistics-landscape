@@ -60,7 +60,7 @@ a:hover { text-decoration:underline; text-underline-offset:2px; }
 .np-dateline { font-family:var(--mono); font-size:11px; letter-spacing:.1em; text-transform:uppercase; color:var(--faint); margin:7px 0 0; }
 
 /* ---------- section nav (under the masthead, on every page) ---------- */
-.topnav { display:flex; flex-wrap:wrap; justify-content:center; align-items:center; gap:0 6px; font-family:var(--mono); font-size:11.5px; letter-spacing:.1em; text-transform:uppercase; margin:16px auto 0; padding:11px 0 0; max-width:680px; border-top:1px solid var(--line); }
+.topnav { display:flex; flex-wrap:wrap; justify-content:center; align-items:center; gap:0 6px; font-family:var(--mono); font-size:11.5px; letter-spacing:.1em; text-transform:uppercase; margin:16px auto 0; padding:11px 0 0; max-width:760px; border-top:1px solid var(--line); }
 .topnav a { color:var(--muted); padding:5px 12px; border-radius:6px; }
 .topnav a:hover { color:var(--accent); }
 .topnav a:focus-visible { outline:2px solid var(--accent); outline-offset:2px; }
@@ -316,3 +316,23 @@ a:hover { text-decoration:underline; text-underline-offset:2px; }
 [dir="rtl"] .sr-delta, [dir="rtl"] .s-move, [dir="rtl"] .stable th.s-move { text-align:left; }
 [dir="rtl"] .sr-steady { letter-spacing:normal; text-transform:none; }
 [dir="rtl"] .arrived .faint { margin-left:0; margin-right:6px; }
+
+/* ---------- Against their best year ---------- */
+.bytable thead tr, .bytable .crow { grid-template-columns:1fr 7em 5em 9em 96px; }
+.by-pct, .by-peak, .by-papers { font-family:var(--mono); font-variant-numeric:tabular-nums; }
+.by-pct { text-align:right; font-weight:600; }
+.by-pct.up { color:var(--up); } .by-pct.down { color:var(--down); } .by-pct.flat { color:var(--faint); }
+.bytable th.by-pct { text-align:right; }
+.by-peak, .by-papers { color:var(--muted); white-space:nowrap; }
+.by-path .spark { display:block; }
+.by-thin { font-family:var(--mono); font-size:10px; letter-spacing:.05em; text-transform:uppercase; color:var(--faint); }
+@media (max-width:720px) {
+  .bytable thead { display:none; }
+  .bytable .crow { grid-template-columns:1fr auto; row-gap:4px; padding:10px 0; margin:0; }
+  .bytable .c-name { order:1; grid-column:1 / -1; }
+  .bytable .by-pct { order:2; } .bytable .by-peak { order:3; text-align:right; }
+  .bytable .by-papers { order:4; } .bytable .by-path { order:5; text-align:right; }
+}
+[dir="rtl"] .by-pct, [dir="rtl"] .by-peak, [dir="rtl"] .by-papers { direction:ltr; }
+[dir="rtl"] .by-pct, [dir="rtl"] .bytable th.by-pct { text-align:left; }
+[dir="rtl"] .by-thin { letter-spacing:normal; text-transform:none; }

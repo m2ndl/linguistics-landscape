@@ -1,26 +1,26 @@
 <!doctype html>
-<html lang="en" data-i18n-title="doc_title_slow" data-i18n-desc="doc_desc_slow">
+<html lang="en" data-i18n-title="doc_title_bestyear" data-i18n-desc="doc_desc_bestyear">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <script>(function(){try{var d=document.documentElement;if(localStorage.getItem('theme')==='dark')d.setAttribute('data-theme','dark');var p=new URLSearchParams(location.search).get('lang');var l=(p==='ar'||p==='en')?p:(localStorage.getItem('lang')==='ar'?'ar':'en');if(p==='ar'||p==='en'){try{localStorage.setItem('lang',l);}catch(e){}}d.lang=l;d.dir=l==='ar'?'rtl':'ltr';}catch(e){}})();</script>
-  <title>Rankings over the decade · Word on the Street</title>
-  <meta name="description" content="A decade of rank movement: which constructs rose and which fell in the field's ranking from 2014 to 2025, measured by each construct's yearly share of the literature." />
-  <link rel="canonical" href="https://language-research.com/slow.html" />
-  <link rel="alternate" hreflang="en" href="https://language-research.com/slow.html" />
-  <link rel="alternate" hreflang="ar" href="https://language-research.com/slow.html?lang=ar" />
-  <link rel="alternate" hreflang="x-default" href="https://language-research.com/slow.html" />
+  <title>Against their best year · Word on the Street</title>
+  <meta name="description" content="For each construct, its 2025 share of the field as a percentage of its own best year between 2014 and 2024, after the indexing drift is removed." />
+  <link rel="canonical" href="https://language-research.com/bestyear.html" />
+  <link rel="alternate" hreflang="en" href="https://language-research.com/bestyear.html" />
+  <link rel="alternate" hreflang="ar" href="https://language-research.com/bestyear.html?lang=ar" />
+  <link rel="alternate" hreflang="x-default" href="https://language-research.com/bestyear.html" />
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="Word on the Street" />
-  <meta property="og:title" content="Rankings over the decade · Word on the Street" />
-  <meta property="og:description" content="A decade of rank movement in language research: which constructs rose and which fell in the field's ranking from 2014 to 2025." />
-  <meta property="og:url" content="https://language-research.com/slow.html" />
+  <meta property="og:title" content="Against their best year · Word on the Street" />
+  <meta property="og:description" content="Where each construct sits in 2025 as a share of its own best year, after the indexing drift is removed." />
+  <meta property="og:url" content="https://language-research.com/bestyear.html" />
   <meta property="og:image" content="https://language-research.com/og.png" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Rankings over the decade · Word on the Street" />
-  <meta name="twitter:description" content="A decade of rank movement in language research: which constructs rose and which fell in the field's ranking." />
+  <meta name="twitter:title" content="Against their best year · Word on the Street" />
+  <meta name="twitter:description" content="Where each construct sits in 2025 as a share of its own best year." />
   <meta name="twitter:image" content="https://language-research.com/og.png" />
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect width='16' height='16' rx='3' fill='%231b6b5f'/%3E%3C/svg%3E" />
   <link rel="stylesheet" href="assets/magazine.css?v=10" />
@@ -35,16 +35,15 @@
   <header class="nameplate">
     <div class="wrap">
       <div class="np-rule"></div>
-      <h1 class="np-title" data-i18n="slow_title">Rankings over the decade</h1>
+      <h1 class="np-title" data-i18n="by_title">Against their best year</h1>
       <div class="np-rule"></div>
-      <p class="np-standfirst" data-i18n="slow_standfirst">How the field's ranking has shifted over a decade. Each year, every construct is ranked by its share of the literature, and we trace which ones rose and which fell between 2014 and 2025.</p>
-      <p class="slow-lead" id="slow-insight"></p>
-      <p class="slow-lead faint" id="slow-effn"></p>
+      <p class="np-standfirst" data-i18n="by_standfirst">Every construct here is measured against its own best year, not against other constructs and not against last year.</p>
+      <p class="slow-lead" id="by-lead"></p>
       <nav class="topnav" aria-label="Sections">
         <a href="index.html" data-i18n="nav_front">Front page</a>
         <a href="explore.html" data-i18n="nav_index">The Index</a>
-        <a href="slow.html" aria-current="page" data-i18n="nav_slow">Rankings</a>
-        <a href="bestyear.html" data-i18n="nav_bestyear">Best year</a>
+        <a href="slow.html" data-i18n="nav_slow">Rankings</a>
+        <a href="bestyear.html" aria-current="page" data-i18n="nav_bestyear">Best year</a>
         <a href="niches.html" data-i18n="nav_niches">Niches</a>
         <a href="papers.html" data-i18n="nav_papers">Papers</a>
         <a href="about.html" data-i18n="nav_methods">About</a>
@@ -53,34 +52,32 @@
   </header>
 
   <main class="wrap">
-    <!-- Section A: the curated-cohort reshuffle -->
+    <!-- Headline: curated constructs furthest below / at or above their own best year -->
     <section class="feature">
-      <h2 class="rule-head" data-i18n="slow_reshuffle_head">Risers and fallers among the named constructs</h2>
-      <p class="cov" id="reshuffle-sub"></p>
       <div class="movers-grid">
         <div>
-          <p class="col-label up" data-i18n="slow_climbed">Rose</p>
-          <div class="slow-rows" id="climbed-list"></div>
+          <p class="col-label down" data-i18n="by_below_head">Below their best year</p>
+          <div class="slow-rows" id="below-list"></div>
         </div>
         <div>
-          <p class="col-label down" data-i18n="slow_slipped">Fell</p>
-          <div class="slow-rows" id="slipped-list"></div>
+          <p class="col-label up" data-i18n="by_above_head">At or above their best year</p>
+          <div class="slow-rows" id="above-list"></div>
         </div>
       </div>
     </section>
 
-    <!-- Section B: the full ladder, all constructs -->
+    <!-- Full sortable table of every construct present in 2014 -->
     <section class="feature">
-      <h2 class="rule-head" data-i18n="slow_ladder_head">The full ranking</h2>
-      <p class="cov" id="ladder-sub"></p>
+      <h2 class="rule-head" data-i18n="by_table_head">Every construct</h2>
+      <p class="cov" id="table-sub"></p>
 
       <form id="ex-form" class="ex-controls" role="search" data-i18n-aria="ex_form_aria" aria-label="Filter and sort constructs">
         <input id="q" type="search" placeholder="Search constructs" aria-label="Search construct names" data-i18n-aria="ex_search_aria" autocomplete="off" />
         <label class="sr-only" for="sort" data-i18n="ex_sort_label">Sort</label>
         <select id="sort">
-          <option value="move_desc" data-i18n="slow_sort_move_desc">Biggest climb</option>
-          <option value="move_asc" data-i18n="slow_sort_move_asc">Biggest slip</option>
-          <option value="rank_asc" id="opt-rank">Current rank</option>
+          <option value="pct_asc" data-i18n="by_sort_pct_asc">Furthest below first</option>
+          <option value="pct_desc" data-i18n="by_sort_pct_desc">Furthest above first</option>
+          <option value="peak_desc" data-i18n="by_sort_peak">Best year, most recent</option>
           <option value="name_asc" data-i18n="ex_sort_name_asc">Name, A to Z</option>
         </select>
         <span class="seg" data-seg="src" role="group" aria-label="Source" data-i18n-aria="ex_src_label">
@@ -88,37 +85,37 @@
           <button type="button" data-src="openalex" aria-pressed="false" data-i18n="ex_src_openalex">OpenAlex</button>
           <button type="button" data-src="curated" aria-pressed="false" data-i18n="ex_src_curated">Curated</button>
         </span>
-        <span class="seg" data-seg="mv" role="group" aria-label="Move" data-i18n-aria="slow_dir_label">
-          <button type="button" data-mv="all" aria-pressed="true" data-i18n="ex_dir_all">All</button>
-          <button type="button" data-mv="up" aria-pressed="false" data-i18n="slow_dir_up">Climbed</button>
-          <button type="button" data-mv="down" aria-pressed="false" data-i18n="slow_dir_down">Slipped</button>
+        <span class="seg" data-seg="dir" role="group" aria-label="Compared with best year" data-i18n-aria="by_dir_label">
+          <button type="button" data-dir="all" aria-pressed="true" data-i18n="ex_dir_all">All</button>
+          <button type="button" data-dir="down" aria-pressed="false" data-i18n="by_dir_below">Below</button>
+          <button type="button" data-dir="up" aria-pressed="false" data-i18n="by_dir_above">Above</button>
         </span>
         <button type="reset" class="ex-reset hidden" data-i18n="ex_reset">Reset</button>
       </form>
 
       <p class="ex-count mono" aria-live="polite" data-i18n-html="ex_count_html"><span id="shown">0</span> of <span id="total">0</span> constructs</p>
 
-      <table class="ctable stable">
-        <caption class="sr-only" data-i18n="slow_ladder_head">The full ranking</caption>
+      <table class="ctable bytable">
+        <caption class="sr-only" data-i18n="by_title">Against their best year</caption>
         <thead><tr>
           <th scope="col" class="c-name" data-i18n="ex_th_construct">Construct</th>
-          <th scope="col" class="s-rank" id="th-rank">Rank</th>
-          <th scope="col" class="s-move" data-i18n="slow_th_move">Move</th>
-          <th scope="col" class="s-path" data-i18n="slow_th_path">Path</th>
-          <th scope="col" class="s-real" data-i18n="slow_th_real">Real terms</th>
+          <th scope="col" class="by-pct" data-i18n="by_th_pct">Share vs best year</th>
+          <th scope="col" class="by-peak" data-i18n="by_th_peak">Best year</th>
+          <th scope="col" class="by-papers" data-i18n="by_th_papers">Papers then / now</th>
+          <th scope="col" class="by-path" data-i18n="by_th_path">Trajectory</th>
         </tr></thead>
         <tbody id="rows"></tbody>
       </table>
 
       <p class="empty hidden" id="empty" data-i18n-html="ex_empty_html">No constructs match. <button type="reset" form="ex-form" class="linklike">Reset.</button></p>
+      <p class="small faint" id="by-note" data-i18n="by_note" style="margin-top:16px"></p>
     </section>
 
-    <!-- Section C: constructs too new to hold a decade position -->
-    <section class="feature" id="arrived-section" style="border-bottom:none">
-      <h2 class="rule-head" data-i18n="slow_arrived_head">Arrived mid-decade</h2>
-      <p class="cov" id="arrived-sub"></p>
-      <ul class="arrived-list" id="arrived-list"></ul>
-      <p class="small faint" id="slow-note" style="margin-top:18px"></p>
+    <!-- Constructs with no papers before 2015: no earlier year to compare against -->
+    <section class="feature" id="new-section" style="border-bottom:none">
+      <h2 class="rule-head" data-i18n="by_new_head">Too new to compare</h2>
+      <p class="cov" data-i18n="by_new_sub"></p>
+      <ul class="arrived-list" id="new-list"></ul>
     </section>
   </main>
 
@@ -134,6 +131,6 @@
   <script src="assets/i18n.js?v=8"></script>
   <script src="assets/theme.js?v=2"></script>
   <script src="assets/util.js?v=4"></script>
-  <script src="assets/slow.js?v=1"></script>
+  <script src="assets/bestyear.js?v=1"></script>
 </body>
 </html>
