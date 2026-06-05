@@ -1,0 +1,10 @@
+# Keeps the SHA-pinned GitHub Actions in .github/workflows/ current. Pinning to a commit SHA is
+# the safe way to use a third-party action (a tag can be re-pointed at malicious code, a SHA cannot),
+# but a pinned SHA never updates itself. Dependabot opens a weekly PR when a new release ships, so
+# the pins stay current without trusting a mutable tag.
+version: 2
+updates:
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
