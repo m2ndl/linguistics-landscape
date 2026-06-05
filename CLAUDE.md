@@ -20,7 +20,8 @@ Target cost: $0/year. English is the default UI with an Arabic / RTL toggle.
 ## Architecture (read before editing)
 
 - The pipeline writes **data only**. `src/harvest.py` (and `--render-only`) / `src/render.py`
-  regenerate `docs/data/*.json` from the snapshots in `data/`. They do **not** emit HTML.
+  regenerate the files under `docs/data/` (JSON, plus `constructs.csv`) from the snapshots in
+  `data/`. They do **not** emit HTML.
 - Therefore **`docs/*.html` and `docs/assets/*` are hand-maintained source** — edit them directly;
   the weekly rebuild will not overwrite them. (Head-level changes like the analytics beacon persist.)
 - `data/snapshots/*.csv` is the append-only longitudinal record. **Never hand-edit it**; a run

@@ -142,7 +142,9 @@ function wire() {
 
 async function main() {
   const [latest, trends, gaps] = await Promise.all([getJSON("data/latest.json"), getJSON("data/trends.json"), getJSON("data/gaps.json")]);
-  if (!latest) { setText("lead-term", T("warming")); return; }
+  // Data not ready: hide the niches section too, since render()/renderGaps() won't run to
+  // populate the now-visible-by-default section (it would otherwise sit empty in the warming state).
+  if (!latest) { setText("lead-term", T("warming")); const gs = document.getElementById("gaps-section"); if (gs) gs.classList.add("hidden"); return; }
   _data = { latest, trends, gaps, current: latest.current_year || { leaders: [], year: "", provisional: false } };
   _data.refYear = latest.reference_year || "";
   const firm = {};
