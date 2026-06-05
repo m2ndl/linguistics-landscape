@@ -254,248 +254,6 @@ const STR = {
     coverage_note: "Every figure is each construct's share of the OpenAlex-indexed, mostly-English journal literature."
   },
 
-  ar: {
-    /* shared chrome */
-    brand: "حديث الساعة",
-    standfirst: "اتجاهات البحث في اللسانيات واللسانيات التطبيقية وتعليم اللغات، تُحدَّث أسبوعيًا.",
-    nav_front: "الصفحة الأولى", nav_index: "الفهرس", nav_slow: "المراتب", nav_bestyear: "أفضل عام", nav_niches: "ثغرات بحثية", nav_openings: "الثغرات", nav_papers: "الأبحاث", nav_methods: "عن الموقع",
-    switch_to_ar: "التبديل إلى العربية", switch_to_en: "التبديل إلى الإنجليزية",
-    theme_to_dark: "التبديل إلى المظهر الداكن", theme_to_light: "التبديل إلى المظهر الفاتح",
-    updated_weekly: "تُحدَّث أسبوعيًا.",
-    dateline_provisional: "تُحدَّث أسبوعيًا. {year} حتى الآن، بيانات أوّلية.",
-    dateline_through: "تُحدَّث أسبوعيًا. حتى {year}.",
-    footer_data: "البيانات من <a href=\"https://openalex.org\" rel=\"noopener\">OpenAlex</a> بترخيص CC0.",
-    footer_nav: "<a href=\"index.html\">الصفحة الأولى</a> · <a href=\"explore.html\">الفهرس</a> · <a href=\"slow.html\">المراتب</a> · <a href=\"bestyear.html\">أفضل عام</a> · <a href=\"niches.html\">ثغرات بحثية</a> · <a href=\"gaps.html\">الثغرات</a> · <a href=\"papers.html\">الأبحاث</a> · <a href=\"about.html\">عن الموقع</a>",
-    mt_note: "ترجمة عربية آليّة، قد تتخلّلها أخطاء.",
-    doc_title_about: "عن الموقع · حديث الساعة",
-    doc_desc_about: "كيف يبني «حديث الساعة» أرقامه عن اتجاهات البحث في اللسانيات واللسانيات التطبيقية وتعليم اللغات، وما تقوله هذه الأرقام وما لا تقوله، وكيف تنزّل مجموعة البيانات.",
-    about_title: "عن الموقع",
-    about_standfirst: "كيف تُبنى هذه الأرقام، وكيف تُقرأ.",
-    baseline: "ما زلنا نبني خط الأساس، فهذه إشارات أوّلية.",
-    doc_title_index: "حديث الساعة · اتجاهات البحث في اللسانيات",
-    doc_desc_index: "ما الذي يصعد وما الذي يتراجع في اللسانيات واللسانيات التطبيقية وعلم اللغة الاجتماعي والنفسي والترجمة وتعليم اللغات. اتجاهات بحثية تُرصد أسبوعيًا، مبنية على بيانات OpenAlex.",
-
-    /* front page */
-    kicker_default: "الأسرع صعودًا هذا العام",
-    kicker_so_far: "الأسرع صعودًا حتى الآن في {year}",
-    kicker_in: "الأسرع صعودًا في {year}",
-    kicker_back: "→ العودة إلى الأسرع صعودًا",
-    loading: "جارٍ التحميل…",
-    no_movers: "لا تحرّكات واضحة بعد.",
-    warming: "نستعدّ للانطلاق. ستظهر أول لقطة أسبوعية هنا قريبًا.",
-    lede_headline: "هذا أسرع المفاهيم صعودًا في أبحاث اللغة في {curYear}، {sofar}. والرقم أدناه هو تغيُّره المؤكَّد حتى {refYear}، آخر عام مكتمل الفهرسة. انقر أي اسم لتتبُّع مساره الكامل.",
-    lede_sofar_yes: "وقد ورد في نحو {n} ورقة حتى الآن",
-    lede_sofar_no: "وما يزال يكسب زخمًا",
-    lede_other_papers: "كان هذا المفهوم {dir} حتى {refYear}، في نحو {n} ورقة ذلك العام. انقر اسمًا آخر للمقارنة.",
-    lede_other_nopapers: "كان هذا المفهوم {dir} حتى {refYear}. انقر اسمًا آخر للمقارنة.",
-    dir_rising: "في صعود", dir_fading: "في تراجع",
-    ctx_change_through: "التغيُّر حتى {year}",
-    ctx_rising_sofar: "في صعود في {year} حتى الآن",
-    na: "غير متاح",
-    cover_cap: "حصة المفهوم من إنتاج المجال عبر الأعوام المكتملة الفهرسة. مرِّر المؤشر لقراءة أي عام.",
-    movers_in: "أبرز التحرّكات في {year}", movers_this_year: "أبرز التحرّكات هذا العام",
-    rising_col: "في صعود", fading_col: "في تراجع",
-    no_risers: "لا صاعدين واضحين بعد.", no_decliners: "لا متراجعين واضحين بعد.",
-    no_citations: "لا بيانات اقتباس بعد.", no_papers: "لا أبحاث حديثة بعد.",
-    gaps_head: "ثغرات بحثية",
-    gaps_intro: "مفاهيم فاق معدّلُ اقتباس أبحاثها في <span id=\"gaps-window\">2022 إلى 2024</span> معدّلَ المجال بكثير، بينما ما زال ما كُتب عنها قليلًا. تنتهي تلك الفترة قبل عامين، فأتيح للاقتباسات وقتٌ كافٍ لتظهر. إشارة إلى وجهة الاهتمام المحتملة.",
-    gaps_vol: "{n} ورقة، {cohort}",
-    gaps_lift: "{x}× معدّل المجال",
-    gaps_cohort_fallback: "الأعوام الأخيرة",
-    most_cited_head: "الأكثر اقتباسًا في العامين الأخيرين",
-    most_cited_by: "وفق عدد الاقتباسات في OpenAlex.",
-    newest_head: "جديد هذا الأسبوع",
-    about_nums_head: "عن هذه الأرقام",
-    about_nums_links: "<a href=\"explore.html\">تصفّح كل المفاهيم</a> · اقرأ <a href=\"about.html\">المنهجية الكاملة وحدودها</a>. <span id=\"stats-inline\"></span>",
-    stats_inline: "نتتبّع {works} عمل سنويًا عبر {span}.",
-    citations: "{n} اقتباس", open_access: "وصول مفتوح",
-    chart_over_time: "{label} عبر الزمن",
-
-    /* Papers page */
-    doc_title_papers: "الأبحاث · حديث الساعة",
-    doc_desc_papers: "أحدث الأعمال وأكثرها اقتباسًا في اللسانيات واللسانيات التطبيقية وتعليم اللغات، من OpenAlex.",
-    pp_title: "الأبحاث",
-    pp_standfirst: "أحدث الأعمال وأكثرها اقتباسًا في دوريات المجال.",
-    pp_newest_head: "الأحدث",
-    pp_note_html: "أكثر الأعمال اقتباسًا في العامين الأخيرين تقريبًا، وفق عدد الاقتباسات في OpenAlex. <span id=\"as-of\"></span> العناوين والمؤلفون والأوعية والروابط فقط؛ والنص الكامل عند المصدر.",
-    pp_as_of: "حتى {date}.",
-
-    /* Explore (الفهرس) */
-    doc_title_explore: "الفهرس · حديث الساعة",
-    doc_desc_explore: "تصفّح وابحث في كل مفهوم يتتبّعه حديث الساعة، حسب الحصة من المجال والاتجاه الأخير، عبر اللسانيات واللسانيات التطبيقية وتعليم اللغات.",
-    ex_title: "الفهرس",
-    ex_standfirst: "كل مفهوم نتتبّعه، حسب حصته من المجال واتجاهه الأخير.",
-    ex_form_aria: "تصفية المفاهيم وترتيبها",
-    ex_search_aria: "ابحث في أسماء المفاهيم",
-    ex_search_ph: "ابحث في {n} مفهوم",
-    ex_sort_label: "الترتيب",
-    ex_sort_share_desc: "الحصة، من الأعلى إلى الأدنى",
-    ex_sort_growth_desc: "التغيّر، الأكبر صعودًا",
-    ex_sort_growth_asc: "التغيّر، الأكبر هبوطًا",
-    ex_sort_name_asc: "الاسم، أ إلى ي",
-    ex_sort_name_desc: "الاسم، ي إلى أ",
-    ex_src_label: "المصدر",
-    ex_src_all: "الكل", ex_src_openalex: "OpenAlex", ex_src_curated: "مُنسّقة",
-    ex_dir_label: "الاتجاه",
-    ex_dir_all: "الكل", ex_dir_up: "في صعود", ex_dir_down: "في تراجع",
-    ex_reset: "إعادة ضبط",
-    ex_count_html: "<span id=\"shown\">0</span> من <span id=\"total\">0</span> مفهوم",
-    ex_caption: "كل المفاهيم، حسب الحصة من المجال والتغيّر الأخير",
-    ex_th_construct: "المفهوم", ex_th_share: "الحصة", ex_th_trend: "الاتجاه", ex_th_change: "التغيّر",
-    ex_share_year: "حصة ’{yy}",
-    ex_empty_html: "لا مفاهيم مطابِقة. <button type=\"reset\" form=\"ex-form\" class=\"linklike\">إعادة الضبط.</button>",
-    ex_note: "التغيّر هو الحركة المؤكَّدة من العام السابق إلى آخر عام مكتمل. وخطوط الاتجاه ترسم الأعوام المكتملة فقط؛ والعام الجاري المفهرَس جزئيًا مستبعَد من كل نسبة.",
-    ex_warming: "نستعدّ للانطلاق. ستظهر أول لقطة هنا قريبًا.",
-    ex_src_curated_badge: "مُنسّقة",
-    spark_aria: "{label}، الحصة {word} عبر الأعوام المكتملة",
-    spark_down: "في هبوط", spark_up: "في صعود", spark_flat: "شبه ثابتة", spark_none: "غير مؤكَّدة",
-    no_firm_change: "لا تغيّر مؤكَّد؛ الأوراق قليلة جدًا",
-
-    /* Niches (ثغرات بحثية) */
-    doc_title_niches: "ثغرات بحثية · حديث الساعة",
-    doc_desc_niches: "مفاهيم تُقتبَس فوق معدّل المجال بكثير بينما ما زال ما كُتب عنها قليلًا، مرتَّبة حسب الاقتباس المبكّر، عبر اللسانيات واللسانيات التطبيقية وتعليم اللغات.",
-    ni_standfirst: "مفاهيم تُقتبَس فوق معدّل المجال بكثير، بينما ما زال ما كُتب عنها قليلًا.",
-    ni_form_aria: "تصفية الثغرات وترتيبها",
-    ni_search_ph: "ابحث في {n} ثغرة",
-    ni_sort_lift_desc: "مقابل المجال، من الأعلى",
-    ni_sort_vol_asc: "الأوراق، الأقل أولًا",
-    ni_sort_vol_desc: "الأوراق، الأكثر أولًا",
-    ni_count_html: "<span id=\"shown\">0</span> من <span id=\"total\">0</span> ثغرة",
-    ni_caption: "الثغرات البحثية، حسب الاقتباس المبكّر مقابل المجال",
-    ni_th_lift: "مقابل المجال",
-    ni_th_vol: "أوراق الفترة",
-    ni_lift_val: "{x}×",
-    ni_empty_html: "لا ثغرات مطابِقة. <button type=\"reset\" form=\"ni-form\" class=\"linklike\">إعادة الضبط.</button>",
-    ni_see_all: "اعرض كل الثغرات ({n}) ←",
-
-    /* The Slow Table (حركة المراتب عبر عقد) */
-    doc_title_slow: "المراتب عبر العقد · حديث الساعة",
-    doc_desc_slow: "عقدٌ من حركة المراتب في اللسانيات واللسانيات التطبيقية وتعليم اللغات: أيُّ المفاهيم صعد وأيُّها تراجع في ترتيب المجال من 2014 إلى 2025، مقيسًا بحصة كل مفهوم السنوية من الأدبيات.",
-    slow_title: "المراتب عبر العقد",
-    slow_standfirst: "الموضوعات البحثية التي صعدت وتلك التي تراجعت بين الأكثر تناولًا في المجال من 2014 إلى 2025.",
-    slow_insight_html: "<strong>{n} من {total}</strong> مفهومًا نشرت حصة أكبر من الأوراق في {y1} مقارنةً بـ{y0}، ومع ذلك تراجعت في الترتيب، لأن غيرها نما أسرع.",
-    slow_effn: "توزّع الاهتمام البحثي على المفاهيم المسمّاة الـ{k} بصورة أكثر تكافؤًا مقارنةً بعقد مضى: ارتفع العدد الفعلي (مقياس تنوّع معتاد) من نحو {a} إلى نحو {b}، مع تفاوت من عام لآخر.",
-    slow_reshuffle_head: "الصاعدون والمتراجعون بين المفاهيم المسمّاة",
-    slow_reshuffle_sub: "المفاهيم المسمّاة الـ{k}، مرتَّبة بعضها مقابل بعض، وكيف تغيّر ترتيبها بين {y0} و{y1}.",
-    slow_climbed: "صعدوا",
-    slow_slipped: "تراجعوا",
-    slow_steady: "ثابت",
-    slow_steady_title: "حركة ثابتة عبر العقد، عامًا بعد عام.",
-    slow_ladder_head: "الترتيب الكامل",
-    slow_ladder_sub: "كل المفاهيم الـ{n}، حسب مقدار حركة كلٍّ منها في ترتيب المجال العام بين {y0} و{y1}.",
-    slow_arrived_head: "وصلوا في منتصف العقد",
-    slow_arrived_sub: "أحدثُ من أن تكون لها مرتبة على مدى العقد في {y0}؛ تظهر بمرتبتها وعدد أوراقها في {y1}.",
-    slow_arrived_at: "المرتبة {r} في {y1}، {n} ورقة",
-    slow_th_r0: "مرتبة ’{yy0}",
-    slow_th_r1: "مرتبة ’{yy1}",
-    slow_th_move: "الحركة",
-    slow_th_path: "المسار",
-    slow_th_real: "بالقيمة الحقيقية",
-    slow_real_up: "كسبت حصة", slow_real_flat: "مستقرّة", slow_real_down: "خسرت حصة",
-    slow_dir_label: "الحركة",
-    slow_dir_up: "صاعد", slow_dir_down: "متراجع", slow_dir_flat: "ثابت",
-    slow_sort_move_desc: "الأكبر صعودًا", slow_sort_move_asc: "الأكبر تراجعًا", slow_sort_rank: "المرتبة في ’{yy1}",
-    slow_spark_aria: "{label}، المرتبة {word} من {y0} إلى {y1}",
-    slow_w_up: "في صعود", slow_w_down: "في تراجع", slow_w_flat: "شبه ثابتة",
-    slow_note: "تقارن المراتبُ المفاهيمَ التي نتتبّعها بعضها ببعض، داخل كل عام. والعام الجاري ما زال قيد الفهرسة، فينتهي الجدول عند آخر عام مكتمل، {y1}.",
-
-    /* Against their best year (مقارنةً بأفضل عام) */
-    doc_title_bestyear: "مقارنةً بأفضل عام · حديث الساعة",
-    doc_desc_bestyear: "لكل مفهوم: حصته من المجال في 2025 كنسبة من أفضل أعوامه بين 2014 و2024، بعد إزالة أثر الفهرسة، عبر اللسانيات واللسانيات التطبيقية وتعليم اللغات.",
-    by_title: "مقارنةً بأفضل عام",
-    by_standfirst: "يُقاس كل مفهوم هنا بأفضل أعوامه هو. نحدّد لكل مفهوم العام بين 2014 و2024 الذي بلغت فيه حصته من المجال أعلاها، ثم نعرض موضعه في 2025 كنسبة من ذلك العام.",
-    by_lead: "من بين المفاهيم المسمّاة الـ{total} الموجودة منذ 2014، باتت {below} منها دون 60% من حصة أفضل أعوامها، و{above} عند أفضل أعوامها أو فوقها.",
-    by_below_head: "دون أفضل أعوامها",
-    by_above_head: "عند أفضل أعوامها أو فوقها",
-    by_table_head: "كل المفاهيم",
-    by_table_sub: "كل المفاهيم الـ{n} الموجودة في 2014، حسب موضعها مقابل أفضل أعوامها.",
-    by_th_pct: "الحصة مقابل أفضل عام",
-    by_th_peak: "أفضل عام",
-    by_th_papers: "الأوراق: حينها / الآن",
-    by_th_path: "المسار",
-    by_rowsub: "أفضل عام {y} · {a} ورقة حينها، {b} الآن",
-    by_thin: "قليلة",
-    by_thin_title: "يستند أفضل عام هنا إلى عدد قليل من الأوراق.",
-    by_dir_label: "مقارنةً بأفضل عام",
-    by_dir_below: "دون", by_dir_above: "فوق",
-    by_sort_pct_asc: "الأبعد دونًا أولًا", by_sort_pct_desc: "الأبعد فوقًا أولًا", by_sort_peak: "أفضل عام، الأحدث",
-    by_new_head: "أحدث من أن تُقارن",
-    by_new_sub: "لم يكن لهذه المفاهيم أوراق قبل 2015، فلا عام سابق تُقارن به. تُعرض أحدث أعداد أوراقها وحدها.",
-    by_new_at: "{n} ورقة في {y1}",
-    by_note: "تقارن هذه النسب حصة كل مفهوم من المجال في 2025 بأفضل عام له وحده. وتضيق الفجوة لدى بعض المفاهيم إلى نحو 62% عند حساب متوسط الأعوام الثلاثة الأخيرة، فاقرأها على أنها تراجع متمهّل. وقد يكون المفهوم دون أفضل أعوامه بكثير بينما عدد أوراقه ثابت تقريبًا، لأن الأدبيات المفهرسة نمت حوله.",
-    by_spark_aria: "{label}، حصته من المجال عبر الأعوام المكتملة، مع تحديد أفضل عام له",
-
-    /* Research openings (الفرص: الثغرات حسب اتجاه الإنتاج) */
-    doc_title_openings: "الثغرات · حديث الساعة",
-    doc_desc_openings: "الثغرات البحثية التي تُقتبَس فوق معدّل المجال بكثير، مقارنةً باتجاه إنتاجها: أيُّها يجذب أوراقًا أكثر من قبل سنوات وأيُّها أقل، عبر اللسانيات واللسانيات التطبيقية وتعليم اللغات.",
-    op_title: "الثغرات البحثية، حسب اتجاه الإنتاج",
-    op_standfirst: "كل ثغرة هنا تُقتبَس فوق معدّل المجال بكثير بينما ما زال ما كُتب عنها قليلًا. تضع هذه الصفحة ذلك مقابل اتجاه إنتاجها: أيُّ الثغرات يُنتج المجال عنها أوراقًا أكثر مما كان قبل سنوات، وأيُّها أقل.",
-    op_lead: "من بين الثغرات البحثية الـ{total}، تُنتج {rising} أوراقًا أكثر مما كانت في {e0}-{e1}، و{falling} أقل، و{steady} كما هي تقريبًا. و{newn} ظهرت في منتصف العقد، فلا فترة سابقة مستقرّة للمقارنة.",
-    op_rising_head: "تُقتبَس مبكرًا، وإنتاجها في صعود",
-    op_falling_head: "تُقتبَس مبكرًا، لكن إنتاجها في تراجع",
-    op_table_head: "كل الثغرات",
-    op_form_aria: "تصفية الثغرات وترتيبها",
-    op_th_floor: "الحدّ المتحفّظ",
-    op_th_trend: "اتجاه الإنتاج",
-    op_dir_rising: "صاعد", op_dir_falling: "متراجع", op_dir_steady: "ثابت", op_dir_new: "حديث",
-    op_trend_label: "اتجاه الإنتاج", op_type_label: "النوع", op_type_topics: "موضوعات", op_type_methods: "مناهج",
-    op_sort_lift: "الاقتباس مقابل المجال، من الأعلى",
-    op_sort_floor: "الحدّ المتحفّظ، من الأعلى",
-    op_sort_trend_desc: "الإنتاج، الأسرع صعودًا",
-    op_sort_trend_asc: "الإنتاج، الأسرع تراجعًا",
-    op_caption: "الثغرات البحثية، حسب الاقتباس مقابل المجال واتجاه إنتاجها",
-    op_empty_html: "لا ثغرات مطابِقة. <button type=\"reset\" form=\"op-form\" class=\"linklike\">إعادة الضبط.</button>",
-    op_rowsub: "{lift} معدّل المجال · لا تقلّ عن {floor} في الحدّ المتحفّظ · {n} ورقة في الفترة",
-    op_method: "منهج",
-    op_method_title: "منهج بحثي أو نوع دراسة، لا موضوع بحثي. والرقم هو معدّل اقتباس الأعمال التي تستخدمه مبكرًا.",
-    op_spark_aria: "{label}، عدد الأوراق سنويًا عبر الأعوام المتتبَّعة",
-    op_new_head: "ظهرت حديثًا",
-    op_new_sub: "ظهرت هذه في منتصف العقد، فلا فترة سابقة مستقرّة تُقارن بها إنتاجها. تُعرض باقتباسها مقابل المجال وأحدث عدد أوراق لها.",
-    op_new_at: "{lift} معدّل المجال · {n} ورقة في {y}",
-    op_note_trend: "يقارن اتجاه الإنتاج أوراق {l0}-{l1} بالأعوام الثلاثة السابقة {e0}-{e1}. والعام الجاري، {y}، ما زال OpenAlex يضيف إليه، فيظهر في المسار لكنه مستبعَد من رقم الاتجاه.",
-    op_note_field: "«مقابل المجال» هو معدّل اقتباس أوراق الثغرة الحديثة خمس مرّات فأكثر، مقيسًا بمعدّل المجال. وهو اهتمام مبكّر، لا أهمية ولا جودة.",
-    op_note_floor: "الحدّ المتحفّظ هو الطرف الأدنى لنطاق عيّنة على ذلك المعدّل. والثغرة المستندة إلى بضع عشرات من الأوراق أقلّ ثباتًا من أخرى تستند إلى مئات، فاقرأ العيّنات الصغيرة بحذر أكبر.",
-    op_note_conc: "قد يستند رقم «مقابل المجال» المرتفع إلى ورقة أو ورقتين كثيرتَي الاقتباس؛ والعدد لا يميّز ورقةً واحدةً مؤثّرة من أوراق كثيرة.",
-    op_note_method: "أربعة مدخلات مناهجُ بحثية أو أنواع دراسات لا موضوعات: التحليل البَعدي، وتتبّع العين، ودراسة التكرار، والبحث السردي. وهي مُعلَّمة، ويمكن إخفاؤها بمرشِّح النوع.",
-
-    /* Construct detail */
-    doc_title_construct: "مفهوم · حديث الساعة",
-    doc_desc_construct: "حصة المفهوم من المجال عبر الزمن، وتغيّره الأخير، وطريق إلى الأعمال خلف الأرقام.",
-    c_doc_title: "{label} · حديث الساعة",
-    c_not_found: "المفهوم غير موجود",
-    c_not_found_title: "غير موجود · حديث الساعة",
-    c_not_found_body_html: "هذا المفهوم ليس في الفهرس. <a href=\"explore.html\">تصفّح كل المفاهيم</a>.",
-    prov_curated: "مصطلح مُنسّق",
-    prov_openalex: "عبارة موضوعية من OpenAlex",
-    c_kicker: "{prov} · المرتبة {rank} من {total} حسب حصة {refYear}",
-    c_sf_none: "متتبَّع في المجال؛ لا تغيّر سنوي مؤكَّد بعد.",
-    c_sf_flat: "تغيّر طفيف حتى {refYear}، آخر عام مكتمل الفهرسة.",
-    c_sf_down: "في تراجع حتى {refYear}، آخر عام مكتمل الفهرسة.",
-    c_sf_up: "في صعود حتى {refYear}، آخر عام مكتمل الفهرسة.",
-    c_lede_none: "شكّل {label} {share} من إنتاج المجال في {refYear}.",
-    c_lede_flat: "شكّل {label} {share} من إنتاج المجال في {refYear}، بتغيّر طفيف عن العام السابق.",
-    c_lede_move: "شكّل {label} {share} من إنتاج المجال في {refYear}، {updown} بنسبة {moved} عن العام السابق.",
-    c_up: "صاعدًا", c_down: "هابطًا",
-    c_chglab_none: "الحصة في {refYear}، لا تغيّر سنوي مؤكَّد بعد",
-    c_fact_share: "الحصة في {refYear}",
-    c_fact_change: "التغيّر مقابل {priorYear}",
-    c_fact_rank: "المرتبة",
-    c_fact_rank_suffix: "من {total} حسب حصة {refYear}",
-    c_fact_matched: "الأعمال المطابِقة، {refYear}",
-    c_fact_source: "المصدر",
-    c_fact_earlycite: "معدّل الاقتباس المبكّر",
-    c_earlycite_dd: "{lift}× معدّل المجال ({span})",
-    c_provisional: "{year} لا يزال قيد الفهرسة، فحصته منتفخة؛ وهو مستبعَد من الرسم ومن هذه الأرقام.",
-    c_provisional_leader: " وهو من أسرع الصاعدين حتى الآن في {year} بالترتيب؛ لكن حجم تلك الحركة غير مؤكَّد بعد.",
-    c_papers_note: "طابَق {label} نحو {n} عمل في {refYear}. والقائمة الكاملة على OpenAlex، بالنطاق نفسه الذي تُبنى به الأعداد هنا.",
-    c_numbers_head: "الأرقام",
-    c_read_papers_head: "اطّلع على الأبحاث",
-    c_oa_link: "اعرض هذه الأعمال على OpenAlex ←",
-    c_oa_note: "يفتح OpenAlex مُرشَّحًا على حقلَي اللسانيات الفرعيين ومطابَقًا على العنوان والملخّص، وهي القاعدة نفسها خلف الأعداد هنا. ولا تُخزَّن الأوراق فُرادى، فالقائمة الحيّة ستختلف قليلًا مع استمرار الفهرسة.",
-    c_about_nums_cov_html: "الاتجاهات حصةٌ من إنتاج المجال، مرتَّبة على آخر عام مكتمل. اقرأ <a href=\"about.html\">المنهجية الكاملة وحدودها</a>.",
-
-    coverage_note: "كل رقم هو حصّة المفهوم من أدبيات الدوريات المفهرَسة في OpenAlex، الغالبة الإنجليزية."
-  }
 };
 
 function curLang() { try { return localStorage.getItem("lang") === "ar" ? "ar" : "en"; } catch (e) { return "en"; } }
@@ -543,23 +301,40 @@ function updateLangButton() {
   var btn = document.getElementById("lang-toggle"); if (!btn) return;
   var lang = curLang();
   btn.textContent = lang === "ar" ? "EN" : "ع";              // the button shows the OTHER language
-  btn.setAttribute("aria-label", lang === "ar" ? STR.ar.switch_to_en : STR.en.switch_to_ar);
+  btn.setAttribute("aria-label", lang === "ar" ? (STR.ar || STR.en).switch_to_en : STR.en.switch_to_ar);
 }
-function setLang(lang) {
-  lang = lang === "ar" ? "ar" : "en";
-  try { localStorage.setItem("lang", lang); } catch (e) { /* storage may be blocked */ }
-  var d = document.documentElement;
-  d.lang = lang; d.dir = lang === "ar" ? "rtl" : "ltr";
+/* The Arabic string table lives in i18n.ar.js and is fetched on demand the first time Arabic is
+   needed (a click, ?lang=ar, or a saved preference), so English-default visitors never download it.
+   Until it arrives T() falls back to English, so nothing breaks if the fetch is slow or fails. */
+var _arLoaded = false, _arWaiters = null;
+function ensureAr(cb) {
+  if (_arLoaded || STR.ar) { cb(); return; }
+  if (_arWaiters) { _arWaiters.push(cb); return; }
+  _arWaiters = [cb];
+  var s = document.createElement("script");
+  s.src = "assets/i18n.ar.js?v=1";
+  s.onload = function () { _arLoaded = true; var w = _arWaiters; _arWaiters = null; w.forEach(function (f) { f(); }); };
+  s.onerror = function () { var w = _arWaiters; _arWaiters = null; w.forEach(function (f) { f(); }); };
+  document.head.appendChild(s);
+}
+function applyLang() {
   updateLangButton();
   applyI18n();
   if (typeof window.refreshThemeLabel === "function") window.refreshThemeLabel();
   if (typeof window.renderI18n === "function") window.renderI18n();
 }
+function setLang(lang) {
+  lang = lang === "ar" ? "ar" : "en";
+  try { localStorage.setItem("lang", lang); } catch (e) { /* storage may be blocked */ }
+  var d = document.documentElement;
+  d.lang = lang; d.dir = lang === "ar" ? "rtl" : "ltr";   // direction flips at once; text follows once strings load
+  if (lang === "ar") ensureAr(applyLang); else applyLang();
+}
 function initI18n() {
   updateLangButton();
   var btn = document.getElementById("lang-toggle");
   if (btn) btn.addEventListener("click", function () { setLang(curLang() === "ar" ? "en" : "ar"); });
-  applyI18n();
+  if (curLang() === "ar") ensureAr(applyLang); else applyI18n();
 }
 if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", initI18n);
 else initI18n();
