@@ -9,7 +9,9 @@ const INT = x => (x || 0).toLocaleString("en-US");
 const reduceMotion = () => window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
 async function getJSON(path) {
-  try { const r = await fetch(path, { cache: "no-store" }); return r.ok ? await r.json() : null; }
+  // no-cache (not no-store): use the HTTP cache but always revalidate. For data that changes only
+  // weekly, an unchanged file comes back as a cheap 304 instead of re-downloading the full JSON.
+  try { const r = await fetch(path, { cache: "no-cache" }); return r.ok ? await r.json() : null; }
   catch (e) { return null; }
 }
 function escapeHtml(s) {
@@ -39,10 +41,16 @@ function deltaText(e) {
 // version of record. A separate open-access copy (when OpenAlex has one that isn't just the
 // DOI again) is offered as a small labelled extra, so a fragile publisher PDF deep-link is
 // never the primary link. Falls back to the OA copy, then the OpenAlex record, when no DOI.
+// Only http(s) links are allowed through: OpenAlex data is untrusted, and escapeHtml() does NOT
+// neutralise a "javascript:" or "data:" scheme, so every candidate href is scheme-checked here
+// before it is ever placed in an <a href>. A rejected value falls through to the next candidate.
+function safeUrl(u) {
+  return (u && /^https?:\/\//i.test(String(u).trim())) ? String(u).trim() : null;
+}
 function paperLinks(p) {
-  const url = p.doi || p.oa_url || p.id || "#";
-  const oa = (p.oa_url && p.oa_url !== url) ? p.oa_url : null;
-  return { url, oa };
+  const url = safeUrl(p.doi) || safeUrl(p.oa_url) || safeUrl(p.id) || "#";
+  const oa = safeUrl(p.oa_url);
+  return { url, oa: (oa && oa !== url) ? oa : null };
 }
 
 // Paper-feed row renderers, shared by the front page and the Papers page.

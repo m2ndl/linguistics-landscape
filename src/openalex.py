@@ -132,6 +132,19 @@ def subfield_filter(subfield_ids: list[int]) -> str:
     return "primary_topic.subfield.id:" + "|".join(str(s) for s in subfield_ids)
 
 
+def search_term(q: str) -> str:
+    """Sanitise a free-text search value before it is placed inside a works filter.
+
+    A construct's search term is crowd-sourced (OpenAlex keyphrases) and could one day contain a
+    character that OpenAlex parses as filter syntax: comma (separates filters), colon (key:value),
+    pipe (OR within a value), or slash (appears in ids). None are meaningful inside a free-text
+    title_and_abstract.search value, so we map them to spaces; a stray separator then cannot break
+    out of the search value and rewrite the query. Surrounding whitespace is collapsed.
+    """
+    cleaned = "".join(" " if ch in ",:|/" else ch for ch in (q or ""))
+    return " ".join(cleaned.split())
+
+
 def count_works(filter_str: str) -> int:
     """Total number of works matching a filter (one cheap call)."""
     require_key()

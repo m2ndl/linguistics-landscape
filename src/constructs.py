@@ -39,7 +39,7 @@ def compute_rows(ref_date: dt.date, scope: dict, totals: dict) -> list[dict]:
 
     def count(d0: dt.date, d1: dt.date, q: str) -> int:
         f = (f"{base},from_publication_date:{d0.isoformat()},to_publication_date:{d1.isoformat()}"
-             f",title_and_abstract.search:{q}")
+             f",title_and_abstract.search:{openalex.search_term(q)}")
         return openalex.count_works(f)
 
     measured = []

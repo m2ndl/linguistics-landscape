@@ -97,7 +97,7 @@ def build_gaps(scope: dict, ref: dt.date | None = None, log=lambda *_: None, wri
         if v < VOL_MIN or v > VOL_MAX:          # only the underserved-volume band is eligible
             continue
         try:
-            num = cited_in_cohort(f"{base},title_and_abstract.search:{c['q']},cited_by_count:>{CITE_BAR}")
+            num = cited_in_cohort(f"{base},title_and_abstract.search:{openalex.search_term(c['q'])},cited_by_count:>{CITE_BAR}")
         except openalex.OpenAlexError:
             continue
         rate = num / v

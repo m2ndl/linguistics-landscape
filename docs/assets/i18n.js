@@ -513,7 +513,7 @@ var _glossary = null;
 async function loadGlossary() {
   if (_glossary) return _glossary;
   try {
-    var r = await fetch("data/constructs_ar.json", { cache: "no-store" });
+    var r = await fetch("data/constructs_ar.json", { cache: "no-cache" });
     if (r.ok) { var j = await r.json(); _glossary = (j && j.labels) ? j.labels : (j || {}); }
   } catch (e) { /* keep null -> treated as empty below */ }
   if (!_glossary) _glossary = {};

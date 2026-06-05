@@ -62,6 +62,12 @@ jobs:
         if: failure()
         env:
           GH_TOKEN: ${{ github.token }}
+          # Pass run-context values through env, not inline ${{ }}, so the shell never re-parses
+          # them as expressions. Harmless here (these three are fixed/integer), but it keeps the
+          # step injection-proof if a future edit ever drops a github.event.* field into the body.
+          SERVER_URL: ${{ github.server_url }}
+          REPO: ${{ github.repository }}
+          RUN_ID: ${{ github.run_id }}
         run: |
           # Don't pile up a new issue every Monday during a persistent outage: reuse the open one.
           open=$(gh issue list --state open --search "Weekly update failed in:title" --json number --jq 'length' 2>/dev/null || echo 0)
@@ -71,5 +77,5 @@ jobs:
           fi
           gh issue create \
             --title "Weekly update failed on $(date -u +%Y-%m-%d)" \
-            --body "The scheduled update failed. Logs: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }} . Most likely the OPENALEX_API_KEY secret is missing or expired (get a new one at https://openalex.org/settings/api), or OpenAlex changed its API. The previously published site is still live; no bad data was written." \
+            --body "The scheduled update failed. Logs: $SERVER_URL/$REPO/actions/runs/$RUN_ID . Most likely the OPENALEX_API_KEY secret is missing or expired (get a new one at https://openalex.org/settings/api), or OpenAlex changed its API. The previously published site is still live; no bad data was written." \
             || echo "Could not open an issue"

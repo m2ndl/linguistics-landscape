@@ -47,7 +47,7 @@ def build_yearly(scope: dict, start_year: int = 2014, today: dt.date | None = No
     log(f"Fetching yearly counts for {len(spine)} constructs (one call each)...")
     cdata: dict[str, dict] = {}
     for i, c in enumerate(spine, 1):
-        f = f"{base},title_and_abstract.search:{c['q']}"
+        f = f"{base},title_and_abstract.search:{openalex.search_term(c['q'])}"
         cdata[c["id"]] = {"label": c["label"], "src": c.get("source", ""), "years": year_counts(f)}
         if i % 40 == 0:
             log(f"  {i}/{len(spine)}")
