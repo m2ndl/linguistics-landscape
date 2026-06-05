@@ -95,6 +95,27 @@ a:hover { text-decoration:underline; text-underline-offset:2px; }
 .home .cover-cap { color:var(--muted); }
 [dir="rtl"] .home .cover-frame { line-height:1.85; }
 
+/* ---------- front-page CLS: reserve space for blocks the JS fills after fetch ----------
+   Every dynamic block on the front page starts empty (or display:none) and is populated by
+   render() once data/*.json arrives, so without reservations the page reflows downward on
+   first paint (real users on a network see the lower half lurch down ~1900px). These
+   min-heights are the measured filled heights at fixed row counts (7 movers, 6 niches,
+   8 briefs); first paint then equals the filled layout and nothing shifts. Scoped to .home,
+   so only the front page is affected. Width-dependent blocks (cover text, briefs, niches)
+   are re-floored in the media queries near the foot of this file. The hero chart is already
+   reserved via aspect-ratio above. The headline reserves two lines and centres within them,
+   so a long topic name that wraps does not push the cover down. */
+.home .cover-head { min-height:2.05em; display:flex; align-items:center; justify-content:center; }
+.home .cover-text { min-height:218px; }
+.home .lboard { min-height:386px; }
+.home #gaps { min-height:412px; }
+.home .more-link { min-height:1.4em; }
+.home .briefs { min-height:430px; }
+.home #coverage-note { min-height:50px; }
+/* Arabic headlines wrap taller (Naskh line-height 1.3 vs 1.02, and longer terms), so reserve
+   two Arabic lines for the cover topic; em-based, so it scales with the clamped font size. */
+[dir="rtl"] .home .cover-head { min-height:2.7em; }
+
 /* ---------- chart ---------- */
 .hero-chart { position:relative; aspect-ratio:760 / 230; }
 .hero-chart svg { width:100%; height:auto; display:block; }
@@ -162,6 +183,17 @@ a:hover { text-decoration:underline; text-underline-offset:2px; }
   .cover-grid { grid-template-columns:1fr; gap:30px; }
   .movers-grid { grid-template-columns:1fr; gap:30px; }
   .briefs { columns:1; }
+  /* single column: the cover text sits above the chart, and the briefs stack 8-deep, so both
+     need taller reservations than the desktop two-up layout (see the .home block above). */
+  .home .cover-text { min-height:200px; }
+  .home .briefs { min-height:680px; }
+  .home #coverage-note { min-height:74px; }
+}
+@media (max-width:480px) {
+  /* narrow phones wrap titles and niche names onto extra lines, so the stacked blocks grow again. */
+  .home .cover-text { min-height:310px; }
+  .home #gaps { min-height:470px; }
+  .home .briefs { min-height:900px; }
 }
 
 /* ---------- Explore (the Index) ---------- */

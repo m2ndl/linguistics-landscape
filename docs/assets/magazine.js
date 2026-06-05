@@ -80,7 +80,9 @@ function moverRow(e, i) {
 function renderGaps() {
   const gapsData = _data.gaps;
   const gapList = (gapsData && gapsData.gaps) || [];
-  if (!gapList.length) return;
+  // The section is visible by default (so its reserved space exists at first paint); hide it only
+  // if there is genuinely no gap data, which preserves the original show-only-when-populated behaviour.
+  if (!gapList.length) { const s = document.getElementById("gaps-section"); if (s) s.classList.add("hidden"); return; }
   const cy = gapsData.cohort_years || [];
   const cohort = cy.length ? `${cy[0]} ${curLang() === "ar" ? "إلى" : "to"} ${cy[cy.length - 1]}` : T("gaps_cohort_fallback");
   setHTML("gaps", gapList.slice(0, 6).map(g => `<li class="gap-row">
