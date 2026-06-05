@@ -104,9 +104,7 @@ function render() {
   const latest = _data.latest, trends = _data.trends, cur = _data.current;
 
   setText("site-name", T("brand"));
-  setText("np-date", cur.year
-    ? (cur.provisional ? T("dateline_provisional", { year: cur.year }) : T("dateline_through", { year: cur.year }))
-    : T("updated_weekly"));
+  setText("np-date", T("updated_weekly"));   // the provisional-year note now lives in the chart caption (cover_cap)
   setText("generated", latest.generated_on || "-");
   setText("coverage-note", curLang() === "ar" ? T("coverage_note") : (latest.coverage_note || ""));
   if (latest.baseline_building) document.getElementById("baseline-banner").classList.remove("hidden");

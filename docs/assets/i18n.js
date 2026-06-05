@@ -14,15 +14,15 @@ const STR = {
   en: {
     /* shared chrome */
     brand: "Word on the Street",
-    standfirst: "Research trends across linguistics, applied linguistics, and language education, tracked weekly.",
-    nav_front: "Front page", nav_index: "The Index", nav_slow: "Rankings", nav_bestyear: "Best year", nav_niches: "Niches", nav_papers: "Papers", nav_methods: "About",
+    standfirst: "A weekly tracker of which research topics are rising and which are fading across linguistics, applied linguistics, and language education.",
+    nav_front: "Front page", nav_index: "All topics", nav_slow: "Rankings", nav_bestyear: "Best year", nav_niches: "Underserved", nav_papers: "Papers", nav_methods: "About",
     switch_to_ar: "Switch to Arabic", switch_to_en: "Switch to English",
     theme_to_dark: "Switch to dark theme", theme_to_light: "Switch to light theme",
     updated_weekly: "Updated weekly.",
     dateline_provisional: "Updated weekly. {year} so far, provisional.",
     dateline_through: "Updated weekly. Through {year}.",
     footer_data: "Data from <a href=\"https://openalex.org\" rel=\"noopener\">OpenAlex</a>, CC0 metadata.",
-    footer_nav: "<a href=\"index.html\">Front page</a> · <a href=\"explore.html\">The Index</a> · <a href=\"slow.html\">Rankings</a> · <a href=\"bestyear.html\">Best year</a> · <a href=\"gaps.html\">Niches</a> · <a href=\"papers.html\">Papers</a> · <a href=\"about.html\">About</a>",
+    footer_nav: "<a href=\"index.html\">Front page</a> · <a href=\"explore.html\">All topics</a> · <a href=\"slow.html\">Rankings</a> · <a href=\"bestyear.html\">Best year</a> · <a href=\"gaps.html\">Underserved</a> · <a href=\"papers.html\">Papers</a> · <a href=\"about.html\">About</a>",
     mt_note: "",
     doc_title_about: "About · Word on the Street",
     doc_desc_about: "How Word on the Street builds its numbers on research trends across linguistics, applied linguistics, and language education, what they can and cannot tell you, and how to download the dataset.",
@@ -40,22 +40,24 @@ const STR = {
     loading: "Loading…",
     no_movers: "No clear movers yet.",
     warming: "Warming up. The first weekly snapshot appears here soon.",
-    lede_headline: "This is the fastest-rising construct in language research in {curYear}, {sofar}. The figure below is its firm change through {refYear}, the last fully indexed year. Tap any name to trace its full path.",
+    cover_frame: "Every year, more is published on some research topics and less on others. This page tracks that. The topic rising fastest:",
+    cover_hd_sr: "This year's fastest-rising topic in language research",
+    lede_headline: "Of every research topic we track, this one is rising fastest in {curYear}, {sofar}. The chart shows its share of the field through {refYear}, the last full year of data. Select any topic below to see its own history.",
     lede_sofar_yes: "already in about {n} papers so far",
     lede_sofar_no: "still gaining ground",
-    lede_other_papers: "This construct was {dir} through {refYear}, in about {n} papers that year. Tap another name to compare.",
-    lede_other_nopapers: "This construct was {dir} through {refYear}. Tap another name to compare.",
+    lede_other_papers: "This topic was {dir} through {refYear}, in about {n} papers that year. Select another name to compare.",
+    lede_other_nopapers: "This topic was {dir} through {refYear}. Select another name to compare.",
     dir_rising: "rising", dir_fading: "fading",
-    ctx_change_through: "change through {year}",
+    ctx_change_through: "change in papers, {year} vs the year before",
     ctx_rising_sofar: "rising in {year} so far",
     na: "n/a",
-    cover_cap: "Share of the field's output across the fully indexed years. Hover to read any year.",
+    cover_cap: "Each topic's share of the field's published work across the full years. The current year so far is provisional and left off the chart. Hover to read any year.",
     movers_in: "Movers in {year}", movers_this_year: "Movers this year",
     rising_col: "Rising", fading_col: "Fading",
     no_risers: "No clear risers yet.", no_decliners: "No clear decliners yet.",
     no_citations: "No citation data yet.", no_papers: "No recent papers found.",
     gaps_head: "Underserved niches",
-    gaps_intro: "Constructs whose <span id=\"gaps-window\">2022 to 2024</span> papers were cited well above the field's rate, while the literature on them is still thin. That window ends two years back, so citations have had time to land.",
+    gaps_intro: "Research topics whose <span id=\"gaps-window\">2022 to 2024</span> papers were cited well above the field's rate, while the literature on them is still thin. That window ends two years back, so citations have had time to land.",
     gaps_vol: "{n} papers, {cohort}",
     gaps_lift: "×{x} the field",
     gaps_cohort_fallback: "recent years",
@@ -63,7 +65,7 @@ const STR = {
     most_cited_by: "By OpenAlex citation count.",
     newest_head: "New this week",
     about_nums_head: "About these numbers",
-    about_nums_links: "<a href=\"explore.html\">Browse all constructs</a> · Read the full <a href=\"about.html\">methodology and limits</a>. <span id=\"stats-inline\"></span>",
+    about_nums_links: "<a href=\"explore.html\">Browse all topics</a> · Read the full <a href=\"about.html\">methodology and limits</a>. <span id=\"stats-inline\"></span>",
     stats_inline: "Tracking {works} works a year across {span}.",
     citations: "{n} citations", open_access: "open access",
     chart_over_time: "{label} over time",
@@ -312,7 +314,7 @@ function ensureAr(cb) {
   if (_arWaiters) { _arWaiters.push(cb); return; }
   _arWaiters = [cb];
   var s = document.createElement("script");
-  s.src = "assets/i18n.ar.js?v=2";
+  s.src = "assets/i18n.ar.js?v=3";
   s.onload = function () { _arLoaded = true; var w = _arWaiters; _arWaiters = null; w.forEach(function (f) { f(); }); };
   s.onerror = function () { var w = _arWaiters; _arWaiters = null; w.forEach(function (f) { f(); }); };
   document.head.appendChild(s);
