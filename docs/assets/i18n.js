@@ -15,14 +15,14 @@ const STR = {
     /* shared chrome */
     brand: "Word on the Street",
     standfirst: "Research trends across linguistics, applied linguistics, and language education, tracked weekly.",
-    nav_front: "Front page", nav_index: "The Index", nav_slow: "Rankings", nav_bestyear: "Best year", nav_niches: "Niches", nav_openings: "Gaps", nav_papers: "Papers", nav_methods: "About",
+    nav_front: "Front page", nav_index: "The Index", nav_slow: "Rankings", nav_bestyear: "Best year", nav_niches: "Niches", nav_papers: "Papers", nav_methods: "About",
     switch_to_ar: "Switch to Arabic", switch_to_en: "Switch to English",
     theme_to_dark: "Switch to dark theme", theme_to_light: "Switch to light theme",
     updated_weekly: "Updated weekly.",
     dateline_provisional: "Updated weekly. {year} so far, provisional.",
     dateline_through: "Updated weekly. Through {year}.",
     footer_data: "Data from <a href=\"https://openalex.org\" rel=\"noopener\">OpenAlex</a>, CC0 metadata.",
-    footer_nav: "<a href=\"index.html\">Front page</a> · <a href=\"explore.html\">The Index</a> · <a href=\"slow.html\">Rankings</a> · <a href=\"bestyear.html\">Best year</a> · <a href=\"niches.html\">Niches</a> · <a href=\"gaps.html\">Gaps</a> · <a href=\"papers.html\">Papers</a> · <a href=\"about.html\">About</a>",
+    footer_nav: "<a href=\"index.html\">Front page</a> · <a href=\"explore.html\">The Index</a> · <a href=\"slow.html\">Rankings</a> · <a href=\"bestyear.html\">Best year</a> · <a href=\"gaps.html\">Niches</a> · <a href=\"papers.html\">Papers</a> · <a href=\"about.html\">About</a>",
     mt_note: "",
     doc_title_about: "About · Word on the Street",
     doc_desc_about: "How Word on the Street builds its numbers on research trends across linguistics, applied linguistics, and language education, what they can and cannot tell you, and how to download the dataset.",
@@ -55,7 +55,7 @@ const STR = {
     no_risers: "No clear risers yet.", no_decliners: "No clear decliners yet.",
     no_citations: "No citation data yet.", no_papers: "No recent papers found.",
     gaps_head: "Underserved niches",
-    gaps_intro: "Constructs whose <span id=\"gaps-window\">2022 to 2024</span> papers were cited well above the field's rate, while the literature on them is still thin. That window ends two years back, so citations have had time to land. A pointer to where attention may be heading.",
+    gaps_intro: "Constructs whose <span id=\"gaps-window\">2022 to 2024</span> papers were cited well above the field's rate, while the literature on them is still thin. That window ends two years back, so citations have had time to land.",
     gaps_vol: "{n} papers, {cohort}",
     gaps_lift: "×{x} the field",
     gaps_cohort_fallback: "recent years",
@@ -183,9 +183,9 @@ const STR = {
     by_spark_aria: "{label}, its share of the field over the complete years, with its best year marked",
 
     /* Research openings (underserved niches by direction of output) */
-    doc_title_openings: "Research gaps · Word on the Street",
+    doc_title_openings: "Research gaps in linguistics and applied linguistics · Word on the Street",
     doc_desc_openings: "The underserved niches cited well above the field's rate, set against the direction of their output: which are drawing more papers than a few years ago and which fewer, across linguistics, applied linguistics, and language education.",
-    op_title: "Underserved niches, by direction of output",
+    op_title: "Underserved niches",
     op_standfirst: "Every niche here is cited well above the field's rate while the literature on it is still thin. This page sets that against the direction of its output: which niches the field is producing more work on than a few years ago, and which fewer.",
     op_lead: "Of the {total} underserved niches, {rising} are producing more papers than in {e0}-{e1}, {falling} fewer, and {steady} about the same. {newn} began only mid-decade, with no settled earlier window to compare.",
     op_rising_head: "Cited early, and output rising",
@@ -312,7 +312,7 @@ function ensureAr(cb) {
   if (_arWaiters) { _arWaiters.push(cb); return; }
   _arWaiters = [cb];
   var s = document.createElement("script");
-  s.src = "assets/i18n.ar.js?v=1";
+  s.src = "assets/i18n.ar.js?v=2";
   s.onload = function () { _arLoaded = true; var w = _arWaiters; _arWaiters = null; w.forEach(function (f) { f(); }); };
   s.onerror = function () { var w = _arWaiters; _arWaiters = null; w.forEach(function (f) { f(); }); };
   document.head.appendChild(s);
