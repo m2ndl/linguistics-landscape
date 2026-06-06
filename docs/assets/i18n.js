@@ -15,19 +15,26 @@ const STR = {
     /* shared chrome */
     brand: "Word on the Street",
     standfirst: "A weekly tracker of which research topics are rising and which are fading across linguistics, applied linguistics, and language education.",
-    nav_front: "Front page", nav_index: "All topics", nav_slow: "Rankings", nav_bestyear: "Best year", nav_niches: "Underserved", nav_papers: "Papers", nav_methods: "About",
+    nav_front: "Front page", nav_decade: "The decade", nav_index: "All topics", nav_slow: "Rankings", nav_bestyear: "Best year", nav_niches: "Underserved", nav_papers: "Papers", nav_methods: "About",
     switch_to_ar: "Switch to Arabic", switch_to_en: "Switch to English",
     theme_to_dark: "Switch to dark theme", theme_to_light: "Switch to light theme",
     updated_weekly: "Updated weekly.",
     dateline_provisional: "Updated weekly. {year} so far, provisional.",
     dateline_through: "Updated weekly. Through {year}.",
     footer_data: "Data from <a href=\"https://openalex.org\" rel=\"noopener\">OpenAlex</a>, CC0 metadata.",
-    footer_nav: "<a href=\"index.html\">Front page</a> · <a href=\"explore.html\">All topics</a> · <a href=\"slow.html\">Rankings</a> · <a href=\"bestyear.html\">Best year</a> · <a href=\"gaps.html\">Underserved</a> · <a href=\"papers.html\">Papers</a> · <a href=\"about.html\">About</a>",
+    footer_nav: "<a href=\"index.html\">Front page</a> · <a href=\"decade.html\">The decade</a> · <a href=\"explore.html\">All topics</a> · <a href=\"slow.html\">Rankings</a> · <a href=\"bestyear.html\">Best year</a> · <a href=\"gaps.html\">Underserved</a> · <a href=\"papers.html\">Papers</a> · <a href=\"about.html\">About</a>",
     mt_note: "",
     doc_title_about: "About · Word on the Street",
     doc_desc_about: "How Word on the Street builds its numbers on research trends across linguistics, applied linguistics, and language education, what they can and cannot tell you, and how to download the dataset.",
     about_title: "About",
     about_standfirst: "How these numbers are built, and how to read them.",
+    doc_title_decade: "What the decade shows · Word on the Street",
+    doc_desc_decade: "A reading of how research in linguistics, applied linguistics, and language education changed from 2014 to 2025: the move from studying the system to studying the speaker, and what rose and fell with it.",
+    decade_title: "What the decade shows",
+    decade_standfirst: "How research in linguistics, applied linguistics, and language education changed across the decade this site tracks, 2014 to 2025.",
+    decade_byline: "A reading of the trends this site tracks. It names directions and topics, not exact ranks.",
+    decade_pointer: "The figures behind this reading are on the <a href=\"slow.html\">Rankings</a> and <a href=\"bestyear.html\">Best year</a> pages, which update every week.",
+    home_decade_promo: "The longer view: what the decade shows",
     baseline: "Still building a baseline, so these are early signals.",
     doc_title_index: "Word on the Street · Research trends in linguistics",
     doc_desc_index: "What is rising and fading across linguistics, applied linguistics, sociolinguistics, psycholinguistics, translation, and language education. Research trends tracked every week, built from OpenAlex.",
@@ -314,7 +321,7 @@ function ensureAr(cb) {
   if (_arWaiters) { _arWaiters.push(cb); return; }
   _arWaiters = [cb];
   var s = document.createElement("script");
-  s.src = "assets/i18n.ar.js?v=3";
+  s.src = "assets/i18n.ar.js?v=4";
   s.onload = function () { _arLoaded = true; var w = _arWaiters; _arWaiters = null; w.forEach(function (f) { f(); }); };
   s.onerror = function () { var w = _arWaiters; _arWaiters = null; w.forEach(function (f) { f(); }); };
   document.head.appendChild(s);
