@@ -1,5 +1,7 @@
 <!doctype html>
-<html lang="en" data-i18n-title="doc_title_construct" data-i18n-desc="doc_desc_construct">
+<!-- No data-i18n-title/-desc here (unlike the other pages): the title + description are per-topic,
+     set by construct.js from ?id=, so applyI18n must not overwrite them with a generic value. -->
+<html lang="en">
 <head>
   <meta charset="utf-8" />
   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; base-uri 'none'; object-src 'none'; form-action 'none'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; script-src 'self' https://static.cloudflareinsights.com; connect-src 'self' https://cloudflareinsights.com https://static.cloudflareinsights.com" />
@@ -8,6 +10,24 @@
   <script src="assets/boot.js?v=1"></script>
   <title>Construct · Word on the Street</title>
   <meta name="description" content="A construct's share of the field over time, its recent change, and a path to the works behind the numbers." />
+  <!-- canonical, social and structured-data tags are rewritten per topic by construct.js (one URL per ?id=). -->
+  <link rel="canonical" href="https://language-research.com/construct.html" />
+  <link rel="alternate" hreflang="en" href="https://language-research.com/construct.html" />
+  <link rel="alternate" hreflang="ar" href="https://language-research.com/construct.html?lang=ar" />
+  <link rel="alternate" hreflang="x-default" href="https://language-research.com/construct.html" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Word on the Street" />
+  <meta property="og:title" content="Word on the Street" />
+  <meta property="og:description" content="A construct's share of the field over time, its recent change, and a path to the works behind the numbers." />
+  <meta property="og:url" content="https://language-research.com/construct.html" />
+  <meta property="og:image" content="https://language-research.com/og.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Word on the Street" />
+  <meta name="twitter:description" content="A construct's share of the field over time, its recent change, and a path to the works behind the numbers." />
+  <meta name="twitter:image" content="https://language-research.com/og.png" />
+  <script type="application/ld+json" id="ld-construct"></script>
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect width='16' height='16' rx='3' fill='%231b6b5f'/%3E%3C/svg%3E" />
   <link rel="stylesheet" href="assets/magazine.css?v=16" />
   <!-- Cloudflare Web Analytics -->
@@ -89,6 +109,6 @@
   <script src="assets/theme.js?v=2"></script>
   <script src="assets/util.js?v=5"></script>
   <script src="assets/chart.js?v=2"></script>
-  <script src="assets/construct.js?v=3"></script>
+  <script src="assets/construct.js?v=4"></script>
 </body>
 </html>

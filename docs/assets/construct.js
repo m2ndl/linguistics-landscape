@@ -7,6 +7,15 @@
 
 let _ctx = null;
 
+const SITE = "https://language-research.com";
+
+// Update one head tag in place (no node insertion -> safe under the strict CSP). Used to rewrite
+// the canonical/social tags per topic, since every construct shares one HTML file via ?id=.
+function setMetaTag(selector, attr, value) {
+  const el = document.querySelector(selector);
+  if (el) el.setAttribute(attr, value);
+}
+
 function ordinal(n) {
   const s = ["th", "st", "nd", "rd"], v = n % 100;
   return n + (s[(v - 20) % 10] || s[v] || s[0]);
@@ -35,7 +44,8 @@ function render() {
   const prov = c.source === "curated" ? T("prov_curated") : T("prov_openalex");
   const label = cLabelBoth(c.id, c.label);     // Arabic name with the English original in parentheses
 
-  document.title = T("c_doc_title", { label: cLabel(c.id, c.label) });
+  const docTitle = T("c_doc_title", { label: cLabel(c.id, c.label) });
+  document.title = docTitle;
   setText("c-label", label);
   setText("kicker", T("c_kicker", { prov: prov, rank: rankStr(c.rank), total: total, refYear: refYear }));
   setText("c-standfirst",
@@ -51,6 +61,47 @@ function render() {
     const moved = `${Math.abs(Math.round(c.growth * 100))}%`;
     lede = T("c_lede_move", { label, share: PCT(c.latest_share), refYear, updown: dir === "down" ? T("c_down") : T("c_up"), moved });
   }
+
+  // Per-topic SEO: every construct shares this one HTML file via ?id=, so rewrite the head tags
+  // here. The lede names the topic, its share, and its direction, which makes a good description.
+  // Structured data is a DefinedTerm (the concept) plus a BreadcrumbList, written into the existing
+  // ld+json node via textContent -> no node insertion, so it is safe under the strict CSP.
+  const cName = cLabel(c.id, c.label);
+  const url = `${SITE}/construct.html?id=${c.id}`;
+  setMetaTag('meta[name="description"]', "content", lede);
+  setMetaTag('link[rel="canonical"]', "href", url);
+  setMetaTag('link[hreflang="en"]', "href", url);
+  setMetaTag('link[hreflang="ar"]', "href", url + "&lang=ar");
+  setMetaTag('link[hreflang="x-default"]', "href", url);
+  setMetaTag('meta[property="og:title"]', "content", docTitle);
+  setMetaTag('meta[property="og:description"]', "content", lede);
+  setMetaTag('meta[property="og:url"]', "content", url);
+  setMetaTag('meta[name="twitter:title"]', "content", docTitle);
+  setMetaTag('meta[name="twitter:description"]', "content", lede);
+  const ldEl = document.getElementById("ld-construct");
+  if (ldEl) ldEl.textContent = JSON.stringify({
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "DefinedTerm",
+        name: cName,
+        description: lede,
+        url: url,
+        termCode: c.id,
+        inDefinedTermSet: { "@type": "DefinedTermSet", name: "Research constructs in linguistics and applied linguistics", url: `${SITE}/explore.html` },
+        isPartOf: { "@type": "WebSite", name: "Word on the Street", url: `${SITE}/` },
+      },
+      {
+        "@type": "BreadcrumbList",
+        itemListElement: [
+          { "@type": "ListItem", position: 1, name: T("nav_front"), item: `${SITE}/` },
+          { "@type": "ListItem", position: 2, name: T("nav_index"), item: `${SITE}/explore.html` },
+          { "@type": "ListItem", position: 3, name: cName, item: url },
+        ],
+      },
+    ],
+  });
+
   // Arabic joins, so skip the floated single-letter drop cap there.
   if (curLang() === "ar") { setText("dropcap", ""); setText("lede-rest", lede); }
   else { setText("dropcap", lede.slice(0, 1)); setText("lede-rest", lede.slice(1)); }

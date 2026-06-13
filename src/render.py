@@ -19,6 +19,7 @@ import snapshots
 
 ROOT = Path(__file__).resolve().parent.parent
 OUT_DIR = ROOT / "docs" / "data"
+SITE_URL = "https://language-research.com"
 
 
 def _f(x, default=0.0) -> float:
@@ -32,6 +33,33 @@ def _write(name: str, obj: dict) -> Path:
     OUT_DIR.mkdir(parents=True, exist_ok=True)
     path = OUT_DIR / name
     path.write_text(json.dumps(obj, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
+    return path
+
+
+def _xml_escape(s: str) -> str:
+    return s.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+
+
+def _write_sitemap(construct_ids: list[str], lastmod: str) -> Path:
+    """Write docs/sitemap.xml: the indexable section pages plus one URL per construct.
+
+    Regenerated every run so <lastmod> and the construct list stay current automatically.
+    Lives at the site root (not OUT_DIR) because that is where crawlers look for it; the
+    redirect stub (niches.html) and the bare construct.html template are deliberately left out.
+    """
+    # Empty string is the home page (".../"); the rest mirror each page's own <link rel=canonical>.
+    pages = ["", "decade.html", "gaps.html", "explore.html", "slow.html",
+             "bestyear.html", "papers.html", "about.html"]
+    locs = [f"{SITE_URL}/{p}" for p in pages]
+    locs += [f"{SITE_URL}/construct.html?id={cid}" for cid in construct_ids]
+    body = "\n".join(
+        f"  <url><loc>{_xml_escape(loc)}</loc><lastmod>{lastmod}</lastmod></url>" for loc in locs
+    )
+    xml = ('<?xml version="1.0" encoding="UTF-8"?>\n'
+           '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+           f"{body}\n</urlset>\n")
+    path = ROOT / "docs" / "sitemap.xml"
+    path.write_text(xml, encoding="utf-8")
     return path
 
 
@@ -132,6 +160,10 @@ def build_all(scope: dict | None = None, generated_on: str | None = None) -> lis
         "count": len(constructs_out),
         "constructs": constructs_out,
     }))
+
+    # Crawl map: the section pages + one URL per construct, so the JS-rendered topic pages
+    # (linked only from the dynamically built Explore table) are still discoverable by search engines.
+    written.append(_write_sitemap([c["id"] for c in constructs_out], gen))
 
     # Consolidated long-format dataset for download (the research-data-engine artifact).
     csv_path = OUT_DIR / "constructs.csv"

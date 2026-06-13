@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://language-research.com/sitemap.xml

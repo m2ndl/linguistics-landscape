@@ -24,6 +24,30 @@
   <meta name="twitter:title" content="About · Word on the Street" />
   <meta name="twitter:description" content="How the numbers are built, what they can and cannot tell you, and how to download the dataset." />
   <meta name="twitter:image" content="https://language-research.com/og.png" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Dataset",
+    "name": "Word on the Street: research-trend series for linguistics and applied linguistics",
+    "description": "A long-format dataset tracking each research construct's yearly share of the OpenAlex-indexed linguistics and applied-linguistics literature, one row per construct per year, from 2014 onward. Rebuilt weekly with no language model in the loop.",
+    "url": "https://language-research.com/about.html",
+    "sameAs": "https://language-research.com/",
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "isAccessibleForFree": true,
+    "creator": { "@type": "Person", "name": "Muhammad Alhatlani" },
+    "publisher": { "@type": "Organization", "name": "Word on the Street", "url": "https://language-research.com/" },
+    "isBasedOn": { "@type": "Dataset", "name": "OpenAlex", "url": "https://openalex.org" },
+    "temporalCoverage": "2014/..",
+    "inLanguage": "en",
+    "keywords": ["linguistics", "applied linguistics", "language education", "bibliometrics", "research trends"],
+    "variableMeasured": ["year", "construct_id", "construct", "source", "papers", "corpus_papers", "share"],
+    "distribution": {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "https://language-research.com/data/constructs.csv"
+    }
+  }
+  </script>
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect width='16' height='16' rx='3' fill='%231b6b5f'/%3E%3C/svg%3E" />
   <link rel="stylesheet" href="assets/magazine.css?v=16" />
   <style>
