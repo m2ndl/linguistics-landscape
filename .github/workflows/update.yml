@@ -24,7 +24,7 @@ jobs:
       # a new release ships, so these stay current without trusting a mutable tag. The
       # trailing "# vN" is just a human-readable note of which release the SHA is.
       - name: Check out the repository
-        uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v4
 
       - name: Set up Python
         uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
