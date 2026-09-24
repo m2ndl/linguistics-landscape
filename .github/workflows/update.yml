@@ -48,7 +48,8 @@ jobs:
           # Stage only the run's outputs (note: NOT a blanket "git add data", which would sweep
           # any stray file dropped into data/ into the public history). -A captures the prune of
           # superseded current-year partials too.
-          git add -A data/snapshots data/feed data/radar data/gaps data/last_run.txt docs/data docs/sitemap.xml config/spine.json
+          # Radar is disabled in harvest.py, so data/radar does not exist in a fresh checkout.
+          git add -A data/snapshots data/feed data/gaps data/last_run.txt docs/data docs/sitemap.xml config/spine.json
           if git diff --cached --quiet; then
             echo "Nothing new to commit"
           else
@@ -59,7 +60,7 @@ jobs:
           fi
 
       # Fail loud: if anything above failed, open an issue so the owner hears about it
-      # in their inbox. The last good site stays live because nothing partial was committed.
+      # in their inbox. Inspect the failed step before diagnosing an API or publishing error.
       - name: Open an issue if the run failed
         if: failure()
         env:
@@ -79,5 +80,5 @@ jobs:
           fi
           gh issue create \
             --title "Weekly update failed on $(date -u +%Y-%m-%d)" \
-            --body "The scheduled update failed. Logs: $SERVER_URL/$REPO/actions/runs/$RUN_ID . Most likely the OPENALEX_API_KEY secret is missing or expired (get a new one at https://openalex.org/settings/api), or OpenAlex changed its API. The previously published site is still live; no bad data was written." \
+            --body "The weekly update failed. Inspect the failed step and its logs: $SERVER_URL/$REPO/actions/runs/$RUN_ID . Failures can occur during setup, harvesting, or committing/pushing the results; check the logs before changing the OpenAlex API key." \
             || echo "Could not open an issue"
