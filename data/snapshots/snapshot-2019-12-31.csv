@@ -1,211 +1,211 @@
 snapshot_date,dimension_type,dimension_id,dimension_label,count_recent,count_prior,share_recent,share_prior,yoy_share_change,rank_recent,taxonomy_version,data_version
-2019-12-31,field_total,ALL,All linguistics (union),91685,90229,1.0,1.0,0.0,0,spine-year,
-2019-12-31,construct,ox_language_studies,Language Studies,10854,9936,0.118383596,0.110119806,0.00826379,1,spine-year,openalex
-2019-12-31,construct,ox_language_learning,Language Learning,4664,4450,0.050869826,0.049318955,0.001550871,2,spine-year,openalex
-2019-12-31,construct,ox_meaning,Meaning,4289,4106,0.046779735,0.045506434,0.001273301,3,spine-year,openalex
-2019-12-31,construct,ox_learners,Learners,4214,4220,0.045961717,0.046769886,-0.000808169,4,spine-year,openalex
-2019-12-31,construct,ox_language_teaching,Language Teaching,3894,3900,0.042471506,0.043223354,-0.000751848,5,spine-year,openalex
-2019-12-31,construct,ox_corpus,Corpus,3608,3506,0.03935213,0.038856687,0.000495443,6,spine-year,openalex
-2019-12-31,construct,ox_language_education,Language Education,2764,2444,0.030146698,0.027086635,0.003060063,7,spine-year,openalex
-2019-12-31,construct,ox_grammar,Grammar,2528,2722,0.027572667,0.030167684,-0.002595017,8,spine-year,openalex
-2019-12-31,construct,ox_language_change,Language Change,2432,2318,0.026525604,0.025690188,0.000835416,9,spine-year,openalex
-2019-12-31,construct,ox_grammaticalization,Grammaticalization,2256,2422,0.024605988,0.026842811,-0.002236823,10,spine-year,openalex
-2019-12-31,construct,ox_pragmatics,Pragmatics,2158,1983,0.023537111,0.021977413,0.001559698,11,spine-year,openalex
-2019-12-31,construct,ox_dialects,Dialects,2096,1961,0.022860882,0.021733589,0.001127293,12,spine-year,openalex
-2019-12-31,construct,ox_discourse_study,Discourse Study,1816,1650,0.019806948,0.018286804,0.001520144,13,spine-year,openalex
-2019-12-31,construct,ox_dictionaries,Dictionaries,1756,1817,0.019152533,0.02013765,-0.000985117,14,spine-year,openalex
-2019-12-31,construct,ox_perception,Perception,1699,1495,0.018530839,0.016568952,0.001961887,15,spine-year,openalex
-2019-12-31,construct,ox_pedagogy,Pedagogy,1680,1625,0.018323608,0.018009731,0.000313877,16,spine-year,openalex
-2019-12-31,construct,ox_multilingualism,Multilingualism,1640,1460,0.017887332,0.01618105,0.001706281,17,spine-year,openalex
-2019-12-31,construct,ox_bilingual,Bilingual,1631,1484,0.017789169,0.01644704,0.001342129,18,spine-year,openalex
-2019-12-31,construct,ox_bilingualism,Bilingualism,1631,1484,0.017789169,0.01644704,0.001342129,19,spine-year,openalex
-2019-12-31,construct,ox_discourse_analysis,Discourse Analysis,1609,1429,0.017549217,0.01583748,0.001711737,20,spine-year,openalex
-2019-12-31,construct,ox_sociolinguistics,Sociolinguistics,1601,1353,0.017461962,0.014995179,0.002466783,21,spine-year,openalex
-2019-12-31,construct,ox_morphology,Morphology,1565,1502,0.017069313,0.016646533,0.000422781,22,spine-year,openalex
-2019-12-31,construct,ox_usage,Usage,1442,1354,0.015727764,0.015006262,0.000721502,23,spine-year,openalex
-2019-12-31,construct,ox_second_language_learning,Second Language Learning,1381,1262,0.015062442,0.013986634,0.001075808,24,spine-year,openalex
-2019-12-31,construct,ox_semantics,Semantics,1304,1085,0.01422261,0.012024959,0.002197651,25,spine-year,openalex
-2019-12-31,construct,focus_on_form,Focus on form,1288,1146,0.014048099,0.012701016,0.001347083,26,spine-year,curated
-2019-12-31,construct,ox_language_attitudes,Language Attitudes,1257,1161,0.013709985,0.01286726,0.000842725,27,spine-year,openalex
-2019-12-31,construct,ox_syntax,Syntax,1245,1200,0.013579102,0.013299494,0.000279609,28,spine-year,openalex
-2019-12-31,construct,ox_language_acquisition,Language Acquisition,1242,1224,0.013546382,0.013565483,-1.9102e-05,29,spine-year,openalex
-2019-12-31,construct,language_policy,Language policy,1230,1086,0.013415499,0.012036042,0.001379457,30,spine-year,curated
-2019-12-31,construct,ox_structuralism,Structuralism,1200,1107,0.013088291,0.012268783,0.000819509,31,spine-year,openalex
-2019-12-31,construct,ox_ideology,Ideology,1151,1077,0.012553853,0.011936295,0.000617557,32,spine-year,openalex
-2019-12-31,construct,ox_language_variation,Language Variation,1123,947,0.012248459,0.010495517,0.001752942,33,spine-year,openalex
-2019-12-31,construct,ox_cultural_translation,Cultural Translation,1113,1016,0.01213939,0.011260238,0.000879152,34,spine-year,openalex
-2019-12-31,construct,ox_terminology,Terminology,1075,1049,0.011724928,0.011625974,9.8954e-05,35,spine-year,openalex
-2019-12-31,construct,ox_power,Power,1055,969,0.01150679,0.010739341,0.000767449,36,spine-year,openalex
-2019-12-31,construct,ox_language_contact,Language Contact,1039,929,0.011332279,0.010296025,0.001036254,37,spine-year,openalex
-2019-12-31,construct,ox_teaching_methods,Teaching Methods,1034,1031,0.011277744,0.011426482,-0.000148737,38,spine-year,openalex
-2019-12-31,construct,world_englishes,World Englishes,1018,850,0.011103234,0.009420475,0.001682759,39,spine-year,curated
-2019-12-31,construct,ox_literature_analysis,Literature Analysis,903,878,0.009848939,0.009730796,0.000118143,40,spine-year,openalex
-2019-12-31,construct,ox_indexicality,Indexicality,842,757,0.009183618,0.008389764,0.000793854,41,spine-year,openalex
-2019-12-31,construct,ox_learning_strategies,Learning Strategies,813,804,0.008867317,0.008910661,-4.3343e-05,42,spine-year,openalex
-2019-12-31,construct,ox_conversation_analysis,Conversation Analysis,802,789,0.008747341,0.008744417,2.924e-06,43,spine-year,openalex
-2019-12-31,construct,ox_language_ideologies,Language Ideologies,796,754,0.0086819,0.008356515,0.000325385,44,spine-year,openalex
-2019-12-31,construct,language_ideology,Language ideology,796,754,0.0086819,0.008356515,0.000325385,45,spine-year,curated
-2019-12-31,construct,ox_social_interaction,Social Interaction,796,783,0.0086819,0.00867792,3.98e-06,46,spine-year,openalex
-2019-12-31,construct,ox_social_communication,Social Communication,784,700,0.008551017,0.007758038,0.000792979,47,spine-year,openalex
-2019-12-31,construct,ox_literary_translation,Literary Translation,777,748,0.008474669,0.008290018,0.000184651,48,spine-year,openalex
-2019-12-31,construct,ox_linguistic_identity,Linguistic Identity,757,682,0.008256531,0.007558545,0.000697985,49,spine-year,openalex
-2019-12-31,construct,ox_ethnography,Ethnography,697,639,0.007602116,0.00708198,0.000520136,50,spine-year,openalex
-2019-12-31,construct,ox_second_language_acquisition,Second Language Acquisition,692,638,0.007547581,0.007070897,0.000476684,51,spine-year,openalex
-2019-12-31,construct,ox_language_learning_strategies,Language Learning Strategies,686,662,0.00748214,0.007336887,0.000145253,52,spine-year,openalex
-2019-12-31,construct,ox_language_diversity,Language Diversity,642,635,0.007002236,0.007037649,-3.5413e-05,53,spine-year,openalex
-2019-12-31,construct,ox_lexicography,Lexicography,624,634,0.006805912,0.007026566,-0.000220654,54,spine-year,openalex
-2019-12-31,construct,ox_foreign_language_education,Foreign Language Education,617,590,0.006729563,0.006538918,0.000190646,55,spine-year,openalex
-2019-12-31,construct,ox_social_meaning,Social Meaning,613,584,0.006685936,0.00647242,0.000213515,56,spine-year,openalex
-2019-12-31,construct,ox_typology,typology,549,536,0.005987893,0.00594044,4.7453e-05,57,spine-year,openalex
-2019-12-31,construct,ox_semiotics,Semiotics,547,506,0.00596608,0.005607953,0.000358126,58,spine-year,openalex
-2019-12-31,construct,multimodality,Multimodality,527,492,0.005747941,0.005452792,0.000295149,59,spine-year,curated
-2019-12-31,construct,ox_minority_languages,Minority Languages,510,479,0.005562524,0.005308714,0.000253809,60,spine-year,openalex
-2019-12-31,construct,ox_text_linguistics,Text Linguistics,503,424,0.005486175,0.004699154,0.000787021,61,spine-year,openalex
-2019-12-31,construct,heritage_language,Heritage language,488,452,0.005322572,0.005009476,0.000313096,62,spine-year,curated
-2019-12-31,construct,ox_etymology,Etymology,481,423,0.005246223,0.004688071,0.000558152,63,spine-year,openalex
-2019-12-31,construct,ox_political_discourse,Political Discourse,447,436,0.004875389,0.004832149,4.3239e-05,64,spine-year,openalex
-2019-12-31,construct,codeswitching,Code-switching,446,355,0.004864482,0.003934433,0.000930048,65,spine-year,curated
-2019-12-31,construct,ox_linguistic_diversity,Linguistic Diversity,433,450,0.004722692,0.00498731,-0.000264618,66,spine-year,openalex
-2019-12-31,construct,ox_vocabulary_learning,Vocabulary Learning,430,480,0.004689971,0.005319797,-0.000629826,67,spine-year,openalex
-2019-12-31,construct,ox_linguistic_competence,Linguistic Competence,427,346,0.00465725,0.003834687,0.000822563,68,spine-year,openalex
-2019-12-31,construct,ox_accent,Accent,421,365,0.004591809,0.004045263,0.000546546,69,spine-year,openalex
-2019-12-31,construct,ox_narrative_analysis,Narrative Analysis,420,358,0.004580902,0.003967682,0.00061322,70,spine-year,openalex
-2019-12-31,construct,ox_subtitling,Subtitling,416,333,0.004537274,0.003690609,0.000846665,71,spine-year,openalex
-2019-12-31,construct,usage_based,Usage-based approaches,416,395,0.004537274,0.00437775,0.000159524,72,spine-year,curated
-2019-12-31,construct,ox_semantic_changes,Semantic Changes,410,365,0.004471833,0.004045263,0.00042657,73,spine-year,openalex
-2019-12-31,construct,ox_bilingual_education,Bilingual Education,392,320,0.004275509,0.003546532,0.000728977,74,spine-year,openalex
-2019-12-31,construct,ox_historical_linguistics,Historical Linguistics,392,345,0.004275509,0.003823604,0.000451904,75,spine-year,openalex
-2019-12-31,construct,ox_phraseology,Phraseology,388,326,0.004231881,0.003613029,0.000618852,76,spine-year,openalex
-2019-12-31,construct,mixed_methods,Mixed methods,386,338,0.004210067,0.003746024,0.000464043,77,spine-year,curated
-2019-12-31,construct,second_language_writing,Second language writing,378,387,0.004122812,0.004289087,-0.000166275,78,spine-year,curated
-2019-12-31,construct,corpus_linguistics,Corpus linguistics,377,325,0.004111905,0.003601946,0.000509959,79,spine-year,curated
-2019-12-31,construct,ox_verb_morphology,Verb Morphology,370,374,0.004035557,0.004145009,-0.000109452,80,spine-year,openalex
-2019-12-31,construct,ox_language_evolution,Language Evolution,359,338,0.003915581,0.003746024,0.000169557,81,spine-year,openalex
-2019-12-31,construct,ox_humanities,Humanities,351,325,0.003828325,0.003601946,0.000226379,82,spine-year,openalex
-2019-12-31,construct,ox_language_typology,Language Typology,343,327,0.00374107,0.003624112,0.000116958,83,spine-year,openalex
-2019-12-31,construct,ox_interdisciplinary,Interdisciplinary,342,324,0.003730163,0.003590863,0.0001393,84,spine-year,openalex
-2019-12-31,construct,ox_construction_grammar,Construction Grammar,330,359,0.00359928,0.003978765,-0.000379485,85,spine-year,openalex
-2019-12-31,construct,ox_intercultural_communication,Intercultural Communication,330,300,0.00359928,0.003324873,0.000274407,86,spine-year,openalex
-2019-12-31,construct,ox_lexical_influence,Lexical Influence,329,234,0.003588373,0.002593401,0.000994972,87,spine-year,openalex
-2019-12-31,construct,ox_media_discourse,Media Discourse,323,273,0.003522932,0.003025635,0.000497297,88,spine-year,openalex
-2019-12-31,construct,ox_textual_analysis,Textual Analysis,323,275,0.003522932,0.003047801,0.000475131,89,spine-year,openalex
-2019-12-31,construct,ox_language_anxiety,Language Anxiety,315,326,0.003435677,0.003613029,-0.000177353,90,spine-year,openalex
-2019-12-31,construct,critical_discourse_analysis,Critical discourse analysis,314,277,0.00342477,0.003069966,0.000354803,91,spine-year,curated
-2019-12-31,construct,ox_indo_european,Indo-European,312,285,0.003402956,0.00315863,0.000244326,92,spine-year,openalex
-2019-12-31,construct,linguistic_landscape,Linguistic landscape,311,279,0.003392049,0.003092132,0.000299917,93,spine-year,curated
-2019-12-31,construct,ox_sociolinguistic_variation,Sociolinguistic Variation,308,254,0.003359328,0.002815059,0.000544269,94,spine-year,openalex
-2019-12-31,construct,positioning_theory,Positioning theory,297,258,0.003239352,0.002859391,0.000379961,95,spine-year,curated
-2019-12-31,construct,ox_german_as_a_foreign_language,German as a Foreign Language,296,267,0.003228445,0.002959137,0.000269308,96,spine-year,openalex
-2019-12-31,construct,ox_identity_construction,Identity Construction,295,323,0.003217538,0.00357978,-0.000362242,97,spine-year,openalex
-2019-12-31,construct,ox_philology,Philology,291,281,0.003173911,0.003114298,5.9613e-05,98,spine-year,openalex
-2019-12-31,construct,ox_lexical_semantics,Lexical Semantics,284,255,0.003097562,0.002826142,0.00027142,99,spine-year,openalex
-2019-12-31,construct,translanguaging,Translanguaging,274,203,0.002988493,0.002249831,0.000738662,100,spine-year,curated
-2019-12-31,construct,ox_cognitive_linguistics,Cognitive Linguistics,273,276,0.002977586,0.003058884,-8.1297e-05,101,spine-year,openalex
-2019-12-31,construct,ox_turkic,Turkic,271,240,0.002955772,0.002659899,0.000295874,102,spine-year,openalex
-2019-12-31,construct,teacher_identity,Language teacher identity,255,237,0.002781262,0.00262665,0.000154612,103,spine-year,curated
-2019-12-31,construct,ox_lingua_franca_english,Lingua Franca English,255,255,0.002781262,0.002826142,-4.488e-05,104,spine-year,openalex
-2019-12-31,construct,ox_literary_theory,Literary Theory,250,293,0.002726727,0.003247293,-0.000520566,105,spine-year,openalex
-2019-12-31,construct,learner_identity,Learner identity,243,200,0.002650379,0.002216582,0.000433797,106,spine-year,curated
-2019-12-31,construct,study_abroad,Study abroad,228,276,0.002486775,0.003058884,-0.000572108,107,spine-year,curated
-2019-12-31,construct,corrective_feedback,Corrective feedback,227,186,0.002475868,0.002061421,0.000414447,108,spine-year,curated
-2019-12-31,construct,ox_interactional_linguistics,Interactional Linguistics,222,233,0.002421334,0.002582318,-0.000160984,109,spine-year,openalex
-2019-12-31,construct,ox_audiovisual_translation,Audiovisual Translation,220,212,0.00239952,0.002349577,4.9943e-05,110,spine-year,openalex
-2019-12-31,construct,ox_semantic_relations,Semantic Relations,220,187,0.00239952,0.002072504,0.000327016,111,spine-year,openalex
-2019-12-31,construct,ox_standardization_of_language,Standardization of Language,220,197,0.00239952,0.002183334,0.000216187,112,spine-year,openalex
-2019-12-31,construct,intercultural_competence,Intercultural competence,219,205,0.002388613,0.002271997,0.000116616,113,spine-year,curated
-2019-12-31,construct,ox_politeness_strategies,Politeness Strategies,214,192,0.002334079,0.002127919,0.00020616,114,spine-year,openalex
-2019-12-31,construct,ox_specialized_language,Specialized Language,205,174,0.002235916,0.001928427,0.00030749,115,spine-year,openalex
-2019-12-31,construct,ox_speech_perception,Speech Perception,201,161,0.002192289,0.001784349,0.00040794,116,spine-year,openalex
-2019-12-31,construct,ox_youth_language,Youth Language,201,222,0.002192289,0.002460406,-0.000268117,117,spine-year,openalex
-2019-12-31,construct,task_based,Task-based language teaching,200,250,0.002181382,0.002770728,-0.000589346,118,spine-year,curated
-2019-12-31,construct,ox_media_influence,Media Influence,198,178,0.002159568,0.001972758,0.00018681,119,spine-year,openalex
-2019-12-31,construct,ox_literary_tradition,Literary Tradition,197,185,0.002148661,0.002050339,9.8323e-05,120,spine-year,openalex
-2019-12-31,construct,ox_ontologies,Ontologies,196,171,0.002137754,0.001895178,0.000242576,121,spine-year,openalex
-2019-12-31,construct,ox_neologisms,Neologisms,189,175,0.002061406,0.001939509,0.000121896,122,spine-year,openalex
-2019-12-31,construct,ox_l2_motivation,L2 Motivation,188,176,0.002050499,0.001950592,9.9907e-05,123,spine-year,openalex
-2019-12-31,construct,ox_turn_taking,Turn-Taking,187,192,0.002039592,0.002127919,-8.8327e-05,124,spine-year,openalex
-2019-12-31,construct,ox_linguistic_borrowing,Linguistic Borrowing,182,166,0.001985058,0.001839763,0.000145294,125,spine-year,openalex
-2019-12-31,construct,ox_dialectology,Dialectology,178,129,0.00194143,0.001429696,0.000511734,126,spine-year,openalex
-2019-12-31,construct,ox_captioning,Captioning,175,135,0.001908709,0.001496193,0.000412516,127,spine-year,openalex
-2019-12-31,construct,ox_cognitive_grammar,Cognitive Grammar,160,170,0.001745106,0.001884095,-0.000138989,128,spine-year,openalex
-2019-12-31,construct,pragmatic_competence,Pragmatic competence,160,188,0.001745106,0.002083587,-0.000338482,129,spine-year,curated
-2019-12-31,construct,language_revitalization,Language revitalization,156,163,0.001701478,0.001806515,-0.000105037,130,spine-year,curated
-2019-12-31,construct,ox_language_rights,Language Rights,154,148,0.001679664,0.001640271,3.9393e-05,131,spine-year,openalex
-2019-12-31,construct,ox_politeness_theory,Politeness Theory,149,141,0.00162513,0.00156269,6.2439e-05,132,spine-year,openalex
-2019-12-31,construct,ox_historical_phonology,Historical Phonology,148,117,0.001614223,0.001296701,0.000317522,133,spine-year,openalex
-2019-12-31,construct,ox_ethnolinguistics,Ethnolinguistics,142,129,0.001548781,0.001429696,0.000119086,134,spine-year,openalex
-2019-12-31,construct,sociocultural_theory,Sociocultural theory,141,124,0.001537874,0.001374281,0.000163593,135,spine-year,curated
-2019-12-31,construct,learner_engagement,Learner engagement,138,98,0.001505154,0.001086125,0.000419028,136,spine-year,curated
-2019-12-31,construct,ox_cross_cultural_communication,Cross-Cultural Communication,135,132,0.001472433,0.001462944,9.488e-06,137,spine-year,openalex
-2019-12-31,construct,machine_translation,Machine translation,135,134,0.001472433,0.00148511,-1.2677e-05,138,spine-year,curated
-2019-12-31,construct,ox_saussure,Saussure,135,263,0.001472433,0.002914806,-0.001442373,139,spine-year,openalex
-2019-12-31,construct,ox_occitan,Occitan,124,113,0.001352457,0.001252369,0.000100088,140,spine-year,openalex
-2019-12-31,construct,emi,English-medium instruction,123,114,0.00134155,0.001263452,7.8098e-05,141,spine-year,curated
-2019-12-31,construct,vocabulary_acquisition,Vocabulary acquisition,119,131,0.001297922,0.001451861,-0.000153939,142,spine-year,curated
-2019-12-31,construct,ox_translator_competence,Translator Competence,118,91,0.001287015,0.001008545,0.00027847,143,spine-year,openalex
-2019-12-31,construct,ox_multidimensionality,Multidimensionality,115,119,0.001254295,0.001318866,-6.4572e-05,144,spine-year,openalex
-2019-12-31,construct,ox_nationalism,Nationalism,115,111,0.001254295,0.001230203,2.4091e-05,145,spine-year,openalex
-2019-12-31,construct,ox_anglicisms,Anglicisms,114,118,0.001243388,0.001307784,-6.4396e-05,146,spine-year,openalex
-2019-12-31,construct,intelligibility,Intelligibility,114,129,0.001243388,0.001429696,-0.000186308,147,spine-year,curated
-2019-12-31,construct,ox_audio_description,Audio Description,110,106,0.00119976,0.001174789,2.4971e-05,148,spine-year,openalex
-2019-12-31,construct,ox_proto_indo_european,Proto-Indo-European,110,77,0.00119976,0.000853384,0.000346376,149,spine-year,openalex
-2019-12-31,construct,willingness_to_communicate,Willingness to communicate,106,75,0.001156132,0.000831218,0.000324914,150,spine-year,curated
-2019-12-31,construct,large_language_models,Large language models,104,89,0.001134319,0.000986379,0.000147939,151,spine-year,curated
-2019-12-31,construct,ox_social_justice,Social Justice,104,92,0.001134319,0.001019628,0.000114691,152,spine-year,openalex
-2019-12-31,construct,ox_task_based_instruction,Task-based Instruction,102,119,0.001112505,0.001318866,-0.000206362,153,spine-year,openalex
-2019-12-31,construct,ox_stereotype_analysis,Stereotype Analysis,96,107,0.001047063,0.001185872,-0.000138808,154,spine-year,openalex
-2019-12-31,construct,ox_medieval_literature,Medieval Literature,95,85,0.001036156,0.000942047,9.4109e-05,155,spine-year,openalex
-2019-12-31,construct,ox_multimodal_communication,Multimodal Communication,93,79,0.001014343,0.00087555,0.000138793,156,spine-year,openalex
-2019-12-31,construct,ox_historiography,Historiography,91,99,0.000992529,0.001097208,-0.000104679,157,spine-year,openalex
-2019-12-31,construct,ox_role_play_techniques,Role Play Techniques,85,68,0.000927087,0.000753638,0.000173449,158,spine-year,openalex
-2019-12-31,construct,meta_analysis,Meta-analysis,83,68,0.000905273,0.000753638,0.000151636,159,spine-year,curated
-2019-12-31,construct,written_corrective_feedback,Written corrective feedback,82,69,0.000894367,0.000764721,0.000129646,160,spine-year,curated
-2019-12-31,construct,ox_racism,Racism,81,77,0.00088346,0.000853384,3.0076e-05,161,spine-year,openalex
-2019-12-31,construct,eye_tracking,Eye-tracking,80,76,0.000872553,0.000842301,3.0252e-05,162,spine-year,curated
-2019-12-31,construct,ox_teacher_cognition,Teacher Cognition,80,60,0.000872553,0.000664975,0.000207578,163,spine-year,openalex
-2019-12-31,construct,ox_universal_grammar,Universal Grammar,77,107,0.000839832,0.001185872,-0.000346039,164,spine-year,openalex
-2019-12-31,construct,ox_diglossia,Diglossia,76,61,0.000828925,0.000676058,0.000152868,165,spine-year,openalex
-2019-12-31,construct,replication_study,Replication study,75,71,0.000818018,0.000786887,3.1132e-05,166,spine-year,curated
-2019-12-31,construct,ox_knowledge_representation,Knowledge Representation,73,73,0.000796204,0.000809053,-1.2848e-05,167,spine-year,openalex
-2019-12-31,construct,ox_semitic_languages,Semitic Languages,70,86,0.000763484,0.00095313,-0.000189647,168,spine-year,openalex
-2019-12-31,construct,ox_troubadours,Troubadours,69,106,0.000752577,0.001174789,-0.000422212,169,spine-year,openalex
-2019-12-31,construct,formulaic_language,Formulaic language,63,43,0.000687135,0.000476565,0.00021057,170,spine-year,curated
-2019-12-31,construct,ox_sociology_of_translation,Sociology of Translation,62,64,0.000676228,0.000709306,-3.3078e-05,171,spine-year,openalex
-2019-12-31,construct,ox_social_movements,Social Movements,60,58,0.000654415,0.000642809,1.1606e-05,172,spine-year,openalex
-2019-12-31,construct,narrative_inquiry,Narrative inquiry,59,58,0.000643508,0.000642809,6.99e-07,173,spine-year,curated
-2019-12-31,construct,ox_multimedia_learning,Multimedia Learning,58,50,0.000632601,0.000554146,7.8455e-05,174,spine-year,openalex
-2019-12-31,construct,clil,CLIL,54,45,0.000588973,0.000498731,9.0242e-05,175,spine-year,curated
-2019-12-31,construct,ideal_l2_self,Ideal L2 self,52,46,0.000567159,0.000509814,5.7345e-05,176,spine-year,curated
-2019-12-31,construct,ox_medieval_europe,Medieval Europe,52,52,0.000567159,0.000576311,-9.152e-06,177,spine-year,openalex
-2019-12-31,construct,language_aptitude,Language aptitude,50,62,0.000545345,0.00068714,-0.000141795,178,spine-year,curated
-2019-12-31,construct,post_editing,Post-editing,49,30,0.000534439,0.000332487,0.000201951,179,spine-year,curated
-2019-12-31,construct,ox_health_communication,Health Communication,47,53,0.000512625,0.000587394,-7.477e-05,180,spine-year,openalex
-2019-12-31,construct,ox_heritage_language_maintenance,Heritage Language Maintenance,46,40,0.000501718,0.000443316,5.8401e-05,181,spine-year,openalex
-2019-12-31,construct,ox_humboldt,Humboldt,45,65,0.000490811,0.000720389,-0.000229578,182,spine-year,openalex
-2019-12-31,construct,ox_migration_and_integration,Migration and Integration,44,50,0.000479904,0.000554146,-7.4242e-05,183,spine-year,openalex
-2019-12-31,construct,raciolinguistics,Raciolinguistics,42,14,0.00045809,0.000155161,0.000302929,184,spine-year,curated
-2019-12-31,construct,ox_interlanguage_development,Interlanguage Development,40,38,0.000436276,0.000421151,1.5126e-05,185,spine-year,openalex
-2019-12-31,construct,complex_dynamic_systems,Complex dynamic systems,39,21,0.000425369,0.000232741,0.000192628,186,spine-year,curated
-2019-12-31,construct,ox_urban_linguistics,Urban Linguistics,35,12,0.000381742,0.000132995,0.000248747,187,spine-year,openalex
-2019-12-31,construct,data_driven_learning,Data-driven learning,33,22,0.000359928,0.000243824,0.000116104,188,spine-year,curated
-2019-12-31,construct,ox_middle_eastern_languages,Middle Eastern Languages,33,24,0.000359928,0.00026599,9.3938e-05,189,spine-year,openalex
-2019-12-31,construct,ox_textual_criticism,Textual Criticism,32,31,0.000349021,0.00034357,5.451e-06,190,spine-year,openalex
-2019-12-31,construct,ox_scalar_implicature,Scalar Implicature,30,18,0.000327207,0.000199492,0.000127715,191,spine-year,openalex
-2019-12-31,construct,ox_linguistic_historiography,Linguistic Historiography,28,28,0.000305393,0.000310322,-4.928e-06,192,spine-year,openalex
-2019-12-31,construct,ox_oral_epics,oral epics,27,33,0.000294487,0.000365736,-7.125e-05,193,spine-year,openalex
-2019-12-31,construct,superdiversity,Superdiversity,26,36,0.00028358,0.000398985,-0.000115405,194,spine-year,curated
-2019-12-31,construct,comprehensible_input,Comprehensible input,25,22,0.000272673,0.000243824,2.8849e-05,195,spine-year,curated
-2019-12-31,construct,ox_jesuits,Jesuits,21,28,0.000229045,0.000310322,-8.1276e-05,196,spine-year,openalex
-2019-12-31,construct,dynamic_assessment,Dynamic assessment,20,21,0.000218138,0.000232741,-1.4603e-05,197,spine-year,curated
-2019-12-31,construct,mall,Mobile-assisted language learning,19,17,0.000207231,0.000188409,1.8822e-05,198,spine-year,curated
-2019-12-31,construct,ox_hispanic_linguistics,Hispanic Linguistics,18,31,0.000196324,0.00034357,-0.000147246,199,spine-year,openalex
-2019-12-31,construct,ox_missionary_linguistics,Missionary Linguistics,17,13,0.000185417,0.000144078,4.134e-05,200,spine-year,openalex
-2019-12-31,construct,ox_pragmatic_borrowing,Pragmatic Borrowing,16,31,0.000174511,0.00034357,-0.00016906,201,spine-year,openalex
-2019-12-31,construct,ox_innovation_management,Innovation Management,10,7,0.000109069,7.758e-05,3.1489e-05,202,spine-year,openalex
-2019-12-31,construct,duolingo,Duolingo,9,9,9.8162e-05,9.9746e-05,-1.584e-06,203,spine-year,curated
-2019-12-31,construct,ox_neo_aramaic_dialects,Neo-Aramaic Dialects,6,25,6.5441e-05,0.000277073,-0.000211631,204,spine-year,openalex
-2019-12-31,construct,washback,Washback,6,19,6.5441e-05,0.000210575,-0.000145134,205,spine-year,curated
-2019-12-31,construct,automated_writing_evaluation,Automated writing evaluation,5,8,5.4535e-05,8.8663e-05,-3.4129e-05,206,spine-year,curated
-2019-12-31,construct,generative_ai,Generative AI,1,0,1.0907e-05,0.0,1.0907e-05,207,spine-year,curated
+2019-12-31,field_total,ALL,All linguistics (union),91110,89607,1.0,1.0,0.0,0,spine-year,
+2019-12-31,construct,ox_language_studies,Language Studies,10779,9845,0.11830754,0.109868649,0.008438892,1,spine-year,openalex
+2019-12-31,construct,ox_language_learning,Language Learning,4632,4407,0.050839644,0.049181426,0.001658219,2,spine-year,openalex
+2019-12-31,construct,ox_meaning,Meaning,4271,4079,0.046877401,0.045520997,0.001356404,3,spine-year,openalex
+2019-12-31,construct,ox_learners,Learners,4185,4192,0.045933487,0.046782059,-0.000848572,4,spine-year,openalex
+2019-12-31,construct,ox_language_teaching,Language Teaching,3874,3864,0.042520031,0.043121631,-0.0006016,5,spine-year,openalex
+2019-12-31,construct,ox_corpus,Corpus,3539,3442,0.038843157,0.038412178,0.000430979,6,spine-year,openalex
+2019-12-31,construct,ox_language_education,Language Education,2746,2422,0.030139392,0.027029138,0.003110254,7,spine-year,openalex
+2019-12-31,construct,ox_grammar,Grammar,2515,2703,0.027603995,0.030165054,-0.002561059,8,spine-year,openalex
+2019-12-31,construct,ox_language_change,Language Change,2416,2307,0.026517397,0.025745756,0.00077164,9,spine-year,openalex
+2019-12-31,construct,ox_grammaticalization,Grammaticalization,2231,2400,0.024486884,0.026783622,-0.002296738,10,spine-year,openalex
+2019-12-31,construct,ox_pragmatics,Pragmatics,2140,1968,0.023488091,0.02196257,0.001525521,11,spine-year,openalex
+2019-12-31,construct,ox_dialects,Dialects,2078,1949,0.022807595,0.021750533,0.001057062,12,spine-year,openalex
+2019-12-31,construct,ox_discourse_study,Discourse Study,1799,1640,0.019745363,0.018302142,0.001443221,13,spine-year,openalex
+2019-12-31,construct,ox_dictionaries,Dictionaries,1745,1804,0.019152673,0.020132356,-0.000979683,14,spine-year,openalex
+2019-12-31,construct,ox_perception,Perception,1681,1474,0.018450225,0.016449608,0.002000617,15,spine-year,openalex
+2019-12-31,construct,ox_pedagogy,Pedagogy,1669,1605,0.018318516,0.017911547,0.000406969,16,spine-year,openalex
+2019-12-31,construct,ox_multilingualism,Multilingualism,1632,1447,0.017912414,0.016148292,0.001764122,17,spine-year,openalex
+2019-12-31,construct,ox_bilingual,Bilingual,1624,1471,0.017824608,0.016416128,0.001408479,18,spine-year,openalex
+2019-12-31,construct,ox_bilingualism,Bilingualism,1624,1471,0.017824608,0.016416128,0.001408479,19,spine-year,openalex
+2019-12-31,construct,ox_discourse_analysis,Discourse Analysis,1596,1421,0.017517287,0.015858136,0.001659151,20,spine-year,openalex
+2019-12-31,construct,ox_sociolinguistics,Sociolinguistics,1588,1342,0.017429481,0.014976509,0.002452972,21,spine-year,openalex
+2019-12-31,construct,ox_morphology,Morphology,1551,1479,0.017023378,0.016505407,0.000517971,22,spine-year,openalex
+2019-12-31,construct,ox_usage,Usage,1423,1343,0.015618483,0.014987668,0.000630815,23,spine-year,openalex
+2019-12-31,construct,ox_second_language_learning,Second Language Learning,1371,1253,0.015047744,0.013983283,0.001064462,24,spine-year,openalex
+2019-12-31,construct,ox_semantics,Semantics,1297,1075,0.014235539,0.011996831,0.002238709,25,spine-year,openalex
+2019-12-31,construct,focus_on_form,Focus on form,1278,1136,0.014027,0.012677581,0.001349419,26,spine-year,curated
+2019-12-31,construct,ox_language_attitudes,Language Attitudes,1249,1157,0.013708704,0.012911938,0.000796766,27,spine-year,openalex
+2019-12-31,construct,ox_language_acquisition,Language Acquisition,1238,1212,0.013587971,0.013525729,6.2242e-05,28,spine-year,openalex
+2019-12-31,construct,ox_syntax,Syntax,1230,1190,0.013500165,0.013280212,0.000219952,29,spine-year,openalex
+2019-12-31,construct,language_policy,Language policy,1224,1076,0.01343431,0.01200799,0.00142632,30,spine-year,curated
+2019-12-31,construct,ox_structuralism,Structuralism,1189,1101,0.013050159,0.012286987,0.000763173,31,spine-year,openalex
+2019-12-31,construct,ox_ideology,Ideology,1143,1068,0.012545275,0.011918712,0.000626563,32,spine-year,openalex
+2019-12-31,construct,ox_language_variation,Language Variation,1110,943,0.012183075,0.010523731,0.001659344,33,spine-year,openalex
+2019-12-31,construct,ox_cultural_translation,Cultural Translation,1109,1004,0.0121721,0.011204482,0.000967618,34,spine-year,openalex
+2019-12-31,construct,ox_terminology,Terminology,1064,1038,0.011678191,0.011583916,9.4275e-05,35,spine-year,openalex
+2019-12-31,construct,ox_power,Power,1050,963,0.011524531,0.010746928,0.000777603,36,spine-year,openalex
+2019-12-31,construct,ox_language_contact,Language Contact,1032,920,0.011326967,0.010267055,0.001059912,37,spine-year,openalex
+2019-12-31,construct,ox_teaching_methods,Teaching Methods,1031,1021,0.011315992,0.011394199,-7.8207e-05,38,spine-year,openalex
+2019-12-31,construct,world_englishes,World Englishes,1014,846,0.011129404,0.009441227,0.001688177,39,spine-year,curated
+2019-12-31,construct,ox_literature_analysis,Literature Analysis,894,870,0.009812315,0.009709063,0.000103252,40,spine-year,openalex
+2019-12-31,construct,ox_indexicality,Indexicality,838,748,0.009197673,0.008347562,0.000850111,41,spine-year,openalex
+2019-12-31,construct,ox_learning_strategies,Learning Strategies,805,801,0.008835474,0.008939034,-0.00010356,42,spine-year,openalex
+2019-12-31,construct,ox_conversation_analysis,Conversation Analysis,798,786,0.008758643,0.008771636,-1.2993e-05,43,spine-year,openalex
+2019-12-31,construct,ox_language_ideologies,Language Ideologies,792,746,0.008692789,0.008325242,0.000367546,44,spine-year,openalex
+2019-12-31,construct,language_ideology,Language ideology,792,746,0.008692789,0.008325242,0.000367546,45,spine-year,curated
+2019-12-31,construct,ox_social_interaction,Social Interaction,792,777,0.008692789,0.008671198,2.1591e-05,46,spine-year,openalex
+2019-12-31,construct,ox_social_communication,Social Communication,782,696,0.008583032,0.00776725,0.000815781,47,spine-year,openalex
+2019-12-31,construct,ox_literary_translation,Literary Translation,772,740,0.008473274,0.008258283,0.000214991,48,spine-year,openalex
+2019-12-31,construct,ox_linguistic_identity,Linguistic Identity,752,678,0.008253759,0.007566373,0.000687386,49,spine-year,openalex
+2019-12-31,construct,ox_ethnography,Ethnography,695,633,0.007628142,0.00706418,0.000563962,50,spine-year,openalex
+2019-12-31,construct,ox_second_language_acquisition,Second Language Acquisition,691,634,0.007584239,0.00707534,0.000508899,51,spine-year,openalex
+2019-12-31,construct,ox_language_learning_strategies,Language Learning Strategies,680,659,0.007463506,0.007354336,0.000109169,52,spine-year,openalex
+2019-12-31,construct,ox_language_diversity,Language Diversity,641,630,0.007035452,0.007030701,4.751e-06,53,spine-year,openalex
+2019-12-31,construct,ox_lexicography,Lexicography,621,628,0.006815937,0.007008381,-0.000192444,54,spine-year,openalex
+2019-12-31,construct,ox_social_meaning,Social Meaning,612,582,0.006717155,0.006495028,0.000222127,55,spine-year,openalex
+2019-12-31,construct,ox_foreign_language_education,Foreign Language Education,607,580,0.006662276,0.006472709,0.000189568,56,spine-year,openalex
+2019-12-31,construct,ox_semiotics,Semiotics,546,506,0.005992756,0.00564688,0.000345876,57,spine-year,openalex
+2019-12-31,construct,ox_typology,typology,544,529,0.005970805,0.005903557,6.7248e-05,58,spine-year,openalex
+2019-12-31,construct,multimodality,Multimodality,522,488,0.005729338,0.005446003,0.000283335,59,spine-year,curated
+2019-12-31,construct,ox_minority_languages,Minority Languages,506,476,0.005553726,0.005312085,0.000241641,60,spine-year,openalex
+2019-12-31,construct,ox_text_linguistics,Text Linguistics,500,422,0.005487872,0.004709454,0.000778418,61,spine-year,openalex
+2019-12-31,construct,heritage_language,Heritage language,487,453,0.005345187,0.005055409,0.000289779,62,spine-year,curated
+2019-12-31,construct,ox_etymology,Etymology,479,419,0.005257381,0.004675974,0.000581407,63,spine-year,openalex
+2019-12-31,construct,ox_political_discourse,Political Discourse,445,431,0.004884206,0.004809892,7.4314e-05,64,spine-year,openalex
+2019-12-31,construct,codeswitching,Code-switching,444,351,0.00487323,0.003917105,0.000956125,65,spine-year,curated
+2019-12-31,construct,ox_linguistic_diversity,Linguistic Diversity,433,448,0.004752497,0.004999609,-0.000247112,66,spine-year,openalex
+2019-12-31,construct,ox_vocabulary_learning,Vocabulary Learning,426,478,0.004675667,0.005334405,-0.000658738,67,spine-year,openalex
+2019-12-31,construct,ox_linguistic_competence,Linguistic Competence,424,344,0.004653715,0.003838986,0.000814729,68,spine-year,openalex
+2019-12-31,construct,ox_accent,Accent,417,362,0.004576885,0.004039863,0.000537022,69,spine-year,openalex
+2019-12-31,construct,ox_narrative_analysis,Narrative Analysis,416,356,0.004565909,0.003972904,0.000593005,70,spine-year,openalex
+2019-12-31,construct,ox_subtitling,Subtitling,414,333,0.004543958,0.003716228,0.00082773,71,spine-year,openalex
+2019-12-31,construct,usage_based,Usage-based approaches,412,392,0.004522006,0.004374658,0.000147348,72,spine-year,curated
+2019-12-31,construct,ox_semantic_changes,Semantic Changes,407,359,0.004467128,0.004006383,0.000460744,73,spine-year,openalex
+2019-12-31,construct,ox_bilingual_education,Bilingual Education,391,316,0.004291516,0.00352651,0.000765006,74,spine-year,openalex
+2019-12-31,construct,ox_historical_linguistics,Historical Linguistics,390,341,0.00428054,0.003805506,0.000475034,75,spine-year,openalex
+2019-12-31,construct,ox_phraseology,Phraseology,385,325,0.004225661,0.003626949,0.000598713,76,spine-year,openalex
+2019-12-31,construct,mixed_methods,Mixed methods,384,337,0.004214686,0.003760867,0.000453819,77,spine-year,curated
+2019-12-31,construct,corpus_linguistics,Corpus linguistics,376,324,0.00412688,0.003615789,0.000511091,78,spine-year,curated
+2019-12-31,construct,second_language_writing,Second language writing,375,382,0.004115904,0.00426306,-0.000147156,79,spine-year,curated
+2019-12-31,construct,ox_verb_morphology,Verb Morphology,366,368,0.004017122,0.004106822,-8.97e-05,80,spine-year,openalex
+2019-12-31,construct,ox_language_evolution,Language Evolution,355,334,0.003896389,0.003727387,0.000169002,81,spine-year,openalex
+2019-12-31,construct,ox_humanities,Humanities,351,324,0.003852486,0.003615789,0.000236697,82,spine-year,openalex
+2019-12-31,construct,ox_interdisciplinary,Interdisciplinary,340,318,0.003731753,0.00354883,0.000182923,83,spine-year,openalex
+2019-12-31,construct,ox_language_typology,Language Typology,340,321,0.003731753,0.003582309,0.000149443,84,spine-year,openalex
+2019-12-31,construct,ox_intercultural_communication,Intercultural Communication,330,297,0.003621995,0.003314473,0.000307522,85,spine-year,openalex
+2019-12-31,construct,ox_construction_grammar,Construction Grammar,328,355,0.003600044,0.003961744,-0.0003617,86,spine-year,openalex
+2019-12-31,construct,ox_media_discourse,Media Discourse,322,272,0.003534189,0.003035477,0.000498712,87,spine-year,openalex
+2019-12-31,construct,ox_lexical_influence,Lexical Influence,319,233,0.003501262,0.002600243,0.000901019,88,spine-year,openalex
+2019-12-31,construct,ox_textual_analysis,Textual Analysis,319,274,0.003501262,0.003057797,0.000443465,89,spine-year,openalex
+2019-12-31,construct,ox_language_anxiety,Language Anxiety,312,326,0.003424432,0.003638109,-0.000213677,90,spine-year,openalex
+2019-12-31,construct,critical_discourse_analysis,Critical discourse analysis,311,276,0.003413456,0.003080117,0.00033334,91,spine-year,curated
+2019-12-31,construct,ox_indo_european,Indo-European,310,282,0.003402481,0.003147076,0.000255405,92,spine-year,openalex
+2019-12-31,construct,linguistic_landscape,Linguistic landscape,310,278,0.003402481,0.003102436,0.000300044,93,spine-year,curated
+2019-12-31,construct,ox_sociolinguistic_variation,Sociolinguistic Variation,305,251,0.003347602,0.00280112,0.000546481,94,spine-year,openalex
+2019-12-31,construct,positioning_theory,Positioning theory,297,257,0.003259796,0.00286808,0.000391716,95,spine-year,curated
+2019-12-31,construct,ox_german_as_a_foreign_language,German as a Foreign Language,294,264,0.003226869,0.002946198,0.00028067,96,spine-year,openalex
+2019-12-31,construct,ox_philology,Philology,291,281,0.003193941,0.003135916,5.8026e-05,97,spine-year,openalex
+2019-12-31,construct,ox_identity_construction,Identity Construction,290,319,0.003182966,0.00355999,-0.000377024,98,spine-year,openalex
+2019-12-31,construct,ox_lexical_semantics,Lexical Semantics,279,251,0.003062232,0.00280112,0.000261112,99,spine-year,openalex
+2019-12-31,construct,translanguaging,Translanguaging,273,202,0.002996378,0.002254288,0.00074209,100,spine-year,curated
+2019-12-31,construct,ox_cognitive_linguistics,Cognitive Linguistics,271,275,0.002974427,0.003068957,-9.453e-05,101,spine-year,openalex
+2019-12-31,construct,ox_turkic,Turkic,270,237,0.002963451,0.002644883,0.000318568,102,spine-year,openalex
+2019-12-31,construct,ox_lingua_franca_english,Lingua Franca English,255,254,0.002798815,0.0028346,-3.5785e-05,103,spine-year,openalex
+2019-12-31,construct,teacher_identity,Language teacher identity,251,235,0.002754912,0.002622563,0.000132349,104,spine-year,curated
+2019-12-31,construct,ox_literary_theory,Literary Theory,251,291,0.002754912,0.003247514,-0.000492602,105,spine-year,openalex
+2019-12-31,construct,learner_identity,Learner identity,239,198,0.002623203,0.002209649,0.000413554,106,spine-year,curated
+2019-12-31,construct,study_abroad,Study abroad,227,273,0.002491494,0.003046637,-0.000555143,107,spine-year,curated
+2019-12-31,construct,corrective_feedback,Corrective feedback,226,185,0.002480518,0.002064571,0.000415947,108,spine-year,curated
+2019-12-31,construct,ox_standardization_of_language,Standardization of Language,221,196,0.002425639,0.002187329,0.00023831,109,spine-year,openalex
+2019-12-31,construct,ox_audiovisual_translation,Audiovisual Translation,218,211,0.002392712,0.002354727,3.7985e-05,110,spine-year,openalex
+2019-12-31,construct,ox_interactional_linguistics,Interactional Linguistics,218,232,0.002392712,0.002589083,-0.000196371,111,spine-year,openalex
+2019-12-31,construct,ox_semantic_relations,Semantic Relations,217,186,0.002381736,0.002075731,0.000306006,112,spine-year,openalex
+2019-12-31,construct,intercultural_competence,Intercultural competence,216,203,0.002370761,0.002265448,0.000105313,113,spine-year,curated
+2019-12-31,construct,ox_politeness_strategies,Politeness Strategies,212,192,0.002326858,0.00214269,0.000184168,114,spine-year,openalex
+2019-12-31,construct,ox_specialized_language,Specialized Language,204,170,0.002239052,0.001897173,0.000341878,115,spine-year,openalex
+2019-12-31,construct,ox_speech_perception,Speech Perception,198,159,0.002173197,0.001774415,0.000398782,116,spine-year,openalex
+2019-12-31,construct,ox_youth_language,Youth Language,198,221,0.002173197,0.002466325,-0.000293128,117,spine-year,openalex
+2019-12-31,construct,ox_literary_tradition,Literary Tradition,197,184,0.002162221,0.002053411,0.00010881,118,spine-year,openalex
+2019-12-31,construct,ox_media_influence,Media Influence,197,176,0.002162221,0.001964132,0.000198089,119,spine-year,openalex
+2019-12-31,construct,task_based,Task-based language teaching,197,249,0.002162221,0.002778801,-0.000616579,120,spine-year,curated
+2019-12-31,construct,ox_ontologies,Ontologies,195,169,0.00214027,0.001886013,0.000254257,121,spine-year,openalex
+2019-12-31,construct,ox_l2_motivation,L2 Motivation,187,175,0.002052464,0.001952972,9.9492e-05,122,spine-year,openalex
+2019-12-31,construct,ox_neologisms,Neologisms,186,171,0.002041488,0.001908333,0.000133155,123,spine-year,openalex
+2019-12-31,construct,ox_turn_taking,Turn-Taking,186,192,0.002041488,0.00214269,-0.000101201,124,spine-year,openalex
+2019-12-31,construct,ox_linguistic_borrowing,Linguistic Borrowing,181,164,0.00198661,0.001830214,0.000156395,125,spine-year,openalex
+2019-12-31,construct,ox_dialectology,Dialectology,178,128,0.001953682,0.00142846,0.000525223,126,spine-year,openalex
+2019-12-31,construct,ox_captioning,Captioning,175,134,0.001920755,0.001495419,0.000425336,127,spine-year,openalex
+2019-12-31,construct,ox_cognitive_grammar,Cognitive Grammar,160,167,0.001756119,0.001863694,-0.000107575,128,spine-year,openalex
+2019-12-31,construct,pragmatic_competence,Pragmatic competence,160,186,0.001756119,0.002075731,-0.000319612,129,spine-year,curated
+2019-12-31,construct,language_revitalization,Language revitalization,155,163,0.00170124,0.001819054,-0.000117814,130,spine-year,curated
+2019-12-31,construct,ox_language_rights,Language Rights,154,147,0.001690265,0.001640497,4.9768e-05,131,spine-year,openalex
+2019-12-31,construct,ox_politeness_theory,Politeness Theory,148,140,0.00162441,0.001562378,6.2032e-05,132,spine-year,openalex
+2019-12-31,construct,ox_historical_phonology,Historical Phonology,147,117,0.001613434,0.001305702,0.000307733,133,spine-year,openalex
+2019-12-31,construct,sociocultural_theory,Sociocultural theory,141,123,0.00154758,0.001372661,0.000174919,134,spine-year,curated
+2019-12-31,construct,ox_ethnolinguistics,Ethnolinguistics,140,128,0.001536604,0.00142846,0.000108144,135,spine-year,openalex
+2019-12-31,construct,learner_engagement,Learner engagement,136,97,0.001492701,0.001082505,0.000410196,136,spine-year,curated
+2019-12-31,construct,ox_cross_cultural_communication,Cross-Cultural Communication,135,132,0.001481725,0.001473099,8.626e-06,137,spine-year,openalex
+2019-12-31,construct,ox_saussure,Saussure,134,261,0.00147075,0.002912719,-0.001441969,138,spine-year,openalex
+2019-12-31,construct,machine_translation,Machine translation,133,132,0.001459774,0.001473099,-1.3325e-05,139,spine-year,curated
+2019-12-31,construct,emi,English-medium instruction,123,113,0.001350016,0.001261062,8.8954e-05,140,spine-year,curated
+2019-12-31,construct,ox_occitan,Occitan,123,110,0.001350016,0.001227583,0.000122434,141,spine-year,openalex
+2019-12-31,construct,vocabulary_acquisition,Vocabulary acquisition,119,130,0.001306113,0.00145078,-0.000144666,142,spine-year,curated
+2019-12-31,construct,ox_translator_competence,Translator Competence,118,91,0.001295138,0.001015546,0.000279592,143,spine-year,openalex
+2019-12-31,construct,ox_nationalism,Nationalism,115,109,0.001262211,0.001216423,4.5788e-05,144,spine-year,openalex
+2019-12-31,construct,ox_anglicisms,Anglicisms,113,114,0.001240259,0.001272222,-3.1963e-05,145,spine-year,openalex
+2019-12-31,construct,intelligibility,Intelligibility,113,127,0.001240259,0.0014173,-0.000177041,146,spine-year,curated
+2019-12-31,construct,ox_multidimensionality,Multidimensionality,111,119,0.001218308,0.001328021,-0.000109714,147,spine-year,openalex
+2019-12-31,construct,ox_audio_description,Audio Description,110,105,0.001207332,0.001171783,3.5548e-05,148,spine-year,openalex
+2019-12-31,construct,ox_proto_indo_european,Proto-Indo-European,109,75,0.001196356,0.000836988,0.000359368,149,spine-year,openalex
+2019-12-31,construct,willingness_to_communicate,Willingness to communicate,107,74,0.001174405,0.000825828,0.000348576,150,spine-year,curated
+2019-12-31,construct,large_language_models,Large language models,104,89,0.001141477,0.000993226,0.000148251,151,spine-year,curated
+2019-12-31,construct,ox_social_justice,Social Justice,104,92,0.001141477,0.001026706,0.000114772,152,spine-year,openalex
+2019-12-31,construct,ox_task_based_instruction,Task-based Instruction,102,119,0.001119526,0.001328021,-0.000208495,153,spine-year,openalex
+2019-12-31,construct,ox_stereotype_analysis,Stereotype Analysis,96,105,0.001053671,0.001171783,-0.000118112,154,spine-year,openalex
+2019-12-31,construct,ox_medieval_literature,Medieval Literature,95,83,0.001042696,0.000926267,0.000116429,155,spine-year,openalex
+2019-12-31,construct,ox_multimodal_communication,Multimodal Communication,90,79,0.000987817,0.000881628,0.000106189,156,spine-year,openalex
+2019-12-31,construct,ox_historiography,Historiography,88,97,0.000965865,0.001082505,-0.000116639,157,spine-year,openalex
+2019-12-31,construct,ox_role_play_techniques,Role Play Techniques,85,68,0.000932938,0.000758869,0.000174069,158,spine-year,openalex
+2019-12-31,construct,meta_analysis,Meta-analysis,84,68,0.000921962,0.000758869,0.000163093,159,spine-year,curated
+2019-12-31,construct,written_corrective_feedback,Written corrective feedback,82,68,0.000900011,0.000758869,0.000141142,160,spine-year,curated
+2019-12-31,construct,ox_racism,Racism,81,77,0.000889035,0.000859308,2.9727e-05,161,spine-year,openalex
+2019-12-31,construct,ox_teacher_cognition,Teacher Cognition,80,60,0.000878059,0.000669591,0.000208469,162,spine-year,openalex
+2019-12-31,construct,eye_tracking,Eye-tracking,79,76,0.000867084,0.000848148,1.8936e-05,163,spine-year,curated
+2019-12-31,construct,ox_universal_grammar,Universal Grammar,77,107,0.000845132,0.001194103,-0.000348971,164,spine-year,openalex
+2019-12-31,construct,ox_diglossia,Diglossia,76,61,0.000834157,0.00068075,0.000153406,165,spine-year,openalex
+2019-12-31,construct,replication_study,Replication study,74,71,0.000812205,0.000792349,1.9856e-05,166,spine-year,curated
+2019-12-31,construct,ox_knowledge_representation,Knowledge Representation,72,73,0.000790254,0.000814668,-2.4415e-05,167,spine-year,openalex
+2019-12-31,construct,ox_semitic_languages,Semitic Languages,69,85,0.000757326,0.000948587,-0.00019126,168,spine-year,openalex
+2019-12-31,construct,ox_troubadours,Troubadours,68,105,0.000746351,0.001171783,-0.000425433,169,spine-year,openalex
+2019-12-31,construct,formulaic_language,Formulaic language,63,43,0.000691472,0.000479873,0.000211599,170,spine-year,curated
+2019-12-31,construct,ox_sociology_of_translation,Sociology of Translation,62,63,0.000680496,0.00070307,-2.2574e-05,171,spine-year,openalex
+2019-12-31,construct,ox_social_movements,Social Movements,60,58,0.000658545,0.000647271,1.1274e-05,172,spine-year,openalex
+2019-12-31,construct,ox_multimedia_learning,Multimedia Learning,58,49,0.000636593,0.000546832,8.9761e-05,173,spine-year,openalex
+2019-12-31,construct,narrative_inquiry,Narrative inquiry,58,58,0.000636593,0.000647271,-1.0678e-05,174,spine-year,curated
+2019-12-31,construct,clil,CLIL,54,45,0.00059269,0.000502193,9.0497e-05,175,spine-year,curated
+2019-12-31,construct,ideal_l2_self,Ideal L2 self,52,46,0.000570739,0.000513353,5.7386e-05,176,spine-year,curated
+2019-12-31,construct,ox_medieval_europe,Medieval Europe,51,52,0.000559763,0.000580312,-2.0549e-05,177,spine-year,openalex
+2019-12-31,construct,language_aptitude,Language aptitude,49,62,0.000537811,0.00069191,-0.000154099,178,spine-year,curated
+2019-12-31,construct,post_editing,Post-editing,49,30,0.000537811,0.000334795,0.000203016,179,spine-year,curated
+2019-12-31,construct,ox_health_communication,Health Communication,47,53,0.00051586,0.000591472,-7.5612e-05,180,spine-year,openalex
+2019-12-31,construct,ox_heritage_language_maintenance,Heritage Language Maintenance,46,40,0.000504884,0.000446394,5.8491e-05,181,spine-year,openalex
+2019-12-31,construct,ox_humboldt,Humboldt,44,64,0.000482933,0.00071423,-0.000231297,182,spine-year,openalex
+2019-12-31,construct,ox_migration_and_integration,Migration and Integration,43,49,0.000471957,0.000546832,-7.4875e-05,183,spine-year,openalex
+2019-12-31,construct,raciolinguistics,Raciolinguistics,42,14,0.000460981,0.000156238,0.000304743,184,spine-year,curated
+2019-12-31,construct,ox_interlanguage_development,Interlanguage Development,40,37,0.00043903,0.000412914,2.6116e-05,185,spine-year,openalex
+2019-12-31,construct,complex_dynamic_systems,Complex dynamic systems,39,21,0.000428054,0.000234357,0.000193697,186,spine-year,curated
+2019-12-31,construct,ox_urban_linguistics,Urban Linguistics,35,12,0.000384151,0.000133918,0.000250233,187,spine-year,openalex
+2019-12-31,construct,ox_middle_eastern_languages,Middle Eastern Languages,33,24,0.0003622,0.000267836,9.4363e-05,188,spine-year,openalex
+2019-12-31,construct,data_driven_learning,Data-driven learning,32,22,0.000351224,0.000245517,0.000105707,189,spine-year,curated
+2019-12-31,construct,ox_textual_criticism,Textual Criticism,31,31,0.000340248,0.000345955,-5.707e-06,190,spine-year,openalex
+2019-12-31,construct,ox_scalar_implicature,Scalar Implicature,30,17,0.000329272,0.000189717,0.000139555,191,spine-year,openalex
+2019-12-31,construct,ox_linguistic_historiography,Linguistic Historiography,28,27,0.000307321,0.000301316,6.005e-06,192,spine-year,openalex
+2019-12-31,construct,ox_oral_epics,oral epics,26,33,0.000285369,0.000368275,-8.2905e-05,193,spine-year,openalex
+2019-12-31,construct,comprehensible_input,Comprehensible input,25,22,0.000274394,0.000245517,2.8877e-05,194,spine-year,curated
+2019-12-31,construct,superdiversity,Superdiversity,25,36,0.000274394,0.000401754,-0.000127361,195,spine-year,curated
+2019-12-31,construct,ox_jesuits,Jesuits,21,28,0.000230491,0.000312476,-8.1985e-05,196,spine-year,openalex
+2019-12-31,construct,dynamic_assessment,Dynamic assessment,20,21,0.000219515,0.000234357,-1.4842e-05,197,spine-year,curated
+2019-12-31,construct,mall,Mobile-assisted language learning,19,17,0.000208539,0.000189717,1.8822e-05,198,spine-year,curated
+2019-12-31,construct,ox_hispanic_linguistics,Hispanic Linguistics,18,30,0.000197563,0.000334795,-0.000137232,199,spine-year,openalex
+2019-12-31,construct,ox_missionary_linguistics,Missionary Linguistics,17,13,0.000186588,0.000145078,4.151e-05,200,spine-year,openalex
+2019-12-31,construct,ox_pragmatic_borrowing,Pragmatic Borrowing,16,31,0.000175612,0.000345955,-0.000170343,201,spine-year,openalex
+2019-12-31,construct,ox_innovation_management,Innovation Management,10,7,0.000109757,7.8119e-05,3.1639e-05,202,spine-year,openalex
+2019-12-31,construct,duolingo,Duolingo,9,9,9.8782e-05,0.000100439,-1.657e-06,203,spine-year,curated
+2019-12-31,construct,ox_neo_aramaic_dialects,Neo-Aramaic Dialects,6,24,6.5854e-05,0.000267836,-0.000201982,204,spine-year,openalex
+2019-12-31,construct,washback,Washback,6,19,6.5854e-05,0.000212037,-0.000146183,205,spine-year,curated
+2019-12-31,construct,automated_writing_evaluation,Automated writing evaluation,5,8,5.4879e-05,8.9279e-05,-3.44e-05,206,spine-year,curated
+2019-12-31,construct,generative_ai,Generative AI,1,0,1.0976e-05,0.0,1.0976e-05,207,spine-year,curated
 2019-12-31,construct,chatgpt,ChatGPT,0,0,0.0,0.0,0.0,208,spine-year,curated
 2019-12-31,construct,ox_manuscriptology,manuscriptology,0,0,0.0,0.0,0.0,209,spine-year,openalex
