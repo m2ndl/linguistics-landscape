@@ -1,397 +1,387 @@
 {
-  "as_of": "2026-10-19",
-  "cited_since": "2024-10-19",
+  "as_of": "2026-10-26",
+  "cited_since": "2024-10-26",
   "newest": [
     {
-      "id": "https://openalex.org/W7219171720",
-      "title": "Entre « tâche » et « abandon » : La traduction poétique chez Claudel, Larbaud, Pavese et Solmi",
+      "id": "https://openalex.org/W7223455132",
+      "title": "A MODEL FOR ASSESSING THE LINGUOCULTURAL ADEQUACY OF AI-GENERATED FOLKLORE TEXTS",
       "authors": [
-        "Letizia Imola"
-      ],
-      "venue": "ORBi (University of Liège)",
-      "year": 2026,
-      "date": "2026-10-19",
-      "cited_by_count": 0,
-      "doi": null,
-      "oa_url": "https://orbi.uliege.be/bitstream/2268/349375/2/Abstract%20et%20TM%20Th%c3%a8se%20Letizia%20Imola.pdf",
-      "topic": "Translation Studies and Practices",
-      "type": "dissertation"
-    },
-    {
-      "id": "https://openalex.org/W7221937494",
-      "title": "Libro de resúmenes del Congreso Internacional Lengua, Cultura y Sociedad 2026",
-      "authors": [
-        "Cristina V. Herranz Llácer",
-        "Ana Segovia Gordillo",
-        "Cristina Muñoz",
-        "Yakov M. Druzhkov",
-        "et al."
-      ],
-      "venue": "BURJC Digital (King Juan Carlos University)",
-      "year": 2026,
-      "date": "2026-10-19",
-      "cited_by_count": 0,
-      "doi": "https://doi.org/10.5281/zenodo.23388824",
-      "oa_url": "https://hdl.handle.net/10115/507577",
-      "topic": "Language and Culture",
-      "type": "book"
-    },
-    {
-      "id": "https://openalex.org/W7222867721",
-      "title": "中职英语教学中自主学习能力培养路径探析",
-      "authors": [
-        "蔡满云"
-      ],
-      "venue": "数据期刊",
-      "year": 2026,
-      "date": "2026-10-19",
-      "cited_by_count": 0,
-      "doi": "https://doi.org/10.67328/wslwpp1492",
-      "oa_url": null,
-      "topic": "EFL/ESL Teaching and Learning",
-      "type": "article"
-    },
-    {
-      "id": "https://openalex.org/W7222869218",
-      "title": "Machine translation of modern Chinese poetry into Japanese: A comparative evaluation of LLMs, neural machine translation systems, and prompt strategies",
-      "authors": [
-        "Yuhuan Wang",
-        "Qilong Yu",
-        "Lianghong Hui",
-        "彭广陆"
-      ],
-      "venue": "Research Square",
-      "year": 2026,
-      "date": "2026-10-19",
-      "cited_by_count": 0,
-      "doi": "https://doi.org/10.21203/rs.3.rs-10122799/v1",
-      "oa_url": "https://doi.org/10.21203/rs.3.rs-10122799/v1",
-      "topic": "Translation Studies and Practices",
-      "type": "preprint"
-    },
-    {
-      "id": "https://openalex.org/W7222892716",
-      "title": "Speaking Fluency Difficulties Among EFL Students: A Quantitative Investigation",
-      "authors": [
-        "Mohammed Abdulkareem A. Alkamel",
-        "Nada Jamal Al-Jaradi",
-        "Kefa Abdulrahman Al-Wajih",
-        "Naba'a Khalil Al-Mhaqni",
-        "et al."
-      ],
-      "venue": "Journal of Language Science and Practice",
-      "year": 2026,
-      "date": "2026-10-19",
-      "cited_by_count": 0,
-      "doi": "https://doi.org/10.65343/jlsp.v2i2.156",
-      "oa_url": "https://doi.org/10.65343/jlsp.v2i2.156",
-      "topic": "EFL/ESL Teaching and Learning",
-      "type": "article"
-    },
-    {
-      "id": "https://openalex.org/W7222848930",
-      "title": "Memoria sobre el sistema primitivo de las laringales y la raíz en las lenguas nostráticas",
-      "authors": [
-        "Jesús Francisco Teira Lafuente"
+        "Fayyozjon Azimov"
       ],
       "venue": "Zenodo (CERN European Organization for Nuclear Research)",
       "year": 2026,
-      "date": "2026-10-18",
+      "date": "2026-10-25",
       "cited_by_count": 0,
-      "doi": "https://doi.org/10.5281/zenodo.23442228",
-      "oa_url": "https://doi.org/10.5281/zenodo.23442228",
-      "topic": "Linguistics and language evolution",
-      "type": "article"
-    },
-    {
-      "id": "https://openalex.org/W7222864453",
-      "title": "TEACHING OF CULTURAL CONTENTS IN ESL TEXTBOOKS: CHALLENGESFACED BY ESL TEACHERS AT INTERMEDIATE LEVEL IN PAKISTAN | Journal of Applied Linguistics and TESOL (JALT)",
-      "authors": [
-        "Author Contributor"
-      ],
-      "venue": "",
-      "year": 2026,
-      "date": "2026-10-18",
-      "cited_by_count": 0,
-      "doi": "https://doi.org/10.66857/2242",
-      "oa_url": null,
-      "topic": "EFL/ESL Teaching and Learning",
-      "type": "article"
-    },
-    {
-      "id": "https://openalex.org/W7222864532",
-      "title": "Analisis Pragmatik Kesantunan Bahasa dalam Film Sobat Ambyar dan Implikasi terhadap Pembelajaran Bahasa Indonesia kelas XI",
-      "authors": [
-        "Devita Astiani",
-        "Prima Gusti Yanti"
-      ],
-      "venue": "Jurnal Ragam Pengabdian",
-      "year": 2026,
-      "date": "2026-10-18",
-      "cited_by_count": 0,
-      "doi": "https://doi.org/10.62710/t0eac857",
-      "oa_url": "https://doi.org/10.62710/t0eac857",
-      "topic": "Linguistics and Language Analysis",
-      "type": "article"
-    },
-    {
-      "id": "https://openalex.org/W7222866274",
-      "title": "The Stratified Outer Circle: Class, Education, and English in Bangladesh",
-      "authors": [
-        "Faria Nourin Ansaree"
-      ],
-      "venue": "",
-      "year": 2026,
-      "date": "2026-10-18",
-      "cited_by_count": 0,
-      "doi": "https://doi.org/10.66246/zw793s83",
-      "oa_url": "https://doi.org/10.66246/zw793s83",
-      "topic": "Multilingual Education and Policy",
-      "type": "article"
-    },
-    {
-      "id": "https://openalex.org/W7222867158",
-      "title": "Azərbaycan aşıq poeziyasının dilində sinonimlik keyfiyyəti",
-      "authors": [
-        "C. Fəxriyyə"
-      ],
-      "venue": "Azərbaycan dili və ədəbiyyatı tədrisi.",
-      "year": 2026,
-      "date": "2026-10-18",
-      "cited_by_count": 0,
-      "doi": "https://doi.org/10.48445/z5746-8431-0365-l",
-      "oa_url": null,
-      "topic": "Linguistics and Cultural Studies",
-      "type": "article"
-    },
-    {
-      "id": "https://openalex.org/W7222868287",
-      "title": "Hoc opus, hic labor",
-      "authors": [
-        "Florent Tsiba"
-      ],
-      "venue": "Annales de la Faculté des lettres et des sciences humaines.",
-      "year": 2026,
-      "date": "2026-10-18",
-      "cited_by_count": 0,
-      "doi": "https://doi.org/10.55595/g0tvd244",
-      "oa_url": "https://doi.org/10.55595/g0tvd244",
-      "topic": "Classical Studies and Philology",
-      "type": "article"
-    },
-    {
-      "id": "https://openalex.org/W7222868417",
-      "title": "THE IMPACT OF TEACHERS’ GENDER ON LANGUAGE LEARNINGOUTCOMES AT THE HIGHER SECONDARY LEVEL IN DISTRICTMANDI BAHAUDDIN | Journal of Applied Linguistics and TESOL (JALT)",
-      "authors": [
-        "Author Contributor"
-      ],
-      "venue": "",
-      "year": 2026,
-      "date": "2026-10-18",
-      "cited_by_count": 0,
-      "doi": "https://doi.org/10.66857/1097",
-      "oa_url": null,
-      "topic": "EFL/ESL Teaching and Learning",
-      "type": "article"
-    },
-    {
-      "id": "https://openalex.org/W7222871351",
-      "title": "Beyond Knowing English: Developing Communicative Competence and Learner Autonomy Through Meaningful Interaction and Language Awareness",
-      "authors": [
-        "Ozlem Yuges"
-      ],
-      "venue": "",
-      "year": 2026,
-      "date": "2026-10-18",
-      "cited_by_count": 0,
-      "doi": "https://doi.org/10.13140/rg.2.2.25445.97767",
-      "oa_url": "https://doi.org/10.13140/rg.2.2.25445.97767",
-      "topic": "EFL/ESL Teaching and Learning",
-      "type": "article"
-    },
-    {
-      "id": "https://openalex.org/W7222872589",
-      "title": "An Analysis of The Causes of English Speaking Difficulties Among Eight-Grade Students at SMP Islam Terpadu Qurrota A'yun Palu",
-      "authors": [
-        "Vikramsing, Darmawan, Maghfira"
-      ],
-      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
-      "year": 2026,
-      "date": "2026-10-18",
-      "cited_by_count": 0,
-      "doi": "https://doi.org/10.5281/zenodo.23448907",
-      "oa_url": "https://doi.org/10.5281/zenodo.23448907",
-      "topic": "EFL/ESL Teaching and Learning",
-      "type": "article"
-    },
-    {
-      "id": "https://openalex.org/W7222873280",
-      "title": "Accessibility in Film Festivals: Inclusive Subtitles in Hermia & Helena by Matías Piñeiro",
-      "authors": [
-        "Lucilla Sampognaro"
-      ],
-      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
-      "year": 2026,
-      "date": "2026-10-18",
-      "cited_by_count": 0,
-      "doi": "https://doi.org/10.5281/zenodo.23454447",
-      "oa_url": "https://doi.org/10.5281/zenodo.23454447",
-      "topic": "Subtitles and Audiovisual Media",
-      "type": "dissertation"
-    },
-    {
-      "id": "https://openalex.org/W7222873419",
-      "title": "TESTING THE FLUCTUATION HYPOTHESIS IN THE USE OFENGLISH DEFINITE ARTICLE BY URDU SPEAKERS | Journal of Applied Linguistics and TESOL (JALT)",
-      "authors": [
-        "Author Contributor"
-      ],
-      "venue": "",
-      "year": 2026,
-      "date": "2026-10-18",
-      "cited_by_count": 0,
-      "doi": "https://doi.org/10.66857/1907",
-      "oa_url": null,
-      "topic": "EFL/ESL Teaching and Learning",
-      "type": "article"
-    },
-    {
-      "id": "https://openalex.org/W7222874052",
-      "title": "INTERACTIVE SPEAKING ACTIVITIES FOR CIVIL ENGINEERING STUDENTS",
-      "authors": [
-        "Aynura Bekjanova",
-        "Khaydarova Zukhriddinovna"
-      ],
-      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
-      "year": 2026,
-      "date": "2026-10-18",
-      "cited_by_count": 0,
-      "doi": "https://doi.org/10.5281/zenodo.23450923",
-      "oa_url": "https://doi.org/10.5281/zenodo.23450923",
-      "topic": "EFL/ESL Teaching and Learning",
-      "type": "book"
-    },
-    {
-      "id": "https://openalex.org/W7222874072",
-      "title": "Groupe de co-interprétation : EDF - « Depuis 80 ans, EDF produit l'électricité dont la France a besoin »",
-      "authors": [
-        "gr8m1cpp2627"
-      ],
-      "venue": "OpenEdition (OpenEdition)",
-      "year": 2026,
-      "date": "2026-10-18",
-      "cited_by_count": 0,
-      "doi": "https://doi.org/10.58079/16z3c",
-      "oa_url": "https://doi.org/10.58079/16z3c",
+      "doi": "https://doi.org/10.5281/zenodo.23627910",
+      "oa_url": "https://doi.org/10.5281/zenodo.23627910",
       "topic": "Translation Studies and Practices",
       "type": "article"
     },
     {
-      "id": "https://openalex.org/W7222874631",
-      "title": "A Study of Fu Zengge's Manuscript Preserved in the Russian State Library",
+      "id": "https://openalex.org/W7223465431",
+      "title": "Ideological Positioning of “We” in Constructing Solidarity and Identity in Boris Johnson’s 2019 Election Victory Speech",
       "authors": [
-        "Xiaojing Zhang",
-        "N. V. Kalabina"
+        "Olusegun Oladele Jegede"
       ],
-      "venue": "Modern Oriental Studies",
+      "venue": "Interaction Sociology of Communication Journal",
       "year": 2026,
-      "date": "2026-10-18",
+      "date": "2026-10-25",
       "cited_by_count": 0,
-      "doi": "https://doi.org/10.26907/2782-1935.2026.2.13-21",
-      "oa_url": "https://doi.org/10.26907/2782-1935.2026.2.13-21",
-      "topic": "Classical Studies and Philology",
-      "type": "article"
-    },
-    {
-      "id": "https://openalex.org/W7222874968",
-      "title": "Einführung zum „Neuen Berner-Kalender“: 5. Sprache und Dialekt im Kalender",
-      "authors": [
-        "Christian von Zimmermann u. Barbara                     Berger-Guigon",
-        "Christian von Zimmermann",
-        "Patricia Zihlmann"
-      ],
-      "venue": "digitale Historisch-kritische Gesamtausgabe der Werke und Briefe von Jeremias Gotthelf (dHKG)",
-      "year": 2026,
-      "date": "2026-10-18",
-      "cited_by_count": 0,
-      "doi": "https://doi.org/10.82565/4f8a5c18",
-      "oa_url": "https://doi.org/10.82565/4f8a5c18",
-      "topic": "Linguistic research and analysis",
-      "type": "article"
-    },
-    {
-      "id": "https://openalex.org/W7222874977",
-      "title": "ENGLISH FOR CIVIL ENGINEERING: BUILDING DESIGN AND CONSTRUCTION",
-      "authors": [
-        "X. Alimov",
-        "Khaydarova Zukhriddinovna"
-      ],
-      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
-      "year": 2026,
-      "date": "2026-10-18",
-      "cited_by_count": 0,
-      "doi": "https://doi.org/10.5281/zenodo.23451595",
-      "oa_url": "https://doi.org/10.5281/zenodo.23451595",
-      "topic": "EFL/ESL Teaching and Learning",
-      "type": "book"
-    },
-    {
-      "id": "https://openalex.org/W7222875319",
-      "title": "(كان) في لغة الحديث النبوي بين قياس القاعدة النحوية ومخالفتها",
-      "authors": [
-        "صالح معيوف إبراهيم عوض"
-      ],
-      "venue": "(Faculty of Arts Journal) مجلة كلية الآداب - جامعة مصراتة",
-      "year": 2026,
-      "date": "2026-10-18",
-      "cited_by_count": 0,
-      "doi": "https://doi.org/10.36602/faj.2026.n22.21",
-      "oa_url": "https://doi.org/10.36602/faj.2026.n22.21",
-      "topic": "Language, Linguistics, Cultural Analysis",
-      "type": "article"
-    },
-    {
-      "id": "https://openalex.org/W7222875944",
-      "title": "AZƏRBAYCAN RESPUBLİKASININ PREZİDENTİ İLHAM ƏLİYEVİN NİTQLƏRİ, ÇIXIŞLARI VƏ MÜSAHİBƏLƏRİ",
-      "authors": [
-        "Dövlət İdarəçiliyi:Nəzəriyyə və Təcrübə Dövlət İdarəçiliyi:Nəzəriyyə və Təcrübə"
-      ],
-      "venue": "",
-      "year": 2026,
-      "date": "2026-10-18",
-      "cited_by_count": 0,
-      "doi": "https://doi.org/10.30546/2309-1347.94.2026.02.2041",
-      "oa_url": null,
+      "doi": "https://doi.org/10.64271/h2mbs360",
+      "oa_url": "https://doi.org/10.64271/h2mbs360",
       "topic": "Cultural and political discourse analysis",
       "type": "article"
     },
     {
-      "id": "https://openalex.org/W7222877614",
-      "title": "音义同源论:语音与语义的编码同源关系|Sound-Meaning Homology: The Encoding Homology of Speech Sound and Semantics",
+      "id": "https://openalex.org/W7223468519",
+      "title": "Use of Jakarta’s Sociolect to Show Modernity in North Lampung Regency Society",
       "authors": [
-        "Tonghua (同华) Liu (刘)"
+        "Novritsar Hasitongan Pakpahan",
+        "Binsar Pamopo Pakpahan"
+      ],
+      "venue": "Interaction Sociology of Communication Journal",
+      "year": 2026,
+      "date": "2026-10-25",
+      "cited_by_count": 0,
+      "doi": "https://doi.org/10.64271/8fycmk97",
+      "oa_url": "https://doi.org/10.64271/8fycmk97",
+      "topic": "Linguistic and Sociocultural Studies",
+      "type": "article"
+    },
+    {
+      "id": "https://openalex.org/W7223474461",
+      "title": "ОСОБЕННОСТИ ВОСПРИЯТИЯ РУССКОЙ ФРАЗЕОЛОГИИ НОСИТЕЛЯМИ УЗБЕКСКОГО ЯЗЫКА",
+      "authors": [
+        "Abdullayeva Saidaxon Nuritdinovna",
+        "Axmedova Mashhura Baxtiyor qizi"
       ],
       "venue": "Zenodo (CERN European Organization for Nuclear Research)",
       "year": 2026,
-      "date": "2026-10-18",
+      "date": "2026-10-25",
       "cited_by_count": 0,
-      "doi": "https://doi.org/10.5281/zenodo.23448726",
-      "oa_url": "https://doi.org/10.5281/zenodo.23448726",
-      "topic": "Linguistics and language evolution",
+      "doi": "https://doi.org/10.5281/zenodo.23629174",
+      "oa_url": "https://doi.org/10.5281/zenodo.23629174",
+      "topic": "Linguistic research and analysis",
+      "type": "article"
+    },
+    {
+      "id": "https://openalex.org/W7223560828",
+      "title": "LANGUAGE SHIFT AND SOCIAL FACTORS: A STUDY OF GOJRI LANGUAGE IN UPPER DIR",
+      "authors": [
+        "Dr. Zia Ullah, Anayat Ullah,Dr. Wajid Hussain"
+      ],
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "year": 2026,
+      "date": "2026-10-25",
+      "cited_by_count": 0,
+      "doi": "https://doi.org/10.5281/zenodo.23641954",
+      "oa_url": "https://doi.org/10.5281/zenodo.23641954",
+      "topic": "Linguistic and Sociocultural Studies",
+      "type": "article"
+    },
+    {
+      "id": "https://openalex.org/W7223567300",
+      "title": "Symbolic Morphology and Phonetic Properties: On the Integration of Chinese and Western Writing Advantages through \"Alphabetic Phono-semantic Characters",
+      "authors": [
+        "传明 黄"
+      ],
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "year": 2026,
+      "date": "2026-10-25",
+      "cited_by_count": 0,
+      "doi": "https://doi.org/10.5281/zenodo.23628959",
+      "oa_url": "https://doi.org/10.5281/zenodo.23628959",
+      "topic": "Linguistics and Language Studies",
       "type": "preprint"
     },
     {
-      "id": "https://openalex.org/W7222878136",
-      "title": "The Ideological Reframing of Saudi Women’s Agency: A Corpus-Based Discourse Analysis of BBC and Reuters English-to-Arabic News Translation",
+      "id": "https://openalex.org/W7223573721",
+      "title": "Reframing GenAI-mediated EFL speaking: A systematic review of empirical studies through an Activity Theory lens",
       "authors": [
-        "Lulwah Alhesyan"
+        "Tiantian Tang",
+        "Supyan Hussin"
+      ],
+      "venue": "Journal of Pedagogical Sociology and Psychology",
+      "year": 2026,
+      "date": "2026-10-25",
+      "cited_by_count": 0,
+      "doi": "https://doi.org/10.33902/jpsp.202648559",
+      "oa_url": "https://doi.org/10.33902/jpsp.202648559",
+      "topic": "EFL/ESL Teaching and Learning",
+      "type": "article"
+    },
+    {
+      "id": "https://openalex.org/W7223577379",
+      "title": "Fungsi Referensial dan Vokatif Istilah Kekerabatan dalam Kaba Rancak di Labuah",
+      "authors": [
+        "Sri Wahyuni"
+      ],
+      "venue": "Puitika",
+      "year": 2026,
+      "date": "2026-10-25",
+      "cited_by_count": 0,
+      "doi": "https://doi.org/10.25077/puitika.v22i2.900",
+      "oa_url": "https://jurnalpuitika.fib.unand.ac.id/index.php/jurnalpuitika/article/download/900/411",
+      "topic": "Linguistics and Language Analysis",
+      "type": "article"
+    },
+    {
+      "id": "https://openalex.org/W7222918925",
+      "title": "[T-064] Principle of Exception Exclusion",
+      "authors": [
+        "Erystela Thevale"
+      ],
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "year": 2026,
+      "date": "2026-10-24",
+      "cited_by_count": 0,
+      "doi": "https://doi.org/10.5281/zenodo.23481611",
+      "oa_url": "https://doi.org/10.5281/zenodo.23481611",
+      "topic": "Syntax, Semantics, Linguistic Variation",
+      "type": "preprint"
+    },
+    {
+      "id": "https://openalex.org/W7223294941",
+      "title": "Differentiated Teaching Strategies and Practices for Enhancing Student Engagement in Professional English Classrooms",
+      "authors": [
+        "Tongyu Shi"
+      ],
+      "venue": "English Language Teaching and Linguistics Studies",
+      "year": 2026,
+      "date": "2026-10-24",
+      "cited_by_count": 0,
+      "doi": "https://doi.org/10.22158/eltls.v8n5p115",
+      "oa_url": "https://www.scholink.org/ojs/index.php/eltls/article/download/58218/21069",
+      "topic": "EFL/ESL Teaching and Learning",
+      "type": "article"
+    },
+    {
+      "id": "https://openalex.org/W7223311383",
+      "title": "Research on the Application of Competency-Based Teaching Method in English Teaching Courses",
+      "authors": [
+        "Tongyu Shi"
+      ],
+      "venue": "World Journal of Educational Research",
+      "year": 2026,
+      "date": "2026-10-24",
+      "cited_by_count": 0,
+      "doi": "https://doi.org/10.22158/wjer.v13n5p62",
+      "oa_url": "https://www.scholink.org/ojs/index.php/wjer/article/download/58216/21067",
+      "topic": "EFL/ESL Teaching and Learning",
+      "type": "article"
+    },
+    {
+      "id": "https://openalex.org/W7223405440",
+      "title": "Supporting English Speaking Practice Through Targeted Academic Tutoring Sessions Among 8th-, 9th-, and 10th-Grade Students",
+      "authors": [
+        "Amanda Sofía Moreira Baquerizo",
+        "NELLY ISABEL MORETA TRUJILLO",
+        "Manuel Gilberto Córdova Negrete"
+      ],
+      "venue": " Research Club Scientia",
+      "year": 2026,
+      "date": "2026-10-24",
+      "cited_by_count": 0,
+      "doi": "https://doi.org/10.65415/vd1fc378",
+      "oa_url": "https://researchclubscientia.com/index.php/files/article/download/246/309",
+      "topic": "EFL/ESL Teaching and Learning",
+      "type": "article"
+    },
+    {
+      "id": "https://openalex.org/W7223439512",
+      "title": "Dilbilimi Alanında Güncel Konular ve Akademik Değerlendirmeler",
+      "authors": [
+        "YAZ Yayınları"
+      ],
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "year": 2026,
+      "date": "2026-10-24",
+      "cited_by_count": 0,
+      "doi": "https://doi.org/10.5281/zenodo.23612926",
+      "oa_url": "https://doi.org/10.5281/zenodo.23612926",
+      "topic": "Linguistics and Cultural Studies",
+      "type": "book"
+    },
+    {
+      "id": "https://openalex.org/W7223441258",
+      "title": "Translation: The Basics",
+      "authors": [
+        "Juliane 1942- House",
+        "Eyhab Abdulrazak Bader Eddin"
       ],
       "venue": "Arab World English Journal For Translation and Literary Studies",
       "year": 2026,
-      "date": "2026-10-18",
+      "date": "2026-10-24",
       "cited_by_count": 0,
-      "doi": "https://doi.org/10.24093/awejtls/vol10no4.8",
+      "doi": "https://doi.org/10.24093/awejtls/vol10no4.12",
       "oa_url": null,
       "topic": "Translation Studies and Practices",
+      "type": "article"
+    },
+    {
+      "id": "https://openalex.org/W7223441403",
+      "title": "DIRECTNESS, POLITENESS AND SOCIAL DISTANCE IN ENGLISH AND UZBEK ATTENTION-GETTING EXPRESSIONS",
+      "authors": [
+        "Izbosarova Khulkar"
+      ],
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "year": 2026,
+      "date": "2026-10-24",
+      "cited_by_count": 0,
+      "doi": "https://doi.org/10.5281/zenodo.23616854",
+      "oa_url": "https://doi.org/10.5281/zenodo.23616854",
+      "topic": "Language, Discourse, Communication Strategies",
+      "type": "article"
+    },
+    {
+      "id": "https://openalex.org/W7223442058",
+      "title": "Transitivity in Human and AI-generated Arabic Translation of The Power of Positive Thinking",
+      "authors": [
+        "Sulaiman Alsowaina"
+      ],
+      "venue": "International Journal of Translation and Interpretation Studies",
+      "year": 2026,
+      "date": "2026-10-24",
+      "cited_by_count": 0,
+      "doi": "https://doi.org/10.32996/ijtis.2026.6.6.3",
+      "oa_url": "https://doi.org/10.32996/ijtis.2026.6.6.3",
+      "topic": "Translation Studies and Practices",
+      "type": "article"
+    },
+    {
+      "id": "https://openalex.org/W7223442156",
+      "title": "Indigenous People’s Challenges in Using Bangla and English Language: A Study of GUB Students",
+      "authors": [
+        "M. A. Rahat"
+      ],
+      "venue": "",
+      "year": 2026,
+      "date": "2026-10-24",
+      "cited_by_count": 0,
+      "doi": "https://doi.org/10.13140/rg.2.2.28087.07842",
+      "oa_url": "https://doi.org/10.13140/rg.2.2.28087.07842",
+      "topic": "Multilingual Education and Policy",
+      "type": "article"
+    },
+    {
+      "id": "https://openalex.org/W7223443418",
+      "title": "A COMPARATIVE ANALYSIS OF ATTENTION-GETTING EXPRESSIONS IN ENGLISH AND UZBEK FROM A LINGUOPRAGMATIC PERSPECTIVE",
+      "authors": [
+        "Izbosarova Khulkar",
+        "Worldly Knowledge Publishing Centre"
+      ],
+      "venue": "International Journal of Literature and Language Studies",
+      "year": 2026,
+      "date": "2026-10-24",
+      "cited_by_count": 0,
+      "doi": "https://doi.org/10.5281/zenodo.23613967",
+      "oa_url": "https://jiujournal.org/index.php/index/article/view/1208",
+      "topic": "Linguistics and Language Analysis",
+      "type": "article"
+    },
+    {
+      "id": "https://openalex.org/W7223443514",
+      "title": "THE CONTRIBUTION OF NOWSHERA'S KHESHGI WRITERS TO PASHTO TRANSLATION LITERATURE",
+      "authors": [
+        "Dr Shukria Qadir Fazl ur Rahman"
+      ],
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "year": 2026,
+      "date": "2026-10-24",
+      "cited_by_count": 0,
+      "doi": "https://doi.org/10.5281/zenodo.23610582",
+      "oa_url": "https://doi.org/10.5281/zenodo.23610582",
+      "topic": "Translation Studies and Practices",
+      "type": "article"
+    },
+    {
+      "id": "https://openalex.org/W7223443815",
+      "title": "Text, Duality and the Bidirectional Semantic Knowledge: An EpistemicMathematical Model for Semantics",
+      "authors": [
+        "Noury Bakrim"
+      ],
+      "venue": "",
+      "year": 2026,
+      "date": "2026-10-24",
+      "cited_by_count": 0,
+      "doi": "https://doi.org/10.61440/oajmcs.2026.v1.06",
+      "oa_url": "https://doi.org/10.61440/oajmcs.2026.v1.06",
+      "topic": "Syntax, Semantics, Linguistic Variation",
+      "type": "article"
+    },
+    {
+      "id": "https://openalex.org/W7223444152",
+      "title": "The use of AI chatbot on efl students’ speaking skills, speaking anxiety, and willingness to communicate: through the lens of activity theory",
+      "authors": [
+        "Xue Wang"
+      ],
+      "venue": "BMC Psychology",
+      "year": 2026,
+      "date": "2026-10-24",
+      "cited_by_count": 0,
+      "doi": "https://doi.org/10.1186/s40359-026-05838-y",
+      "oa_url": "https://doi.org/10.1186/s40359-026-05838-y",
+      "topic": "EFL/ESL Teaching and Learning",
+      "type": "article"
+    },
+    {
+      "id": "https://openalex.org/W7223444173",
+      "title": "LEXICAL LACUNAE IN THE UZBEK TRANSLATIONS OF LEO TOLSTOY’S WORKS",
+      "authors": [
+        "Закирова Барно Бахромовна"
+      ],
+      "venue": "ShodhGyan-NU Journal of Literature and Culture Studies",
+      "year": 2026,
+      "date": "2026-10-24",
+      "cited_by_count": 0,
+      "doi": "https://doi.org/10.29121/shodhgyan.v4.i3.2026.158",
+      "oa_url": "https://doi.org/10.29121/shodhgyan.v4.i3.2026.158",
+      "topic": "Translation Studies and Practices",
+      "type": "article"
+    },
+    {
+      "id": "https://openalex.org/W7223444557",
+      "title": "La frontera de la lengua. La mediación intercultural y la dislocación del lazo en el Gran Resistencia",
+      "authors": [
+        "Elian D Diaz"
+      ],
+      "venue": "",
+      "year": 2026,
+      "date": "2026-10-24",
+      "cited_by_count": 0,
+      "doi": "https://doi.org/10.13140/rg.2.2.24849.60003/2",
+      "oa_url": "https://doi.org/10.13140/rg.2.2.24849.60003/2",
+      "topic": "Language and Culture",
+      "type": "article"
+    },
+    {
+      "id": "https://openalex.org/W7223446108",
+      "title": "OPPORTUNITIES AND THREATS IN ESL ASSESSMENT PRACTICES AT SECONDARY LEVEL",
+      "authors": [
+        "Author Contributor"
+      ],
+      "venue": "",
+      "year": 2026,
+      "date": "2026-10-24",
+      "cited_by_count": 0,
+      "doi": "https://doi.org/10.66857/3468",
+      "oa_url": null,
+      "topic": "EFL/ESL Teaching and Learning",
+      "type": "article"
+    },
+    {
+      "id": "https://openalex.org/W7223446745",
+      "title": "Teaching English to young learners: a comparison of kindergarten and primary school methods",
+      "authors": [
+        "Ibrohimova Xulkaroy"
+      ],
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "year": 2026,
+      "date": "2026-10-24",
+      "cited_by_count": 0,
+      "doi": "https://doi.org/10.5281/zenodo.23613819",
+      "oa_url": "https://doi.org/10.5281/zenodo.23613819",
+      "topic": "EFL/ESL Teaching and Learning",
       "type": "article"
     }
   ],
@@ -409,7 +399,7 @@
       "venue": "System",
       "year": 2024,
       "date": "2024-11-01",
-      "cited_by_count": 196,
+      "cited_by_count": 200,
       "doi": "https://doi.org/10.1016/j.system.2024.103533",
       "oa_url": null,
       "topic": "EFL/ESL Teaching and Learning",
@@ -425,7 +415,7 @@
       "venue": "European Journal of Education",
       "year": 2024,
       "date": "2024-12-31",
-      "cited_by_count": 164,
+      "cited_by_count": 169,
       "doi": "https://doi.org/10.1111/ejed.12845",
       "oa_url": null,
       "topic": "EFL/ESL Teaching and Learning",
@@ -440,7 +430,7 @@
       "venue": "Learning and Motivation",
       "year": 2025,
       "date": "2025-02-27",
-      "cited_by_count": 147,
+      "cited_by_count": 149,
       "doi": "https://doi.org/10.1016/j.lmot.2025.102114",
       "oa_url": null,
       "topic": "EFL/ESL Teaching and Learning",
@@ -456,25 +446,9 @@
       "venue": "Journal of Second Language Writing",
       "year": 2025,
       "date": "2025-02-13",
-      "cited_by_count": 134,
+      "cited_by_count": 138,
       "doi": "https://doi.org/10.1016/j.jslw.2025.101187",
       "oa_url": "https://doi.org/10.1016/j.jslw.2025.101187",
-      "topic": "EFL/ESL Teaching and Learning",
-      "type": "article"
-    },
-    {
-      "id": "https://openalex.org/W4403689764",
-      "title": "AI ‐Mediated Communication in EFL Classrooms: The Role of Technical and Pedagogical Stimuli and the Mediating Effects of AI Literacy and Enjoyment",
-      "authors": [
-        "Honggang Liu",
-        "Jiqun Fan"
-      ],
-      "venue": "European Journal of Education",
-      "year": 2024,
-      "date": "2024-10-23",
-      "cited_by_count": 127,
-      "doi": "https://doi.org/10.1111/ejed.12813",
-      "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/ejed.12813",
       "topic": "EFL/ESL Teaching and Learning",
       "type": "article"
     },
@@ -490,7 +464,7 @@
       "venue": "Behavioral Sciences",
       "year": 2025,
       "date": "2025-04-14",
-      "cited_by_count": 120,
+      "cited_by_count": 124,
       "doi": "https://doi.org/10.3390/bs15040523",
       "oa_url": "https://www.mdpi.com/2076-328X/15/4/523/pdf?version=1744610680",
       "topic": "EFL/ESL Teaching and Learning",
@@ -522,7 +496,7 @@
       "venue": "The Internet and Higher Education",
       "year": 2024,
       "date": "2024-12-19",
-      "cited_by_count": 116,
+      "cited_by_count": 118,
       "doi": "https://doi.org/10.1016/j.iheduc.2024.100991",
       "oa_url": "https://hub.hku.hk/handle/10722/355070",
       "topic": "EFL/ESL Teaching and Learning",
@@ -556,7 +530,7 @@
       "venue": "Computer Assisted Language Learning",
       "year": 2025,
       "date": "2025-02-03",
-      "cited_by_count": 102,
+      "cited_by_count": 105,
       "doi": "https://doi.org/10.1080/09588221.2025.2454541",
       "oa_url": "https://doi.org/10.1080/09588221.2025.2454541",
       "topic": "EFL/ESL Teaching and Learning",
@@ -573,7 +547,7 @@
       "venue": "European Journal of Education",
       "year": 2025,
       "date": "2025-06-24",
-      "cited_by_count": 97,
+      "cited_by_count": 99,
       "doi": "https://doi.org/10.1111/ejed.70157",
       "oa_url": null,
       "topic": "EFL/ESL Teaching and Learning",
@@ -589,7 +563,7 @@
       "venue": "Journal of Computer Assisted Learning",
       "year": 2026,
       "date": "2026-01-20",
-      "cited_by_count": 95,
+      "cited_by_count": 98,
       "doi": "https://doi.org/10.1002/jcal.70189",
       "oa_url": null,
       "topic": "EFL/ESL Teaching and Learning",
@@ -629,19 +603,20 @@
       "type": "book-chapter"
     },
     {
-      "id": "https://openalex.org/W4403773662",
-      "title": "Examining generative AI–mediated informal digital learning of English practices with social cognitive theory: a mixed-methods study",
+      "id": "https://openalex.org/W4404661062",
+      "title": "Untangling the Relationship Between AI ‐Mediated Informal Digital Learning of English ( AI ‐ IDLE ), foreign Language Enjoyment and the Ideal L2 Self: Evidence From Chinese University EFL Students",
       "authors": [
-        "Lihang Guan",
-        "Yue Zhang",
-        "Mingyue Michelle Gu"
+        "Guangxiang Liu",
+        "Minlin Zou",
+        "Ali Soyoof",
+        "Ming Ming Chiu"
       ],
-      "venue": "ReCALL",
+      "venue": "European Journal of Education",
       "year": 2024,
-      "date": "2024-10-25",
-      "cited_by_count": 92,
-      "doi": "https://doi.org/10.1017/s0958344024000259",
-      "oa_url": "https://doi.org/10.1017/s0958344024000259",
+      "date": "2024-11-24",
+      "cited_by_count": 88,
+      "doi": "https://doi.org/10.1111/ejed.12846",
+      "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/ejed.12846",
       "topic": "EFL/ESL Teaching and Learning",
       "type": "article"
     },
@@ -678,24 +653,6 @@
       "oa_url": "https://doi.org/10.1093/oso/9780198821359.003.0005",
       "topic": "Syntax, Semantics, Linguistic Variation",
       "type": "book-chapter"
-    },
-    {
-      "id": "https://openalex.org/W4404661062",
-      "title": "Untangling the Relationship Between AI ‐Mediated Informal Digital Learning of English ( AI ‐ IDLE ), foreign Language Enjoyment and the Ideal L2 Self: Evidence From Chinese University EFL Students",
-      "authors": [
-        "Guangxiang Liu",
-        "Minlin Zou",
-        "Ali Soyoof",
-        "Ming Ming Chiu"
-      ],
-      "venue": "European Journal of Education",
-      "year": 2024,
-      "date": "2024-11-24",
-      "cited_by_count": 87,
-      "doi": "https://doi.org/10.1111/ejed.12846",
-      "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/ejed.12846",
-      "topic": "EFL/ESL Teaching and Learning",
-      "type": "article"
     },
     {
       "id": "https://openalex.org/W4404605992",
@@ -741,7 +698,7 @@
       "venue": "Innovation in Language Learning and Teaching",
       "year": 2025,
       "date": "2025-05-13",
-      "cited_by_count": 85,
+      "cited_by_count": 86,
       "doi": "https://doi.org/10.1080/17501229.2025.2503890",
       "oa_url": "https://www.tandfonline.com/doi/pdf/10.1080/17501229.2025.2503890?needAccess=true",
       "topic": "EFL/ESL Teaching and Learning",
@@ -756,9 +713,40 @@
       "venue": "Frontiers in Psychology",
       "year": 2024,
       "date": "2024-11-07",
-      "cited_by_count": 84,
+      "cited_by_count": 85,
       "doi": "https://doi.org/10.3389/fpsyg.2024.1454104",
       "oa_url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2024.1454104/pdf",
+      "topic": "EFL/ESL Teaching and Learning",
+      "type": "article"
+    },
+    {
+      "id": "https://openalex.org/W4411241728",
+      "title": "Generative AI-assisted feedback and EFL writing: a study on proficiency, revision frequency and writing quality",
+      "authors": [
+        "Mohamed Amin Abdel Gawad Mekheimer"
+      ],
+      "venue": "Discover Education",
+      "year": 2025,
+      "date": "2025-06-12",
+      "cited_by_count": 84,
+      "doi": "https://doi.org/10.1007/s44217-025-00602-7",
+      "oa_url": "https://link.springer.com/content/pdf/10.1007/s44217-025-00602-7.pdf",
+      "topic": "EFL/ESL Teaching and Learning",
+      "type": "article"
+    },
+    {
+      "id": "https://openalex.org/W4403897960",
+      "title": "The grass is not always greener: Teacher vs. GPT-assisted written corrective feedback",
+      "authors": [
+        "Shiming Lin",
+        "Peter Robert Crosthwaite"
+      ],
+      "venue": "System",
+      "year": 2024,
+      "date": "2024-10-30",
+      "cited_by_count": 83,
+      "doi": "https://doi.org/10.1016/j.system.2024.103529",
+      "oa_url": "https://doi.org/10.1016/j.system.2024.103529",
       "topic": "EFL/ESL Teaching and Learning",
       "type": "article"
     },
@@ -782,33 +770,33 @@
       "type": "review"
     },
     {
-      "id": "https://openalex.org/W4411241728",
-      "title": "Generative AI-assisted feedback and EFL writing: a study on proficiency, revision frequency and writing quality",
+      "id": "https://openalex.org/W4405217080",
+      "title": "Metacognitive Awareness and EFL Learners' Perceptions and Experiences in Utilising ChatGPT for Writing Feedback",
       "authors": [
-        "Mohamed Amin Abdel Gawad Mekheimer"
+        "Mark Feng Teng"
       ],
-      "venue": "Discover Education",
-      "year": 2025,
-      "date": "2025-06-12",
-      "cited_by_count": 81,
-      "doi": "https://doi.org/10.1007/s44217-025-00602-7",
-      "oa_url": "https://link.springer.com/content/pdf/10.1007/s44217-025-00602-7.pdf",
+      "venue": "European Journal of Education",
+      "year": 2024,
+      "date": "2024-12-09",
+      "cited_by_count": 79,
+      "doi": "https://doi.org/10.1111/ejed.12811",
+      "oa_url": "https://hal.science/hal-04828362v1/file/Eurpean%20journal%20of%20educaiton%20.pdf",
       "topic": "EFL/ESL Teaching and Learning",
       "type": "article"
     },
     {
-      "id": "https://openalex.org/W4403897960",
-      "title": "The grass is not always greener: Teacher vs. GPT-assisted written corrective feedback",
+      "id": "https://openalex.org/W7128381110",
+      "title": "Exploring the Role of AI Adoption in Under-Resourced Students’ Psychological Needs Satisfaction and Frustration: A Fresh Perspective from METUX Model",
       "authors": [
-        "Shiming Lin",
-        "Peter Robert Crosthwaite"
+        "Ali Derakhshan",
+        "Yujong Park"
       ],
-      "venue": "System",
-      "year": 2024,
-      "date": "2024-10-30",
-      "cited_by_count": 81,
-      "doi": "https://doi.org/10.1016/j.system.2024.103529",
-      "oa_url": "https://doi.org/10.1016/j.system.2024.103529",
+      "venue": "Journal of Education for Students Placed at Risk (JESPAR)",
+      "year": 2026,
+      "date": "2026-02-08",
+      "cited_by_count": 78,
+      "doi": "https://doi.org/10.1080/10824669.2026.2625660",
+      "oa_url": null,
       "topic": "EFL/ESL Teaching and Learning",
       "type": "article"
     }
